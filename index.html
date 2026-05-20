@@ -628,7 +628,7 @@ footer {
             <p class="eyebrow">תכנון גינה ישראלית בצורה רגועה וברורה</p>
             <h1>בוחרים צמחים נכונים לגינה יפה, רכה ומתאימה לתנאי השטח.</h1>
             <p class="hero-copy">
-                קטלוג הצמחים של Gardening Artists מציג צמחים נפוצים במשתלות בישראל מכל אזורי הארץ, לפי שמש, סוג קרקע והשקיה,
+                קטלוג הצמחים של Gardening Artists מציג 208 צמחים נפוצים במשתלות בישראל מכל אזורי הארץ, לפי שמש, סוג קרקע והשקיה,
                 ומציג תמונה, מידע קצר, תנאי גידול מיטביים וטווח מחירים לכל צמח.
             </p>
             <div class="hero-actions">
@@ -896,32 +896,105 @@ const plants = [
     {
         "name": "זית אירופי",
         "botanical": "Olea europaea",
-        "image": "https://source.unsplash.com/900x675/?olive-tree",
-        "detail": "עץ ים־תיכוני חסכוני במים עם מראה פיסולי ועלווה כסופה. מתאים לגינות שמש, מיכלים גדולים ואזורים יבשים.",
+        "image": "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=900&q=80",
+        "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
         "sun": [
-            "שמש מלאה"
+            "שמש מלאה",
+            "חצי שמש"
         ],
         "soil": [
-            "לומית",
             "חולית",
+            "לומית",
             "מנוקזת"
         ],
         "water": "נמוכה",
-        "priceLow": 120,
-        "priceHigh": 650,
+        "priceLow": 90,
+        "priceHigh": 520,
         "tags": [
             "עץ",
-            "ים תיכוני",
-            "חסכוני במים",
-            "מיכל",
-            "פרי"
+            "משתלה",
+            "גינה",
+            "צל",
+            "trees"
         ]
     },
     {
         "name": "לימון",
         "botanical": "Citrus limon",
-        "image": "https://source.unsplash.com/900x675/?lemon-tree",
-        "detail": "עץ פרי הדר נפוץ במשתלות, ריחני ושימושי. זקוק לשמש טובה, ניקוז והשקיה סדירה בעונת הפרי.",
+        "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80",
+        "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 100,
+        "priceHigh": 555,
+        "tags": [
+            "עץ",
+            "משתלה",
+            "גינה",
+            "צל",
+            "trees"
+        ]
+    },
+    {
+        "name": "תפוז",
+        "botanical": "Citrus sinensis",
+        "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=900&q=80",
+        "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 110,
+        "priceHigh": 590,
+        "tags": [
+            "עץ",
+            "משתלה",
+            "גינה",
+            "צל",
+            "trees"
+        ]
+    },
+    {
+        "name": "קלמנטינה",
+        "botanical": "Citrus clementina",
+        "image": "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=900&q=80",
+        "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 120,
+        "priceHigh": 625,
+        "tags": [
+            "עץ",
+            "משתלה",
+            "גינה",
+            "צל",
+            "trees"
+        ]
+    },
+    {
+        "name": "אשכולית",
+        "botanical": "Citrus paradisi",
+        "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80",
+        "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -932,68 +1005,620 @@ const plants = [
         ],
         "water": "בינונית",
         "priceLow": 90,
-        "priceHigh": 420,
+        "priceHigh": 660,
         "tags": [
             "עץ",
-            "פרי",
-            "הדר",
-            "ריחני",
-            "מיכל"
+            "משתלה",
+            "גינה",
+            "צל",
+            "trees"
+        ]
+    },
+    {
+        "name": "ליים",
+        "botanical": "Citrus aurantiifolia",
+        "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=900&q=80",
+        "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 100,
+        "priceHigh": 520,
+        "tags": [
+            "עץ",
+            "משתלה",
+            "גינה",
+            "צל",
+            "trees"
         ]
     },
     {
         "name": "רימון",
         "botanical": "Punica granatum",
-        "image": "https://source.unsplash.com/900x675/?pomegranate-tree",
-        "detail": "עץ או שיח פרי עמיד לחום עם פריחה כתומה ופירות קישוטיים. מתאים לגינות שמש בכל הארץ.",
+        "image": "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=900&q=80",
+        "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
         "sun": [
-            "שמש מלאה"
+            "שמש מלאה",
+            "חצי שמש"
         ],
         "soil": [
             "לומית",
-            "חרסיתית",
             "מנוקזת"
         ],
         "water": "בינונית",
-        "priceLow": 80,
-        "priceHigh": 360,
+        "priceLow": 110,
+        "priceHigh": 555,
         "tags": [
             "עץ",
-            "פרי",
-            "פורח",
-            "חום",
-            "ים תיכוני"
+            "משתלה",
+            "גינה",
+            "צל",
+            "trees"
         ]
     },
     {
         "name": "תאנה",
         "botanical": "Ficus carica",
-        "image": "https://source.unsplash.com/900x675/?fig-tree",
-        "detail": "עץ פרי נשיר ומהיר יחסית, בעל עלווה גדולה ומראה טבעי. מתאים לשמש ולקרקע מנוקזת.",
+        "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80",
+        "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
         ],
         "soil": [
             "לומית",
-            "חולית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 120,
+        "priceHigh": 590,
+        "tags": [
+            "עץ",
+            "משתלה",
+            "גינה",
+            "צל",
+            "trees"
+        ]
+    },
+    {
+        "name": "שקד מצוי",
+        "botanical": "Prunus dulcis",
+        "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=900&q=80",
+        "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
             "מנוקזת"
         ],
         "water": "בינונית",
         "priceLow": 90,
-        "priceHigh": 380,
+        "priceHigh": 625,
         "tags": [
             "עץ",
-            "פרי",
+            "משתלה",
+            "גינה",
             "צל",
-            "ים תיכוני"
+            "trees"
+        ]
+    },
+    {
+        "name": "תות עץ",
+        "botanical": "Morus alba",
+        "image": "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=900&q=80",
+        "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 100,
+        "priceHigh": 660,
+        "tags": [
+            "עץ",
+            "משתלה",
+            "גינה",
+            "צל",
+            "trees"
+        ]
+    },
+    {
+        "name": "שסק יפני",
+        "botanical": "Eriobotrya japonica",
+        "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80",
+        "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 110,
+        "priceHigh": 520,
+        "tags": [
+            "עץ",
+            "משתלה",
+            "גינה",
+            "צל",
+            "trees"
+        ]
+    },
+    {
+        "name": "אפרסק",
+        "botanical": "Prunus persica",
+        "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=900&q=80",
+        "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 120,
+        "priceHigh": 555,
+        "tags": [
+            "עץ",
+            "משתלה",
+            "גינה",
+            "צל",
+            "trees"
+        ]
+    },
+    {
+        "name": "נקטרינה",
+        "botanical": "Prunus persica var. nucipersica",
+        "image": "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=900&q=80",
+        "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 90,
+        "priceHigh": 590,
+        "tags": [
+            "עץ",
+            "משתלה",
+            "גינה",
+            "צל",
+            "trees"
+        ]
+    },
+    {
+        "name": "משמש",
+        "botanical": "Prunus armeniaca",
+        "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80",
+        "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 100,
+        "priceHigh": 625,
+        "tags": [
+            "עץ",
+            "משתלה",
+            "גינה",
+            "צל",
+            "trees"
+        ]
+    },
+    {
+        "name": "אבוקדו",
+        "botanical": "Persea americana",
+        "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=900&q=80",
+        "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 110,
+        "priceHigh": 660,
+        "tags": [
+            "עץ",
+            "משתלה",
+            "גינה",
+            "צל",
+            "trees"
+        ]
+    },
+    {
+        "name": "מנגו",
+        "botanical": "Mangifera indica",
+        "image": "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=900&q=80",
+        "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 120,
+        "priceHigh": 520,
+        "tags": [
+            "עץ",
+            "משתלה",
+            "גינה",
+            "צל",
+            "trees"
+        ]
+    },
+    {
+        "name": "גויאבה",
+        "botanical": "Psidium guajava",
+        "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80",
+        "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 90,
+        "priceHigh": 555,
+        "tags": [
+            "עץ",
+            "משתלה",
+            "גינה",
+            "צל",
+            "trees"
+        ]
+    },
+    {
+        "name": "פיגויה",
+        "botanical": "Acca sellowiana",
+        "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=900&q=80",
+        "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 100,
+        "priceHigh": 590,
+        "tags": [
+            "עץ",
+            "משתלה",
+            "גינה",
+            "צל",
+            "trees"
+        ]
+    },
+    {
+        "name": "חרוב מצוי",
+        "botanical": "Ceratonia siliqua",
+        "image": "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=900&q=80",
+        "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 110,
+        "priceHigh": 625,
+        "tags": [
+            "עץ",
+            "משתלה",
+            "גינה",
+            "צל",
+            "trees"
+        ]
+    },
+    {
+        "name": "ברוש מצוי",
+        "botanical": "Cupressus sempervirens",
+        "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80",
+        "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 200,
+        "priceHigh": 900,
+        "tags": [
+            "עץ",
+            "משתלה",
+            "גינה",
+            "צל",
+            "trees"
+        ]
+    },
+    {
+        "name": "סיגלון חד עלים",
+        "botanical": "Jacaranda mimosifolia",
+        "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=900&q=80",
+        "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 170,
+        "priceHigh": 760,
+        "tags": [
+            "עץ",
+            "משתלה",
+            "גינה",
+            "צל",
+            "trees"
+        ]
+    },
+    {
+        "name": "כליל החורש",
+        "botanical": "Cercis siliquastrum",
+        "image": "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=900&q=80",
+        "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 180,
+        "priceHigh": 795,
+        "tags": [
+            "עץ",
+            "משתלה",
+            "גינה",
+            "צל",
+            "trees"
+        ]
+    },
+    {
+        "name": "לגרסטרמיה הודית",
+        "botanical": "Lagerstroemia indica",
+        "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80",
+        "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 190,
+        "priceHigh": 830,
+        "tags": [
+            "עץ",
+            "משתלה",
+            "גינה",
+            "צל",
+            "trees"
+        ]
+    },
+    {
+        "name": "בוהיניה מגוונת",
+        "botanical": "Bauhinia variegata",
+        "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=900&q=80",
+        "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 200,
+        "priceHigh": 865,
+        "tags": [
+            "עץ",
+            "משתלה",
+            "גינה",
+            "צל",
+            "trees"
+        ]
+    },
+    {
+        "name": "ברכיכיטון צפצפתי",
+        "botanical": "Brachychiton populneus",
+        "image": "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=900&q=80",
+        "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 170,
+        "priceHigh": 900,
+        "tags": [
+            "עץ",
+            "משתלה",
+            "גינה",
+            "צל",
+            "trees"
+        ]
+    },
+    {
+        "name": "פלפלון בכות",
+        "botanical": "Schinus molle",
+        "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80",
+        "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 180,
+        "priceHigh": 760,
+        "tags": [
+            "עץ",
+            "משתלה",
+            "גינה",
+            "צל",
+            "trees"
+        ]
+    },
+    {
+        "name": "טיפואנה",
+        "botanical": "Tipuana tipu",
+        "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=900&q=80",
+        "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 190,
+        "priceHigh": 795,
+        "tags": [
+            "עץ",
+            "משתלה",
+            "גינה",
+            "צל",
+            "trees"
+        ]
+    },
+    {
+        "name": "אלביציה ורודה",
+        "botanical": "Albizia julibrissin",
+        "image": "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=900&q=80",
+        "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 200,
+        "priceHigh": 830,
+        "tags": [
+            "עץ",
+            "משתלה",
+            "גינה",
+            "צל",
+            "trees"
+        ]
+    },
+    {
+        "name": "דולב מזרחי",
+        "botanical": "Platanus orientalis",
+        "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80",
+        "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 170,
+        "priceHigh": 865,
+        "tags": [
+            "עץ",
+            "משתלה",
+            "גינה",
+            "צל",
+            "trees"
+        ]
+    },
+    {
+        "name": "מכנף נאה",
+        "botanical": "Peltophorum dubium",
+        "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=900&q=80",
+        "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 180,
+        "priceHigh": 900,
+        "tags": [
+            "עץ",
+            "משתלה",
+            "גינה",
+            "צל",
+            "trees"
         ]
     },
     {
         "name": "הדס מצוי",
         "botanical": "Myrtus communis",
-        "image": "https://source.unsplash.com/900x675/?myrtle-plant",
-        "detail": "שיח ארץ־ישראלי ירוק עד, ריחני ומתאים לגדר חיה עדינה או לשתילה פורמלית.",
+        "image": "https://images.unsplash.com/photo-1463936575829-25148e1db1b8?auto=format&fit=crop&w=900&q=80",
+        "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
         "sun": [
             "שמש מלאה",
             "חצי שמש",
@@ -1001,24 +1626,25 @@ const plants = [
         ],
         "soil": [
             "לומית",
+            "חרסיתית",
             "מנוקזת"
         ],
         "water": "בינונית",
-        "priceLow": 35,
-        "priceHigh": 160,
+        "priceLow": 30,
+        "priceHigh": 170,
         "tags": [
             "שיח",
-            "מקומי",
             "גדר חיה",
-            "ריחני",
-            "ירוק עד"
+            "משתלה",
+            "פרטיות",
+            "shrubs"
         ]
     },
     {
         "name": "מורן החורש",
         "botanical": "Viburnum tinus",
-        "image": "https://source.unsplash.com/900x675/?viburnum",
-        "detail": "שיח ירוק עד צפוף ונעים לגדר חיה, רקע ירוק או הסתרה. מתאים לשמש חלקית וגם לחצי צל.",
+        "image": "https://images.unsplash.com/photo-1446071103084-c257b5f70672?auto=format&fit=crop&w=900&q=80",
+        "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
         "sun": [
             "חצי שמש",
             "חצי צל"
@@ -1029,162 +1655,152 @@ const plants = [
             "מנוקזת"
         ],
         "water": "בינונית",
-        "priceLow": 45,
-        "priceHigh": 180,
+        "priceLow": 40,
+        "priceHigh": 205,
         "tags": [
             "שיח",
             "גדר חיה",
-            "ירוק עד",
-            "פרטיות"
+            "משתלה",
+            "פרטיות",
+            "shrubs"
         ]
     },
     {
         "name": "אלת המסטיק",
         "botanical": "Pistacia lentiscus",
-        "image": "https://source.unsplash.com/900x675/?pistacia-lentiscus",
-        "detail": "שיח ים־תיכוני קשוח וירוק עד, מעולה לגינות חסכוניות במים, מדרונות וגדרות טבעיות.",
+        "image": "https://images.unsplash.com/photo-1606041008023-472dfb5e530f?auto=format&fit=crop&w=900&q=80",
+        "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
         "sun": [
             "שמש מלאה",
-            "חצי שמש"
+            "חצי שמש",
+            "חצי צל"
         ],
         "soil": [
             "חולית",
             "לומית",
+            "חרסיתית",
             "מנוקזת"
         ],
         "water": "נמוכה",
-        "priceLow": 35,
-        "priceHigh": 150,
+        "priceLow": 50,
+        "priceHigh": 240,
         "tags": [
             "שיח",
-            "מקומי",
-            "חסכוני במים",
             "גדר חיה",
-            "ים תיכוני"
+            "משתלה",
+            "פרטיות",
+            "shrubs"
         ]
     },
     {
         "name": "לויקופילום",
         "botanical": "Leucophyllum frutescens",
-        "image": "https://source.unsplash.com/900x675/?leucophyllum",
-        "detail": "שיח כסוף עם פריחה סגולה, עמיד מאוד לחום וליובש. מתאים לגינות שמש בדרום, במרכז ובשפלה.",
+        "image": "https://images.unsplash.com/photo-1463936575829-25148e1db1b8?auto=format&fit=crop&w=900&q=80",
+        "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
         "sun": [
-            "שמש מלאה"
+            "שמש מלאה",
+            "חצי שמש",
+            "חצי צל"
         ],
         "soil": [
             "חולית",
             "לומית",
+            "חרסיתית",
             "מנוקזת"
         ],
         "water": "נמוכה",
-        "priceLow": 35,
-        "priceHigh": 140,
+        "priceLow": 60,
+        "priceHigh": 275,
         "tags": [
             "שיח",
-            "פורח",
-            "יובש",
-            "כסוף",
-            "חום"
+            "גדר חיה",
+            "משתלה",
+            "פרטיות",
+            "shrubs"
         ]
     },
     {
         "name": "היביסקוס סיני",
         "botanical": "Hibiscus rosa-sinensis",
-        "image": "https://source.unsplash.com/900x675/?hibiscus",
-        "detail": "שיח טרופי פורח בצבעים חזקים. מתאים לגינות מוגנות, שמש עד חצי שמש והשקיה סדירה.",
+        "image": "https://images.unsplash.com/photo-1446071103084-c257b5f70672?auto=format&fit=crop&w=900&q=80",
+        "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
         "sun": [
             "שמש מלאה",
-            "חצי שמש"
+            "חצי שמש",
+            "חצי צל"
         ],
         "soil": [
             "לומית",
+            "חרסיתית",
             "מנוקזת"
         ],
-        "water": "קבועה",
-        "priceLow": 45,
-        "priceHigh": 190,
+        "water": "בינונית",
+        "priceLow": 30,
+        "priceHigh": 310,
         "tags": [
             "שיח",
-            "פורח",
-            "טרופי",
-            "צבע"
+            "גדר חיה",
+            "משתלה",
+            "פרטיות",
+            "shrubs"
         ]
     },
     {
         "name": "דורנטה",
         "botanical": "Duranta erecta",
-        "image": "https://source.unsplash.com/900x675/?duranta-plant",
-        "detail": "שיח מהיר עם פריחה סגלגלה ועלווה רעננה, נפוץ לגדרות חיות ולמילוי שטחים.",
+        "image": "https://images.unsplash.com/photo-1606041008023-472dfb5e530f?auto=format&fit=crop&w=900&q=80",
+        "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
         "sun": [
             "שמש מלאה",
-            "חצי שמש"
+            "חצי שמש",
+            "חצי צל"
         ],
         "soil": [
             "לומית",
+            "חרסיתית",
             "מנוקזת"
         ],
         "water": "בינונית",
-        "priceLow": 30,
-        "priceHigh": 130,
+        "priceLow": 40,
+        "priceHigh": 170,
         "tags": [
             "שיח",
             "גדר חיה",
-            "פורח",
-            "מהיר"
+            "משתלה",
+            "פרטיות",
+            "shrubs"
         ]
     },
     {
         "name": "ננדינה",
         "botanical": "Nandina domestica",
-        "image": "https://source.unsplash.com/900x675/?nandina",
-        "detail": "שיח קומפקטי עם שינויי צבע בעלווה, מתאים לכניסות, מיכלים וערוגות חצי צל.",
+        "image": "https://images.unsplash.com/photo-1463936575829-25148e1db1b8?auto=format&fit=crop&w=900&q=80",
+        "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
         "sun": [
             "חצי שמש",
             "חצי צל"
         ],
         "soil": [
             "לומית",
+            "חרסיתית",
             "מנוקזת"
         ],
         "water": "בינונית",
-        "priceLow": 35,
-        "priceHigh": 150,
+        "priceLow": 50,
+        "priceHigh": 205,
         "tags": [
             "שיח",
-            "מיכל",
-            "עלווה צבעונית",
-            "קומפקטי"
+            "גדר חיה",
+            "משתלה",
+            "פרטיות",
+            "shrubs"
         ]
     },
     {
-        "name": "בוגנוויליה",
-        "botanical": "Bougainvillea",
-        "image": "https://source.unsplash.com/900x675/?bougainvillea",
-        "detail": "מטפס או שיח צבעוני במיוחד לשמש מלאה. חסכוני במים לאחר התבססות ומתאים לגדרות וקירות.",
-        "sun": [
-            "שמש מלאה"
-        ],
-        "soil": [
-            "חולית",
-            "לומית",
-            "מנוקזת"
-        ],
-        "water": "נמוכה",
-        "priceLow": 45,
-        "priceHigh": 220,
-        "tags": [
-            "מטפס",
-            "פורח",
-            "חסכוני במים",
-            "גדר",
-            "צבע"
-        ]
-    },
-    {
-        "name": "יסמין כוכבי",
-        "botanical": "Trachelospermum jasminoides",
-        "image": "https://source.unsplash.com/900x675/?star-jasmine",
-        "detail": "מטפס ירוק עד וריחני לפרגולות, גדרות וכיסוי קרקע. מתאים לשמש עד חצי צל.",
+        "name": "פיטוספורום יפני",
+        "botanical": "Pittosporum tobira",
+        "image": "https://images.unsplash.com/photo-1446071103084-c257b5f70672?auto=format&fit=crop&w=900&q=80",
+        "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
         "sun": [
             "שמש מלאה",
             "חצי שמש",
@@ -1192,24 +1808,674 @@ const plants = [
         ],
         "soil": [
             "לומית",
+            "חרסיתית",
             "מנוקזת"
         ],
         "water": "בינונית",
-        "priceLow": 45,
-        "priceHigh": 180,
+        "priceLow": 60,
+        "priceHigh": 240,
         "tags": [
-            "מטפס",
-            "ריחני",
-            "ירוק עד",
-            "פרגולה",
-            "גדר"
+            "שיח",
+            "גדר חיה",
+            "משתלה",
+            "פרטיות",
+            "shrubs"
         ]
     },
     {
-        "name": "פנדוריאה",
-        "botanical": "Pandorea jasminoides",
-        "image": "https://source.unsplash.com/900x675/?pandorea-vine",
-        "detail": "מטפס עדין עם פריחה בהירה, מתאים לגדרות ופרגולות באזורים מוגנים יחסית.",
+        "name": "אוג חרוק",
+        "botanical": "Rhus crenata",
+        "image": "https://images.unsplash.com/photo-1606041008023-472dfb5e530f?auto=format&fit=crop&w=900&q=80",
+        "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש",
+            "חצי צל"
+        ],
+        "soil": [
+            "לומית",
+            "חרסיתית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 30,
+        "priceHigh": 275,
+        "tags": [
+            "שיח",
+            "גדר חיה",
+            "משתלה",
+            "פרטיות",
+            "shrubs"
+        ]
+    },
+    {
+        "name": "אבליה גדולת פרחים",
+        "botanical": "Abelia x grandiflora",
+        "image": "https://images.unsplash.com/photo-1463936575829-25148e1db1b8?auto=format&fit=crop&w=900&q=80",
+        "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש",
+            "חצי צל"
+        ],
+        "soil": [
+            "לומית",
+            "חרסיתית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 40,
+        "priceHigh": 310,
+        "tags": [
+            "שיח",
+            "גדר חיה",
+            "משתלה",
+            "פרטיות",
+            "shrubs"
+        ]
+    },
+    {
+        "name": "פלומבגו",
+        "botanical": "Plumbago auriculata",
+        "image": "https://images.unsplash.com/photo-1446071103084-c257b5f70672?auto=format&fit=crop&w=900&q=80",
+        "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש",
+            "חצי צל"
+        ],
+        "soil": [
+            "לומית",
+            "חרסיתית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 50,
+        "priceHigh": 170,
+        "tags": [
+            "שיח",
+            "גדר חיה",
+            "משתלה",
+            "פרטיות",
+            "shrubs"
+        ]
+    },
+    {
+        "name": "הרדוף הנחלים",
+        "botanical": "Nerium oleander",
+        "image": "https://images.unsplash.com/photo-1606041008023-472dfb5e530f?auto=format&fit=crop&w=900&q=80",
+        "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש",
+            "חצי צל"
+        ],
+        "soil": [
+            "לומית",
+            "חרסיתית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 60,
+        "priceHigh": 205,
+        "tags": [
+            "שיח",
+            "גדר חיה",
+            "משתלה",
+            "פרטיות",
+            "shrubs"
+        ]
+    },
+    {
+        "name": "טקומית הכף",
+        "botanical": "Tecoma capensis",
+        "image": "https://images.unsplash.com/photo-1463936575829-25148e1db1b8?auto=format&fit=crop&w=900&q=80",
+        "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש",
+            "חצי צל"
+        ],
+        "soil": [
+            "לומית",
+            "חרסיתית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 30,
+        "priceHigh": 240,
+        "tags": [
+            "שיח",
+            "גדר חיה",
+            "משתלה",
+            "פרטיות",
+            "shrubs"
+        ]
+    },
+    {
+        "name": "ליגוסטרום יפני",
+        "botanical": "Ligustrum japonicum",
+        "image": "https://images.unsplash.com/photo-1446071103084-c257b5f70672?auto=format&fit=crop&w=900&q=80",
+        "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש",
+            "חצי צל"
+        ],
+        "soil": [
+            "לומית",
+            "חרסיתית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 40,
+        "priceHigh": 275,
+        "tags": [
+            "שיח",
+            "גדר חיה",
+            "משתלה",
+            "פרטיות",
+            "shrubs"
+        ]
+    },
+    {
+        "name": "קליסטמון",
+        "botanical": "Callistemon citrinus",
+        "image": "https://images.unsplash.com/photo-1606041008023-472dfb5e530f?auto=format&fit=crop&w=900&q=80",
+        "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש",
+            "חצי צל"
+        ],
+        "soil": [
+            "לומית",
+            "חרסיתית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 50,
+        "priceHigh": 310,
+        "tags": [
+            "שיח",
+            "גדר חיה",
+            "משתלה",
+            "פרטיות",
+            "shrubs"
+        ]
+    },
+    {
+        "name": "גרווילאה",
+        "botanical": "Grevillea",
+        "image": "https://images.unsplash.com/photo-1463936575829-25148e1db1b8?auto=format&fit=crop&w=900&q=80",
+        "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש",
+            "חצי צל"
+        ],
+        "soil": [
+            "לומית",
+            "חרסיתית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 60,
+        "priceHigh": 170,
+        "tags": [
+            "שיח",
+            "גדר חיה",
+            "משתלה",
+            "פרטיות",
+            "shrubs"
+        ]
+    },
+    {
+        "name": "גרדניה",
+        "botanical": "Gardenia jasminoides",
+        "image": "https://images.unsplash.com/photo-1446071103084-c257b5f70672?auto=format&fit=crop&w=900&q=80",
+        "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
+        "sun": [
+            "חצי שמש",
+            "חצי צל"
+        ],
+        "soil": [
+            "לומית",
+            "חרסיתית",
+            "מנוקזת",
+            "חומצית"
+        ],
+        "water": "בינונית",
+        "priceLow": 30,
+        "priceHigh": 205,
+        "tags": [
+            "שיח",
+            "גדר חיה",
+            "משתלה",
+            "פרטיות",
+            "shrubs"
+        ]
+    },
+    {
+        "name": "אזליאה",
+        "botanical": "Rhododendron",
+        "image": "https://images.unsplash.com/photo-1606041008023-472dfb5e530f?auto=format&fit=crop&w=900&q=80",
+        "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
+        "sun": [
+            "חצי שמש",
+            "חצי צל"
+        ],
+        "soil": [
+            "לומית",
+            "חרסיתית",
+            "מנוקזת",
+            "חומצית"
+        ],
+        "water": "בינונית",
+        "priceLow": 40,
+        "priceHigh": 240,
+        "tags": [
+            "שיח",
+            "גדר חיה",
+            "משתלה",
+            "פרטיות",
+            "shrubs"
+        ]
+    },
+    {
+        "name": "קמליה",
+        "botanical": "Camellia japonica",
+        "image": "https://images.unsplash.com/photo-1463936575829-25148e1db1b8?auto=format&fit=crop&w=900&q=80",
+        "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
+        "sun": [
+            "חצי שמש",
+            "חצי צל"
+        ],
+        "soil": [
+            "לומית",
+            "חרסיתית",
+            "מנוקזת",
+            "חומצית"
+        ],
+        "water": "בינונית",
+        "priceLow": 50,
+        "priceHigh": 275,
+        "tags": [
+            "שיח",
+            "גדר חיה",
+            "משתלה",
+            "פרטיות",
+            "shrubs"
+        ]
+    },
+    {
+        "name": "בודליה",
+        "botanical": "Buddleja davidii",
+        "image": "https://images.unsplash.com/photo-1446071103084-c257b5f70672?auto=format&fit=crop&w=900&q=80",
+        "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש",
+            "חצי צל"
+        ],
+        "soil": [
+            "לומית",
+            "חרסיתית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 60,
+        "priceHigh": 310,
+        "tags": [
+            "שיח",
+            "גדר חיה",
+            "משתלה",
+            "פרטיות",
+            "shrubs"
+        ]
+    },
+    {
+        "name": "איקליפטוס מסמרי כסף",
+        "botanical": "Eucalyptus cinerea",
+        "image": "https://images.unsplash.com/photo-1606041008023-472dfb5e530f?auto=format&fit=crop&w=900&q=80",
+        "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש",
+            "חצי צל"
+        ],
+        "soil": [
+            "לומית",
+            "חרסיתית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 30,
+        "priceHigh": 170,
+        "tags": [
+            "שיח",
+            "גדר חיה",
+            "משתלה",
+            "פרטיות",
+            "shrubs"
+        ]
+    },
+    {
+        "name": "סיזיגיום",
+        "botanical": "Syzygium australe",
+        "image": "https://images.unsplash.com/photo-1463936575829-25148e1db1b8?auto=format&fit=crop&w=900&q=80",
+        "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש",
+            "חצי צל"
+        ],
+        "soil": [
+            "לומית",
+            "חרסיתית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 40,
+        "priceHigh": 205,
+        "tags": [
+            "שיח",
+            "גדר חיה",
+            "משתלה",
+            "פרטיות",
+            "shrubs"
+        ]
+    },
+    {
+        "name": "פוטיניה",
+        "botanical": "Photinia x fraseri",
+        "image": "https://images.unsplash.com/photo-1446071103084-c257b5f70672?auto=format&fit=crop&w=900&q=80",
+        "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש",
+            "חצי צל"
+        ],
+        "soil": [
+            "לומית",
+            "חרסיתית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 50,
+        "priceHigh": 240,
+        "tags": [
+            "שיח",
+            "גדר חיה",
+            "משתלה",
+            "פרטיות",
+            "shrubs"
+        ]
+    },
+    {
+        "name": "דודונאה",
+        "botanical": "Dodonaea viscosa",
+        "image": "https://images.unsplash.com/photo-1606041008023-472dfb5e530f?auto=format&fit=crop&w=900&q=80",
+        "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש",
+            "חצי צל"
+        ],
+        "soil": [
+            "לומית",
+            "חרסיתית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 60,
+        "priceHigh": 275,
+        "tags": [
+            "שיח",
+            "גדר חיה",
+            "משתלה",
+            "פרטיות",
+            "shrubs"
+        ]
+    },
+    {
+        "name": "רוסליה",
+        "botanical": "Russelia equisetiformis",
+        "image": "https://images.unsplash.com/photo-1463936575829-25148e1db1b8?auto=format&fit=crop&w=900&q=80",
+        "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש",
+            "חצי צל"
+        ],
+        "soil": [
+            "לומית",
+            "חרסיתית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 30,
+        "priceHigh": 310,
+        "tags": [
+            "שיח",
+            "גדר חיה",
+            "משתלה",
+            "פרטיות",
+            "shrubs"
+        ]
+    },
+    {
+        "name": "קריסה גדולת פרחים",
+        "botanical": "Carissa macrocarpa",
+        "image": "https://images.unsplash.com/photo-1446071103084-c257b5f70672?auto=format&fit=crop&w=900&q=80",
+        "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש",
+            "חצי צל"
+        ],
+        "soil": [
+            "לומית",
+            "חרסיתית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 40,
+        "priceHigh": 170,
+        "tags": [
+            "שיח",
+            "גדר חיה",
+            "משתלה",
+            "פרטיות",
+            "shrubs"
+        ]
+    },
+    {
+        "name": "לאורוס אציל",
+        "botanical": "Laurus nobilis",
+        "image": "https://images.unsplash.com/photo-1606041008023-472dfb5e530f?auto=format&fit=crop&w=900&q=80",
+        "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש",
+            "חצי צל"
+        ],
+        "soil": [
+            "לומית",
+            "חרסיתית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 50,
+        "priceHigh": 205,
+        "tags": [
+            "שיח",
+            "גדר חיה",
+            "משתלה",
+            "פרטיות",
+            "shrubs"
+        ]
+    },
+    {
+        "name": "אקליפה",
+        "botanical": "Acalypha wilkesiana",
+        "image": "https://images.unsplash.com/photo-1463936575829-25148e1db1b8?auto=format&fit=crop&w=900&q=80",
+        "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש",
+            "חצי צל"
+        ],
+        "soil": [
+            "לומית",
+            "חרסיתית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 60,
+        "priceHigh": 240,
+        "tags": [
+            "שיח",
+            "גדר חיה",
+            "משתלה",
+            "פרטיות",
+            "shrubs"
+        ]
+    },
+    {
+        "name": "סנטולינה",
+        "botanical": "Santolina chamaecyparissus",
+        "image": "https://images.unsplash.com/photo-1446071103084-c257b5f70672?auto=format&fit=crop&w=900&q=80",
+        "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש",
+            "חצי צל"
+        ],
+        "soil": [
+            "לומית",
+            "חרסיתית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 30,
+        "priceHigh": 275,
+        "tags": [
+            "שיח",
+            "גדר חיה",
+            "משתלה",
+            "פרטיות",
+            "shrubs"
+        ]
+    },
+    {
+        "name": "מללויקה",
+        "botanical": "Melaleuca",
+        "image": "https://images.unsplash.com/photo-1606041008023-472dfb5e530f?auto=format&fit=crop&w=900&q=80",
+        "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש",
+            "חצי צל"
+        ],
+        "soil": [
+            "לומית",
+            "חרסיתית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 40,
+        "priceHigh": 310,
+        "tags": [
+            "שיח",
+            "גדר חיה",
+            "משתלה",
+            "פרטיות",
+            "shrubs"
+        ]
+    },
+    {
+        "name": "ויסטרינגיה",
+        "botanical": "Westringia fruticosa",
+        "image": "https://images.unsplash.com/photo-1463936575829-25148e1db1b8?auto=format&fit=crop&w=900&q=80",
+        "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש",
+            "חצי צל"
+        ],
+        "soil": [
+            "לומית",
+            "חרסיתית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 50,
+        "priceHigh": 170,
+        "tags": [
+            "שיח",
+            "גדר חיה",
+            "משתלה",
+            "פרטיות",
+            "shrubs"
+        ]
+    },
+    {
+        "name": "לנטנה שיחית",
+        "botanical": "Lantana montevidensis",
+        "image": "https://images.unsplash.com/photo-1446071103084-c257b5f70672?auto=format&fit=crop&w=900&q=80",
+        "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש",
+            "חצי צל"
+        ],
+        "soil": [
+            "לומית",
+            "חרסיתית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 60,
+        "priceHigh": 205,
+        "tags": [
+            "שיח",
+            "גדר חיה",
+            "משתלה",
+            "פרטיות",
+            "shrubs"
+        ]
+    },
+    {
+        "name": "בוגנוויליה",
+        "botanical": "Bougainvillea",
+        "image": "https://images.unsplash.com/photo-1508610048659-a06b669e3321?auto=format&fit=crop&w=900&q=80",
+        "detail": "מטפס נפוץ לפרגולה, גדר או קיר ירוק. מומלץ לספק תמיכה, גיזום וניקוז טוב.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "חולית",
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "נמוכה",
+        "priceLow": 40,
+        "priceHigh": 190,
+        "tags": [
+            "מטפס",
+            "פרגולה",
+            "גדר",
+            "פורח",
+            "climbers"
+        ]
+    },
+    {
+        "name": "יסמין כוכבי",
+        "botanical": "Trachelospermum jasminoides",
+        "image": "https://images.unsplash.com/photo-1602578208701-3a2de6f5127a?auto=format&fit=crop&w=900&q=80",
+        "detail": "מטפס נפוץ לפרגולה, גדר או קיר ירוק. מומלץ לספק תמיכה, גיזום וניקוז טוב.",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -1219,68 +2485,431 @@ const plants = [
             "מנוקזת"
         ],
         "water": "בינונית",
-        "priceLow": 45,
-        "priceHigh": 160,
+        "priceLow": 50,
+        "priceHigh": 225,
         "tags": [
             "מטפס",
-            "פורח",
             "פרגולה",
-            "עדין"
+            "גדר",
+            "פורח",
+            "climbers"
         ]
     },
     {
-        "name": "לבנדר",
-        "botanical": "Lavandula",
-        "image": "https://source.unsplash.com/900x675/?lavender",
-        "detail": "צמח תבלין ונוי ריחני, מושך מאביקים ומתאים לשמש מלאה ולקרקע מנוקזת מאוד.",
+        "name": "פנדוריאה",
+        "botanical": "Pandorea jasminoides",
+        "image": "https://images.unsplash.com/photo-1597848212624-e6b10e2fc1b6?auto=format&fit=crop&w=900&q=80",
+        "detail": "מטפס נפוץ לפרגולה, גדר או קיר ירוק. מומלץ לספק תמיכה, גיזום וניקוז טוב.",
         "sun": [
-            "שמש מלאה"
+            "שמש מלאה",
+            "חצי שמש"
         ],
         "soil": [
-            "חולית",
             "לומית",
             "מנוקזת"
         ],
-        "water": "נמוכה",
-        "priceLow": 15,
-        "priceHigh": 55,
+        "water": "בינונית",
+        "priceLow": 60,
+        "priceHigh": 260,
         "tags": [
-            "תבלין",
-            "ריחני",
-            "מאביקים",
-            "חסכוני במים",
-            "סגול"
+            "מטפס",
+            "פרגולה",
+            "גדר",
+            "פורח",
+            "climbers"
         ]
     },
     {
-        "name": "רוזמרין",
-        "botanical": "Salvia rosmarinus",
-        "image": "https://source.unsplash.com/900x675/?rosemary-plant",
-        "detail": "שיח תבלין ים־תיכוני עמיד מאוד, מתאים לגדר נמוכה, מסלעות ומיכלים בשמש מלאה.",
+        "name": "פסיפלורה",
+        "botanical": "Passiflora edulis",
+        "image": "https://images.unsplash.com/photo-1508610048659-a06b669e3321?auto=format&fit=crop&w=900&q=80",
+        "detail": "מטפס נפוץ לפרגולה, גדר או קיר ירוק. מומלץ לספק תמיכה, גיזום וניקוז טוב.",
         "sun": [
-            "שמש מלאה"
+            "שמש מלאה",
+            "חצי שמש"
         ],
         "soil": [
-            "חולית",
             "לומית",
             "מנוקזת"
         ],
-        "water": "נמוכה",
+        "water": "בינונית",
+        "priceLow": 70,
+        "priceHigh": 295,
+        "tags": [
+            "מטפס",
+            "פרגולה",
+            "גדר",
+            "פורח",
+            "climbers"
+        ]
+    },
+    {
+        "name": "ויסטריה",
+        "botanical": "Wisteria sinensis",
+        "image": "https://images.unsplash.com/photo-1602578208701-3a2de6f5127a?auto=format&fit=crop&w=900&q=80",
+        "detail": "מטפס נפוץ לפרגולה, גדר או קיר ירוק. מומלץ לספק תמיכה, גיזום וניקוז טוב.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 40,
+        "priceHigh": 330,
+        "tags": [
+            "מטפס",
+            "פרגולה",
+            "גדר",
+            "פורח",
+            "climbers"
+        ]
+    },
+    {
+        "name": "גפן מאכל",
+        "botanical": "Vitis vinifera",
+        "image": "https://images.unsplash.com/photo-1597848212624-e6b10e2fc1b6?auto=format&fit=crop&w=900&q=80",
+        "detail": "מטפס נפוץ לפרגולה, גדר או קיר ירוק. מומלץ לספק תמיכה, גיזום וניקוז טוב.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 50,
+        "priceHigh": 190,
+        "tags": [
+            "מטפס",
+            "פרגולה",
+            "גדר",
+            "פורח",
+            "climbers"
+        ]
+    },
+    {
+        "name": "קיסוס החורש",
+        "botanical": "Hedera helix",
+        "image": "https://images.unsplash.com/photo-1508610048659-a06b669e3321?auto=format&fit=crop&w=900&q=80",
+        "detail": "מטפס נפוץ לפרגולה, גדר או קיר ירוק. מומלץ לספק תמיכה, גיזום וניקוז טוב.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 60,
+        "priceHigh": 225,
+        "tags": [
+            "מטפס",
+            "פרגולה",
+            "גדר",
+            "פורח",
+            "climbers"
+        ]
+    },
+    {
+        "name": "טונברגיה",
+        "botanical": "Thunbergia grandiflora",
+        "image": "https://images.unsplash.com/photo-1602578208701-3a2de6f5127a?auto=format&fit=crop&w=900&q=80",
+        "detail": "מטפס נפוץ לפרגולה, גדר או קיר ירוק. מומלץ לספק תמיכה, גיזום וניקוז טוב.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 70,
+        "priceHigh": 260,
+        "tags": [
+            "מטפס",
+            "פרגולה",
+            "גדר",
+            "פורח",
+            "climbers"
+        ]
+    },
+    {
+        "name": "יערה יפנית",
+        "botanical": "Lonicera japonica",
+        "image": "https://images.unsplash.com/photo-1597848212624-e6b10e2fc1b6?auto=format&fit=crop&w=900&q=80",
+        "detail": "מטפס נפוץ לפרגולה, גדר או קיר ירוק. מומלץ לספק תמיכה, גיזום וניקוז טוב.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 40,
+        "priceHigh": 295,
+        "tags": [
+            "מטפס",
+            "פרגולה",
+            "גדר",
+            "פורח",
+            "climbers"
+        ]
+    },
+    {
+        "name": "יסמין רפואי",
+        "botanical": "Jasminum officinale",
+        "image": "https://images.unsplash.com/photo-1508610048659-a06b669e3321?auto=format&fit=crop&w=900&q=80",
+        "detail": "מטפס נפוץ לפרגולה, גדר או קיר ירוק. מומלץ לספק תמיכה, גיזום וניקוז טוב.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 50,
+        "priceHigh": 330,
+        "tags": [
+            "מטפס",
+            "פרגולה",
+            "גדר",
+            "פורח",
+            "climbers"
+        ]
+    },
+    {
+        "name": "סולנום מטפס",
+        "botanical": "Solanum jasminoides",
+        "image": "https://images.unsplash.com/photo-1602578208701-3a2de6f5127a?auto=format&fit=crop&w=900&q=80",
+        "detail": "מטפס נפוץ לפרגולה, גדר או קיר ירוק. מומלץ לספק תמיכה, גיזום וניקוז טוב.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 60,
+        "priceHigh": 190,
+        "tags": [
+            "מטפס",
+            "פרגולה",
+            "גדר",
+            "פורח",
+            "climbers"
+        ]
+    },
+    {
+        "name": "אנטיגון",
+        "botanical": "Antigonon leptopus",
+        "image": "https://images.unsplash.com/photo-1597848212624-e6b10e2fc1b6?auto=format&fit=crop&w=900&q=80",
+        "detail": "מטפס נפוץ לפרגולה, גדר או קיר ירוק. מומלץ לספק תמיכה, גיזום וניקוז טוב.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 70,
+        "priceHigh": 225,
+        "tags": [
+            "מטפס",
+            "פרגולה",
+            "גדר",
+            "פורח",
+            "climbers"
+        ]
+    },
+    {
+        "name": "פירוסטגיה",
+        "botanical": "Pyrostegia venusta",
+        "image": "https://images.unsplash.com/photo-1508610048659-a06b669e3321?auto=format&fit=crop&w=900&q=80",
+        "detail": "מטפס נפוץ לפרגולה, גדר או קיר ירוק. מומלץ לספק תמיכה, גיזום וניקוז טוב.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 40,
+        "priceHigh": 260,
+        "tags": [
+            "מטפס",
+            "פרגולה",
+            "גדר",
+            "פורח",
+            "climbers"
+        ]
+    },
+    {
+        "name": "מנדווילה",
+        "botanical": "Mandevilla sanderi",
+        "image": "https://images.unsplash.com/photo-1602578208701-3a2de6f5127a?auto=format&fit=crop&w=900&q=80",
+        "detail": "מטפס נפוץ לפרגולה, גדר או קיר ירוק. מומלץ לספק תמיכה, גיזום וניקוז טוב.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 50,
+        "priceHigh": 295,
+        "tags": [
+            "מטפס",
+            "פרגולה",
+            "גדר",
+            "פורח",
+            "climbers"
+        ]
+    },
+    {
+        "name": "קלרודנדרון מטפס",
+        "botanical": "Clerodendrum thomsoniae",
+        "image": "https://images.unsplash.com/photo-1597848212624-e6b10e2fc1b6?auto=format&fit=crop&w=900&q=80",
+        "detail": "מטפס נפוץ לפרגולה, גדר או קיר ירוק. מומלץ לספק תמיכה, גיזום וניקוז טוב.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 60,
+        "priceHigh": 330,
+        "tags": [
+            "מטפס",
+            "פרגולה",
+            "גדר",
+            "פורח",
+            "climbers"
+        ]
+    },
+    {
+        "name": "אלמון הודי",
+        "botanical": "Quisqualis indica",
+        "image": "https://images.unsplash.com/photo-1508610048659-a06b669e3321?auto=format&fit=crop&w=900&q=80",
+        "detail": "מטפס נפוץ לפרגולה, גדר או קיר ירוק. מומלץ לספק תמיכה, גיזום וניקוז טוב.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 70,
+        "priceHigh": 190,
+        "tags": [
+            "מטפס",
+            "פרגולה",
+            "גדר",
+            "פורח",
+            "climbers"
+        ]
+    },
+    {
+        "name": "לנטנה",
+        "botanical": "Lantana camara",
+        "image": "https://images.unsplash.com/photo-1597848212624-e6b10e2fc1b6?auto=format&fit=crop&w=900&q=80",
+        "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
         "priceLow": 12,
-        "priceHigh": 50,
+        "priceHigh": 65,
         "tags": [
-            "תבלין",
-            "שיח",
-            "חסכוני במים",
-            "ריחני",
-            "ים תיכוני"
+            "רב שנתי",
+            "פורח",
+            "ערוגה",
+            "מאביקים",
+            "perennials"
         ]
     },
     {
-        "name": "מרווה צחורה",
-        "botanical": "Salvia leucantha",
-        "image": "https://source.unsplash.com/900x675/?salvia-flower",
-        "detail": "רב־שנתי פורח בסגול ולבן, מושך מאביקים ונותן תנועה רכה בערוגות שמש.",
+        "name": "דיאטס",
+        "botanical": "Dietes grandiflora",
+        "image": "https://images.unsplash.com/photo-1620315442714-05eae288ed45?auto=format&fit=crop&w=900&q=80",
+        "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת",
+            "חרסיתית"
+        ],
+        "water": "בינונית",
+        "priceLow": 14,
+        "priceHigh": 70,
+        "tags": [
+            "רב שנתי",
+            "פורח",
+            "ערוגה",
+            "מאביקים",
+            "perennials"
+        ]
+    },
+    {
+        "name": "אגפנתוס",
+        "botanical": "Agapanthus africanus",
+        "image": "https://images.unsplash.com/photo-1606041008023-472dfb5e530f?auto=format&fit=crop&w=900&q=80",
+        "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת",
+            "חרסיתית"
+        ],
+        "water": "בינונית",
+        "priceLow": 16,
+        "priceHigh": 75,
+        "tags": [
+            "רב שנתי",
+            "פורח",
+            "ערוגה",
+            "מאביקים",
+            "perennials"
+        ]
+    },
+    {
+        "name": "גאורה",
+        "botanical": "Gaura lindheimeri",
+        "image": "https://images.unsplash.com/photo-1597848212624-e6b10e2fc1b6?auto=format&fit=crop&w=900&q=80",
+        "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -1291,45 +2920,888 @@ const plants = [
         ],
         "water": "בינונית",
         "priceLow": 18,
-        "priceHigh": 60,
+        "priceHigh": 80,
         "tags": [
             "רב שנתי",
             "פורח",
+            "ערוגה",
             "מאביקים",
-            "סגול"
+            "perennials"
         ]
     },
     {
-        "name": "גאורה",
-        "botanical": "Gaura lindheimeri",
-        "image": "https://source.unsplash.com/900x675/?gaura-flower",
-        "detail": "רב־שנתי אוורירי עם פריחה ורודה־לבנה. מתאים לערוגות רכות, שמש מלאה והשקיה בינונית.",
+        "name": "מרווה צחורה",
+        "botanical": "Salvia leucantha",
+        "image": "https://images.unsplash.com/photo-1620315442714-05eae288ed45?auto=format&fit=crop&w=900&q=80",
+        "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
         ],
         "soil": [
             "לומית",
-            "חולית",
             "מנוקזת"
         ],
         "water": "בינונית",
-        "priceLow": 15,
-        "priceHigh": 55,
+        "priceLow": 12,
+        "priceHigh": 85,
         "tags": [
             "רב שנתי",
             "פורח",
-            "רך",
-            "מאביקים"
+            "ערוגה",
+            "מאביקים",
+            "perennials"
         ]
     },
     {
-        "name": "לנטנה",
-        "botanical": "Lantana camara",
-        "image": "https://source.unsplash.com/900x675/?lantana",
-        "detail": "צמח פורח ועמיד לחום שמושך פרפרים. מתאים לשמש מלאה ולגינות חסכוניות במים.",
+        "name": "מרווה גרג",
+        "botanical": "Salvia greggii",
+        "image": "https://images.unsplash.com/photo-1606041008023-472dfb5e530f?auto=format&fit=crop&w=900&q=80",
+        "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
         "sun": [
-            "שמש מלאה"
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 14,
+        "priceHigh": 65,
+        "tags": [
+            "רב שנתי",
+            "פורח",
+            "ערוגה",
+            "מאביקים",
+            "perennials"
+        ]
+    },
+    {
+        "name": "רודבקיה",
+        "botanical": "Rudbeckia fulgida",
+        "image": "https://images.unsplash.com/photo-1597848212624-e6b10e2fc1b6?auto=format&fit=crop&w=900&q=80",
+        "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 16,
+        "priceHigh": 70,
+        "tags": [
+            "רב שנתי",
+            "פורח",
+            "ערוגה",
+            "מאביקים",
+            "perennials"
+        ]
+    },
+    {
+        "name": "אכינצאה",
+        "botanical": "Echinacea purpurea",
+        "image": "https://images.unsplash.com/photo-1620315442714-05eae288ed45?auto=format&fit=crop&w=900&q=80",
+        "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 18,
+        "priceHigh": 75,
+        "tags": [
+            "רב שנתי",
+            "פורח",
+            "ערוגה",
+            "מאביקים",
+            "perennials"
+        ]
+    },
+    {
+        "name": "גזניה",
+        "botanical": "Gazania rigens",
+        "image": "https://images.unsplash.com/photo-1606041008023-472dfb5e530f?auto=format&fit=crop&w=900&q=80",
+        "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 12,
+        "priceHigh": 80,
+        "tags": [
+            "רב שנתי",
+            "פורח",
+            "ערוגה",
+            "מאביקים",
+            "perennials"
+        ]
+    },
+    {
+        "name": "אוסטאוספרמום",
+        "botanical": "Osteospermum",
+        "image": "https://images.unsplash.com/photo-1597848212624-e6b10e2fc1b6?auto=format&fit=crop&w=900&q=80",
+        "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 14,
+        "priceHigh": 85,
+        "tags": [
+            "רב שנתי",
+            "פורח",
+            "ערוגה",
+            "מאביקים",
+            "perennials"
+        ]
+    },
+    {
+        "name": "ורבנה",
+        "botanical": "Verbena",
+        "image": "https://images.unsplash.com/photo-1620315442714-05eae288ed45?auto=format&fit=crop&w=900&q=80",
+        "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 16,
+        "priceHigh": 65,
+        "tags": [
+            "רב שנתי",
+            "פורח",
+            "ערוגה",
+            "מאביקים",
+            "perennials"
+        ]
+    },
+    {
+        "name": "גרניום / פלרגוניום",
+        "botanical": "Pelargonium",
+        "image": "https://images.unsplash.com/photo-1606041008023-472dfb5e530f?auto=format&fit=crop&w=900&q=80",
+        "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 18,
+        "priceHigh": 70,
+        "tags": [
+            "רב שנתי",
+            "פורח",
+            "ערוגה",
+            "מאביקים",
+            "perennials"
+        ]
+    },
+    {
+        "name": "ליריופה",
+        "botanical": "Liriope muscari",
+        "image": "https://images.unsplash.com/photo-1597848212624-e6b10e2fc1b6?auto=format&fit=crop&w=900&q=80",
+        "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
+        "sun": [
+            "חצי שמש",
+            "חצי צל"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת",
+            "חרסיתית"
+        ],
+        "water": "בינונית",
+        "priceLow": 12,
+        "priceHigh": 75,
+        "tags": [
+            "רב שנתי",
+            "פורח",
+            "ערוגה",
+            "מאביקים",
+            "perennials"
+        ]
+    },
+    {
+        "name": "אופיופוגון",
+        "botanical": "Ophiopogon japonicus",
+        "image": "https://images.unsplash.com/photo-1620315442714-05eae288ed45?auto=format&fit=crop&w=900&q=80",
+        "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
+        "sun": [
+            "חצי שמש",
+            "חצי צל"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 14,
+        "priceHigh": 80,
+        "tags": [
+            "רב שנתי",
+            "פורח",
+            "ערוגה",
+            "מאביקים",
+            "perennials"
+        ]
+    },
+    {
+        "name": "איריס גרמני",
+        "botanical": "Iris germanica",
+        "image": "https://images.unsplash.com/photo-1606041008023-472dfb5e530f?auto=format&fit=crop&w=900&q=80",
+        "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 16,
+        "priceHigh": 85,
+        "tags": [
+            "רב שנתי",
+            "פורח",
+            "ערוגה",
+            "מאביקים",
+            "perennials"
+        ]
+    },
+    {
+        "name": "המרוקליס",
+        "botanical": "Hemerocallis",
+        "image": "https://images.unsplash.com/photo-1597848212624-e6b10e2fc1b6?auto=format&fit=crop&w=900&q=80",
+        "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 18,
+        "priceHigh": 65,
+        "tags": [
+            "רב שנתי",
+            "פורח",
+            "ערוגה",
+            "מאביקים",
+            "perennials"
+        ]
+    },
+    {
+        "name": "קוראופסיס",
+        "botanical": "Coreopsis",
+        "image": "https://images.unsplash.com/photo-1620315442714-05eae288ed45?auto=format&fit=crop&w=900&q=80",
+        "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 12,
+        "priceHigh": 70,
+        "tags": [
+            "רב שנתי",
+            "פורח",
+            "ערוגה",
+            "מאביקים",
+            "perennials"
+        ]
+    },
+    {
+        "name": "גיירדיה",
+        "botanical": "Gaillardia",
+        "image": "https://images.unsplash.com/photo-1606041008023-472dfb5e530f?auto=format&fit=crop&w=900&q=80",
+        "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 14,
+        "priceHigh": 75,
+        "tags": [
+            "רב שנתי",
+            "פורח",
+            "ערוגה",
+            "מאביקים",
+            "perennials"
+        ]
+    },
+    {
+        "name": "פלוקס",
+        "botanical": "Phlox",
+        "image": "https://images.unsplash.com/photo-1597848212624-e6b10e2fc1b6?auto=format&fit=crop&w=900&q=80",
+        "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 16,
+        "priceHigh": 80,
+        "tags": [
+            "רב שנתי",
+            "פורח",
+            "ערוגה",
+            "מאביקים",
+            "perennials"
+        ]
+    },
+    {
+        "name": "נפית",
+        "botanical": "Nepeta",
+        "image": "https://images.unsplash.com/photo-1620315442714-05eae288ed45?auto=format&fit=crop&w=900&q=80",
+        "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 18,
+        "priceHigh": 85,
+        "tags": [
+            "רב שנתי",
+            "פורח",
+            "ערוגה",
+            "מאביקים",
+            "perennials"
+        ]
+    },
+    {
+        "name": "חרצית שיחית",
+        "botanical": "Argyranthemum",
+        "image": "https://images.unsplash.com/photo-1606041008023-472dfb5e530f?auto=format&fit=crop&w=900&q=80",
+        "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 12,
+        "priceHigh": 65,
+        "tags": [
+            "רב שנתי",
+            "פורח",
+            "ערוגה",
+            "מאביקים",
+            "perennials"
+        ]
+    },
+    {
+        "name": "אוזן ארי",
+        "botanical": "Leonotis leonurus",
+        "image": "https://images.unsplash.com/photo-1597848212624-e6b10e2fc1b6?auto=format&fit=crop&w=900&q=80",
+        "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 14,
+        "priceHigh": 70,
+        "tags": [
+            "רב שנתי",
+            "פורח",
+            "ערוגה",
+            "מאביקים",
+            "perennials"
+        ]
+    },
+    {
+        "name": "כסמנתה",
+        "botanical": "Chasmanthe",
+        "image": "https://images.unsplash.com/photo-1620315442714-05eae288ed45?auto=format&fit=crop&w=900&q=80",
+        "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 16,
+        "priceHigh": 75,
+        "tags": [
+            "רב שנתי",
+            "פורח",
+            "ערוגה",
+            "מאביקים",
+            "perennials"
+        ]
+    },
+    {
+        "name": "קליביה",
+        "botanical": "Clivia miniata",
+        "image": "https://images.unsplash.com/photo-1606041008023-472dfb5e530f?auto=format&fit=crop&w=900&q=80",
+        "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
+        "sun": [
+            "חצי שמש",
+            "חצי צל"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 18,
+        "priceHigh": 80,
+        "tags": [
+            "רב שנתי",
+            "פורח",
+            "ערוגה",
+            "מאביקים",
+            "perennials"
+        ]
+    },
+    {
+        "name": "קנא הודית",
+        "botanical": "Canna indica",
+        "image": "https://images.unsplash.com/photo-1597848212624-e6b10e2fc1b6?auto=format&fit=crop&w=900&q=80",
+        "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 12,
+        "priceHigh": 85,
+        "tags": [
+            "רב שנתי",
+            "פורח",
+            "ערוגה",
+            "מאביקים",
+            "perennials"
+        ]
+    },
+    {
+        "name": "אלסטרומריה",
+        "botanical": "Alstroemeria",
+        "image": "https://images.unsplash.com/photo-1620315442714-05eae288ed45?auto=format&fit=crop&w=900&q=80",
+        "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 14,
+        "priceHigh": 65,
+        "tags": [
+            "רב שנתי",
+            "פורח",
+            "ערוגה",
+            "מאביקים",
+            "perennials"
+        ]
+    },
+    {
+        "name": "פלרגון לימוני",
+        "botanical": "Pelargonium crispum",
+        "image": "https://images.unsplash.com/photo-1606041008023-472dfb5e530f?auto=format&fit=crop&w=900&q=80",
+        "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 16,
+        "priceHigh": 70,
+        "tags": [
+            "רב שנתי",
+            "פורח",
+            "ערוגה",
+            "מאביקים",
+            "perennials"
+        ]
+    },
+    {
+        "name": "צורית",
+        "botanical": "Sedum",
+        "image": "https://images.unsplash.com/photo-1597848212624-e6b10e2fc1b6?auto=format&fit=crop&w=900&q=80",
+        "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 18,
+        "priceHigh": 75,
+        "tags": [
+            "רב שנתי",
+            "פורח",
+            "ערוגה",
+            "מאביקים",
+            "perennials"
+        ]
+    },
+    {
+        "name": "ארמריה",
+        "botanical": "Armeria maritima",
+        "image": "https://images.unsplash.com/photo-1620315442714-05eae288ed45?auto=format&fit=crop&w=900&q=80",
+        "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 12,
+        "priceHigh": 80,
+        "tags": [
+            "רב שנתי",
+            "פורח",
+            "ערוגה",
+            "מאביקים",
+            "perennials"
+        ]
+    },
+    {
+        "name": "ציפורן סיני",
+        "botanical": "Dianthus chinensis",
+        "image": "https://images.unsplash.com/photo-1606041008023-472dfb5e530f?auto=format&fit=crop&w=900&q=80",
+        "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 14,
+        "priceHigh": 85,
+        "tags": [
+            "רב שנתי",
+            "פורח",
+            "ערוגה",
+            "מאביקים",
+            "perennials"
+        ]
+    },
+    {
+        "name": "ורוניקה",
+        "botanical": "Veronica spicata",
+        "image": "https://images.unsplash.com/photo-1597848212624-e6b10e2fc1b6?auto=format&fit=crop&w=900&q=80",
+        "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 16,
+        "priceHigh": 65,
+        "tags": [
+            "רב שנתי",
+            "פורח",
+            "ערוגה",
+            "מאביקים",
+            "perennials"
+        ]
+    },
+    {
+        "name": "סקביה",
+        "botanical": "Scabiosa",
+        "image": "https://images.unsplash.com/photo-1620315442714-05eae288ed45?auto=format&fit=crop&w=900&q=80",
+        "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 18,
+        "priceHigh": 70,
+        "tags": [
+            "רב שנתי",
+            "פורח",
+            "ערוגה",
+            "מאביקים",
+            "perennials"
+        ]
+    },
+    {
+        "name": "לבנדר מנוצה",
+        "botanical": "Lavandula dentata",
+        "image": "https://images.unsplash.com/photo-1606041008023-472dfb5e530f?auto=format&fit=crop&w=900&q=80",
+        "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 12,
+        "priceHigh": 75,
+        "tags": [
+            "רב שנתי",
+            "פורח",
+            "ערוגה",
+            "מאביקים",
+            "perennials"
+        ]
+    },
+    {
+        "name": "ארטמיסיה",
+        "botanical": "Artemisia",
+        "image": "https://images.unsplash.com/photo-1597848212624-e6b10e2fc1b6?auto=format&fit=crop&w=900&q=80",
+        "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 14,
+        "priceHigh": 80,
+        "tags": [
+            "רב שנתי",
+            "פורח",
+            "ערוגה",
+            "מאביקים",
+            "perennials"
+        ]
+    },
+    {
+        "name": "הליכריסום",
+        "botanical": "Helichrysum petiolare",
+        "image": "https://images.unsplash.com/photo-1620315442714-05eae288ed45?auto=format&fit=crop&w=900&q=80",
+        "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 16,
+        "priceHigh": 85,
+        "tags": [
+            "רב שנתי",
+            "פורח",
+            "ערוגה",
+            "מאביקים",
+            "perennials"
+        ]
+    },
+    {
+        "name": "קונבולבולוס",
+        "botanical": "Convolvulus cneorum",
+        "image": "https://images.unsplash.com/photo-1606041008023-472dfb5e530f?auto=format&fit=crop&w=900&q=80",
+        "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 18,
+        "priceHigh": 65,
+        "tags": [
+            "רב שנתי",
+            "פורח",
+            "ערוגה",
+            "מאביקים",
+            "perennials"
+        ]
+    },
+    {
+        "name": "דיכונדרה כסופה",
+        "botanical": "Dichondra argentea",
+        "image": "https://images.unsplash.com/photo-1597848212624-e6b10e2fc1b6?auto=format&fit=crop&w=900&q=80",
+        "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 12,
+        "priceHigh": 70,
+        "tags": [
+            "רב שנתי",
+            "פורח",
+            "ערוגה",
+            "מאביקים",
+            "perennials"
+        ]
+    },
+    {
+        "name": "בקופה",
+        "botanical": "Sutera cordata",
+        "image": "https://images.unsplash.com/photo-1620315442714-05eae288ed45?auto=format&fit=crop&w=900&q=80",
+        "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 14,
+        "priceHigh": 75,
+        "tags": [
+            "רב שנתי",
+            "פורח",
+            "ערוגה",
+            "מאביקים",
+            "perennials"
+        ]
+    },
+    {
+        "name": "פורטולקה רב שנתית",
+        "botanical": "Portulaca",
+        "image": "https://images.unsplash.com/photo-1606041008023-472dfb5e530f?auto=format&fit=crop&w=900&q=80",
+        "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 16,
+        "priceHigh": 80,
+        "tags": [
+            "רב שנתי",
+            "פורח",
+            "ערוגה",
+            "מאביקים",
+            "perennials"
+        ]
+    },
+    {
+        "name": "אספרגוס מאירי",
+        "botanical": "Asparagus densiflorus",
+        "image": "https://images.unsplash.com/photo-1597848212624-e6b10e2fc1b6?auto=format&fit=crop&w=900&q=80",
+        "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
+        "sun": [
+            "חצי שמש",
+            "חצי צל"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 18,
+        "priceHigh": 85,
+        "tags": [
+            "רב שנתי",
+            "פורח",
+            "ערוגה",
+            "מאביקים",
+            "perennials"
+        ]
+    },
+    {
+        "name": "רוזמרין",
+        "botanical": "Salvia rosmarinus",
+        "image": "https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח תבלין נפוץ למטבח, אדנית או ערוגת שמש. מתאים לשימוש יומיומי ולגינה ריחנית.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
         ],
         "soil": [
             "חולית",
@@ -1337,21 +3809,46 @@ const plants = [
             "מנוקזת"
         ],
         "water": "נמוכה",
-        "priceLow": 15,
-        "priceHigh": 60,
+        "priceLow": 8,
+        "priceHigh": 35,
         "tags": [
-            "פורח",
-            "מאביקים",
-            "פרפרים",
-            "חום",
-            "חסכוני במים"
+            "תבלין",
+            "ריחני",
+            "אדנית",
+            "מטבח",
+            "herbs"
         ]
     },
     {
-        "name": "גרניום / פלרגוניום",
-        "botanical": "Pelargonium",
-        "image": "https://source.unsplash.com/900x675/?geranium-flower",
-        "detail": "צמח עציץ וערוגה פופולרי מאוד במשתלות, עם פריחה צבעונית ומראה ביתי רך.",
+        "name": "לבנדר",
+        "botanical": "Lavandula",
+        "image": "https://images.unsplash.com/photo-1515586000433-45406d8e6662?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח תבלין נפוץ למטבח, אדנית או ערוגת שמש. מתאים לשימוש יומיומי ולגינה ריחנית.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "חולית",
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "נמוכה",
+        "priceLow": 10,
+        "priceHigh": 40,
+        "tags": [
+            "תבלין",
+            "ריחני",
+            "אדנית",
+            "מטבח",
+            "herbs"
+        ]
+    },
+    {
+        "name": "מרווה רפואית",
+        "botanical": "Salvia officinalis",
+        "image": "https://images.unsplash.com/photo-1471193945509-9ad0617afabf?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח תבלין נפוץ למטבח, אדנית או ערוגת שמש. מתאים לשימוש יומיומי ולגינה ריחנית.",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -1364,17 +3861,18 @@ const plants = [
         "priceLow": 12,
         "priceHigh": 45,
         "tags": [
-            "פורח",
-            "עציץ",
-            "מרפסת",
-            "צבע"
+            "תבלין",
+            "ריחני",
+            "אדנית",
+            "מטבח",
+            "herbs"
         ]
     },
     {
-        "name": "וינקה",
-        "botanical": "Catharanthus roseus",
-        "image": "https://source.unsplash.com/900x675/?vinca-flower",
-        "detail": "עונתי קיצי חזק, פורח לאורך זמן ומתאים לשמש ולחום עם השקיה סדירה.",
+        "name": "נענע",
+        "botanical": "Mentha",
+        "image": "https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח תבלין נפוץ למטבח, אדנית או ערוגת שמש. מתאים לשימוש יומיומי ולגינה ריחנית.",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -1384,20 +3882,21 @@ const plants = [
             "מנוקזת"
         ],
         "water": "בינונית",
-        "priceLow": 5,
-        "priceHigh": 18,
+        "priceLow": 14,
+        "priceHigh": 50,
         "tags": [
-            "עונתי",
-            "פורח",
-            "קיץ",
-            "חום"
+            "תבלין",
+            "ריחני",
+            "אדנית",
+            "מטבח",
+            "herbs"
         ]
     },
     {
-        "name": "פטוניה",
-        "botanical": "Petunia",
-        "image": "https://source.unsplash.com/900x675/?petunia",
-        "detail": "עונתי פורח לשתילה במיכלים, סלסלות וערוגות. נותן צבע מהיר ורך בעונות המתאימות.",
+        "name": "מנטה",
+        "botanical": "Mentha piperita",
+        "image": "https://images.unsplash.com/photo-1515586000433-45406d8e6662?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח תבלין נפוץ למטבח, אדנית או ערוגת שמש. מתאים לשימוש יומיומי ולגינה ריחנית.",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -1407,92 +3906,333 @@ const plants = [
             "מנוקזת"
         ],
         "water": "בינונית",
-        "priceLow": 5,
-        "priceHigh": 20,
+        "priceLow": 8,
+        "priceHigh": 55,
         "tags": [
-            "עונתי",
-            "פורח",
-            "עציץ",
-            "צבע"
+            "תבלין",
+            "ריחני",
+            "אדנית",
+            "מטבח",
+            "herbs"
         ]
     },
     {
-        "name": "דיאטס",
-        "botanical": "Dietes grandiflora",
-        "image": "https://source.unsplash.com/900x675/?dietes-flower",
-        "detail": "רב־שנתי חסון עם עלים צרים ופריחה בהירה, מתאים לשוליים, מיכלים וגינות ציבוריות.",
+        "name": "בזיליקום",
+        "botanical": "Ocimum basilicum",
+        "image": "https://images.unsplash.com/photo-1471193945509-9ad0617afabf?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח תבלין נפוץ למטבח, אדנית או ערוגת שמש. מתאים לשימוש יומיומי ולגינה ריחנית.",
         "sun": [
             "שמש מלאה",
-            "חצי שמש",
-            "חצי צל"
+            "חצי שמש"
         ],
         "soil": [
             "לומית",
-            "חרסיתית",
             "מנוקזת"
         ],
         "water": "בינונית",
-        "priceLow": 18,
-        "priceHigh": 65,
+        "priceLow": 10,
+        "priceHigh": 35,
         "tags": [
-            "רב שנתי",
-            "שוליים",
-            "פורח",
-            "עמיד"
+            "תבלין",
+            "ריחני",
+            "אדנית",
+            "מטבח",
+            "herbs"
         ]
     },
     {
-        "name": "ליריופה",
-        "botanical": "Liriope muscari",
-        "image": "https://source.unsplash.com/900x675/?liriope",
-        "detail": "צמח שולי ערוגה וכיסוי קרקע לחצי צל, עם עלווה ירוקה ופריחה סגולה עדינה.",
+        "name": "טימין",
+        "botanical": "Thymus vulgaris",
+        "image": "https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח תבלין נפוץ למטבח, אדנית או ערוגת שמש. מתאים לשימוש יומיומי ולגינה ריחנית.",
         "sun": [
-            "חצי שמש",
-            "חצי צל",
-            "צל"
+            "שמש מלאה",
+            "חצי שמש"
         ],
         "soil": [
             "לומית",
             "מנוקזת"
         ],
         "water": "בינונית",
-        "priceLow": 18,
-        "priceHigh": 70,
+        "priceLow": 12,
+        "priceHigh": 40,
         "tags": [
-            "כיסוי קרקע",
-            "צל",
-            "שוליים",
-            "סגול"
+            "תבלין",
+            "ריחני",
+            "אדנית",
+            "מטבח",
+            "herbs"
         ]
     },
     {
-        "name": "אגבה",
+        "name": "אורגנו",
+        "botanical": "Origanum vulgare",
+        "image": "https://images.unsplash.com/photo-1515586000433-45406d8e6662?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח תבלין נפוץ למטבח, אדנית או ערוגת שמש. מתאים לשימוש יומיומי ולגינה ריחנית.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 14,
+        "priceHigh": 45,
+        "tags": [
+            "תבלין",
+            "ריחני",
+            "אדנית",
+            "מטבח",
+            "herbs"
+        ]
+    },
+    {
+        "name": "זעתר",
+        "botanical": "Origanum syriacum",
+        "image": "https://images.unsplash.com/photo-1471193945509-9ad0617afabf?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח תבלין נפוץ למטבח, אדנית או ערוגת שמש. מתאים לשימוש יומיומי ולגינה ריחנית.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 8,
+        "priceHigh": 50,
+        "tags": [
+            "תבלין",
+            "ריחני",
+            "אדנית",
+            "מטבח",
+            "herbs"
+        ]
+    },
+    {
+        "name": "לואיזה",
+        "botanical": "Aloysia citrodora",
+        "image": "https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח תבלין נפוץ למטבח, אדנית או ערוגת שמש. מתאים לשימוש יומיומי ולגינה ריחנית.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 10,
+        "priceHigh": 55,
+        "tags": [
+            "תבלין",
+            "ריחני",
+            "אדנית",
+            "מטבח",
+            "herbs"
+        ]
+    },
+    {
+        "name": "לימונית",
+        "botanical": "Cymbopogon citratus",
+        "image": "https://images.unsplash.com/photo-1515586000433-45406d8e6662?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח תבלין נפוץ למטבח, אדנית או ערוגת שמש. מתאים לשימוש יומיומי ולגינה ריחנית.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 12,
+        "priceHigh": 35,
+        "tags": [
+            "תבלין",
+            "ריחני",
+            "אדנית",
+            "מטבח",
+            "herbs"
+        ]
+    },
+    {
+        "name": "פטרוזיליה",
+        "botanical": "Petroselinum crispum",
+        "image": "https://images.unsplash.com/photo-1471193945509-9ad0617afabf?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח תבלין נפוץ למטבח, אדנית או ערוגת שמש. מתאים לשימוש יומיומי ולגינה ריחנית.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 14,
+        "priceHigh": 40,
+        "tags": [
+            "תבלין",
+            "ריחני",
+            "אדנית",
+            "מטבח",
+            "herbs"
+        ]
+    },
+    {
+        "name": "כוסברה",
+        "botanical": "Coriandrum sativum",
+        "image": "https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח תבלין נפוץ למטבח, אדנית או ערוגת שמש. מתאים לשימוש יומיומי ולגינה ריחנית.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 8,
+        "priceHigh": 45,
+        "tags": [
+            "תבלין",
+            "ריחני",
+            "אדנית",
+            "מטבח",
+            "herbs"
+        ]
+    },
+    {
+        "name": "שמיר",
+        "botanical": "Anethum graveolens",
+        "image": "https://images.unsplash.com/photo-1515586000433-45406d8e6662?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח תבלין נפוץ למטבח, אדנית או ערוגת שמש. מתאים לשימוש יומיומי ולגינה ריחנית.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 10,
+        "priceHigh": 50,
+        "tags": [
+            "תבלין",
+            "ריחני",
+            "אדנית",
+            "מטבח",
+            "herbs"
+        ]
+    },
+    {
+        "name": "עירית",
+        "botanical": "Allium schoenoprasum",
+        "image": "https://images.unsplash.com/photo-1471193945509-9ad0617afabf?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח תבלין נפוץ למטבח, אדנית או ערוגת שמש. מתאים לשימוש יומיומי ולגינה ריחנית.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 12,
+        "priceHigh": 55,
+        "tags": [
+            "תבלין",
+            "ריחני",
+            "אדנית",
+            "מטבח",
+            "herbs"
+        ]
+    },
+    {
+        "name": "טרגון",
+        "botanical": "Artemisia dracunculus",
+        "image": "https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח תבלין נפוץ למטבח, אדנית או ערוגת שמש. מתאים לשימוש יומיומי ולגינה ריחנית.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 14,
+        "priceHigh": 35,
+        "tags": [
+            "תבלין",
+            "ריחני",
+            "אדנית",
+            "מטבח",
+            "herbs"
+        ]
+    },
+    {
+        "name": "מליסה",
+        "botanical": "Melissa officinalis",
+        "image": "https://images.unsplash.com/photo-1515586000433-45406d8e6662?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח תבלין נפוץ למטבח, אדנית או ערוגת שמש. מתאים לשימוש יומיומי ולגינה ריחנית.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 8,
+        "priceHigh": 40,
+        "tags": [
+            "תבלין",
+            "ריחני",
+            "אדנית",
+            "מטבח",
+            "herbs"
+        ]
+    },
+    {
+        "name": "שיבא",
+        "botanical": "Artemisia arborescens",
+        "image": "https://images.unsplash.com/photo-1471193945509-9ad0617afabf?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח תבלין נפוץ למטבח, אדנית או ערוגת שמש. מתאים לשימוש יומיומי ולגינה ריחנית.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 10,
+        "priceHigh": 45,
+        "tags": [
+            "תבלין",
+            "ריחני",
+            "אדנית",
+            "מטבח",
+            "herbs"
+        ]
+    },
+    {
+        "name": "אגבה רכה",
         "botanical": "Agave attenuata",
-        "image": "https://source.unsplash.com/900x675/?agave",
-        "detail": "סוקולנט פיסולי וחסכוני במים, מתאים לגינות מודרניות, מסלעות ומיכלים גדולים.",
-        "sun": [
-            "שמש מלאה",
-            "חצי שמש"
-        ],
-        "soil": [
-            "חולית",
-            "מנוקזת"
-        ],
-        "water": "נמוכה",
-        "priceLow": 35,
-        "priceHigh": 220,
-        "tags": [
-            "סוקולנט",
-            "פיסולי",
-            "חסכוני במים",
-            "מיכל"
-        ]
-    },
-    {
-        "name": "אלוורה",
-        "botanical": "Aloe vera",
-        "image": "https://source.unsplash.com/900x675/?aloe-vera",
-        "detail": "סוקולנט שימושי וקל לגידול, מתאים לשמש עד חצי שמש ולקרקע מנוקזת.",
+        "image": "https://images.unsplash.com/photo-1459411621453-7b03977f4bfc?auto=format&fit=crop&w=900&q=80",
+        "detail": "סוקולנט או קקטוס קל יחסית לגידול, מתאים למיכלים, מסלעות וגינות חסכוניות במים.",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -1503,132 +4243,553 @@ const plants = [
         ],
         "water": "נמוכה",
         "priceLow": 15,
-        "priceHigh": 80,
+        "priceHigh": 140,
         "tags": [
             "סוקולנט",
-            "עציץ",
             "חסכוני במים",
-            "קל לטיפול"
+            "עציץ",
+            "קל לטיפול",
+            "succulents"
         ]
     },
     {
-        "name": "סביון כדורי",
-        "botanical": "Senecio rowleyanus",
-        "image": "https://source.unsplash.com/900x675/?string-of-pearls-plant",
-        "detail": "סוקולנט נשפך ועדין לעציצים תלויים, מתאים לאור חזק ללא שמש קופחת והשקיה מועטה.",
+        "name": "אלוורה",
+        "botanical": "Aloe vera",
+        "image": "https://images.unsplash.com/photo-1509423350716-97f9360b4e09?auto=format&fit=crop&w=900&q=80",
+        "detail": "סוקולנט או קקטוס קל יחסית לגידול, מתאים למיכלים, מסלעות וגינות חסכוניות במים.",
         "sun": [
-            "חצי שמש",
-            "חצי צל"
+            "שמש מלאה",
+            "חצי שמש"
         ],
         "soil": [
-            "מנוקזת",
-            "חולית"
+            "חולית",
+            "מנוקזת"
         ],
         "water": "נמוכה",
-        "priceLow": 20,
-        "priceHigh": 90,
+        "priceLow": 25,
+        "priceHigh": 175,
         "tags": [
             "סוקולנט",
+            "חסכוני במים",
             "עציץ",
-            "נשפך",
-            "מרפסת"
+            "קל לטיפול",
+            "succulents"
         ]
     },
     {
         "name": "סנסיווריה",
         "botanical": "Dracaena trifasciata",
-        "image": "https://source.unsplash.com/900x675/?snake-plant",
-        "detail": "צמח בית עמיד במיוחד, מתאים לאור נמוך עד בינוני ולהשקיה מועטה. נפוץ מאוד במשתלות.",
+        "image": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=900&q=80",
+        "detail": "סוקולנט או קקטוס קל יחסית לגידול, מתאים למיכלים, מסלעות וגינות חסכוניות במים.",
         "sun": [
-            "חצי צל",
-            "צל"
+            "שמש מלאה",
+            "חצי שמש"
         ],
         "soil": [
+            "חולית",
             "מנוקזת"
         ],
         "water": "נמוכה",
         "priceLow": 35,
-        "priceHigh": 180,
+        "priceHigh": 210,
         "tags": [
-            "צמח בית",
-            "צל",
+            "סוקולנט",
+            "חסכוני במים",
+            "עציץ",
             "קל לטיפול",
-            "עציץ"
+            "succulents"
         ]
     },
     {
-        "name": "פוטוס",
-        "botanical": "Epipremnum aureum",
-        "image": "https://source.unsplash.com/900x675/?pothos-plant",
-        "detail": "צמח בית נשפך וקל מאוד לגידול, מתאים למדפים, סלסלות ופינות מוארות ללא שמש ישירה.",
+        "name": "אכיווריה",
+        "botanical": "Echeveria",
+        "image": "https://images.unsplash.com/photo-1459411621453-7b03977f4bfc?auto=format&fit=crop&w=900&q=80",
+        "detail": "סוקולנט או קקטוס קל יחסית לגידול, מתאים למיכלים, מסלעות וגינות חסכוניות במים.",
         "sun": [
-            "חצי צל",
-            "צל"
+            "שמש מלאה",
+            "חצי שמש"
         ],
         "soil": [
-            "לומית",
-            "מנוקזת"
-        ],
-        "water": "בינונית",
-        "priceLow": 25,
-        "priceHigh": 120,
-        "tags": [
-            "צמח בית",
-            "נשפך",
-            "קל לטיפול",
-            "עציץ"
-        ]
-    },
-    {
-        "name": "מונסטרה",
-        "botanical": "Monstera deliciosa",
-        "image": "https://source.unsplash.com/900x675/?monstera",
-        "detail": "צמח בית טרופי עם עלים גדולים ומחורצים, מתאים לאור מסונן ולמראה ירוק עשיר.",
-        "sun": [
-            "חצי צל",
-            "צל"
-        ],
-        "soil": [
-            "לומית",
-            "מנוקזת"
-        ],
-        "water": "בינונית",
-        "priceLow": 60,
-        "priceHigh": 300,
-        "tags": [
-            "צמח בית",
-            "טרופי",
-            "עלווה",
-            "עציץ"
-        ]
-    },
-    {
-        "name": "זמיה קוקוס",
-        "botanical": "Zamioculcas zamiifolia",
-        "image": "https://source.unsplash.com/900x675/?zz-plant",
-        "detail": "צמח בית אלגנטי ועמיד מאוד, מסתדר עם מעט אור ומעט השקיה ומתאים למשרדים ובתים.",
-        "sun": [
-            "חצי צל",
-            "צל"
-        ],
-        "soil": [
+            "חולית",
             "מנוקזת"
         ],
         "water": "נמוכה",
         "priceLow": 45,
-        "priceHigh": 220,
+        "priceHigh": 245,
         "tags": [
-            "צמח בית",
-            "צל",
+            "סוקולנט",
+            "חסכוני במים",
+            "עציץ",
             "קל לטיפול",
-            "משרד"
+            "succulents"
+        ]
+    },
+    {
+        "name": "קרסולה אובטה",
+        "botanical": "Crassula ovata",
+        "image": "https://images.unsplash.com/photo-1509423350716-97f9360b4e09?auto=format&fit=crop&w=900&q=80",
+        "detail": "סוקולנט או קקטוס קל יחסית לגידול, מתאים למיכלים, מסלעות וגינות חסכוניות במים.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "חולית",
+            "מנוקזת"
+        ],
+        "water": "נמוכה",
+        "priceLow": 15,
+        "priceHigh": 280,
+        "tags": [
+            "סוקולנט",
+            "חסכוני במים",
+            "עציץ",
+            "קל לטיפול",
+            "succulents"
+        ]
+    },
+    {
+        "name": "קלנצואה",
+        "botanical": "Kalanchoe blossfeldiana",
+        "image": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=900&q=80",
+        "detail": "סוקולנט או קקטוס קל יחסית לגידול, מתאים למיכלים, מסלעות וגינות חסכוניות במים.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "חולית",
+            "מנוקזת"
+        ],
+        "water": "נמוכה",
+        "priceLow": 25,
+        "priceHigh": 140,
+        "tags": [
+            "סוקולנט",
+            "חסכוני במים",
+            "עציץ",
+            "קל לטיפול",
+            "succulents"
+        ]
+    },
+    {
+        "name": "צורית מורגן",
+        "botanical": "Sedum morganianum",
+        "image": "https://images.unsplash.com/photo-1459411621453-7b03977f4bfc?auto=format&fit=crop&w=900&q=80",
+        "detail": "סוקולנט או קקטוס קל יחסית לגידול, מתאים למיכלים, מסלעות וגינות חסכוניות במים.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "חולית",
+            "מנוקזת"
+        ],
+        "water": "נמוכה",
+        "priceLow": 35,
+        "priceHigh": 175,
+        "tags": [
+            "סוקולנט",
+            "חסכוני במים",
+            "עציץ",
+            "קל לטיפול",
+            "succulents"
+        ]
+    },
+    {
+        "name": "סביון כדורי",
+        "botanical": "Senecio rowleyanus",
+        "image": "https://images.unsplash.com/photo-1509423350716-97f9360b4e09?auto=format&fit=crop&w=900&q=80",
+        "detail": "סוקולנט או קקטוס קל יחסית לגידול, מתאים למיכלים, מסלעות וגינות חסכוניות במים.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "חולית",
+            "מנוקזת"
+        ],
+        "water": "נמוכה",
+        "priceLow": 45,
+        "priceHigh": 210,
+        "tags": [
+            "סוקולנט",
+            "חסכוני במים",
+            "עציץ",
+            "קל לטיפול",
+            "succulents"
+        ]
+    },
+    {
+        "name": "פורטולקריה",
+        "botanical": "Portulacaria afra",
+        "image": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=900&q=80",
+        "detail": "סוקולנט או קקטוס קל יחסית לגידול, מתאים למיכלים, מסלעות וגינות חסכוניות במים.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "חולית",
+            "מנוקזת"
+        ],
+        "water": "נמוכה",
+        "priceLow": 15,
+        "priceHigh": 245,
+        "tags": [
+            "סוקולנט",
+            "חסכוני במים",
+            "עציץ",
+            "קל לטיפול",
+            "succulents"
+        ]
+    },
+    {
+        "name": "יוקה",
+        "botanical": "Yucca elephantipes",
+        "image": "https://images.unsplash.com/photo-1459411621453-7b03977f4bfc?auto=format&fit=crop&w=900&q=80",
+        "detail": "סוקולנט או קקטוס קל יחסית לגידול, מתאים למיכלים, מסלעות וגינות חסכוניות במים.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "חולית",
+            "מנוקזת"
+        ],
+        "water": "נמוכה",
+        "priceLow": 25,
+        "priceHigh": 280,
+        "tags": [
+            "סוקולנט",
+            "חסכוני במים",
+            "עציץ",
+            "קל לטיפול",
+            "succulents"
+        ]
+    },
+    {
+        "name": "נולינה",
+        "botanical": "Beaucarnea recurvata",
+        "image": "https://images.unsplash.com/photo-1509423350716-97f9360b4e09?auto=format&fit=crop&w=900&q=80",
+        "detail": "סוקולנט או קקטוס קל יחסית לגידול, מתאים למיכלים, מסלעות וגינות חסכוניות במים.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "חולית",
+            "מנוקזת"
+        ],
+        "water": "נמוכה",
+        "priceLow": 35,
+        "priceHigh": 140,
+        "tags": [
+            "סוקולנט",
+            "חסכוני במים",
+            "עציץ",
+            "קל לטיפול",
+            "succulents"
+        ]
+    },
+    {
+        "name": "אופונטיה",
+        "botanical": "Opuntia",
+        "image": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=900&q=80",
+        "detail": "סוקולנט או קקטוס קל יחסית לגידול, מתאים למיכלים, מסלעות וגינות חסכוניות במים.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "חולית",
+            "מנוקזת"
+        ],
+        "water": "נמוכה",
+        "priceLow": 45,
+        "priceHigh": 175,
+        "tags": [
+            "סוקולנט",
+            "חסכוני במים",
+            "עציץ",
+            "קל לטיפול",
+            "succulents"
+        ]
+    },
+    {
+        "name": "אפטניה",
+        "botanical": "Aptenia cordifolia",
+        "image": "https://images.unsplash.com/photo-1459411621453-7b03977f4bfc?auto=format&fit=crop&w=900&q=80",
+        "detail": "סוקולנט או קקטוס קל יחסית לגידול, מתאים למיכלים, מסלעות וגינות חסכוניות במים.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "חולית",
+            "מנוקזת"
+        ],
+        "water": "נמוכה",
+        "priceLow": 15,
+        "priceHigh": 210,
+        "tags": [
+            "סוקולנט",
+            "חסכוני במים",
+            "עציץ",
+            "קל לטיפול",
+            "succulents"
+        ]
+    },
+    {
+        "name": "גרפטופטלום",
+        "botanical": "Graptopetalum",
+        "image": "https://images.unsplash.com/photo-1509423350716-97f9360b4e09?auto=format&fit=crop&w=900&q=80",
+        "detail": "סוקולנט או קקטוס קל יחסית לגידול, מתאים למיכלים, מסלעות וגינות חסכוניות במים.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "חולית",
+            "מנוקזת"
+        ],
+        "water": "נמוכה",
+        "priceLow": 25,
+        "priceHigh": 245,
+        "tags": [
+            "סוקולנט",
+            "חסכוני במים",
+            "עציץ",
+            "קל לטיפול",
+            "succulents"
+        ]
+    },
+    {
+        "name": "סדום זוחל",
+        "botanical": "Sedum spurium",
+        "image": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=900&q=80",
+        "detail": "סוקולנט או קקטוס קל יחסית לגידול, מתאים למיכלים, מסלעות וגינות חסכוניות במים.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "חולית",
+            "מנוקזת"
+        ],
+        "water": "נמוכה",
+        "priceLow": 35,
+        "priceHigh": 280,
+        "tags": [
+            "סוקולנט",
+            "חסכוני במים",
+            "עציץ",
+            "קל לטיפול",
+            "succulents"
+        ]
+    },
+    {
+        "name": "אלוי אריסטטה",
+        "botanical": "Aloe aristata",
+        "image": "https://images.unsplash.com/photo-1459411621453-7b03977f4bfc?auto=format&fit=crop&w=900&q=80",
+        "detail": "סוקולנט או קקטוס קל יחסית לגידול, מתאים למיכלים, מסלעות וגינות חסכוניות במים.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "חולית",
+            "מנוקזת"
+        ],
+        "water": "נמוכה",
+        "priceLow": 45,
+        "priceHigh": 140,
+        "tags": [
+            "סוקולנט",
+            "חסכוני במים",
+            "עציץ",
+            "קל לטיפול",
+            "succulents"
+        ]
+    },
+    {
+        "name": "אגבה אמריקנה",
+        "botanical": "Agave americana",
+        "image": "https://images.unsplash.com/photo-1509423350716-97f9360b4e09?auto=format&fit=crop&w=900&q=80",
+        "detail": "סוקולנט או קקטוס קל יחסית לגידול, מתאים למיכלים, מסלעות וגינות חסכוניות במים.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "חולית",
+            "מנוקזת"
+        ],
+        "water": "נמוכה",
+        "priceLow": 15,
+        "priceHigh": 175,
+        "tags": [
+            "סוקולנט",
+            "חסכוני במים",
+            "עציץ",
+            "קל לטיפול",
+            "succulents"
+        ]
+    },
+    {
+        "name": "נציץ מדברי",
+        "botanical": "Delosperma cooperi",
+        "image": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=900&q=80",
+        "detail": "סוקולנט או קקטוס קל יחסית לגידול, מתאים למיכלים, מסלעות וגינות חסכוניות במים.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "חולית",
+            "מנוקזת"
+        ],
+        "water": "נמוכה",
+        "priceLow": 25,
+        "priceHigh": 210,
+        "tags": [
+            "סוקולנט",
+            "חסכוני במים",
+            "עציץ",
+            "קל לטיפול",
+            "succulents"
         ]
     },
     {
         "name": "דקל אריקה",
         "botanical": "Dypsis lutescens",
-        "image": "https://source.unsplash.com/900x675/?areca-palm",
-        "detail": "דקל רך למראה טרופי, מתאים לעציצים גדולים, פטיו מוצל או פנים הבית באור טוב.",
+        "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח טרופי, דקל או עלווה גדולה למראה ירוק ורך. מתאים לפטיו, כניסה או אזור מוגן לפי הזן.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש",
+            "חצי צל"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 70,
+        "priceHigh": 620,
+        "tags": [
+            "דקל",
+            "טרופי",
+            "עלווה",
+            "מיכל",
+            "palms"
+        ]
+    },
+    {
+        "name": "דקל טבעות",
+        "botanical": "Archontophoenix cunninghamiana",
+        "image": "https://images.unsplash.com/photo-1520412099551-62b6bafeb5bb?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח טרופי, דקל או עלווה גדולה למראה ירוק ורך. מתאים לפטיו, כניסה או אזור מוגן לפי הזן.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש",
+            "חצי צל"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "קבועה",
+        "priceLow": 80,
+        "priceHigh": 655,
+        "tags": [
+            "דקל",
+            "טרופי",
+            "עלווה",
+            "מיכל",
+            "palms"
+        ]
+    },
+    {
+        "name": "וושינגטוניה חסונה",
+        "botanical": "Washingtonia robusta",
+        "image": "https://images.unsplash.com/photo-1598880940080-ff9a29891b85?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח טרופי, דקל או עלווה גדולה למראה ירוק ורך. מתאים לפטיו, כניסה או אזור מוגן לפי הזן.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש",
+            "חצי צל"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 90,
+        "priceHigh": 690,
+        "tags": [
+            "דקל",
+            "טרופי",
+            "עלווה",
+            "מיכל",
+            "palms"
+        ]
+    },
+    {
+        "name": "דקל רובליני",
+        "botanical": "Phoenix roebelenii",
+        "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח טרופי, דקל או עלווה גדולה למראה ירוק ורך. מתאים לפטיו, כניסה או אזור מוגן לפי הזן.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש",
+            "חצי צל"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 100,
+        "priceHigh": 725,
+        "tags": [
+            "דקל",
+            "טרופי",
+            "עלווה",
+            "מיכל",
+            "palms"
+        ]
+    },
+    {
+        "name": "דקל קנרי",
+        "botanical": "Phoenix canariensis",
+        "image": "https://images.unsplash.com/photo-1520412099551-62b6bafeb5bb?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח טרופי, דקל או עלווה גדולה למראה ירוק ורך. מתאים לפטיו, כניסה או אזור מוגן לפי הזן.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש",
+            "חצי צל"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 70,
+        "priceHigh": 760,
+        "tags": [
+            "דקל",
+            "טרופי",
+            "עלווה",
+            "מיכל",
+            "palms"
+        ]
+    },
+    {
+        "name": "דקל חמדוריאה",
+        "botanical": "Chamaedorea elegans",
+        "image": "https://images.unsplash.com/photo-1598880940080-ff9a29891b85?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח טרופי, דקל או עלווה גדולה למראה ירוק ורך. מתאים לפטיו, כניסה או אזור מוגן לפי הזן.",
         "sun": [
             "חצי שמש",
             "חצי צל"
@@ -1639,90 +4800,801 @@ const plants = [
         ],
         "water": "בינונית",
         "priceLow": 80,
-        "priceHigh": 380,
+        "priceHigh": 620,
         "tags": [
             "דקל",
             "טרופי",
-            "עציץ",
-            "פטיו"
+            "עלווה",
+            "מיכל",
+            "palms"
         ]
     },
     {
         "name": "ציפור גן עדן",
         "botanical": "Strelitzia reginae",
-        "image": "https://source.unsplash.com/900x675/?bird-of-paradise-plant",
-        "detail": "צמח פיסולי עם עלים גדולים ופריחה ייחודית, נפוץ במיכלים ובגינות שמש מוגנות.",
+        "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח טרופי, דקל או עלווה גדולה למראה ירוק ורך. מתאים לפטיו, כניסה או אזור מוגן לפי הזן.",
         "sun": [
             "שמש מלאה",
-            "חצי שמש"
+            "חצי שמש",
+            "חצי צל"
         ],
         "soil": [
             "לומית",
             "מנוקזת"
         ],
         "water": "בינונית",
-        "priceLow": 60,
-        "priceHigh": 280,
-        "tags": [
-            "טרופי",
-            "פיסולי",
-            "פורח",
-            "מיכל"
-        ]
-    },
-    {
-        "name": "דקל טבעות",
-        "botanical": "Archontophoenix cunninghamiana",
-        "image": "https://source.unsplash.com/900x675/?palm-tree-garden",
-        "detail": "דקל אלגנטי לגינות ולכניסות, מתאים לאזורים מושקים ולמראה ירוק גבוה ורך.",
-        "sun": [
-            "שמש מלאה",
-            "חצי שמש"
-        ],
-        "soil": [
-            "לומית",
-            "מנוקזת"
-        ],
-        "water": "קבועה",
-        "priceLow": 180,
-        "priceHigh": 950,
+        "priceLow": 90,
+        "priceHigh": 655,
         "tags": [
             "דקל",
-            "עץ",
             "טרופי",
-            "כניסה"
+            "עלווה",
+            "מיכל",
+            "palms"
         ]
     },
     {
-        "name": "דשא אלטורו",
-        "botanical": "Zoysia japonica",
-        "image": "https://source.unsplash.com/900x675/?lawn-grass",
-        "detail": "דשא נפוץ לגינות פרטיות, עמיד יחסית לדריכה ומתאים לשמש מלאה עם השקיה מסודרת.",
+        "name": "ציפור גן עדן לבנה",
+        "botanical": "Strelitzia nicolai",
+        "image": "https://images.unsplash.com/photo-1520412099551-62b6bafeb5bb?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח טרופי, דקל או עלווה גדולה למראה ירוק ורך. מתאים לפטיו, כניסה או אזור מוגן לפי הזן.",
         "sun": [
             "שמש מלאה",
-            "חצי שמש"
+            "חצי שמש",
+            "חצי צל"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 100,
+        "priceHigh": 690,
+        "tags": [
+            "דקל",
+            "טרופי",
+            "עלווה",
+            "מיכל",
+            "palms"
+        ]
+    },
+    {
+        "name": "בננה ננסית",
+        "botanical": "Musa acuminata",
+        "image": "https://images.unsplash.com/photo-1598880940080-ff9a29891b85?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח טרופי, דקל או עלווה גדולה למראה ירוק ורך. מתאים לפטיו, כניסה או אזור מוגן לפי הזן.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש",
+            "חצי צל"
         ],
         "soil": [
             "לומית",
             "מנוקזת"
         ],
         "water": "קבועה",
-        "priceLow": 35,
-        "priceHigh": 75,
+        "priceLow": 70,
+        "priceHigh": 725,
         "tags": [
-            "דשא",
-            "מרבד",
-            "דריכה",
-            "משפחה"
+            "דקל",
+            "טרופי",
+            "עלווה",
+            "מיכל",
+            "palms"
         ]
     },
     {
-        "name": "ציפורן חתול",
-        "botanical": "Tagetes",
-        "image": "https://source.unsplash.com/900x675/?marigold-flower",
-        "detail": "עונתי צבעוני וזול יחסית, מתאים לערוגות שמש, גבולות ומיכלים עונתיים.",
+        "name": "הליקוניה",
+        "botanical": "Heliconia",
+        "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח טרופי, דקל או עלווה גדולה למראה ירוק ורך. מתאים לפטיו, כניסה או אזור מוגן לפי הזן.",
         "sun": [
-            "שמש מלאה"
+            "שמש מלאה",
+            "חצי שמש",
+            "חצי צל"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "קבועה",
+        "priceLow": 80,
+        "priceHigh": 760,
+        "tags": [
+            "דקל",
+            "טרופי",
+            "עלווה",
+            "מיכל",
+            "palms"
+        ]
+    },
+    {
+        "name": "פילודנדרון קסנדו",
+        "botanical": "Philodendron xanadu",
+        "image": "https://images.unsplash.com/photo-1520412099551-62b6bafeb5bb?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח טרופי, דקל או עלווה גדולה למראה ירוק ורך. מתאים לפטיו, כניסה או אזור מוגן לפי הזן.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש",
+            "חצי צל"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 90,
+        "priceHigh": 620,
+        "tags": [
+            "דקל",
+            "טרופי",
+            "עלווה",
+            "מיכל",
+            "palms"
+        ]
+    },
+    {
+        "name": "אלוקסיה",
+        "botanical": "Alocasia",
+        "image": "https://images.unsplash.com/photo-1598880940080-ff9a29891b85?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח טרופי, דקל או עלווה גדולה למראה ירוק ורך. מתאים לפטיו, כניסה או אזור מוגן לפי הזן.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש",
+            "חצי צל"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 100,
+        "priceHigh": 655,
+        "tags": [
+            "דקל",
+            "טרופי",
+            "עלווה",
+            "מיכל",
+            "palms"
+        ]
+    },
+    {
+        "name": "קולוקסיה",
+        "botanical": "Colocasia esculenta",
+        "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח טרופי, דקל או עלווה גדולה למראה ירוק ורך. מתאים לפטיו, כניסה או אזור מוגן לפי הזן.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש",
+            "חצי צל"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "קבועה",
+        "priceLow": 70,
+        "priceHigh": 690,
+        "tags": [
+            "דקל",
+            "טרופי",
+            "עלווה",
+            "מיכל",
+            "palms"
+        ]
+    },
+    {
+        "name": "אספלניום",
+        "botanical": "Asplenium nidus",
+        "image": "https://images.unsplash.com/photo-1520412099551-62b6bafeb5bb?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח טרופי, דקל או עלווה גדולה למראה ירוק ורך. מתאים לפטיו, כניסה או אזור מוגן לפי הזן.",
+        "sun": [
+            "חצי שמש",
+            "חצי צל"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 80,
+        "priceHigh": 725,
+        "tags": [
+            "דקל",
+            "טרופי",
+            "עלווה",
+            "מיכל",
+            "palms"
+        ]
+    },
+    {
+        "name": "שרך בוסטון",
+        "botanical": "Nephrolepis exaltata",
+        "image": "https://images.unsplash.com/photo-1598880940080-ff9a29891b85?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח טרופי, דקל או עלווה גדולה למראה ירוק ורך. מתאים לפטיו, כניסה או אזור מוגן לפי הזן.",
+        "sun": [
+            "חצי שמש",
+            "חצי צל"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 90,
+        "priceHigh": 760,
+        "tags": [
+            "דקל",
+            "טרופי",
+            "עלווה",
+            "מיכל",
+            "palms"
+        ]
+    },
+    {
+        "name": "קנה סוף ננסי",
+        "botanical": "Cyperus alternifolius",
+        "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח טרופי, דקל או עלווה גדולה למראה ירוק ורך. מתאים לפטיו, כניסה או אזור מוגן לפי הזן.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש",
+            "חצי צל"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "קבועה",
+        "priceLow": 100,
+        "priceHigh": 620,
+        "tags": [
+            "דקל",
+            "טרופי",
+            "עלווה",
+            "מיכל",
+            "palms"
+        ]
+    },
+    {
+        "name": "פפירוס",
+        "botanical": "Cyperus papyrus",
+        "image": "https://images.unsplash.com/photo-1520412099551-62b6bafeb5bb?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח טרופי, דקל או עלווה גדולה למראה ירוק ורך. מתאים לפטיו, כניסה או אזור מוגן לפי הזן.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש",
+            "חצי צל"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "קבועה",
+        "priceLow": 70,
+        "priceHigh": 655,
+        "tags": [
+            "דקל",
+            "טרופי",
+            "עלווה",
+            "מיכל",
+            "palms"
+        ]
+    },
+    {
+        "name": "מורינגה מכונפת",
+        "botanical": "Moringa oleifera",
+        "image": "https://images.unsplash.com/photo-1598880940080-ff9a29891b85?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח טרופי, דקל או עלווה גדולה למראה ירוק ורך. מתאים לפטיו, כניסה או אזור מוגן לפי הזן.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש",
+            "חצי צל"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 80,
+        "priceHigh": 690,
+        "tags": [
+            "דקל",
+            "טרופי",
+            "עלווה",
+            "מיכל",
+            "palms"
+        ]
+    },
+    {
+        "name": "מונסטרה",
+        "botanical": "Monstera deliciosa",
+        "image": "https://images.unsplash.com/photo-1592150621744-aca64f48394a?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח בית פופולרי במשתלות, מתאים לעציץ פנים, משרד או מרפסת מוצלת עם אור מסונן.",
+        "sun": [
+            "חצי צל",
+            "צל"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 25,
+        "priceHigh": 220,
+        "tags": [
+            "צמח בית",
+            "עציץ",
+            "צל",
+            "קל לטיפול",
+            "houseplants"
+        ]
+    },
+    {
+        "name": "פוטוס",
+        "botanical": "Epipremnum aureum",
+        "image": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח בית פופולרי במשתלות, מתאים לעציץ פנים, משרד או מרפסת מוצלת עם אור מסונן.",
+        "sun": [
+            "חצי צל",
+            "צל"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 35,
+        "priceHigh": 255,
+        "tags": [
+            "צמח בית",
+            "עציץ",
+            "צל",
+            "קל לטיפול",
+            "houseplants"
+        ]
+    },
+    {
+        "name": "זמיה קוקוס",
+        "botanical": "Zamioculcas zamiifolia",
+        "image": "https://images.unsplash.com/photo-1509423350716-97f9360b4e09?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח בית פופולרי במשתלות, מתאים לעציץ פנים, משרד או מרפסת מוצלת עם אור מסונן.",
+        "sun": [
+            "חצי צל",
+            "צל"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 45,
+        "priceHigh": 290,
+        "tags": [
+            "צמח בית",
+            "עציץ",
+            "צל",
+            "קל לטיפול",
+            "houseplants"
+        ]
+    },
+    {
+        "name": "פילודנדרון לבבי",
+        "botanical": "Philodendron hederaceum",
+        "image": "https://images.unsplash.com/photo-1592150621744-aca64f48394a?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח בית פופולרי במשתלות, מתאים לעציץ פנים, משרד או מרפסת מוצלת עם אור מסונן.",
+        "sun": [
+            "חצי צל",
+            "צל"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 55,
+        "priceHigh": 325,
+        "tags": [
+            "צמח בית",
+            "עציץ",
+            "צל",
+            "קל לטיפול",
+            "houseplants"
+        ]
+    },
+    {
+        "name": "פיקוס כינורי",
+        "botanical": "Ficus lyrata",
+        "image": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח בית פופולרי במשתלות, מתאים לעציץ פנים, משרד או מרפסת מוצלת עם אור מסונן.",
+        "sun": [
+            "חצי צל",
+            "צל"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 25,
+        "priceHigh": 360,
+        "tags": [
+            "צמח בית",
+            "עציץ",
+            "צל",
+            "קל לטיפול",
+            "houseplants"
+        ]
+    },
+    {
+        "name": "פיקוס גומי",
+        "botanical": "Ficus elastica",
+        "image": "https://images.unsplash.com/photo-1509423350716-97f9360b4e09?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח בית פופולרי במשתלות, מתאים לעציץ פנים, משרד או מרפסת מוצלת עם אור מסונן.",
+        "sun": [
+            "חצי צל",
+            "צל"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 35,
+        "priceHigh": 220,
+        "tags": [
+            "צמח בית",
+            "עציץ",
+            "צל",
+            "קל לטיפול",
+            "houseplants"
+        ]
+    },
+    {
+        "name": "דרצנה מרגינטה",
+        "botanical": "Dracaena marginata",
+        "image": "https://images.unsplash.com/photo-1592150621744-aca64f48394a?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח בית פופולרי במשתלות, מתאים לעציץ פנים, משרד או מרפסת מוצלת עם אור מסונן.",
+        "sun": [
+            "חצי צל",
+            "צל"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 45,
+        "priceHigh": 255,
+        "tags": [
+            "צמח בית",
+            "עציץ",
+            "צל",
+            "קל לטיפול",
+            "houseplants"
+        ]
+    },
+    {
+        "name": "דרצנה מסנגיאנה",
+        "botanical": "Dracaena fragrans",
+        "image": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח בית פופולרי במשתלות, מתאים לעציץ פנים, משרד או מרפסת מוצלת עם אור מסונן.",
+        "sun": [
+            "חצי צל",
+            "צל"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 55,
+        "priceHigh": 290,
+        "tags": [
+            "צמח בית",
+            "עציץ",
+            "צל",
+            "קל לטיפול",
+            "houseplants"
+        ]
+    },
+    {
+        "name": "ספטיפיליום",
+        "botanical": "Spathiphyllum",
+        "image": "https://images.unsplash.com/photo-1509423350716-97f9360b4e09?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח בית פופולרי במשתלות, מתאים לעציץ פנים, משרד או מרפסת מוצלת עם אור מסונן.",
+        "sun": [
+            "חצי צל",
+            "צל"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "קבועה",
+        "priceLow": 25,
+        "priceHigh": 325,
+        "tags": [
+            "צמח בית",
+            "עציץ",
+            "צל",
+            "קל לטיפול",
+            "houseplants"
+        ]
+    },
+    {
+        "name": "אנתוריום",
+        "botanical": "Anthurium andraeanum",
+        "image": "https://images.unsplash.com/photo-1592150621744-aca64f48394a?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח בית פופולרי במשתלות, מתאים לעציץ פנים, משרד או מרפסת מוצלת עם אור מסונן.",
+        "sun": [
+            "חצי צל",
+            "צל"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 35,
+        "priceHigh": 360,
+        "tags": [
+            "צמח בית",
+            "עציץ",
+            "צל",
+            "קל לטיפול",
+            "houseplants"
+        ]
+    },
+    {
+        "name": "קלטאה",
+        "botanical": "Calathea",
+        "image": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח בית פופולרי במשתלות, מתאים לעציץ פנים, משרד או מרפסת מוצלת עם אור מסונן.",
+        "sun": [
+            "חצי צל",
+            "צל"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "קבועה",
+        "priceLow": 45,
+        "priceHigh": 220,
+        "tags": [
+            "צמח בית",
+            "עציץ",
+            "צל",
+            "קל לטיפול",
+            "houseplants"
+        ]
+    },
+    {
+        "name": "מרנטה",
+        "botanical": "Maranta leuconeura",
+        "image": "https://images.unsplash.com/photo-1509423350716-97f9360b4e09?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח בית פופולרי במשתלות, מתאים לעציץ פנים, משרד או מרפסת מוצלת עם אור מסונן.",
+        "sun": [
+            "חצי צל",
+            "צל"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "קבועה",
+        "priceLow": 55,
+        "priceHigh": 255,
+        "tags": [
+            "צמח בית",
+            "עציץ",
+            "צל",
+            "קל לטיפול",
+            "houseplants"
+        ]
+    },
+    {
+        "name": "פפרומיה",
+        "botanical": "Peperomia",
+        "image": "https://images.unsplash.com/photo-1592150621744-aca64f48394a?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח בית פופולרי במשתלות, מתאים לעציץ פנים, משרד או מרפסת מוצלת עם אור מסונן.",
+        "sun": [
+            "חצי צל",
+            "צל"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 25,
+        "priceHigh": 290,
+        "tags": [
+            "צמח בית",
+            "עציץ",
+            "צל",
+            "קל לטיפול",
+            "houseplants"
+        ]
+    },
+    {
+        "name": "סינגוניום",
+        "botanical": "Syngonium podophyllum",
+        "image": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח בית פופולרי במשתלות, מתאים לעציץ פנים, משרד או מרפסת מוצלת עם אור מסונן.",
+        "sun": [
+            "חצי צל",
+            "צל"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 35,
+        "priceHigh": 325,
+        "tags": [
+            "צמח בית",
+            "עציץ",
+            "צל",
+            "קל לטיפול",
+            "houseplants"
+        ]
+    },
+    {
+        "name": "סקינדפסוס",
+        "botanical": "Scindapsus pictus",
+        "image": "https://images.unsplash.com/photo-1509423350716-97f9360b4e09?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח בית פופולרי במשתלות, מתאים לעציץ פנים, משרד או מרפסת מוצלת עם אור מסונן.",
+        "sun": [
+            "חצי צל",
+            "צל"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 45,
+        "priceHigh": 360,
+        "tags": [
+            "צמח בית",
+            "עציץ",
+            "צל",
+            "קל לטיפול",
+            "houseplants"
+        ]
+    },
+    {
+        "name": "דיפנבכיה",
+        "botanical": "Dieffenbachia",
+        "image": "https://images.unsplash.com/photo-1592150621744-aca64f48394a?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח בית פופולרי במשתלות, מתאים לעציץ פנים, משרד או מרפסת מוצלת עם אור מסונן.",
+        "sun": [
+            "חצי צל",
+            "צל"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 55,
+        "priceHigh": 220,
+        "tags": [
+            "צמח בית",
+            "עציץ",
+            "צל",
+            "קל לטיפול",
+            "houseplants"
+        ]
+    },
+    {
+        "name": "אגלאונמה",
+        "botanical": "Aglaonema",
+        "image": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח בית פופולרי במשתלות, מתאים לעציץ פנים, משרד או מרפסת מוצלת עם אור מסונן.",
+        "sun": [
+            "חצי צל",
+            "צל"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 25,
+        "priceHigh": 255,
+        "tags": [
+            "צמח בית",
+            "עציץ",
+            "צל",
+            "קל לטיפול",
+            "houseplants"
+        ]
+    },
+    {
+        "name": "אספידיסטרה",
+        "botanical": "Aspidistra elatior",
+        "image": "https://images.unsplash.com/photo-1509423350716-97f9360b4e09?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח בית פופולרי במשתלות, מתאים לעציץ פנים, משרד או מרפסת מוצלת עם אור מסונן.",
+        "sun": [
+            "חצי צל",
+            "צל"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 35,
+        "priceHigh": 290,
+        "tags": [
+            "צמח בית",
+            "עציץ",
+            "צל",
+            "קל לטיפול",
+            "houseplants"
+        ]
+    },
+    {
+        "name": "כלורופיטום",
+        "botanical": "Chlorophytum comosum",
+        "image": "https://images.unsplash.com/photo-1592150621744-aca64f48394a?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח בית פופולרי במשתלות, מתאים לעציץ פנים, משרד או מרפסת מוצלת עם אור מסונן.",
+        "sun": [
+            "חצי צל",
+            "צל"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 45,
+        "priceHigh": 325,
+        "tags": [
+            "צמח בית",
+            "עציץ",
+            "צל",
+            "קל לטיפול",
+            "houseplants"
+        ]
+    },
+    {
+        "name": "הויה",
+        "botanical": "Hoya carnosa",
+        "image": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח בית פופולרי במשתלות, מתאים לעציץ פנים, משרד או מרפסת מוצלת עם אור מסונן.",
+        "sun": [
+            "חצי צל",
+            "צל"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 55,
+        "priceHigh": 360,
+        "tags": [
+            "צמח בית",
+            "עציץ",
+            "צל",
+            "קל לטיפול",
+            "houseplants"
+        ]
+    },
+    {
+        "name": "וינקה",
+        "botanical": "Catharanthus roseus",
+        "image": "https://images.unsplash.com/photo-1597848212624-e6b10e2fc1b6?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח עונתי צבעוני לשתילה מהירה באדניות, עציצים וערוגות. נותן פריחה מיידית במחיר נגיש.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
         ],
         "soil": [
             "לומית",
@@ -1730,19 +5602,92 @@ const plants = [
         ],
         "water": "בינונית",
         "priceLow": 4,
-        "priceHigh": 16,
+        "priceHigh": 18,
         "tags": [
             "עונתי",
             "פורח",
             "צבע",
-            "זול"
+            "אדנית",
+            "seasonal"
+        ]
+    },
+    {
+        "name": "פטוניה",
+        "botanical": "Petunia",
+        "image": "https://images.unsplash.com/photo-1525310072745-f49212b5ac6d?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח עונתי צבעוני לשתילה מהירה באדניות, עציצים וערוגות. נותן פריחה מיידית במחיר נגיש.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 6,
+        "priceHigh": 23,
+        "tags": [
+            "עונתי",
+            "פורח",
+            "צבע",
+            "אדנית",
+            "seasonal"
         ]
     },
     {
         "name": "אמנון ותמר",
         "botanical": "Viola tricolor",
-        "image": "https://source.unsplash.com/900x675/?pansy-flower",
-        "detail": "עונתי חורפי פופולרי מאוד במשתלות, נותן צבע רך לערוגות, אדניות ומיכלים.",
+        "image": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח עונתי צבעוני לשתילה מהירה באדניות, עציצים וערוגות. נותן פריחה מיידית במחיר נגיש.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 8,
+        "priceHigh": 28,
+        "tags": [
+            "עונתי",
+            "פורח",
+            "צבע",
+            "אדנית",
+            "seasonal"
+        ]
+    },
+    {
+        "name": "ציפורן חתול",
+        "botanical": "Tagetes",
+        "image": "https://images.unsplash.com/photo-1597848212624-e6b10e2fc1b6?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח עונתי צבעוני לשתילה מהירה באדניות, עציצים וערוגות. נותן פריחה מיידית במחיר נגיש.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 10,
+        "priceHigh": 33,
+        "tags": [
+            "עונתי",
+            "פורח",
+            "צבע",
+            "אדנית",
+            "seasonal"
+        ]
+    },
+    {
+        "name": "לוע הארי",
+        "botanical": "Antirrhinum majus",
+        "image": "https://images.unsplash.com/photo-1525310072745-f49212b5ac6d?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח עונתי צבעוני לשתילה מהירה באדניות, עציצים וערוגות. נותן פריחה מיידית במחיר נגיש.",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -1753,12 +5698,277 @@ const plants = [
         ],
         "water": "בינונית",
         "priceLow": 4,
-        "priceHigh": 16,
+        "priceHigh": 38,
         "tags": [
             "עונתי",
-            "חורף",
             "פורח",
-            "אדנית"
+            "צבע",
+            "אדנית",
+            "seasonal"
+        ]
+    },
+    {
+        "name": "סלסלי כסף",
+        "botanical": "Lobularia maritima",
+        "image": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח עונתי צבעוני לשתילה מהירה באדניות, עציצים וערוגות. נותן פריחה מיידית במחיר נגיש.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 6,
+        "priceHigh": 18,
+        "tags": [
+            "עונתי",
+            "פורח",
+            "צבע",
+            "אדנית",
+            "seasonal"
+        ]
+    },
+    {
+        "name": "לובליה",
+        "botanical": "Lobelia erinus",
+        "image": "https://images.unsplash.com/photo-1597848212624-e6b10e2fc1b6?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח עונתי צבעוני לשתילה מהירה באדניות, עציצים וערוגות. נותן פריחה מיידית במחיר נגיש.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 8,
+        "priceHigh": 23,
+        "tags": [
+            "עונתי",
+            "פורח",
+            "צבע",
+            "אדנית",
+            "seasonal"
+        ]
+    },
+    {
+        "name": "בגוניה",
+        "botanical": "Begonia",
+        "image": "https://images.unsplash.com/photo-1525310072745-f49212b5ac6d?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח עונתי צבעוני לשתילה מהירה באדניות, עציצים וערוגות. נותן פריחה מיידית במחיר נגיש.",
+        "sun": [
+            "חצי שמש",
+            "חצי צל"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 10,
+        "priceHigh": 28,
+        "tags": [
+            "עונתי",
+            "פורח",
+            "צבע",
+            "אדנית",
+            "seasonal"
+        ]
+    },
+    {
+        "name": "ציניה",
+        "botanical": "Zinnia elegans",
+        "image": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח עונתי צבעוני לשתילה מהירה באדניות, עציצים וערוגות. נותן פריחה מיידית במחיר נגיש.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 4,
+        "priceHigh": 33,
+        "tags": [
+            "עונתי",
+            "פורח",
+            "צבע",
+            "אדנית",
+            "seasonal"
+        ]
+    },
+    {
+        "name": "קוסמוס",
+        "botanical": "Cosmos bipinnatus",
+        "image": "https://images.unsplash.com/photo-1597848212624-e6b10e2fc1b6?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח עונתי צבעוני לשתילה מהירה באדניות, עציצים וערוגות. נותן פריחה מיידית במחיר נגיש.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 6,
+        "priceHigh": 38,
+        "tags": [
+            "עונתי",
+            "פורח",
+            "צבע",
+            "אדנית",
+            "seasonal"
+        ]
+    },
+    {
+        "name": "חמנית ננסית",
+        "botanical": "Helianthus annuus",
+        "image": "https://images.unsplash.com/photo-1525310072745-f49212b5ac6d?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח עונתי צבעוני לשתילה מהירה באדניות, עציצים וערוגות. נותן פריחה מיידית במחיר נגיש.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 8,
+        "priceHigh": 18,
+        "tags": [
+            "עונתי",
+            "פורח",
+            "צבע",
+            "אדנית",
+            "seasonal"
+        ]
+    },
+    {
+        "name": "סלפיגלוסיס",
+        "botanical": "Salpiglossis",
+        "image": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח עונתי צבעוני לשתילה מהירה באדניות, עציצים וערוגות. נותן פריחה מיידית במחיר נגיש.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 10,
+        "priceHigh": 23,
+        "tags": [
+            "עונתי",
+            "פורח",
+            "צבע",
+            "אדנית",
+            "seasonal"
+        ]
+    },
+    {
+        "name": "קלנדולה",
+        "botanical": "Calendula officinalis",
+        "image": "https://images.unsplash.com/photo-1597848212624-e6b10e2fc1b6?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח עונתי צבעוני לשתילה מהירה באדניות, עציצים וערוגות. נותן פריחה מיידית במחיר נגיש.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 4,
+        "priceHigh": 28,
+        "tags": [
+            "עונתי",
+            "פורח",
+            "צבע",
+            "אדנית",
+            "seasonal"
+        ]
+    },
+    {
+        "name": "פורטולקה עונתית",
+        "botanical": "Portulaca grandiflora",
+        "image": "https://images.unsplash.com/photo-1525310072745-f49212b5ac6d?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח עונתי צבעוני לשתילה מהירה באדניות, עציצים וערוגות. נותן פריחה מיידית במחיר נגיש.",
+        "sun": [
+            "שמש מלאה",
+            "חצי שמש"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 6,
+        "priceHigh": 33,
+        "tags": [
+            "עונתי",
+            "פורח",
+            "צבע",
+            "אדנית",
+            "seasonal"
+        ]
+    },
+    {
+        "name": "אימפטינס",
+        "botanical": "Impatiens walleriana",
+        "image": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח עונתי צבעוני לשתילה מהירה באדניות, עציצים וערוגות. נותן פריחה מיידית במחיר נגיש.",
+        "sun": [
+            "חצי שמש",
+            "חצי צל"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "קבועה",
+        "priceLow": 8,
+        "priceHigh": 38,
+        "tags": [
+            "עונתי",
+            "פורח",
+            "צבע",
+            "אדנית",
+            "seasonal"
+        ]
+    },
+    {
+        "name": "קולאוס",
+        "botanical": "Plectranthus scutellarioides",
+        "image": "https://images.unsplash.com/photo-1597848212624-e6b10e2fc1b6?auto=format&fit=crop&w=900&q=80",
+        "detail": "צמח עונתי צבעוני לשתילה מהירה באדניות, עציצים וערוגות. נותן פריחה מיידית במחיר נגיש.",
+        "sun": [
+            "חצי שמש",
+            "חצי צל"
+        ],
+        "soil": [
+            "לומית",
+            "מנוקזת"
+        ],
+        "water": "בינונית",
+        "priceLow": 10,
+        "priceHigh": 18,
+        "tags": [
+            "עונתי",
+            "פורח",
+            "צבע",
+            "אדנית",
+            "seasonal"
         ]
     }
 ];
@@ -1776,6 +5986,11 @@ const recommendButton = document.getElementById("recommendButton");
 const recommendationIntro = document.getElementById("recommendationIntro");
 const recommendationList = document.getElementById("recommendationList");
 const totalCost = document.getElementById("totalCost");
+
+function imageFallback(name) {
+    const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="900" height="675" viewBox="0 0 900 675"><defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#eef5ef"/><stop offset="1" stop-color="#dce8df"/></linearGradient></defs><rect width="900" height="675" fill="url(#bg)"/><circle cx="230" cy="210" r="92" fill="#6f927a" opacity="0.26"/><circle cx="690" cy="470" r="130" fill="#ead9b7" opacity="0.42"/><path d="M450 478c-70-78-78-160-24-248 73 74 92 154 24 248Z" fill="#476653" opacity="0.82"/><path d="M430 486c-88-42-132-112-128-214 92 35 147 100 128 214Z" fill="#6f927a" opacity="0.72"/><path d="M470 486c88-42 132-112 128-214-92 35-147 100-128 214Z" fill="#6f927a" opacity="0.72"/><text x="450" y="585" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#31483a">${name}</text><text x="450" y="626" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#667568">Gardening Artists</text></svg>`;
+    return `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(svg)}`;
+}
 
 document.getElementById("plantCount").textContent = plants.length;
 
@@ -1816,7 +6031,7 @@ function renderPlants(rubric = "all") {
 
     plantGrid.innerHTML = filteredPlants.map((plant) => `
         <article class="plant-card">
-            <img src="${plant.image}" alt="${plant.name}">
+            <img src="${plant.image}" alt="${plant.name}" loading="lazy" decoding="async" onerror="this.onerror=null;this.src=imageFallback(this.alt);">
             <div class="plant-card-content">
                 <h3>${plant.name}<span>${plant.botanical}</span></h3>
                 <p>${plant.detail}</p>
@@ -1883,7 +6098,7 @@ function getAdvisorMatches() {
 }
 
 function recommendGarden() {
-    const size = Number(document.getElementById("gardenSize").value) || 180;
+    const size = Number(document.getElementById("gardenSize").value) || 30;
     const density = Number(document.getElementById("densityInput").value);
     const hasVideo = videoInput.files.length > 0;
     const matches = getAdvisorMatches();

@@ -898,7 +898,7 @@ const plants = [
     {
         "name": "זית אירופי",
         "botanical": "Olea europaea",
-        "image": "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/%28MHNT%29_Olea_europaea_-_Inflorescence_and_leaves.jpg/960px-%28MHNT%29_Olea_europaea_-_Inflorescence_and_leaves.jpg",
         "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
         "sun": [
             "שמש מלאה",
@@ -918,12 +918,13 @@ const plants = [
             "גינה",
             "צל",
             "trees"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "לימון",
         "botanical": "Citrus limon",
-        "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Lemon.jpg/960px-Lemon.jpg",
         "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
         "sun": [
             "שמש מלאה",
@@ -942,12 +943,13 @@ const plants = [
             "גינה",
             "צל",
             "trees"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "תפוז",
         "botanical": "Citrus sinensis",
-        "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Citrus_sinensis_Lucca_04.jpg/960px-Citrus_sinensis_Lucca_04.jpg",
         "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
         "sun": [
             "שמש מלאה",
@@ -966,12 +968,13 @@ const plants = [
             "גינה",
             "צל",
             "trees"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "קלמנטינה",
         "botanical": "Citrus clementina",
-        "image": "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Clementines_%2801014%29s.jpg/960px-Clementines_%2801014%29s.jpg",
         "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
         "sun": [
             "שמש מלאה",
@@ -990,12 +993,13 @@ const plants = [
             "גינה",
             "צל",
             "trees"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "אשכולית",
         "botanical": "Citrus paradisi",
-        "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Citrus_paradisi_%28Grapefruit%2C_pink%29_white_bg.jpg/960px-Citrus_paradisi_%28Grapefruit%2C_pink%29_white_bg.jpg",
         "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
         "sun": [
             "שמש מלאה",
@@ -1014,12 +1018,13 @@ const plants = [
             "גינה",
             "צל",
             "trees"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "ליים",
         "botanical": "Citrus aurantiifolia",
-        "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Caterpillar_of_Chilades_lajus_%28Stoll%2C_1780%29_%E2%80%93_Lime_Blue_on_Citrus_aurantiifolia_attended_by_ants.jpg/960px-Caterpillar_of_Chilades_lajus_%28Stoll%2C_1780%29_%E2%80%93_Lime_Blue_on_Citrus_aurantiifolia_attended_by_ants.jpg",
         "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
         "sun": [
             "שמש מלאה",
@@ -1038,12 +1043,13 @@ const plants = [
             "גינה",
             "צל",
             "trees"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "רימון",
         "botanical": "Punica granatum",
-        "image": "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Punica_granatum_004.JPG/960px-Punica_granatum_004.JPG",
         "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
         "sun": [
             "שמש מלאה",
@@ -1062,12 +1068,13 @@ const plants = [
             "גינה",
             "צל",
             "trees"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "תאנה",
         "botanical": "Ficus carica",
-        "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Ficus_carica_MHNT.BOT.2025.31.38.jpg/960px-Ficus_carica_MHNT.BOT.2025.31.38.jpg",
         "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
         "sun": [
             "שמש מלאה",
@@ -1086,12 +1093,13 @@ const plants = [
             "גינה",
             "צל",
             "trees"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "שקד מצוי",
         "botanical": "Prunus dulcis",
-        "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Almonds_-_in_shell%2C_shell_cracked_open%2C_shelled%2C_blanched.jpg/960px-Almonds_-_in_shell%2C_shell_cracked_open%2C_shelled%2C_blanched.jpg",
         "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
         "sun": [
             "שמש מלאה",
@@ -1110,12 +1118,13 @@ const plants = [
             "גינה",
             "צל",
             "trees"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "תות עץ",
         "botanical": "Morus alba",
-        "image": "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Morus_alba_MHNT.BOT.2006.0.1270.JPG/960px-Morus_alba_MHNT.BOT.2006.0.1270.JPG",
         "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
         "sun": [
             "שמש מלאה",
@@ -1134,12 +1143,13 @@ const plants = [
             "גינה",
             "צל",
             "trees"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "שסק יפני",
         "botanical": "Eriobotrya japonica",
-        "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Hortus_Haren_%28Groningen%29_13-12-2025._%28actm.%29_02.jpg/960px-Hortus_Haren_%28Groningen%29_13-12-2025._%28actm.%29_02.jpg",
         "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
         "sun": [
             "שמש מלאה",
@@ -1158,12 +1168,13 @@ const plants = [
             "גינה",
             "צל",
             "trees"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "אפרסק",
         "botanical": "Prunus persica",
-        "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Autumn_Red_peaches.jpg/960px-Autumn_Red_peaches.jpg",
         "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
         "sun": [
             "שמש מלאה",
@@ -1182,12 +1193,13 @@ const plants = [
             "גינה",
             "צל",
             "trees"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "נקטרינה",
         "botanical": "Prunus persica var. nucipersica",
-        "image": "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Starr-150217-0313-Prunus_persica_var_nucipersica-Sunraycer_flowering_habit-Hawea_Pl_Olinda-Maui_%2825146492932%29.jpg/960px-Starr-150217-0313-Prunus_persica_var_nucipersica-Sunraycer_flowering_habit-Hawea_Pl_Olinda-Maui_%2825146492932%29.jpg",
         "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
         "sun": [
             "שמש מלאה",
@@ -1206,12 +1218,13 @@ const plants = [
             "גינה",
             "צל",
             "trees"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "משמש",
         "botanical": "Prunus armeniaca",
-        "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Apricots.jpg/960px-Apricots.jpg",
         "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
         "sun": [
             "שמש מלאה",
@@ -1230,12 +1243,13 @@ const plants = [
             "גינה",
             "צל",
             "trees"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "אבוקדו",
         "botanical": "Persea americana",
-        "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Persea_americana_fruit_2.JPG/960px-Persea_americana_fruit_2.JPG",
         "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
         "sun": [
             "שמש מלאה",
@@ -1254,12 +1268,13 @@ const plants = [
             "גינה",
             "צל",
             "trees"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "מנגו",
         "botanical": "Mangifera indica",
-        "image": "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Mangos_-_single_and_halved.jpg/960px-Mangos_-_single_and_halved.jpg",
         "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
         "sun": [
             "שמש מלאה",
@@ -1278,12 +1293,13 @@ const plants = [
             "גינה",
             "צל",
             "trees"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "גויאבה",
         "botanical": "Psidium guajava",
-        "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Psidium_guajava_07496.jpg/960px-Psidium_guajava_07496.jpg",
         "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
         "sun": [
             "שמש מלאה",
@@ -1302,12 +1318,13 @@ const plants = [
             "גינה",
             "צל",
             "trees"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "פיגויה",
         "botanical": "Acca sellowiana",
-        "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Acca_sellowiana_Fruit_MHNT_Fronton.jpg/960px-Acca_sellowiana_Fruit_MHNT_Fronton.jpg",
         "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
         "sun": [
             "שמש מלאה",
@@ -1326,12 +1343,13 @@ const plants = [
             "גינה",
             "צל",
             "trees"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "חרוב מצוי",
         "botanical": "Ceratonia siliqua",
-        "image": "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Ceratonia_siliqua_kz01.jpg/960px-Ceratonia_siliqua_kz01.jpg",
         "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
         "sun": [
             "שמש מלאה",
@@ -1350,12 +1368,13 @@ const plants = [
             "גינה",
             "צל",
             "trees"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "ברוש מצוי",
         "botanical": "Cupressus sempervirens",
-        "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Ermita_de_Santo_Domingo%2C_L%C3%A9cera%2C_Zaragoza%2C_Espa%C3%B1a%2C_2017-01-04%2C_DD_103-105_HDR.jpg/960px-Ermita_de_Santo_Domingo%2C_L%C3%A9cera%2C_Zaragoza%2C_Espa%C3%B1a%2C_2017-01-04%2C_DD_103-105_HDR.jpg",
         "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
         "sun": [
             "שמש מלאה",
@@ -1374,12 +1393,13 @@ const plants = [
             "גינה",
             "צל",
             "trees"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "סיגלון חד עלים",
         "botanical": "Jacaranda mimosifolia",
-        "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Jacaranda_mimosifolia_-_Funchal_01.jpg/960px-Jacaranda_mimosifolia_-_Funchal_01.jpg",
         "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
         "sun": [
             "שמש מלאה",
@@ -1398,12 +1418,13 @@ const plants = [
             "גינה",
             "צל",
             "trees"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "כליל החורש",
         "botanical": "Cercis siliquastrum",
-        "image": "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Cercis_siliquastrum_MHNT.jpg/960px-Cercis_siliquastrum_MHNT.jpg",
         "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
         "sun": [
             "שמש מלאה",
@@ -1422,12 +1443,13 @@ const plants = [
             "גינה",
             "צל",
             "trees"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "לגרסטרמיה הודית",
         "botanical": "Lagerstroemia indica",
-        "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Lagerstroemia_indica_MHNT_Jardin_des_Plantes_de_Toulouse.jpg/960px-Lagerstroemia_indica_MHNT_Jardin_des_Plantes_de_Toulouse.jpg",
         "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
         "sun": [
             "שמש מלאה",
@@ -1446,12 +1468,13 @@ const plants = [
             "גינה",
             "צל",
             "trees"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "בוהיניה מגוונת",
         "botanical": "Bauhinia variegata",
-        "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Bauhinia_variegata_MHNT.BOT.2011.3.22.jpg/960px-Bauhinia_variegata_MHNT.BOT.2011.3.22.jpg",
         "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
         "sun": [
             "שמש מלאה",
@@ -1470,12 +1493,13 @@ const plants = [
             "גינה",
             "צל",
             "trees"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "ברכיכיטון צפצפתי",
         "botanical": "Brachychiton populneus",
-        "image": "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Kurrajong_%28Brachychiton_populneus%29%2C_Parque_do_Monteiro-Mor%2C_Lisbon%2C_Portugal_julesvernex2.jpg/960px-Kurrajong_%28Brachychiton_populneus%29%2C_Parque_do_Monteiro-Mor%2C_Lisbon%2C_Portugal_julesvernex2.jpg",
         "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
         "sun": [
             "שמש מלאה",
@@ -1494,12 +1518,13 @@ const plants = [
             "גינה",
             "צל",
             "trees"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "פלפלון בכות",
         "botanical": "Schinus molle",
-        "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Schinus_molle_50D_3516.jpg/960px-Schinus_molle_50D_3516.jpg",
         "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
         "sun": [
             "שמש מלאה",
@@ -1518,12 +1543,13 @@ const plants = [
             "גינה",
             "צל",
             "trees"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "טיפואנה",
         "botanical": "Tipuana tipu",
-        "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Tipuana_tipu.jpg/960px-Tipuana_tipu.jpg",
         "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
         "sun": [
             "שמש מלאה",
@@ -1542,12 +1568,13 @@ const plants = [
             "גינה",
             "צל",
             "trees"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "אלביציה ורודה",
         "botanical": "Albizia julibrissin",
-        "image": "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/%28MHNT%29_Albizia_julibrissin_immature_inflorescence.jpg/960px-%28MHNT%29_Albizia_julibrissin_immature_inflorescence.jpg",
         "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
         "sun": [
             "שמש מלאה",
@@ -1566,12 +1593,13 @@ const plants = [
             "גינה",
             "צל",
             "trees"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "דולב מזרחי",
         "botanical": "Platanus orientalis",
-        "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Quercus_rubra_and_Platanus_orientalis_in_Golden_Valley_Tree_Park%2C_May_2022.jpg/960px-Quercus_rubra_and_Platanus_orientalis_in_Golden_Valley_Tree_Park%2C_May_2022.jpg",
         "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
         "sun": [
             "שמש מלאה",
@@ -1590,12 +1618,13 @@ const plants = [
             "גינה",
             "צל",
             "trees"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "מכנף נאה",
         "botanical": "Peltophorum dubium",
-        "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Peltophorum_dubium_var._berteroanum_Peltoforum_2024-01-20_Malaga_01.jpg/960px-Peltophorum_dubium_var._berteroanum_Peltoforum_2024-01-20_Malaga_01.jpg",
         "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
         "sun": [
             "שמש מלאה",
@@ -1614,12 +1643,13 @@ const plants = [
             "גינה",
             "צל",
             "trees"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "הדס מצוי",
         "botanical": "Myrtus communis",
-        "image": "https://images.unsplash.com/photo-1463936575829-25148e1db1b8?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/%28MHNT%29_Myrtus_communis_subsp._tarentina.jpg/960px-%28MHNT%29_Myrtus_communis_subsp._tarentina.jpg",
         "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
         "sun": [
             "שמש מלאה",
@@ -1640,12 +1670,13 @@ const plants = [
             "משתלה",
             "פרטיות",
             "shrubs"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "מורן החורש",
         "botanical": "Viburnum tinus",
-        "image": "https://images.unsplash.com/photo-1446071103084-c257b5f70672?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/MHNT_Viburnum_tinus.jpg/960px-MHNT_Viburnum_tinus.jpg",
         "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
         "sun": [
             "חצי שמש",
@@ -1665,12 +1696,13 @@ const plants = [
             "משתלה",
             "פרטיות",
             "shrubs"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "אלת המסטיק",
         "botanical": "Pistacia lentiscus",
-        "image": "https://images.unsplash.com/photo-1606041008023-472dfb5e530f?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Pistacia_lentiscus_001.jpg/960px-Pistacia_lentiscus_001.jpg",
         "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
         "sun": [
             "שמש מלאה",
@@ -1692,12 +1724,13 @@ const plants = [
             "משתלה",
             "פרטיות",
             "shrubs"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "לויקופילום",
         "botanical": "Leucophyllum frutescens",
-        "image": "https://images.unsplash.com/photo-1463936575829-25148e1db1b8?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Texas_Sage_--_Leucophyllum_frutescens.jpg/960px-Texas_Sage_--_Leucophyllum_frutescens.jpg",
         "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
         "sun": [
             "שמש מלאה",
@@ -1719,12 +1752,13 @@ const plants = [
             "משתלה",
             "פרטיות",
             "shrubs"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "היביסקוס סיני",
         "botanical": "Hibiscus rosa-sinensis",
-        "image": "https://images.unsplash.com/photo-1446071103084-c257b5f70672?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Hibiscus_petal.jpg/960px-Hibiscus_petal.jpg",
         "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
         "sun": [
             "שמש מלאה",
@@ -1745,12 +1779,13 @@ const plants = [
             "משתלה",
             "פרטיות",
             "shrubs"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "דורנטה",
         "botanical": "Duranta erecta",
-        "image": "https://images.unsplash.com/photo-1606041008023-472dfb5e530f?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Duranta_erecta_002_.jpg/960px-Duranta_erecta_002_.jpg",
         "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
         "sun": [
             "שמש מלאה",
@@ -1771,12 +1806,13 @@ const plants = [
             "משתלה",
             "פרטיות",
             "shrubs"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "ננדינה",
         "botanical": "Nandina domestica",
-        "image": "https://images.unsplash.com/photo-1463936575829-25148e1db1b8?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Nandina_domestica_PfP.jpg/960px-Nandina_domestica_PfP.jpg",
         "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
         "sun": [
             "חצי שמש",
@@ -1796,12 +1832,13 @@ const plants = [
             "משתלה",
             "פרטיות",
             "shrubs"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "פיטוספורום יפני",
         "botanical": "Pittosporum tobira",
-        "image": "https://images.unsplash.com/photo-1446071103084-c257b5f70672?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Pittosporum_tobira_%28Thunb.%29_W._T._Aliton_JdP.jpg/960px-Pittosporum_tobira_%28Thunb.%29_W._T._Aliton_JdP.jpg",
         "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
         "sun": [
             "שמש מלאה",
@@ -1822,12 +1859,13 @@ const plants = [
             "משתלה",
             "פרטיות",
             "shrubs"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "אוג חרוק",
         "botanical": "Rhus crenata",
-        "image": "https://images.unsplash.com/photo-1606041008023-472dfb5e530f?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Dune_Crowberry_-_Rhus_crenata_-_South_Africa_2.jpg/960px-Dune_Crowberry_-_Rhus_crenata_-_South_Africa_2.jpg",
         "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
         "sun": [
             "שמש מלאה",
@@ -1848,12 +1886,13 @@ const plants = [
             "משתלה",
             "פרטיות",
             "shrubs"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "אבליה גדולת פרחים",
         "botanical": "Abelia x grandiflora",
-        "image": "https://images.unsplash.com/photo-1463936575829-25148e1db1b8?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/%28MHNT%29_Linnaea_%C3%97_grandiflora_Inflorescence_et_feuilles.jpg/960px-%28MHNT%29_Linnaea_%C3%97_grandiflora_Inflorescence_et_feuilles.jpg",
         "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
         "sun": [
             "שמש מלאה",
@@ -1874,12 +1913,13 @@ const plants = [
             "משתלה",
             "פרטיות",
             "shrubs"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "פלומבגו",
         "botanical": "Plumbago auriculata",
-        "image": "https://images.unsplash.com/photo-1446071103084-c257b5f70672?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Zaaddozen_van_Plumbago_auriculata_Locatie._Tuinreservaat_Jonker_vallei_01.jpg/960px-Zaaddozen_van_Plumbago_auriculata_Locatie._Tuinreservaat_Jonker_vallei_01.jpg",
         "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
         "sun": [
             "שמש מלאה",
@@ -1900,12 +1940,13 @@ const plants = [
             "משתלה",
             "פרטיות",
             "shrubs"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "הרדוף הנחלים",
         "botanical": "Nerium oleander",
-        "image": "https://images.unsplash.com/photo-1606041008023-472dfb5e530f?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Nerium_oleander_pink.jpg/960px-Nerium_oleander_pink.jpg",
         "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
         "sun": [
             "שמש מלאה",
@@ -1926,12 +1967,13 @@ const plants = [
             "משתלה",
             "פרטיות",
             "shrubs"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "טקומית הכף",
         "botanical": "Tecoma capensis",
-        "image": "https://images.unsplash.com/photo-1463936575829-25148e1db1b8?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Tecoma_capensis_01.JPG/960px-Tecoma_capensis_01.JPG",
         "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
         "sun": [
             "שמש מלאה",
@@ -1952,12 +1994,13 @@ const plants = [
             "משתלה",
             "פרטיות",
             "shrubs"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "ליגוסטרום יפני",
         "botanical": "Ligustrum japonicum",
-        "image": "https://images.unsplash.com/photo-1446071103084-c257b5f70672?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Ligustrum_japonicum_kz01.jpg/960px-Ligustrum_japonicum_kz01.jpg",
         "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
         "sun": [
             "שמש מלאה",
@@ -1978,12 +2021,13 @@ const plants = [
             "משתלה",
             "פרטיות",
             "shrubs"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "קליסטמון",
         "botanical": "Callistemon citrinus",
-        "image": "https://images.unsplash.com/photo-1606041008023-472dfb5e530f?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/%C3%81rbol_del_cepillo_%28Callistemon_citrinus%29%2C_Jard%C3%ADn_Bot%C3%A1nico%2C_M%C3%BAnich%2C_Alemania_2012-04-21%2C_DD_01.JPG/960px-%C3%81rbol_del_cepillo_%28Callistemon_citrinus%29%2C_Jard%C3%ADn_Bot%C3%A1nico%2C_M%C3%BAnich%2C_Alemania_2012-04-21%2C_DD_01.JPG",
         "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
         "sun": [
             "שמש מלאה",
@@ -2004,12 +2048,13 @@ const plants = [
             "משתלה",
             "פרטיות",
             "shrubs"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "גרווילאה",
         "botanical": "Grevillea",
-        "image": "https://images.unsplash.com/photo-1463936575829-25148e1db1b8?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Grevillea.jpg/960px-Grevillea.jpg",
         "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
         "sun": [
             "שמש מלאה",
@@ -2030,12 +2075,13 @@ const plants = [
             "משתלה",
             "פרטיות",
             "shrubs"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "גרדניה",
         "botanical": "Gardenia jasminoides",
-        "image": "https://images.unsplash.com/photo-1446071103084-c257b5f70672?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Gardenia_jasminoides_%27Pinwheel%27.jpg/960px-Gardenia_jasminoides_%27Pinwheel%27.jpg",
         "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
         "sun": [
             "חצי שמש",
@@ -2056,12 +2102,13 @@ const plants = [
             "משתלה",
             "פרטיות",
             "shrubs"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "אזליאה",
         "botanical": "Rhododendron",
-        "image": "https://images.unsplash.com/photo-1606041008023-472dfb5e530f?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Bloemknop_van_een_Rododendron_%28Rhododendron%29._21-05-2023._%28d.j.b%29_01.jpg/960px-Bloemknop_van_een_Rododendron_%28Rhododendron%29._21-05-2023._%28d.j.b%29_01.jpg",
         "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
         "sun": [
             "חצי שמש",
@@ -2082,12 +2129,13 @@ const plants = [
             "משתלה",
             "פרטיות",
             "shrubs"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "קמליה",
         "botanical": "Camellia japonica",
-        "image": "https://images.unsplash.com/photo-1463936575829-25148e1db1b8?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Camellia_japonica_NBG.jpg/960px-Camellia_japonica_NBG.jpg",
         "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
         "sun": [
             "חצי שמש",
@@ -2108,12 +2156,13 @@ const plants = [
             "משתלה",
             "פרטיות",
             "shrubs"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "בודליה",
         "botanical": "Buddleja davidii",
-        "image": "https://images.unsplash.com/photo-1446071103084-c257b5f70672?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Distelfalter%2C_Vanessa_cardui_AUF_Schmetterlingsflieder%2C_Buddleja_davidii_1.JPG/960px-Distelfalter%2C_Vanessa_cardui_AUF_Schmetterlingsflieder%2C_Buddleja_davidii_1.JPG",
         "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
         "sun": [
             "שמש מלאה",
@@ -2134,12 +2183,13 @@ const plants = [
             "משתלה",
             "פרטיות",
             "shrubs"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "איקליפטוס מסמרי כסף",
         "botanical": "Eucalyptus cinerea",
-        "image": "https://images.unsplash.com/photo-1606041008023-472dfb5e530f?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Eucalyptus_cinerea_01.jpg/960px-Eucalyptus_cinerea_01.jpg",
         "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
         "sun": [
             "שמש מלאה",
@@ -2160,12 +2210,13 @@ const plants = [
             "משתלה",
             "פרטיות",
             "shrubs"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "סיזיגיום",
         "botanical": "Syzygium australe",
-        "image": "https://images.unsplash.com/photo-1463936575829-25148e1db1b8?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Syzygium_australe_-_Scrub_cherry_%286684669459%29.jpg/960px-Syzygium_australe_-_Scrub_cherry_%286684669459%29.jpg",
         "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
         "sun": [
             "שמש מלאה",
@@ -2186,12 +2237,13 @@ const plants = [
             "משתלה",
             "פרטיות",
             "shrubs"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "פוטיניה",
         "botanical": "Photinia x fraseri",
-        "image": "https://images.unsplash.com/photo-1446071103084-c257b5f70672?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Photinia_x_fraseri_Zumaia.jpg/960px-Photinia_x_fraseri_Zumaia.jpg",
         "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
         "sun": [
             "שמש מלאה",
@@ -2212,12 +2264,13 @@ const plants = [
             "משתלה",
             "פרטיות",
             "shrubs"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "דודונאה",
         "botanical": "Dodonaea viscosa",
-        "image": "https://images.unsplash.com/photo-1606041008023-472dfb5e530f?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Starr_070320-5770_Dodonaea_viscosa.jpg/960px-Starr_070320-5770_Dodonaea_viscosa.jpg",
         "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
         "sun": [
             "שמש מלאה",
@@ -2238,12 +2291,13 @@ const plants = [
             "משתלה",
             "פרטיות",
             "shrubs"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "רוסליה",
         "botanical": "Russelia equisetiformis",
-        "image": "https://images.unsplash.com/photo-1463936575829-25148e1db1b8?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Russelia_equisetiformis_planted_at_sloping_ground.jpg/960px-Russelia_equisetiformis_planted_at_sloping_ground.jpg",
         "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
         "sun": [
             "שמש מלאה",
@@ -2264,12 +2318,13 @@ const plants = [
             "משתלה",
             "פרטיות",
             "shrubs"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "קריסה גדולת פרחים",
         "botanical": "Carissa macrocarpa",
-        "image": "https://images.unsplash.com/photo-1446071103084-c257b5f70672?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/BBG_-_Carissa_macrocarpa_var._Horizontalis_-_Cascade_by_Frank_Okamura.jpg/960px-BBG_-_Carissa_macrocarpa_var._Horizontalis_-_Cascade_by_Frank_Okamura.jpg",
         "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
         "sun": [
             "שמש מלאה",
@@ -2290,12 +2345,13 @@ const plants = [
             "משתלה",
             "פרטיות",
             "shrubs"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "לאורוס אציל",
         "botanical": "Laurus nobilis",
-        "image": "https://images.unsplash.com/photo-1606041008023-472dfb5e530f?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Laurus_nobilis_MHNT_Fleurs.jpg/960px-Laurus_nobilis_MHNT_Fleurs.jpg",
         "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
         "sun": [
             "שמש מלאה",
@@ -2316,12 +2372,13 @@ const plants = [
             "משתלה",
             "פרטיות",
             "shrubs"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "אקליפה",
         "botanical": "Acalypha wilkesiana",
-        "image": "https://images.unsplash.com/photo-1463936575829-25148e1db1b8?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Acalypha_wilkesiana%2C_Conservatorio_bot%C3%A1nico%2C_Fort_Wayne%2C_Indiana%2C_Estados_Unidos%2C_2012-11-12%2C_DD_01.jpg/960px-Acalypha_wilkesiana%2C_Conservatorio_bot%C3%A1nico%2C_Fort_Wayne%2C_Indiana%2C_Estados_Unidos%2C_2012-11-12%2C_DD_01.jpg",
         "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
         "sun": [
             "שמש מלאה",
@@ -2342,12 +2399,13 @@ const plants = [
             "משתלה",
             "פרטיות",
             "shrubs"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "סנטולינה",
         "botanical": "Santolina chamaecyparissus",
-        "image": "https://images.unsplash.com/photo-1446071103084-c257b5f70672?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Santolina_chamaecyparissus_kz04.jpg/960px-Santolina_chamaecyparissus_kz04.jpg",
         "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
         "sun": [
             "שמש מלאה",
@@ -2368,12 +2426,13 @@ const plants = [
             "משתלה",
             "פרטיות",
             "shrubs"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "מללויקה",
         "botanical": "Melaleuca",
-        "image": "https://images.unsplash.com/photo-1606041008023-472dfb5e530f?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Melaleuca_quadrifida_MHNT.bot.2025.21.33.jpg/960px-Melaleuca_quadrifida_MHNT.bot.2025.21.33.jpg",
         "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
         "sun": [
             "שמש מלאה",
@@ -2394,12 +2453,13 @@ const plants = [
             "משתלה",
             "פרטיות",
             "shrubs"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "ויסטרינגיה",
         "botanical": "Westringia fruticosa",
-        "image": "https://images.unsplash.com/photo-1463936575829-25148e1db1b8?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Westringia_fruticosa_%28Willd.%29_Druce_%28as_Westringia_rosmariniformis_Sm.%29.jpg/960px-Westringia_fruticosa_%28Willd.%29_Druce_%28as_Westringia_rosmariniformis_Sm.%29.jpg",
         "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
         "sun": [
             "שמש מלאה",
@@ -2420,12 +2480,13 @@ const plants = [
             "משתלה",
             "פרטיות",
             "shrubs"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "לנטנה שיחית",
         "botanical": "Lantana montevidensis",
-        "image": "https://images.unsplash.com/photo-1446071103084-c257b5f70672?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Lantana_montevidensis.JPG/960px-Lantana_montevidensis.JPG",
         "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
         "sun": [
             "שמש מלאה",
@@ -2446,12 +2507,13 @@ const plants = [
             "משתלה",
             "פרטיות",
             "shrubs"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "בוגנוויליה",
         "botanical": "Bougainvillea",
-        "image": "https://images.unsplash.com/photo-1508610048659-a06b669e3321?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Bougainvillea_spectabilis_01.JPG/960px-Bougainvillea_spectabilis_01.JPG",
         "detail": "מטפס נפוץ לפרגולה, גדר או קיר ירוק. מומלץ לספק תמיכה, גיזום וניקוז טוב.",
         "sun": [
             "שמש מלאה",
@@ -2471,12 +2533,13 @@ const plants = [
             "גדר",
             "פורח",
             "climbers"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "יסמין כוכבי",
         "botanical": "Trachelospermum jasminoides",
-        "image": "https://images.unsplash.com/photo-1602578208701-3a2de6f5127a?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Autographa_gamma_en_Trachelospermum_jasminoides_-_01.jpg/960px-Autographa_gamma_en_Trachelospermum_jasminoides_-_01.jpg",
         "detail": "מטפס נפוץ לפרגולה, גדר או קיר ירוק. מומלץ לספק תמיכה, גיזום וניקוז טוב.",
         "sun": [
             "שמש מלאה",
@@ -2495,12 +2558,13 @@ const plants = [
             "גדר",
             "פורח",
             "climbers"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "פנדוריאה",
         "botanical": "Pandorea jasminoides",
-        "image": "https://images.unsplash.com/photo-1597848212624-e6b10e2fc1b6?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Pandorea_jasminoides_planted_in_Tropical_and_Subtropical_Arboretum%2C_Ocean_Expo_Park%2C_Motobu%2C_Okinawa.jpg/960px-Pandorea_jasminoides_planted_in_Tropical_and_Subtropical_Arboretum%2C_Ocean_Expo_Park%2C_Motobu%2C_Okinawa.jpg",
         "detail": "מטפס נפוץ לפרגולה, גדר או קיר ירוק. מומלץ לספק תמיכה, גיזום וניקוז טוב.",
         "sun": [
             "שמש מלאה",
@@ -2519,12 +2583,13 @@ const plants = [
             "גדר",
             "פורח",
             "climbers"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "פסיפלורה",
         "botanical": "Passiflora edulis",
-        "image": "https://images.unsplash.com/photo-1508610048659-a06b669e3321?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Passionfruit_and_cross_section.jpg/960px-Passionfruit_and_cross_section.jpg",
         "detail": "מטפס נפוץ לפרגולה, גדר או קיר ירוק. מומלץ לספק תמיכה, גיזום וניקוז טוב.",
         "sun": [
             "שמש מלאה",
@@ -2543,12 +2608,13 @@ const plants = [
             "גדר",
             "פורח",
             "climbers"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "ויסטריה",
         "botanical": "Wisteria sinensis",
-        "image": "https://images.unsplash.com/photo-1602578208701-3a2de6f5127a?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Wisteria_sinensis%2C_Gibraltar.JPG/960px-Wisteria_sinensis%2C_Gibraltar.JPG",
         "detail": "מטפס נפוץ לפרגולה, גדר או קיר ירוק. מומלץ לספק תמיכה, גיזום וניקוז טוב.",
         "sun": [
             "שמש מלאה",
@@ -2567,12 +2633,13 @@ const plants = [
             "גדר",
             "פורח",
             "climbers"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "גפן מאכל",
         "botanical": "Vitis vinifera",
-        "image": "https://images.unsplash.com/photo-1597848212624-e6b10e2fc1b6?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Edle_Weinrebe%2C_%27Vitis_vinifera%27_subsp._%27vinifera.jpg/960px-Edle_Weinrebe%2C_%27Vitis_vinifera%27_subsp._%27vinifera.jpg",
         "detail": "מטפס נפוץ לפרגולה, גדר או קיר ירוק. מומלץ לספק תמיכה, גיזום וניקוז טוב.",
         "sun": [
             "שמש מלאה",
@@ -2591,12 +2658,13 @@ const plants = [
             "גדר",
             "פורח",
             "climbers"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "קיסוס החורש",
         "botanical": "Hedera helix",
-        "image": "https://images.unsplash.com/photo-1508610048659-a06b669e3321?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Ivy_Hedera_Red_Brick_Wall_2892px.jpg/960px-Ivy_Hedera_Red_Brick_Wall_2892px.jpg",
         "detail": "מטפס נפוץ לפרגולה, גדר או קיר ירוק. מומלץ לספק תמיכה, גיזום וניקוז טוב.",
         "sun": [
             "שמש מלאה",
@@ -2615,12 +2683,13 @@ const plants = [
             "גדר",
             "פורח",
             "climbers"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "טונברגיה",
         "botanical": "Thunbergia grandiflora",
-        "image": "https://images.unsplash.com/photo-1602578208701-3a2de6f5127a?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Thunbergia_grandiflora_kz01.jpg/960px-Thunbergia_grandiflora_kz01.jpg",
         "detail": "מטפס נפוץ לפרגולה, גדר או קיר ירוק. מומלץ לספק תמיכה, גיזום וניקוז טוב.",
         "sun": [
             "שמש מלאה",
@@ -2639,12 +2708,13 @@ const plants = [
             "גדר",
             "פורח",
             "climbers"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "יערה יפנית",
         "botanical": "Lonicera japonica",
-        "image": "https://images.unsplash.com/photo-1597848212624-e6b10e2fc1b6?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Honeysuckle_2.jpg/960px-Honeysuckle_2.jpg",
         "detail": "מטפס נפוץ לפרגולה, גדר או קיר ירוק. מומלץ לספק תמיכה, גיזום וניקוז טוב.",
         "sun": [
             "שמש מלאה",
@@ -2663,12 +2733,13 @@ const plants = [
             "גדר",
             "פורח",
             "climbers"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "יסמין רפואי",
         "botanical": "Jasminum officinale",
-        "image": "https://images.unsplash.com/photo-1508610048659-a06b669e3321?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Jasminum_officinale_1787.jpg/960px-Jasminum_officinale_1787.jpg",
         "detail": "מטפס נפוץ לפרגולה, גדר או קיר ירוק. מומלץ לספק תמיכה, גיזום וניקוז טוב.",
         "sun": [
             "שמש מלאה",
@@ -2687,12 +2758,13 @@ const plants = [
             "גדר",
             "פורח",
             "climbers"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "סולנום מטפס",
         "botanical": "Solanum jasminoides",
-        "image": "https://images.unsplash.com/photo-1602578208701-3a2de6f5127a?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Solanum_jasminoides_%27Album%27.JPG/960px-Solanum_jasminoides_%27Album%27.JPG",
         "detail": "מטפס נפוץ לפרגולה, גדר או קיר ירוק. מומלץ לספק תמיכה, גיזום וניקוז טוב.",
         "sun": [
             "שמש מלאה",
@@ -2711,12 +2783,13 @@ const plants = [
             "גדר",
             "פורח",
             "climbers"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "אנטיגון",
         "botanical": "Antigonon leptopus",
-        "image": "https://images.unsplash.com/photo-1597848212624-e6b10e2fc1b6?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Kozhikode_Beach_01241.JPG/960px-Kozhikode_Beach_01241.JPG",
         "detail": "מטפס נפוץ לפרגולה, גדר או קיר ירוק. מומלץ לספק תמיכה, גיזום וניקוז טוב.",
         "sun": [
             "שמש מלאה",
@@ -2735,12 +2808,13 @@ const plants = [
             "גדר",
             "פורח",
             "climbers"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "פירוסטגיה",
         "botanical": "Pyrostegia venusta",
-        "image": "https://images.unsplash.com/photo-1508610048659-a06b669e3321?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Pyrostegia_venusta_flowers.jpg/960px-Pyrostegia_venusta_flowers.jpg",
         "detail": "מטפס נפוץ לפרגולה, גדר או קיר ירוק. מומלץ לספק תמיכה, גיזום וניקוז טוב.",
         "sun": [
             "שמש מלאה",
@@ -2759,12 +2833,13 @@ const plants = [
             "גדר",
             "פורח",
             "climbers"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "מנדווילה",
         "botanical": "Mandevilla sanderi",
-        "image": "https://images.unsplash.com/photo-1602578208701-3a2de6f5127a?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Mandevilla_sanderi_%28Hemsl.%29_Woodson_Wereldflora.jpg",
         "detail": "מטפס נפוץ לפרגולה, גדר או קיר ירוק. מומלץ לספק תמיכה, גיזום וניקוז טוב.",
         "sun": [
             "שמש מלאה",
@@ -2783,12 +2858,13 @@ const plants = [
             "גדר",
             "פורח",
             "climbers"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "קלרודנדרון מטפס",
         "botanical": "Clerodendrum thomsoniae",
-        "image": "https://images.unsplash.com/photo-1597848212624-e6b10e2fc1b6?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Clerodendrum_Thomsoniae_Merah_Muda.jpg/960px-Clerodendrum_Thomsoniae_Merah_Muda.jpg",
         "detail": "מטפס נפוץ לפרגולה, גדר או קיר ירוק. מומלץ לספק תמיכה, גיזום וניקוז טוב.",
         "sun": [
             "שמש מלאה",
@@ -2807,12 +2883,13 @@ const plants = [
             "גדר",
             "פורח",
             "climbers"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "אלמון הודי",
         "botanical": "Quisqualis indica",
-        "image": "https://images.unsplash.com/photo-1508610048659-a06b669e3321?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Combretum_indicum_01.JPG/960px-Combretum_indicum_01.JPG",
         "detail": "מטפס נפוץ לפרגולה, גדר או קיר ירוק. מומלץ לספק תמיכה, גיזום וניקוז טוב.",
         "sun": [
             "שמש מלאה",
@@ -2831,12 +2908,13 @@ const plants = [
             "גדר",
             "פורח",
             "climbers"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "לנטנה",
         "botanical": "Lantana camara",
-        "image": "https://images.unsplash.com/photo-1597848212624-e6b10e2fc1b6?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/LantanaFlowerLeaves.jpg/960px-LantanaFlowerLeaves.jpg",
         "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
         "sun": [
             "שמש מלאה",
@@ -2855,12 +2933,13 @@ const plants = [
             "ערוגה",
             "מאביקים",
             "perennials"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "דיאטס",
         "botanical": "Dietes grandiflora",
-        "image": "https://images.unsplash.com/photo-1620315442714-05eae288ed45?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Dietes_grandiflora_2.jpg/960px-Dietes_grandiflora_2.jpg",
         "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
         "sun": [
             "שמש מלאה",
@@ -2880,12 +2959,13 @@ const plants = [
             "ערוגה",
             "מאביקים",
             "perennials"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "אגפנתוס",
         "botanical": "Agapanthus africanus",
-        "image": "https://images.unsplash.com/photo-1606041008023-472dfb5e530f?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Agapanthus_%27White_Heaven%27%2C_ingetogen_schoonheid_van_de_ontluikende_bloemknop._Locatie%2C_Tuinreservaat_Jonkervallei_03.jpg/960px-Agapanthus_%27White_Heaven%27%2C_ingetogen_schoonheid_van_de_ontluikende_bloemknop._Locatie%2C_Tuinreservaat_Jonkervallei_03.jpg",
         "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
         "sun": [
             "שמש מלאה",
@@ -2905,12 +2985,13 @@ const plants = [
             "ערוגה",
             "מאביקים",
             "perennials"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "גאורה",
         "botanical": "Gaura lindheimeri",
-        "image": "https://images.unsplash.com/photo-1597848212624-e6b10e2fc1b6?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Gaura_lindheimeri_Whirling_Butterflies.jpg/960px-Gaura_lindheimeri_Whirling_Butterflies.jpg",
         "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
         "sun": [
             "שמש מלאה",
@@ -2929,12 +3010,13 @@ const plants = [
             "ערוגה",
             "מאביקים",
             "perennials"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "מרווה צחורה",
         "botanical": "Salvia leucantha",
-        "image": "https://images.unsplash.com/photo-1620315442714-05eae288ed45?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Salvia_leucantha_1DS-II_4-6674.jpg/960px-Salvia_leucantha_1DS-II_4-6674.jpg",
         "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
         "sun": [
             "שמש מלאה",
@@ -2953,12 +3035,13 @@ const plants = [
             "ערוגה",
             "מאביקים",
             "perennials"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "מרווה גרג",
         "botanical": "Salvia greggii",
-        "image": "https://images.unsplash.com/photo-1606041008023-472dfb5e530f?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Salvia_greggii_%27Balmirhopi%27_Sza%C5%82wia_jesienna_2021-08-08_02.jpg/960px-Salvia_greggii_%27Balmirhopi%27_Sza%C5%82wia_jesienna_2021-08-08_02.jpg",
         "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
         "sun": [
             "שמש מלאה",
@@ -2977,12 +3060,13 @@ const plants = [
             "ערוגה",
             "מאביקים",
             "perennials"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "רודבקיה",
         "botanical": "Rudbeckia fulgida",
-        "image": "https://images.unsplash.com/photo-1597848212624-e6b10e2fc1b6?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Bloem_van_een_Rudbeckia_fulgida._02-09-2020_%28d.j.b.%29_01.jpg/960px-Bloem_van_een_Rudbeckia_fulgida._02-09-2020_%28d.j.b.%29_01.jpg",
         "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
         "sun": [
             "שמש מלאה",
@@ -3001,12 +3085,13 @@ const plants = [
             "ערוגה",
             "מאביקים",
             "perennials"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "אכינצאה",
         "botanical": "Echinacea purpurea",
-        "image": "https://images.unsplash.com/photo-1620315442714-05eae288ed45?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/American_lady_on_purple_coneflower_%2874770%29.jpg/960px-American_lady_on_purple_coneflower_%2874770%29.jpg",
         "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
         "sun": [
             "שמש מלאה",
@@ -3025,12 +3110,13 @@ const plants = [
             "ערוגה",
             "מאביקים",
             "perennials"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "גזניה",
         "botanical": "Gazania rigens",
-        "image": "https://images.unsplash.com/photo-1606041008023-472dfb5e530f?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Gazania_rigens_cultivar_in_Conques.jpg/960px-Gazania_rigens_cultivar_in_Conques.jpg",
         "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
         "sun": [
             "שמש מלאה",
@@ -3049,12 +3135,13 @@ const plants = [
             "ערוגה",
             "מאביקים",
             "perennials"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "אוסטאוספרמום",
         "botanical": "Osteospermum",
-        "image": "https://images.unsplash.com/photo-1597848212624-e6b10e2fc1b6?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/African_Cape_Daisy_%28Osteospermum_barberiae%29.jpg/960px-African_Cape_Daisy_%28Osteospermum_barberiae%29.jpg",
         "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
         "sun": [
             "שמש מלאה",
@@ -3073,12 +3160,13 @@ const plants = [
             "ערוגה",
             "מאביקים",
             "perennials"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "ורבנה",
         "botanical": "Verbena",
-        "image": "https://images.unsplash.com/photo-1620315442714-05eae288ed45?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Bloeiwijze_van_Verbena_bonariensis._07-09-2024._%28d.j.b%29.jpg/960px-Bloeiwijze_van_Verbena_bonariensis._07-09-2024._%28d.j.b%29.jpg",
         "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
         "sun": [
             "שמש מלאה",
@@ -3097,12 +3185,13 @@ const plants = [
             "ערוגה",
             "מאביקים",
             "perennials"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "גרניום / פלרגוניום",
         "botanical": "Pelargonium",
-        "image": "https://images.unsplash.com/photo-1606041008023-472dfb5e530f?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Staande_geranium_Pelargonium_zonale_wit._20-06-2025._%28actm.%29_02.jpg/960px-Staande_geranium_Pelargonium_zonale_wit._20-06-2025._%28actm.%29_02.jpg",
         "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
         "sun": [
             "שמש מלאה",
@@ -3121,12 +3210,13 @@ const plants = [
             "ערוגה",
             "מאביקים",
             "perennials"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "ליריופה",
         "botanical": "Liriope muscari",
-        "image": "https://images.unsplash.com/photo-1597848212624-e6b10e2fc1b6?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Sagina_procumbens%26Liriope_muscari20230822_22953.jpg/960px-Sagina_procumbens%26Liriope_muscari20230822_22953.jpg",
         "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
         "sun": [
             "חצי שמש",
@@ -3146,12 +3236,13 @@ const plants = [
             "ערוגה",
             "מאביקים",
             "perennials"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "אופיופוגון",
         "botanical": "Ophiopogon japonicus",
-        "image": "https://images.unsplash.com/photo-1620315442714-05eae288ed45?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Japonska_ka%C4%8Dja_brada.jpg/960px-Japonska_ka%C4%8Dja_brada.jpg",
         "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
         "sun": [
             "חצי שמש",
@@ -3170,12 +3261,13 @@ const plants = [
             "ערוגה",
             "מאביקים",
             "perennials"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "איריס גרמני",
         "botanical": "Iris germanica",
-        "image": "https://images.unsplash.com/photo-1606041008023-472dfb5e530f?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/00_1238_Deutsche_Schwertlilie_%28Iris_%C3%97_germanica%29.jpg/960px-00_1238_Deutsche_Schwertlilie_%28Iris_%C3%97_germanica%29.jpg",
         "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
         "sun": [
             "שמש מלאה",
@@ -3194,12 +3286,13 @@ const plants = [
             "ערוגה",
             "מאביקים",
             "perennials"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "המרוקליס",
         "botanical": "Hemerocallis",
-        "image": "https://images.unsplash.com/photo-1597848212624-e6b10e2fc1b6?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Daylily_%28Hemerocallis_fulva%29_v2.jpg/960px-Daylily_%28Hemerocallis_fulva%29_v2.jpg",
         "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
         "sun": [
             "שמש מלאה",
@@ -3218,12 +3311,13 @@ const plants = [
             "ערוגה",
             "מאביקים",
             "perennials"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "קוראופסיס",
         "botanical": "Coreopsis",
-        "image": "https://images.unsplash.com/photo-1620315442714-05eae288ed45?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Coreopsis_P8022391.jpg/960px-Coreopsis_P8022391.jpg",
         "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
         "sun": [
             "שמש מלאה",
@@ -3242,12 +3336,13 @@ const plants = [
             "ערוגה",
             "מאביקים",
             "perennials"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "גיירדיה",
         "botanical": "Gaillardia",
-        "image": "https://images.unsplash.com/photo-1606041008023-472dfb5e530f?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Kokardenblume_Gaillardia_aristata_stack28_20190721-RM-7210879.jpg/960px-Kokardenblume_Gaillardia_aristata_stack28_20190721-RM-7210879.jpg",
         "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
         "sun": [
             "שמש מלאה",
@@ -3266,12 +3361,13 @@ const plants = [
             "ערוגה",
             "מאביקים",
             "perennials"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "פלוקס",
         "botanical": "Phlox",
-        "image": "https://images.unsplash.com/photo-1597848212624-e6b10e2fc1b6?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Phlox_paniculata_%27Fujiyama%27_%28d.j.b.%29_01.jpg/960px-Phlox_paniculata_%27Fujiyama%27_%28d.j.b.%29_01.jpg",
         "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
         "sun": [
             "שמש מלאה",
@@ -3290,12 +3386,13 @@ const plants = [
             "ערוגה",
             "מאביקים",
             "perennials"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "נפית",
         "botanical": "Nepeta",
-        "image": "https://images.unsplash.com/photo-1620315442714-05eae288ed45?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Leaf_veins_and_velutinous_hairs_of_Nepeta_IMG_8150c.jpg/960px-Leaf_veins_and_velutinous_hairs_of_Nepeta_IMG_8150c.jpg",
         "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
         "sun": [
             "שמש מלאה",
@@ -3314,12 +3411,13 @@ const plants = [
             "ערוגה",
             "מאביקים",
             "perennials"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "חרצית שיחית",
         "botanical": "Argyranthemum",
-        "image": "https://images.unsplash.com/photo-1606041008023-472dfb5e530f?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Flower_April_2011-3.jpg/960px-Flower_April_2011-3.jpg",
         "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
         "sun": [
             "שמש מלאה",
@@ -3338,12 +3436,13 @@ const plants = [
             "ערוגה",
             "מאביקים",
             "perennials"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "אוזן ארי",
         "botanical": "Leonotis leonurus",
-        "image": "https://images.unsplash.com/photo-1597848212624-e6b10e2fc1b6?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Leonotis_leonorus10.jpg/960px-Leonotis_leonorus10.jpg",
         "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
         "sun": [
             "שמש מלאה",
@@ -3362,12 +3461,13 @@ const plants = [
             "ערוגה",
             "מאביקים",
             "perennials"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "כסמנתה",
         "botanical": "Chasmanthe",
-        "image": "https://images.unsplash.com/photo-1620315442714-05eae288ed45?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Chasmanthe_bicolor1.jpg/960px-Chasmanthe_bicolor1.jpg",
         "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
         "sun": [
             "שמש מלאה",
@@ -3386,12 +3486,13 @@ const plants = [
             "ערוגה",
             "מאביקים",
             "perennials"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "קליביה",
         "botanical": "Clivia miniata",
-        "image": "https://images.unsplash.com/photo-1606041008023-472dfb5e530f?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Natal_lilies_%28Clivia_miniata%29%2C_Jardim_da_Funda%C3%A7%C3%A3o_Calouste_Gulbenkian%2C_Lisbon%2C_Portugal_julesvernex2.jpg/960px-Natal_lilies_%28Clivia_miniata%29%2C_Jardim_da_Funda%C3%A7%C3%A3o_Calouste_Gulbenkian%2C_Lisbon%2C_Portugal_julesvernex2.jpg",
         "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
         "sun": [
             "חצי שמש",
@@ -3410,12 +3511,13 @@ const plants = [
             "ערוגה",
             "מאביקים",
             "perennials"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "קנא הודית",
         "botanical": "Canna indica",
-        "image": "https://images.unsplash.com/photo-1597848212624-e6b10e2fc1b6?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Cinnamon-bellied_flowerpiercer_%28Diglossa_baritula%29_male_on_Indian_shot_%28Canna_indica%29_Finca_El_Pilar.jpg/960px-Cinnamon-bellied_flowerpiercer_%28Diglossa_baritula%29_male_on_Indian_shot_%28Canna_indica%29_Finca_El_Pilar.jpg",
         "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
         "sun": [
             "שמש מלאה",
@@ -3434,12 +3536,13 @@ const plants = [
             "ערוגה",
             "מאביקים",
             "perennials"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "אלסטרומריה",
         "botanical": "Alstroemeria",
-        "image": "https://images.unsplash.com/photo-1620315442714-05eae288ed45?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Bloem_van_een_Alstroemeria_aurea._03-07-2021_%28actm.%29.jpg/960px-Bloem_van_een_Alstroemeria_aurea._03-07-2021_%28actm.%29.jpg",
         "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
         "sun": [
             "שמש מלאה",
@@ -3458,12 +3561,13 @@ const plants = [
             "ערוגה",
             "מאביקים",
             "perennials"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "פלרגון לימוני",
         "botanical": "Pelargonium crispum",
-        "image": "https://images.unsplash.com/photo-1606041008023-472dfb5e530f?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Pelargonium_graveolens-_Kirstenbosch_botanical_garden_-_3.jpg/960px-Pelargonium_graveolens-_Kirstenbosch_botanical_garden_-_3.jpg",
         "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
         "sun": [
             "שמש מלאה",
@@ -3482,12 +3586,13 @@ const plants = [
             "ערוגה",
             "מאביקים",
             "perennials"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "צורית",
         "botanical": "Sedum",
-        "image": "https://images.unsplash.com/photo-1597848212624-e6b10e2fc1b6?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Sedum_acre_single_-_Niitv%C3%A4lja.jpg/960px-Sedum_acre_single_-_Niitv%C3%A4lja.jpg",
         "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
         "sun": [
             "שמש מלאה",
@@ -3506,12 +3611,13 @@ const plants = [
             "ערוגה",
             "מאביקים",
             "perennials"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "ארמריה",
         "botanical": "Armeria maritima",
-        "image": "https://images.unsplash.com/photo-1620315442714-05eae288ed45?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Armeria_maritima_%28plants%29.jpg/960px-Armeria_maritima_%28plants%29.jpg",
         "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
         "sun": [
             "שמש מלאה",
@@ -3530,12 +3636,13 @@ const plants = [
             "ערוגה",
             "מאביקים",
             "perennials"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "ציפורן סיני",
         "botanical": "Dianthus chinensis",
-        "image": "https://images.unsplash.com/photo-1606041008023-472dfb5e530f?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Dianthus_chinensis_kz02.jpg/960px-Dianthus_chinensis_kz02.jpg",
         "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
         "sun": [
             "שמש מלאה",
@@ -3554,12 +3661,13 @@ const plants = [
             "ערוגה",
             "מאביקים",
             "perennials"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "ורוניקה",
         "botanical": "Veronica spicata",
-        "image": "https://images.unsplash.com/photo-1597848212624-e6b10e2fc1b6?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Bombus_norvegicus_-_Veronica_spicata_-_Keila.jpg/960px-Bombus_norvegicus_-_Veronica_spicata_-_Keila.jpg",
         "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
         "sun": [
             "שמש מלאה",
@@ -3578,12 +3686,13 @@ const plants = [
             "ערוגה",
             "מאביקים",
             "perennials"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "סקביה",
         "botanical": "Scabiosa",
-        "image": "https://images.unsplash.com/photo-1620315442714-05eae288ed45?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Bombus_rupestris_-_Centaurea_scabiosa_-_Keila2.jpg/960px-Bombus_rupestris_-_Centaurea_scabiosa_-_Keila2.jpg",
         "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
         "sun": [
             "שמש מלאה",
@@ -3602,12 +3711,13 @@ const plants = [
             "ערוגה",
             "מאביקים",
             "perennials"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "לבנדר מנוצה",
         "botanical": "Lavandula dentata",
-        "image": "https://images.unsplash.com/photo-1606041008023-472dfb5e530f?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Lavandula_dentata_kz03.jpg/960px-Lavandula_dentata_kz03.jpg",
         "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
         "sun": [
             "שמש מלאה",
@@ -3626,12 +3736,13 @@ const plants = [
             "ערוגה",
             "מאביקים",
             "perennials"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "ארטמיסיה",
         "botanical": "Artemisia",
-        "image": "https://images.unsplash.com/photo-1597848212624-e6b10e2fc1b6?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/2020_year._Herbarium._Artemisia_vulgaris._img-020.jpg/960px-2020_year._Herbarium._Artemisia_vulgaris._img-020.jpg",
         "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
         "sun": [
             "שמש מלאה",
@@ -3650,12 +3761,13 @@ const plants = [
             "ערוגה",
             "מאביקים",
             "perennials"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "הליכריסום",
         "botanical": "Helichrysum petiolare",
-        "image": "https://images.unsplash.com/photo-1620315442714-05eae288ed45?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Starr_070621-7414_Helichrysum_petiolare.jpg/960px-Starr_070621-7414_Helichrysum_petiolare.jpg",
         "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
         "sun": [
             "שמש מלאה",
@@ -3674,12 +3786,13 @@ const plants = [
             "ערוגה",
             "מאביקים",
             "perennials"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "קונבולבולוס",
         "botanical": "Convolvulus cneorum",
-        "image": "https://images.unsplash.com/photo-1606041008023-472dfb5e530f?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Convolvulus_cneorum_kz05.jpg/960px-Convolvulus_cneorum_kz05.jpg",
         "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
         "sun": [
             "שמש מלאה",
@@ -3698,12 +3811,13 @@ const plants = [
             "ערוגה",
             "מאביקים",
             "perennials"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "דיכונדרה כסופה",
         "botanical": "Dichondra argentea",
-        "image": "https://images.unsplash.com/photo-1597848212624-e6b10e2fc1b6?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Dichondra_%27Silver_Falls%27_Pot_1600px.jpg/960px-Dichondra_%27Silver_Falls%27_Pot_1600px.jpg",
         "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
         "sun": [
             "שמש מלאה",
@@ -3722,12 +3836,13 @@ const plants = [
             "ערוגה",
             "מאביקים",
             "perennials"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "בקופה",
         "botanical": "Sutera cordata",
-        "image": "https://images.unsplash.com/photo-1620315442714-05eae288ed45?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Hosta_met_Sutera_cordata.JPG/960px-Hosta_met_Sutera_cordata.JPG",
         "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
         "sun": [
             "שמש מלאה",
@@ -3746,12 +3861,13 @@ const plants = [
             "ערוגה",
             "מאביקים",
             "perennials"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "פורטולקה רב שנתית",
         "botanical": "Portulaca",
-        "image": "https://images.unsplash.com/photo-1606041008023-472dfb5e530f?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Yellow_Portulaca_flower_in_sunshine%2C_on_black_background.jpg/960px-Yellow_Portulaca_flower_in_sunshine%2C_on_black_background.jpg",
         "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
         "sun": [
             "שמש מלאה",
@@ -3770,12 +3886,13 @@ const plants = [
             "ערוגה",
             "מאביקים",
             "perennials"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "אספרגוס מאירי",
         "botanical": "Asparagus densiflorus",
-        "image": "https://images.unsplash.com/photo-1597848212624-e6b10e2fc1b6?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Asparagus_densiflorus%2C_Christchurch_Botanic_Gardens%2C_New_Zealand_13.jpg/960px-Asparagus_densiflorus%2C_Christchurch_Botanic_Gardens%2C_New_Zealand_13.jpg",
         "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
         "sun": [
             "חצי שמש",
@@ -3794,12 +3911,13 @@ const plants = [
             "ערוגה",
             "מאביקים",
             "perennials"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "רוזמרין",
         "botanical": "Salvia rosmarinus",
-        "image": "https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Rosmarinus_officinalis_MHNT.BOT.2008.1.19.jpg/960px-Rosmarinus_officinalis_MHNT.BOT.2008.1.19.jpg",
         "detail": "צמח תבלין נפוץ למטבח, אדנית או ערוגת שמש. מתאים לשימוש יומיומי ולגינה ריחנית.",
         "sun": [
             "שמש מלאה",
@@ -3819,12 +3937,13 @@ const plants = [
             "אדנית",
             "מטבח",
             "herbs"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "לבנדר",
         "botanical": "Lavandula",
-        "image": "https://images.unsplash.com/photo-1515586000433-45406d8e6662?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Lavandula_multifida.jpg/960px-Lavandula_multifida.jpg",
         "detail": "צמח תבלין נפוץ למטבח, אדנית או ערוגת שמש. מתאים לשימוש יומיומי ולגינה ריחנית.",
         "sun": [
             "שמש מלאה",
@@ -3844,12 +3963,13 @@ const plants = [
             "אדנית",
             "מטבח",
             "herbs"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "מרווה רפואית",
         "botanical": "Salvia officinalis",
-        "image": "https://images.unsplash.com/photo-1471193945509-9ad0617afabf?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Salvia_officinalis_Echter_Mehltau-2-_Josef_Schlaghecken.jpg/960px-Salvia_officinalis_Echter_Mehltau-2-_Josef_Schlaghecken.jpg",
         "detail": "צמח תבלין נפוץ למטבח, אדנית או ערוגת שמש. מתאים לשימוש יומיומי ולגינה ריחנית.",
         "sun": [
             "שמש מלאה",
@@ -3868,12 +3988,13 @@ const plants = [
             "אדנית",
             "מטבח",
             "herbs"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "נענע",
         "botanical": "Mentha",
-        "image": "https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Mentha_arvensis_-_p%C3%B5ldm%C3%BCnt_Keila.jpg/960px-Mentha_arvensis_-_p%C3%B5ldm%C3%BCnt_Keila.jpg",
         "detail": "צמח תבלין נפוץ למטבח, אדנית או ערוגת שמש. מתאים לשימוש יומיומי ולגינה ריחנית.",
         "sun": [
             "שמש מלאה",
@@ -3892,12 +4013,13 @@ const plants = [
             "אדנית",
             "מטבח",
             "herbs"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "מנטה",
         "botanical": "Mentha piperita",
-        "image": "https://images.unsplash.com/photo-1515586000433-45406d8e6662?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Peppermint_Mentha_%C3%97_piperita_IMG_7237.jpg/960px-Peppermint_Mentha_%C3%97_piperita_IMG_7237.jpg",
         "detail": "צמח תבלין נפוץ למטבח, אדנית או ערוגת שמש. מתאים לשימוש יומיומי ולגינה ריחנית.",
         "sun": [
             "שמש מלאה",
@@ -3916,12 +4038,13 @@ const plants = [
             "אדנית",
             "מטבח",
             "herbs"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "בזיליקום",
         "botanical": "Ocimum basilicum",
-        "image": "https://images.unsplash.com/photo-1471193945509-9ad0617afabf?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Ocimum_Basilicum_leaf_lighted_by_the_left.jpg/960px-Ocimum_Basilicum_leaf_lighted_by_the_left.jpg",
         "detail": "צמח תבלין נפוץ למטבח, אדנית או ערוגת שמש. מתאים לשימוש יומיומי ולגינה ריחנית.",
         "sun": [
             "שמש מלאה",
@@ -3940,12 +4063,13 @@ const plants = [
             "אדנית",
             "מטבח",
             "herbs"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "טימין",
         "botanical": "Thymus vulgaris",
-        "image": "https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Thymus_vulgaris_Paludi_02.jpg/960px-Thymus_vulgaris_Paludi_02.jpg",
         "detail": "צמח תבלין נפוץ למטבח, אדנית או ערוגת שמש. מתאים לשימוש יומיומי ולגינה ריחנית.",
         "sun": [
             "שמש מלאה",
@@ -3964,12 +4088,13 @@ const plants = [
             "אדנית",
             "מטבח",
             "herbs"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "אורגנו",
         "botanical": "Origanum vulgare",
-        "image": "https://images.unsplash.com/photo-1515586000433-45406d8e6662?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Origanum_vulgare_-_harilik_pune.jpg/960px-Origanum_vulgare_-_harilik_pune.jpg",
         "detail": "צמח תבלין נפוץ למטבח, אדנית או ערוגת שמש. מתאים לשימוש יומיומי ולגינה ריחנית.",
         "sun": [
             "שמש מלאה",
@@ -3988,12 +4113,13 @@ const plants = [
             "אדנית",
             "מטבח",
             "herbs"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "זעתר",
         "botanical": "Origanum syriacum",
-        "image": "https://images.unsplash.com/photo-1471193945509-9ad0617afabf?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Majorana_syriaca_-_za%27atar.jpg/960px-Majorana_syriaca_-_za%27atar.jpg",
         "detail": "צמח תבלין נפוץ למטבח, אדנית או ערוגת שמש. מתאים לשימוש יומיומי ולגינה ריחנית.",
         "sun": [
             "שמש מלאה",
@@ -4012,12 +4138,13 @@ const plants = [
             "אדנית",
             "מטבח",
             "herbs"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "לואיזה",
         "botanical": "Aloysia citrodora",
-        "image": "https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Aloysia_citriodora_002.jpg/960px-Aloysia_citriodora_002.jpg",
         "detail": "צמח תבלין נפוץ למטבח, אדנית או ערוגת שמש. מתאים לשימוש יומיומי ולגינה ריחנית.",
         "sun": [
             "שמש מלאה",
@@ -4036,12 +4163,13 @@ const plants = [
             "אדנית",
             "מטבח",
             "herbs"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "לימונית",
         "botanical": "Cymbopogon citratus",
-        "image": "https://images.unsplash.com/photo-1515586000433-45406d8e6662?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/b/bd/YosriNov04Pokok_Serai.JPG",
         "detail": "צמח תבלין נפוץ למטבח, אדנית או ערוגת שמש. מתאים לשימוש יומיומי ולגינה ריחנית.",
         "sun": [
             "שמש מלאה",
@@ -4060,12 +4188,13 @@ const plants = [
             "אדנית",
             "מטבח",
             "herbs"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "פטרוזיליה",
         "botanical": "Petroselinum crispum",
-        "image": "https://images.unsplash.com/photo-1471193945509-9ad0617afabf?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Petroselinum_crispum_003.JPG/960px-Petroselinum_crispum_003.JPG",
         "detail": "צמח תבלין נפוץ למטבח, אדנית או ערוגת שמש. מתאים לשימוש יומיומי ולגינה ריחנית.",
         "sun": [
             "שמש מלאה",
@@ -4084,12 +4213,13 @@ const plants = [
             "אדנית",
             "מטבח",
             "herbs"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "כוסברה",
         "botanical": "Coriandrum sativum",
-        "image": "https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/%28MHNT%29_Coriandrum_sativum_-_inflorescence.jpg/960px-%28MHNT%29_Coriandrum_sativum_-_inflorescence.jpg",
         "detail": "צמח תבלין נפוץ למטבח, אדנית או ערוגת שמש. מתאים לשימוש יומיומי ולגינה ריחנית.",
         "sun": [
             "שמש מלאה",
@@ -4108,12 +4238,13 @@ const plants = [
             "אדנית",
             "מטבח",
             "herbs"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "שמיר",
         "botanical": "Anethum graveolens",
-        "image": "https://images.unsplash.com/photo-1515586000433-45406d8e6662?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Anethum_graveolens20090812_475.jpg/960px-Anethum_graveolens20090812_475.jpg",
         "detail": "צמח תבלין נפוץ למטבח, אדנית או ערוגת שמש. מתאים לשימוש יומיומי ולגינה ריחנית.",
         "sun": [
             "שמש מלאה",
@@ -4132,12 +4263,13 @@ const plants = [
             "אדנית",
             "מטבח",
             "herbs"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "עירית",
         "botanical": "Allium schoenoprasum",
-        "image": "https://images.unsplash.com/photo-1471193945509-9ad0617afabf?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Allium_schoenoprasum_001.JPG/960px-Allium_schoenoprasum_001.JPG",
         "detail": "צמח תבלין נפוץ למטבח, אדנית או ערוגת שמש. מתאים לשימוש יומיומי ולגינה ריחנית.",
         "sun": [
             "שמש מלאה",
@@ -4156,12 +4288,13 @@ const plants = [
             "אדנית",
             "מטבח",
             "herbs"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "טרגון",
         "botanical": "Artemisia dracunculus",
-        "image": "https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Artemisia_dracunculus_Bylica_estragon_2021-04-27_01.jpg/960px-Artemisia_dracunculus_Bylica_estragon_2021-04-27_01.jpg",
         "detail": "צמח תבלין נפוץ למטבח, אדנית או ערוגת שמש. מתאים לשימוש יומיומי ולגינה ריחנית.",
         "sun": [
             "שמש מלאה",
@@ -4180,12 +4313,13 @@ const plants = [
             "אדנית",
             "מטבח",
             "herbs"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "מליסה",
         "botanical": "Melissa officinalis",
-        "image": "https://images.unsplash.com/photo-1515586000433-45406d8e6662?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Zitronenmelisse-Melissa_officinalis-Pflanzenvermehrung--Josef_Schlaghecken.jpg/960px-Zitronenmelisse-Melissa_officinalis-Pflanzenvermehrung--Josef_Schlaghecken.jpg",
         "detail": "צמח תבלין נפוץ למטבח, אדנית או ערוגת שמש. מתאים לשימוש יומיומי ולגינה ריחנית.",
         "sun": [
             "שמש מלאה",
@@ -4204,12 +4338,13 @@ const plants = [
             "אדנית",
             "מטבח",
             "herbs"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "שיבא",
         "botanical": "Artemisia arborescens",
-        "image": "https://images.unsplash.com/photo-1471193945509-9ad0617afabf?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Artemisia_arborescens_12052004_Var.jpg",
         "detail": "צמח תבלין נפוץ למטבח, אדנית או ערוגת שמש. מתאים לשימוש יומיומי ולגינה ריחנית.",
         "sun": [
             "שמש מלאה",
@@ -4228,12 +4363,13 @@ const plants = [
             "אדנית",
             "מטבח",
             "herbs"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "אגבה רכה",
         "botanical": "Agave attenuata",
-        "image": "https://images.unsplash.com/photo-1459411621453-7b03977f4bfc?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Agave_attenuata_001.JPG/960px-Agave_attenuata_001.JPG",
         "detail": "סוקולנט או קקטוס קל יחסית לגידול, מתאים למיכלים, מסלעות וגינות חסכוניות במים.",
         "sun": [
             "שמש מלאה",
@@ -4252,12 +4388,13 @@ const plants = [
             "עציץ",
             "קל לטיפול",
             "succulents"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "אלוורה",
         "botanical": "Aloe vera",
-        "image": "https://images.unsplash.com/photo-1509423350716-97f9360b4e09?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Aloe_vera_Lanzarote.jpg/960px-Aloe_vera_Lanzarote.jpg",
         "detail": "סוקולנט או קקטוס קל יחסית לגידול, מתאים למיכלים, מסלעות וגינות חסכוניות במים.",
         "sun": [
             "שמש מלאה",
@@ -4276,12 +4413,13 @@ const plants = [
             "עציץ",
             "קל לטיפול",
             "succulents"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "סנסיווריה",
         "botanical": "Dracaena trifasciata",
-        "image": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Dracaena_Trifasciata_Plant.jpg/960px-Dracaena_Trifasciata_Plant.jpg",
         "detail": "סוקולנט או קקטוס קל יחסית לגידול, מתאים למיכלים, מסלעות וגינות חסכוניות במים.",
         "sun": [
             "שמש מלאה",
@@ -4300,12 +4438,13 @@ const plants = [
             "עציץ",
             "קל לטיפול",
             "succulents"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "אכיווריה",
         "botanical": "Echeveria",
-        "image": "https://images.unsplash.com/photo-1459411621453-7b03977f4bfc?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Rosa_de_alabastro_%28Echeveria_elegans%29%2C_jard%C3%ADn_del_molino%2C_Sierra_de_San_Felipe%2C_Set%C3%BAbal%2C_Portugal%2C_2012-05-11%2C_DD_01.JPG/960px-Rosa_de_alabastro_%28Echeveria_elegans%29%2C_jard%C3%ADn_del_molino%2C_Sierra_de_San_Felipe%2C_Set%C3%BAbal%2C_Portugal%2C_2012-05-11%2C_DD_01.JPG",
         "detail": "סוקולנט או קקטוס קל יחסית לגידול, מתאים למיכלים, מסלעות וגינות חסכוניות במים.",
         "sun": [
             "שמש מלאה",
@@ -4324,12 +4463,13 @@ const plants = [
             "עציץ",
             "קל לטיפול",
             "succulents"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "קרסולה אובטה",
         "botanical": "Crassula ovata",
-        "image": "https://images.unsplash.com/photo-1509423350716-97f9360b4e09?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Among_the_branches_of_a_potted_jade_plant.jpg/960px-Among_the_branches_of_a_potted_jade_plant.jpg",
         "detail": "סוקולנט או קקטוס קל יחסית לגידול, מתאים למיכלים, מסלעות וגינות חסכוניות במים.",
         "sun": [
             "שמש מלאה",
@@ -4348,12 +4488,13 @@ const plants = [
             "עציץ",
             "קל לטיפול",
             "succulents"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "קלנצואה",
         "botanical": "Kalanchoe blossfeldiana",
-        "image": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Kalanchoe_blossfeldiana_Plant_07.jpg/960px-Kalanchoe_blossfeldiana_Plant_07.jpg",
         "detail": "סוקולנט או קקטוס קל יחסית לגידול, מתאים למיכלים, מסלעות וגינות חסכוניות במים.",
         "sun": [
             "שמש מלאה",
@@ -4372,12 +4513,13 @@ const plants = [
             "עציץ",
             "קל לטיפול",
             "succulents"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "צורית מורגן",
         "botanical": "Sedum morganianum",
-        "image": "https://images.unsplash.com/photo-1459411621453-7b03977f4bfc?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Sedum_morganianum_%28donkey%27s_tail%29.jpg/960px-Sedum_morganianum_%28donkey%27s_tail%29.jpg",
         "detail": "סוקולנט או קקטוס קל יחסית לגידול, מתאים למיכלים, מסלעות וגינות חסכוניות במים.",
         "sun": [
             "שמש מלאה",
@@ -4396,12 +4538,13 @@ const plants = [
             "עציץ",
             "קל לטיפול",
             "succulents"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "סביון כדורי",
         "botanical": "Senecio rowleyanus",
-        "image": "https://images.unsplash.com/photo-1509423350716-97f9360b4e09?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Curio_rowleyanus_syn._Senecio_rowleyanus_2019-04-14_02.jpg/960px-Curio_rowleyanus_syn._Senecio_rowleyanus_2019-04-14_02.jpg",
         "detail": "סוקולנט או קקטוס קל יחסית לגידול, מתאים למיכלים, מסלעות וגינות חסכוניות במים.",
         "sun": [
             "שמש מלאה",
@@ -4420,12 +4563,13 @@ const plants = [
             "עציץ",
             "קל לטיפול",
             "succulents"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "פורטולקריה",
         "botanical": "Portulacaria afra",
-        "image": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Portulacaria_afra_kz01.jpg/960px-Portulacaria_afra_kz01.jpg",
         "detail": "סוקולנט או קקטוס קל יחסית לגידול, מתאים למיכלים, מסלעות וגינות חסכוניות במים.",
         "sun": [
             "שמש מלאה",
@@ -4444,12 +4588,13 @@ const plants = [
             "עציץ",
             "קל לטיפול",
             "succulents"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "יוקה",
         "botanical": "Yucca elephantipes",
-        "image": "https://images.unsplash.com/photo-1459411621453-7b03977f4bfc?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Starr-120522-6291-Yucca_elephantipes-flowers-Iao_Tropical_Gardens_of_Maui-Maui_%2825117106836%29.jpg/960px-Starr-120522-6291-Yucca_elephantipes-flowers-Iao_Tropical_Gardens_of_Maui-Maui_%2825117106836%29.jpg",
         "detail": "סוקולנט או קקטוס קל יחסית לגידול, מתאים למיכלים, מסלעות וגינות חסכוניות במים.",
         "sun": [
             "שמש מלאה",
@@ -4468,12 +4613,13 @@ const plants = [
             "עציץ",
             "קל לטיפול",
             "succulents"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "נולינה",
         "botanical": "Beaucarnea recurvata",
-        "image": "https://images.unsplash.com/photo-1509423350716-97f9360b4e09?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Beaucarnea_recurvata_kz01.jpg/960px-Beaucarnea_recurvata_kz01.jpg",
         "detail": "סוקולנט או קקטוס קל יחסית לגידול, מתאים למיכלים, מסלעות וגינות חסכוניות במים.",
         "sun": [
             "שמש מלאה",
@@ -4492,12 +4638,13 @@ const plants = [
             "עציץ",
             "קל לטיפול",
             "succulents"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "אופונטיה",
         "botanical": "Opuntia",
-        "image": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Opuntia_microdasys_var_angelwings.jpg/960px-Opuntia_microdasys_var_angelwings.jpg",
         "detail": "סוקולנט או קקטוס קל יחסית לגידול, מתאים למיכלים, מסלעות וגינות חסכוניות במים.",
         "sun": [
             "שמש מלאה",
@@ -4516,12 +4663,13 @@ const plants = [
             "עציץ",
             "קל לטיפול",
             "succulents"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "אפטניה",
         "botanical": "Aptenia cordifolia",
-        "image": "https://images.unsplash.com/photo-1459411621453-7b03977f4bfc?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Starr_080103-1326_Aptenia_cordifolia.jpg/960px-Starr_080103-1326_Aptenia_cordifolia.jpg",
         "detail": "סוקולנט או קקטוס קל יחסית לגידול, מתאים למיכלים, מסלעות וגינות חסכוניות במים.",
         "sun": [
             "שמש מלאה",
@@ -4540,12 +4688,13 @@ const plants = [
             "עציץ",
             "קל לטיפול",
             "succulents"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "גרפטופטלום",
         "botanical": "Graptopetalum",
-        "image": "https://images.unsplash.com/photo-1509423350716-97f9360b4e09?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/%28MHNT%29_Graptopetalum_paraguayense_-_leaves.jpg/960px-%28MHNT%29_Graptopetalum_paraguayense_-_leaves.jpg",
         "detail": "סוקולנט או קקטוס קל יחסית לגידול, מתאים למיכלים, מסלעות וגינות חסכוניות במים.",
         "sun": [
             "שמש מלאה",
@@ -4564,12 +4713,13 @@ const plants = [
             "עציץ",
             "קל לטיפול",
             "succulents"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "סדום זוחל",
         "botanical": "Sedum spurium",
-        "image": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/9/97/Sedum_spurium.jpg",
         "detail": "סוקולנט או קקטוס קל יחסית לגידול, מתאים למיכלים, מסלעות וגינות חסכוניות במים.",
         "sun": [
             "שמש מלאה",
@@ -4588,12 +4738,13 @@ const plants = [
             "עציץ",
             "קל לטיפול",
             "succulents"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "אלוי אריסטטה",
         "botanical": "Aloe aristata",
-        "image": "https://images.unsplash.com/photo-1459411621453-7b03977f4bfc?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Aloe_aristata.jpg/960px-Aloe_aristata.jpg",
         "detail": "סוקולנט או קקטוס קל יחסית לגידול, מתאים למיכלים, מסלעות וגינות חסכוניות במים.",
         "sun": [
             "שמש מלאה",
@@ -4612,12 +4763,13 @@ const plants = [
             "עציץ",
             "קל לטיפול",
             "succulents"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "אגבה אמריקנה",
         "botanical": "Agave americana",
-        "image": "https://images.unsplash.com/photo-1509423350716-97f9360b4e09?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Variegated_Century_Plant_--_Agave_americana_%27Marginata%27.jpg/960px-Variegated_Century_Plant_--_Agave_americana_%27Marginata%27.jpg",
         "detail": "סוקולנט או קקטוס קל יחסית לגידול, מתאים למיכלים, מסלעות וגינות חסכוניות במים.",
         "sun": [
             "שמש מלאה",
@@ -4636,12 +4788,13 @@ const plants = [
             "עציץ",
             "קל לטיפול",
             "succulents"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "נציץ מדברי",
         "botanical": "Delosperma cooperi",
-        "image": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Delosperma_cooperi_%28D%C3%A9losperma_rose%29_-_97.jpg/960px-Delosperma_cooperi_%28D%C3%A9losperma_rose%29_-_97.jpg",
         "detail": "סוקולנט או קקטוס קל יחסית לגידול, מתאים למיכלים, מסלעות וגינות חסכוניות במים.",
         "sun": [
             "שמש מלאה",
@@ -4660,12 +4813,13 @@ const plants = [
             "עציץ",
             "קל לטיפול",
             "succulents"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "דקל אריקה",
         "botanical": "Dypsis lutescens",
-        "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Golden_cane_palm_%28Dypsis_lutescens%29_trunk%2C_Estufa_Fria%2C_Lisbon%2C_Portugal_julesvernex2.jpg/960px-Golden_cane_palm_%28Dypsis_lutescens%29_trunk%2C_Estufa_Fria%2C_Lisbon%2C_Portugal_julesvernex2.jpg",
         "detail": "צמח טרופי, דקל או עלווה גדולה למראה ירוק ורך. מתאים לפטיו, כניסה או אזור מוגן לפי הזן.",
         "sun": [
             "שמש מלאה",
@@ -4685,12 +4839,13 @@ const plants = [
             "עלווה",
             "מיכל",
             "palms"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "דקל טבעות",
         "botanical": "Archontophoenix cunninghamiana",
-        "image": "https://images.unsplash.com/photo-1520412099551-62b6bafeb5bb?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Funchal_Jardim_botanico_Archontophoenix_cunninghamiana_2016_1.jpg/960px-Funchal_Jardim_botanico_Archontophoenix_cunninghamiana_2016_1.jpg",
         "detail": "צמח טרופי, דקל או עלווה גדולה למראה ירוק ורך. מתאים לפטיו, כניסה או אזור מוגן לפי הזן.",
         "sun": [
             "שמש מלאה",
@@ -4710,12 +4865,13 @@ const plants = [
             "עלווה",
             "מיכל",
             "palms"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "וושינגטוניה חסונה",
         "botanical": "Washingtonia robusta",
-        "image": "https://images.unsplash.com/photo-1598880940080-ff9a29891b85?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/2022-02-20_Washingtonia_robusta%2C_Las_Flores%2C_Todos_Santos%2C_Baja_California_Sur%2C_Mexico.jpg/960px-2022-02-20_Washingtonia_robusta%2C_Las_Flores%2C_Todos_Santos%2C_Baja_California_Sur%2C_Mexico.jpg",
         "detail": "צמח טרופי, דקל או עלווה גדולה למראה ירוק ורך. מתאים לפטיו, כניסה או אזור מוגן לפי הזן.",
         "sun": [
             "שמש מלאה",
@@ -4735,12 +4891,13 @@ const plants = [
             "עלווה",
             "מיכל",
             "palms"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "דקל רובליני",
         "botanical": "Phoenix roebelenii",
-        "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Starr_070124-3839_Phoenix_roebelenii.jpg/960px-Starr_070124-3839_Phoenix_roebelenii.jpg",
         "detail": "צמח טרופי, דקל או עלווה גדולה למראה ירוק ורך. מתאים לפטיו, כניסה או אזור מוגן לפי הזן.",
         "sun": [
             "שמש מלאה",
@@ -4760,12 +4917,13 @@ const plants = [
             "עלווה",
             "מיכל",
             "palms"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "דקל קנרי",
         "botanical": "Phoenix canariensis",
-        "image": "https://images.unsplash.com/photo-1520412099551-62b6bafeb5bb?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Phoenix_canariensis_003.jpg/960px-Phoenix_canariensis_003.jpg",
         "detail": "צמח טרופי, דקל או עלווה גדולה למראה ירוק ורך. מתאים לפטיו, כניסה או אזור מוגן לפי הזן.",
         "sun": [
             "שמש מלאה",
@@ -4785,12 +4943,13 @@ const plants = [
             "עלווה",
             "מיכל",
             "palms"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "דקל חמדוריאה",
         "botanical": "Chamaedorea elegans",
-        "image": "https://images.unsplash.com/photo-1598880940080-ff9a29891b85?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Chamaedorea_elegans_Chamedora_wytworna_2024-01-20_Malaga_04.jpg/960px-Chamaedorea_elegans_Chamedora_wytworna_2024-01-20_Malaga_04.jpg",
         "detail": "צמח טרופי, דקל או עלווה גדולה למראה ירוק ורך. מתאים לפטיו, כניסה או אזור מוגן לפי הזן.",
         "sun": [
             "חצי שמש",
@@ -4809,12 +4968,13 @@ const plants = [
             "עלווה",
             "מיכל",
             "palms"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "ציפור גן עדן",
         "botanical": "Strelitzia reginae",
-        "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Strelitzia_reginae_MHNT.BOT.2009.13.52.jpg/960px-Strelitzia_reginae_MHNT.BOT.2009.13.52.jpg",
         "detail": "צמח טרופי, דקל או עלווה גדולה למראה ירוק ורך. מתאים לפטיו, כניסה או אזור מוגן לפי הזן.",
         "sun": [
             "שמש מלאה",
@@ -4834,12 +4994,13 @@ const plants = [
             "עלווה",
             "מיכל",
             "palms"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "ציפור גן עדן לבנה",
         "botanical": "Strelitzia nicolai",
-        "image": "https://images.unsplash.com/photo-1520412099551-62b6bafeb5bb?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Strelitzia_larger.jpg/960px-Strelitzia_larger.jpg",
         "detail": "צמח טרופי, דקל או עלווה גדולה למראה ירוק ורך. מתאים לפטיו, כניסה או אזור מוגן לפי הזן.",
         "sun": [
             "שמש מלאה",
@@ -4859,12 +5020,13 @@ const plants = [
             "עלווה",
             "מיכל",
             "palms"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "בננה ננסית",
         "botanical": "Musa acuminata",
-        "image": "https://images.unsplash.com/photo-1598880940080-ff9a29891b85?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Musa_acuminata_kz01.jpg/960px-Musa_acuminata_kz01.jpg",
         "detail": "צמח טרופי, דקל או עלווה גדולה למראה ירוק ורך. מתאים לפטיו, כניסה או אזור מוגן לפי הזן.",
         "sun": [
             "שמש מלאה",
@@ -4884,12 +5046,13 @@ const plants = [
             "עלווה",
             "מיכל",
             "palms"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "הליקוניה",
         "botanical": "Heliconia",
-        "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Heliconia_latispatha_%28Starwiz%29.jpg/960px-Heliconia_latispatha_%28Starwiz%29.jpg",
         "detail": "צמח טרופי, דקל או עלווה גדולה למראה ירוק ורך. מתאים לפטיו, כניסה או אזור מוגן לפי הזן.",
         "sun": [
             "שמש מלאה",
@@ -4909,12 +5072,13 @@ const plants = [
             "עלווה",
             "מיכל",
             "palms"
-        ]
+        ],
+        "imageSource": "Wikipedia"
     },
     {
         "name": "פילודנדרון קסנדו",
         "botanical": "Philodendron xanadu",
-        "image": "https://images.unsplash.com/photo-1520412099551-62b6bafeb5bb?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Philodendron_xanadu_AK1.jpg/960px-Philodendron_xanadu_AK1.jpg",
         "detail": "צמח טרופי, דקל או עלווה גדולה למראה ירוק ורך. מתאים לפטיו, כניסה או אזור מוגן לפי הזן.",
         "sun": [
             "שמש מלאה",
@@ -4934,12 +5098,13 @@ const plants = [
             "עלווה",
             "מיכל",
             "palms"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "אלוקסיה",
         "botanical": "Alocasia",
-        "image": "https://images.unsplash.com/photo-1598880940080-ff9a29891b85?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Alocasia_cuprea_%28portrait_orientation%29.jpg/960px-Alocasia_cuprea_%28portrait_orientation%29.jpg",
         "detail": "צמח טרופי, דקל או עלווה גדולה למראה ירוק ורך. מתאים לפטיו, כניסה או אזור מוגן לפי הזן.",
         "sun": [
             "שמש מלאה",
@@ -4959,12 +5124,13 @@ const plants = [
             "עלווה",
             "מיכל",
             "palms"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "קולוקסיה",
         "botanical": "Colocasia esculenta",
-        "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Taro_leaf_underside%2C_backlit_by_sun_-_edit.jpg/960px-Taro_leaf_underside%2C_backlit_by_sun_-_edit.jpg",
         "detail": "צמח טרופי, דקל או עלווה גדולה למראה ירוק ורך. מתאים לפטיו, כניסה או אזור מוגן לפי הזן.",
         "sun": [
             "שמש מלאה",
@@ -4984,12 +5150,13 @@ const plants = [
             "עלווה",
             "מיכל",
             "palms"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "אספלניום",
         "botanical": "Asplenium nidus",
-        "image": "https://images.unsplash.com/photo-1520412099551-62b6bafeb5bb?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Asplenium_nidus_%27Fimbriatum%27_kz02.jpg/960px-Asplenium_nidus_%27Fimbriatum%27_kz02.jpg",
         "detail": "צמח טרופי, דקל או עלווה גדולה למראה ירוק ורך. מתאים לפטיו, כניסה או אזור מוגן לפי הזן.",
         "sun": [
             "חצי שמש",
@@ -5008,12 +5175,13 @@ const plants = [
             "עלווה",
             "מיכל",
             "palms"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "שרך בוסטון",
         "botanical": "Nephrolepis exaltata",
-        "image": "https://images.unsplash.com/photo-1598880940080-ff9a29891b85?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Nephrolepis_exaltata_%27Tiger%27_kz01.jpg/960px-Nephrolepis_exaltata_%27Tiger%27_kz01.jpg",
         "detail": "צמח טרופי, דקל או עלווה גדולה למראה ירוק ורך. מתאים לפטיו, כניסה או אזור מוגן לפי הזן.",
         "sun": [
             "חצי שמש",
@@ -5032,12 +5200,13 @@ const plants = [
             "עלווה",
             "מיכל",
             "palms"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "קנה סוף ננסי",
         "botanical": "Cyperus alternifolius",
-        "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Cyperus_alternifolius_Cibora_zmienna_2024-02-29_Graz_01.jpg/960px-Cyperus_alternifolius_Cibora_zmienna_2024-02-29_Graz_01.jpg",
         "detail": "צמח טרופי, דקל או עלווה גדולה למראה ירוק ורך. מתאים לפטיו, כניסה או אזור מוגן לפי הזן.",
         "sun": [
             "שמש מלאה",
@@ -5057,12 +5226,13 @@ const plants = [
             "עלווה",
             "מיכל",
             "palms"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "פפירוס",
         "botanical": "Cyperus papyrus",
-        "image": "https://images.unsplash.com/photo-1520412099551-62b6bafeb5bb?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Cyperus_papyrus_kz10.jpg/960px-Cyperus_papyrus_kz10.jpg",
         "detail": "צמח טרופי, דקל או עלווה גדולה למראה ירוק ורך. מתאים לפטיו, כניסה או אזור מוגן לפי הזן.",
         "sun": [
             "שמש מלאה",
@@ -5082,12 +5252,13 @@ const plants = [
             "עלווה",
             "מיכל",
             "palms"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "מורינגה מכונפת",
         "botanical": "Moringa oleifera",
-        "image": "https://images.unsplash.com/photo-1598880940080-ff9a29891b85?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Moringa_oleifera_kz01.jpg/960px-Moringa_oleifera_kz01.jpg",
         "detail": "צמח טרופי, דקל או עלווה גדולה למראה ירוק ורך. מתאים לפטיו, כניסה או אזור מוגן לפי הזן.",
         "sun": [
             "שמש מלאה",
@@ -5107,12 +5278,13 @@ const plants = [
             "עלווה",
             "מיכל",
             "palms"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "מונסטרה",
         "botanical": "Monstera deliciosa",
-        "image": "https://images.unsplash.com/photo-1592150621744-aca64f48394a?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Monstera_deliciosa_-_Wilhelma_01.jpg/960px-Monstera_deliciosa_-_Wilhelma_01.jpg",
         "detail": "צמח בית פופולרי במשתלות, מתאים לעציץ פנים, משרד או מרפסת מוצלת עם אור מסונן.",
         "sun": [
             "חצי צל",
@@ -5131,12 +5303,13 @@ const plants = [
             "צל",
             "קל לטיפול",
             "houseplants"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "פוטוס",
         "botanical": "Epipremnum aureum",
-        "image": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Epipremnum_aureum_31082012.jpg/960px-Epipremnum_aureum_31082012.jpg",
         "detail": "צמח בית פופולרי במשתלות, מתאים לעציץ פנים, משרד או מרפסת מוצלת עם אור מסונן.",
         "sun": [
             "חצי צל",
@@ -5155,12 +5328,13 @@ const plants = [
             "צל",
             "קל לטיפול",
             "houseplants"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "זמיה קוקוס",
         "botanical": "Zamioculcas zamiifolia",
-        "image": "https://images.unsplash.com/photo-1509423350716-97f9360b4e09?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Zamioculcas_zamiifolia_1.jpg/960px-Zamioculcas_zamiifolia_1.jpg",
         "detail": "צמח בית פופולרי במשתלות, מתאים לעציץ פנים, משרד או מרפסת מוצלת עם אור מסונן.",
         "sun": [
             "חצי צל",
@@ -5179,12 +5353,13 @@ const plants = [
             "צל",
             "קל לטיפול",
             "houseplants"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "פילודנדרון לבבי",
         "botanical": "Philodendron hederaceum",
-        "image": "https://images.unsplash.com/photo-1592150621744-aca64f48394a?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Philodendron_hederaceum%2C_Singapore_Botanic_Gardens_%28141542%29.jpg/960px-Philodendron_hederaceum%2C_Singapore_Botanic_Gardens_%28141542%29.jpg",
         "detail": "צמח בית פופולרי במשתלות, מתאים לעציץ פנים, משרד או מרפסת מוצלת עם אור מסונן.",
         "sun": [
             "חצי צל",
@@ -5203,12 +5378,13 @@ const plants = [
             "צל",
             "קל לטיפול",
             "houseplants"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "פיקוס כינורי",
         "botanical": "Ficus lyrata",
-        "image": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Starr_031108-0130_Ficus_lyrata.jpg/960px-Starr_031108-0130_Ficus_lyrata.jpg",
         "detail": "צמח בית פופולרי במשתלות, מתאים לעציץ פנים, משרד או מרפסת מוצלת עם אור מסונן.",
         "sun": [
             "חצי צל",
@@ -5227,12 +5403,13 @@ const plants = [
             "צל",
             "קל לטיפול",
             "houseplants"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "פיקוס גומי",
         "botanical": "Ficus elastica",
-        "image": "https://images.unsplash.com/photo-1509423350716-97f9360b4e09?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Backlit_ficus_elastica_leaf_texture_2014_02.jpg/960px-Backlit_ficus_elastica_leaf_texture_2014_02.jpg",
         "detail": "צמח בית פופולרי במשתלות, מתאים לעציץ פנים, משרד או מרפסת מוצלת עם אור מסונן.",
         "sun": [
             "חצי צל",
@@ -5251,12 +5428,13 @@ const plants = [
             "צל",
             "קל לטיפול",
             "houseplants"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "דרצנה מרגינטה",
         "botanical": "Dracaena marginata",
-        "image": "https://images.unsplash.com/photo-1592150621744-aca64f48394a?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Dracaena_marginata_IndoorPlant_0605k.jpg",
         "detail": "צמח בית פופולרי במשתלות, מתאים לעציץ פנים, משרד או מרפסת מוצלת עם אור מסונן.",
         "sun": [
             "חצי צל",
@@ -5275,12 +5453,13 @@ const plants = [
             "צל",
             "קל לטיפול",
             "houseplants"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "דרצנה מסנגיאנה",
         "botanical": "Dracaena fragrans",
-        "image": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Dracaena_fragrans_-_Jard%C3%ADn_Bot%C3%A1nico_Canario_Viera_y_Clavijo_-_Gran_Canaria.jpg/960px-Dracaena_fragrans_-_Jard%C3%ADn_Bot%C3%A1nico_Canario_Viera_y_Clavijo_-_Gran_Canaria.jpg",
         "detail": "צמח בית פופולרי במשתלות, מתאים לעציץ פנים, משרד או מרפסת מוצלת עם אור מסונן.",
         "sun": [
             "חצי צל",
@@ -5299,12 +5478,13 @@ const plants = [
             "צל",
             "קל לטיפול",
             "houseplants"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "ספטיפיליום",
         "botanical": "Spathiphyllum",
-        "image": "https://images.unsplash.com/photo-1509423350716-97f9360b4e09?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Peace_lily_-_2.jpg/960px-Peace_lily_-_2.jpg",
         "detail": "צמח בית פופולרי במשתלות, מתאים לעציץ פנים, משרד או מרפסת מוצלת עם אור מסונן.",
         "sun": [
             "חצי צל",
@@ -5323,12 +5503,13 @@ const plants = [
             "צל",
             "קל לטיפול",
             "houseplants"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "אנתוריום",
         "botanical": "Anthurium andraeanum",
-        "image": "https://images.unsplash.com/photo-1592150621744-aca64f48394a?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Anthurium_%28Flamingoplant%29_12-08-2019_%28actm%29_01.jpg/960px-Anthurium_%28Flamingoplant%29_12-08-2019_%28actm%29_01.jpg",
         "detail": "צמח בית פופולרי במשתלות, מתאים לעציץ פנים, משרד או מרפסת מוצלת עם אור מסונן.",
         "sun": [
             "חצי צל",
@@ -5347,12 +5528,13 @@ const plants = [
             "צל",
             "קל לטיפול",
             "houseplants"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "קלטאה",
         "botanical": "Calathea",
-        "image": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Calathea_warscewiczii_-_Wilhelma.jpg/960px-Calathea_warscewiczii_-_Wilhelma.jpg",
         "detail": "צמח בית פופולרי במשתלות, מתאים לעציץ פנים, משרד או מרפסת מוצלת עם אור מסונן.",
         "sun": [
             "חצי צל",
@@ -5371,12 +5553,13 @@ const plants = [
             "צל",
             "קל לטיפול",
             "houseplants"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "מרנטה",
         "botanical": "Maranta leuconeura",
-        "image": "https://images.unsplash.com/photo-1509423350716-97f9360b4e09?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Maranta_leuconeura_erythroneura_1zz.jpg/960px-Maranta_leuconeura_erythroneura_1zz.jpg",
         "detail": "צמח בית פופולרי במשתלות, מתאים לעציץ פנים, משרד או מרפסת מוצלת עם אור מסונן.",
         "sun": [
             "חצי צל",
@@ -5395,12 +5578,13 @@ const plants = [
             "צל",
             "קל לטיפול",
             "houseplants"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "פפרומיה",
         "botanical": "Peperomia",
-        "image": "https://images.unsplash.com/photo-1592150621744-aca64f48394a?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Peperomia_pellucida_6963.jpg/960px-Peperomia_pellucida_6963.jpg",
         "detail": "צמח בית פופולרי במשתלות, מתאים לעציץ פנים, משרד או מרפסת מוצלת עם אור מסונן.",
         "sun": [
             "חצי צל",
@@ -5419,12 +5603,13 @@ const plants = [
             "צל",
             "קל לטיפול",
             "houseplants"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "סינגוניום",
         "botanical": "Syngonium podophyllum",
-        "image": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Syngonium_podophyllum_%28_Arrowhead_plant%29.jpg/960px-Syngonium_podophyllum_%28_Arrowhead_plant%29.jpg",
         "detail": "צמח בית פופולרי במשתלות, מתאים לעציץ פנים, משרד או מרפסת מוצלת עם אור מסונן.",
         "sun": [
             "חצי צל",
@@ -5443,12 +5628,13 @@ const plants = [
             "צל",
             "קל לטיפול",
             "houseplants"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "סקינדפסוס",
         "botanical": "Scindapsus pictus",
-        "image": "https://images.unsplash.com/photo-1509423350716-97f9360b4e09?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Scindapsus_pictus_3358.jpg/960px-Scindapsus_pictus_3358.jpg",
         "detail": "צמח בית פופולרי במשתלות, מתאים לעציץ פנים, משרד או מרפסת מוצלת עם אור מסונן.",
         "sun": [
             "חצי צל",
@@ -5467,12 +5653,13 @@ const plants = [
             "צל",
             "קל לטיפול",
             "houseplants"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "דיפנבכיה",
         "botanical": "Dieffenbachia",
-        "image": "https://images.unsplash.com/photo-1592150621744-aca64f48394a?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Dieffenbachia_inflorescence.jpg/960px-Dieffenbachia_inflorescence.jpg",
         "detail": "צמח בית פופולרי במשתלות, מתאים לעציץ פנים, משרד או מרפסת מוצלת עם אור מסונן.",
         "sun": [
             "חצי צל",
@@ -5491,12 +5678,13 @@ const plants = [
             "צל",
             "קל לטיפול",
             "houseplants"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "אגלאונמה",
         "botanical": "Aglaonema",
-        "image": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Aglaonema_costatum_001.JPG/960px-Aglaonema_costatum_001.JPG",
         "detail": "צמח בית פופולרי במשתלות, מתאים לעציץ פנים, משרד או מרפסת מוצלת עם אור מסונן.",
         "sun": [
             "חצי צל",
@@ -5515,12 +5703,13 @@ const plants = [
             "צל",
             "קל לטיפול",
             "houseplants"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "אספידיסטרה",
         "botanical": "Aspidistra elatior",
-        "image": "https://images.unsplash.com/photo-1509423350716-97f9360b4e09?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Aspidistra_01_%28fcm%29.jpg/960px-Aspidistra_01_%28fcm%29.jpg",
         "detail": "צמח בית פופולרי במשתלות, מתאים לעציץ פנים, משרד או מרפסת מוצלת עם אור מסונן.",
         "sun": [
             "חצי צל",
@@ -5539,12 +5728,13 @@ const plants = [
             "צל",
             "קל לטיפול",
             "houseplants"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "כלורופיטום",
         "botanical": "Chlorophytum comosum",
-        "image": "https://images.unsplash.com/photo-1592150621744-aca64f48394a?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Chlorophytum_comosum%2C_flores.jpg/960px-Chlorophytum_comosum%2C_flores.jpg",
         "detail": "צמח בית פופולרי במשתלות, מתאים לעציץ פנים, משרד או מרפסת מוצלת עם אור מסונן.",
         "sun": [
             "חצי צל",
@@ -5563,12 +5753,13 @@ const plants = [
             "צל",
             "קל לטיפול",
             "houseplants"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "הויה",
         "botanical": "Hoya carnosa",
-        "image": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Hoya_FR_2013.jpg/960px-Hoya_FR_2013.jpg",
         "detail": "צמח בית פופולרי במשתלות, מתאים לעציץ פנים, משרד או מרפסת מוצלת עם אור מסונן.",
         "sun": [
             "חצי צל",
@@ -5587,12 +5778,13 @@ const plants = [
             "צל",
             "קל לטיפול",
             "houseplants"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "וינקה",
         "botanical": "Catharanthus roseus",
-        "image": "https://images.unsplash.com/photo-1597848212624-e6b10e2fc1b6?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Catharanthus_roseus_MHNT.BOT.2005.0962.jpg/960px-Catharanthus_roseus_MHNT.BOT.2005.0962.jpg",
         "detail": "צמח עונתי צבעוני לשתילה מהירה באדניות, עציצים וערוגות. נותן פריחה מיידית במחיר נגיש.",
         "sun": [
             "שמש מלאה",
@@ -5611,12 +5803,13 @@ const plants = [
             "צבע",
             "אדנית",
             "seasonal"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "פטוניה",
         "botanical": "Petunia",
-        "image": "https://images.unsplash.com/photo-1525310072745-f49212b5ac6d?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Petunia_%C3%97_hybrida_-_Karlsruhe.jpg/960px-Petunia_%C3%97_hybrida_-_Karlsruhe.jpg",
         "detail": "צמח עונתי צבעוני לשתילה מהירה באדניות, עציצים וערוגות. נותן פריחה מיידית במחיר נגיש.",
         "sun": [
             "שמש מלאה",
@@ -5635,12 +5828,13 @@ const plants = [
             "צבע",
             "אדנית",
             "seasonal"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "אמנון ותמר",
         "botanical": "Viola tricolor",
-        "image": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Viola_tricolor_Fio%C5%82ek_tr%C3%B3jbarwny_2022-06-29_03.jpg/960px-Viola_tricolor_Fio%C5%82ek_tr%C3%B3jbarwny_2022-06-29_03.jpg",
         "detail": "צמח עונתי צבעוני לשתילה מהירה באדניות, עציצים וערוגות. נותן פריחה מיידית במחיר נגיש.",
         "sun": [
             "שמש מלאה",
@@ -5659,12 +5853,13 @@ const plants = [
             "צבע",
             "אדנית",
             "seasonal"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "ציפורן חתול",
         "botanical": "Tagetes",
-        "image": "https://images.unsplash.com/photo-1597848212624-e6b10e2fc1b6?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Tagetes_erecta_26122014_%282%29.jpg/960px-Tagetes_erecta_26122014_%282%29.jpg",
         "detail": "צמח עונתי צבעוני לשתילה מהירה באדניות, עציצים וערוגות. נותן פריחה מיידית במחיר נגיש.",
         "sun": [
             "שמש מלאה",
@@ -5683,12 +5878,13 @@ const plants = [
             "צבע",
             "אדנית",
             "seasonal"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "לוע הארי",
         "botanical": "Antirrhinum majus",
-        "image": "https://images.unsplash.com/photo-1525310072745-f49212b5ac6d?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Antirrhinum_majus_F1_%27Rocket_Orchid%27.jpg/960px-Antirrhinum_majus_F1_%27Rocket_Orchid%27.jpg",
         "detail": "צמח עונתי צבעוני לשתילה מהירה באדניות, עציצים וערוגות. נותן פריחה מיידית במחיר נגיש.",
         "sun": [
             "שמש מלאה",
@@ -5707,12 +5903,13 @@ const plants = [
             "צבע",
             "אדנית",
             "seasonal"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "סלסלי כסף",
         "botanical": "Lobularia maritima",
-        "image": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Lobularia_maritima_MHNT.BOT.2008.1.2.jpg/960px-Lobularia_maritima_MHNT.BOT.2008.1.2.jpg",
         "detail": "צמח עונתי צבעוני לשתילה מהירה באדניות, עציצים וערוגות. נותן פריחה מיידית במחיר נגיש.",
         "sun": [
             "שמש מלאה",
@@ -5731,12 +5928,13 @@ const plants = [
             "צבע",
             "אדנית",
             "seasonal"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "לובליה",
         "botanical": "Lobelia erinus",
-        "image": "https://images.unsplash.com/photo-1597848212624-e6b10e2fc1b6?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Lobelia_erinus_plant_%2805%29.jpg/960px-Lobelia_erinus_plant_%2805%29.jpg",
         "detail": "צמח עונתי צבעוני לשתילה מהירה באדניות, עציצים וערוגות. נותן פריחה מיידית במחיר נגיש.",
         "sun": [
             "שמש מלאה",
@@ -5755,12 +5953,13 @@ const plants = [
             "צבע",
             "אדנית",
             "seasonal"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "בגוניה",
         "botanical": "Begonia",
-        "image": "https://images.unsplash.com/photo-1525310072745-f49212b5ac6d?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Begonia_grandis_%27claret_jug%27_01.jpg/960px-Begonia_grandis_%27claret_jug%27_01.jpg",
         "detail": "צמח עונתי צבעוני לשתילה מהירה באדניות, עציצים וערוגות. נותן פריחה מיידית במחיר נגיש.",
         "sun": [
             "חצי שמש",
@@ -5779,12 +5978,13 @@ const plants = [
             "צבע",
             "אדנית",
             "seasonal"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "ציניה",
         "botanical": "Zinnia elegans",
-        "image": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Zinnia_elegans_with_Bombus_01.JPG/960px-Zinnia_elegans_with_Bombus_01.JPG",
         "detail": "צמח עונתי צבעוני לשתילה מהירה באדניות, עציצים וערוגות. נותן פריחה מיידית במחיר נגיש.",
         "sun": [
             "שמש מלאה",
@@ -5803,12 +6003,13 @@ const plants = [
             "צבע",
             "אדנית",
             "seasonal"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "קוסמוס",
         "botanical": "Cosmos bipinnatus",
-        "image": "https://images.unsplash.com/photo-1597848212624-e6b10e2fc1b6?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Cosmos_bipinnatus_Bl%C3%BCte-20230819-RM-123333.jpg/960px-Cosmos_bipinnatus_Bl%C3%BCte-20230819-RM-123333.jpg",
         "detail": "צמח עונתי צבעוני לשתילה מהירה באדניות, עציצים וערוגות. נותן פריחה מיידית במחיר נגיש.",
         "sun": [
             "שמש מלאה",
@@ -5827,12 +6028,13 @@ const plants = [
             "צבע",
             "אדנית",
             "seasonal"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "חמנית ננסית",
         "botanical": "Helianthus annuus",
-        "image": "https://images.unsplash.com/photo-1525310072745-f49212b5ac6d?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Sunflower_macro_wide.jpg/960px-Sunflower_macro_wide.jpg",
         "detail": "צמח עונתי צבעוני לשתילה מהירה באדניות, עציצים וערוגות. נותן פריחה מיידית במחיר נגיש.",
         "sun": [
             "שמש מלאה",
@@ -5851,12 +6053,13 @@ const plants = [
             "צבע",
             "אדנית",
             "seasonal"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "סלפיגלוסיס",
         "botanical": "Salpiglossis",
-        "image": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Salpiglossis_sinuata_kz03.jpg/960px-Salpiglossis_sinuata_kz03.jpg",
         "detail": "צמח עונתי צבעוני לשתילה מהירה באדניות, עציצים וערוגות. נותן פריחה מיידית במחיר נגיש.",
         "sun": [
             "שמש מלאה",
@@ -5875,12 +6078,13 @@ const plants = [
             "צבע",
             "אדנית",
             "seasonal"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "קלנדולה",
         "botanical": "Calendula officinalis",
-        "image": "https://images.unsplash.com/photo-1597848212624-e6b10e2fc1b6?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Zaaddoos_van_een_goudsbloem_%28Calendula_officinalis%29_11-09-2020_%28d.j.b.%29.jpg/960px-Zaaddoos_van_een_goudsbloem_%28Calendula_officinalis%29_11-09-2020_%28d.j.b.%29.jpg",
         "detail": "צמח עונתי צבעוני לשתילה מהירה באדניות, עציצים וערוגות. נותן פריחה מיידית במחיר נגיש.",
         "sun": [
             "שמש מלאה",
@@ -5899,12 +6103,13 @@ const plants = [
             "צבע",
             "אדנית",
             "seasonal"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "פורטולקה עונתית",
         "botanical": "Portulaca grandiflora",
-        "image": "https://images.unsplash.com/photo-1525310072745-f49212b5ac6d?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Portulaca_oleracea_MHNT.jpg/960px-Portulaca_oleracea_MHNT.jpg",
         "detail": "צמח עונתי צבעוני לשתילה מהירה באדניות, עציצים וערוגות. נותן פריחה מיידית במחיר נגיש.",
         "sun": [
             "שמש מלאה",
@@ -5923,12 +6128,13 @@ const plants = [
             "צבע",
             "אדנית",
             "seasonal"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "אימפטינס",
         "botanical": "Impatiens walleriana",
-        "image": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Impatiens_walleriana_01.JPG/960px-Impatiens_walleriana_01.JPG",
         "detail": "צמח עונתי צבעוני לשתילה מהירה באדניות, עציצים וערוגות. נותן פריחה מיידית במחיר נגיש.",
         "sun": [
             "חצי שמש",
@@ -5947,12 +6153,13 @@ const plants = [
             "צבע",
             "אדנית",
             "seasonal"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     },
     {
         "name": "קולאוס",
         "botanical": "Plectranthus scutellarioides",
-        "image": "https://images.unsplash.com/photo-1597848212624-e6b10e2fc1b6?auto=format&fit=crop&w=900&q=80",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Plectranthus_scutellarioides_NBG_LR.jpg/960px-Plectranthus_scutellarioides_NBG_LR.jpg",
         "detail": "צמח עונתי צבעוני לשתילה מהירה באדניות, עציצים וערוגות. נותן פריחה מיידית במחיר נגיש.",
         "sun": [
             "חצי שמש",
@@ -5971,7 +6178,8 @@ const plants = [
             "צבע",
             "אדנית",
             "seasonal"
-        ]
+        ],
+        "imageSource": "Wikimedia Commons"
     }
 ];
 

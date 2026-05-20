@@ -11,6 +11,9 @@
  * "Olea europaea": "https://your-domain.com/photos/olive.jpg",
  *
  * Leave this object empty to use the automatic iNaturalist plant photos.
+ *
+ * For shared cloud uploads from the website button, configure
+ * remote-photo-service.js and follow SUPABASE_PHOTO_SETUP.md.
  */
 window.CLIENT_PHOTOS = {
     // "זית אירופי": "https://example.com/photos/olive.jpg",

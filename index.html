@@ -912,6 +912,7 @@ footer {
     <strong>Gardening Artists</strong> - התאמת צמחייה לגינות פרטיות בישראל, עם קטלוג צמחים ומחירי התרשמות בשקלים.
 </footer>
 
+<script src="remote-photo-service.js"></script>
 <script src="client-photos.js"></script>
 <script>
 const plants = [
@@ -8300,10 +8301,124 @@ function imageFallback(name) {
 }
 
 const clientPhotoOverrides = window.CLIENT_PHOTOS || {};
+const remotePhotoService = window.REMOTE_PHOTO_SERVICE || {};
 let localPhotoOverrides = loadLocalPhotoOverrides();
+let remotePhotoOverrides = {};
+
+function remotePhotosEnabled() {
+    return Boolean(
+        remotePhotoService.enabled &&
+        remotePhotoService.provider === "supabase" &&
+        remotePhotoService.supabaseUrl &&
+        remotePhotoService.supabaseAnonKey &&
+        remotePhotoService.bucket &&
+        remotePhotoService.table
+    );
+}
+
+function supabaseBaseUrl() {
+    return remotePhotoService.supabaseUrl.replace(/\/$/, "");
+}
+
+function supabaseHeaders(contentType) {
+    const headers = {
+        apikey: remotePhotoService.supabaseAnonKey,
+        Authorization: `Bearer ${remotePhotoService.supabaseAnonKey}`
+    };
+    if (contentType) {
+        headers["Content-Type"] = contentType;
+    }
+    return headers;
+}
+
+function plantStorageKey(plant) {
+    return plant.botanical || plant.name;
+}
+
+function safeFilePart(value) {
+    return value
+        .toLowerCase()
+        .replace(/[^a-z0-9\u0590-\u05ff]+/gi, "-")
+        .replace(/^-+|-+$/g, "")
+        .slice(0, 80) || "plant";
+}
+
+async function loadRemotePhotoOverrides() {
+    if (!remotePhotosEnabled()) return;
+    const url = `${supabaseBaseUrl()}/rest/v1/${remotePhotoService.table}?select=plant_key,photo_url`;
+    try {
+        const response = await fetch(url, { headers: supabaseHeaders() });
+        if (!response.ok) throw new Error(`Supabase load failed: ${response.status}`);
+        const rows = await response.json();
+        remotePhotoOverrides = rows.reduce((accumulator, row) => {
+            accumulator[row.plant_key] = row.photo_url;
+            return accumulator;
+        }, {});
+        rerenderCurrentPlants();
+    } catch (error) {
+        console.warn("Remote photo loading failed", error);
+    }
+}
+
+async function uploadRemotePhoto(plant, file) {
+    if (!remotePhotosEnabled()) return "";
+    const extension = (file.name.split(".").pop() || "jpg").toLowerCase().replace(/[^a-z0-9]/g, "") || "jpg";
+    const path = `${safeFilePart(plantStorageKey(plant))}-${Date.now()}.${extension}`;
+    const uploadUrl = `${supabaseBaseUrl()}/storage/v1/object/${remotePhotoService.bucket}/${encodeURIComponent(path)}`;
+    const uploadResponse = await fetch(uploadUrl, {
+        method: "POST",
+        headers: {
+            ...supabaseHeaders(file.type || "application/octet-stream"),
+            "x-upsert": "true"
+        },
+        body: file
+    });
+    if (!uploadResponse.ok) {
+        throw new Error(`Supabase upload failed: ${uploadResponse.status}`);
+    }
+
+    const publicUrl = `${supabaseBaseUrl()}/storage/v1/object/public/${remotePhotoService.bucket}/${encodeURIComponent(path)}`;
+    const row = {
+        plant_key: plantStorageKey(plant),
+        plant_name: plant.name,
+        botanical_name: plant.botanical,
+        photo_url: publicUrl,
+        updated_at: new Date().toISOString()
+    };
+    const saveUrl = `${supabaseBaseUrl()}/rest/v1/${remotePhotoService.table}?on_conflict=plant_key`;
+    const saveResponse = await fetch(saveUrl, {
+        method: "POST",
+        headers: {
+            ...supabaseHeaders("application/json"),
+            Prefer: "resolution=merge-duplicates"
+        },
+        body: JSON.stringify(row)
+    });
+    if (!saveResponse.ok) {
+        throw new Error(`Supabase photo row save failed: ${saveResponse.status}`);
+    }
+
+    remotePhotoOverrides[plantStorageKey(plant)] = publicUrl;
+    return publicUrl;
+}
+
+async function deleteRemotePhoto(plant) {
+    if (!remotePhotosEnabled()) return;
+    const key = encodeURIComponent(plantStorageKey(plant));
+    const url = `${supabaseBaseUrl()}/rest/v1/${remotePhotoService.table}?plant_key=eq.${key}`;
+    const response = await fetch(url, {
+        method: "DELETE",
+        headers: supabaseHeaders()
+    });
+    if (!response.ok) {
+        throw new Error(`Supabase photo row delete failed: ${response.status}`);
+    }
+    delete remotePhotoOverrides[plantStorageKey(plant)];
+}
 
 function clientPhotoFor(plant) {
-    return localPhotoOverrides[plant.name] ||
+    return remotePhotoOverrides[plantStorageKey(plant)] ||
+        localPhotoOverrides[plant.name] ||
         localPhotoOverrides[plant.botanical] ||
         clientPhotoOverrides[plant.name] ||
         clientPhotoOverrides[plant.botanical] ||
@@ -8320,6 +8435,9 @@ function photoSourceUrl(plant) {
 }
 
 function photoSourceLabel(plant) {
+    if (remotePhotoOverrides[plantStorageKey(plant)]) {
+        return "תמונה שנשמרה בענן";
+    }
     if (localPhotoOverrides[plant.name] || localPhotoOverrides[plant.botanical]) {
         return "תמונה שהועלתה בדפדפן";
     }
@@ -8400,7 +8518,7 @@ function renderPlants(rubric = "all") {
                         <button class="photo-button replace-photo-button" type="button" data-plant-key="${plant.name}">
                             החלפת תמונה
                         </button>
-                        ${localPhotoOverrides[plant.name] || localPhotoOverrides[plant.botanical] ? `
+                        ${remotePhotoOverrides[plantStorageKey(plant)] || localPhotoOverrides[plant.name] || localPhotoOverrides[plant.botanical] ? `
                             <button class="photo-button secondary reset-photo-button" type="button" data-plant-key="${plant.name}">
                                 החזרת תמונה מקורית
                             </button>
@@ -8520,6 +8638,27 @@ plantGrid.addEventListener("click", (event) => {
                 return;
             }
 
+            if (remotePhotosEnabled()) {
+                replaceButton.disabled = true;
+                replaceButton.textContent = "מעלה תמונה...";
+                uploadRemotePhoto(plant, file)
+                    .then(() => {
+                        delete localPhotoOverrides[plant.name];
+                        delete localPhotoOverrides[plant.botanical];
+                        saveLocalPhotoOverrides(localPhotoOverrides);
+                        rerenderCurrentPlants();
+                    })
+                    .catch((error) => {
+                        console.error(error);
+                        alert("שמירת התמונה בענן נכשלה. בדקו את הגדרות Supabase או נסו שוב.");
+                    })
+                    .finally(() => {
+                        replaceButton.disabled = false;
+                        replaceButton.textContent = "החלפת תמונה";
+                    });
+                return;
+            }
+
             const reader = new FileReader();
             reader.addEventListener("load", () => {
                 const previousValue = localPhotoOverrides[plant.name];
@@ -8540,6 +8679,23 @@ plantGrid.addEventListener("click", (event) => {
     if (resetButton) {
         const plant = findPlantByKey(resetButton.dataset.plantKey);
         if (!plant) return;
+        if (remotePhotoOverrides[plantStorageKey(plant)] && remotePhotosEnabled()) {
+            resetButton.disabled = true;
+            resetButton.textContent = "מוחק...";
+            deleteRemotePhoto(plant)
+                .then(() => {
+                    rerenderCurrentPlants();
+                })
+                .catch((error) => {
+                    console.error(error);
+                    alert("מחיקת התמונה מהענן נכשלה. נסו שוב.");
+                })
+                .finally(() => {
+                    resetButton.disabled = false;
+                    resetButton.textContent = "החזרת תמונה מקורית";
+                });
+            return;
+        }
         delete localPhotoOverrides[plant.name];
         delete localPhotoOverrides[plant.botanical];
         if (saveLocalPhotoOverrides(localPhotoOverrides)) {
@@ -8562,6 +8718,7 @@ videoInput.addEventListener("change", () => {
 recommendButton.addEventListener("click", recommendGarden);
 
 renderPlants();
+loadRemotePhotoOverrides();
 </script>
 </body>
 </html>

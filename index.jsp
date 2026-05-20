@@ -5,6 +5,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#476653">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Gardening Artists">
+<meta name="format-detection" content="telephone=no">
 <title>Gardening Artists | קטלוג צמחים למשתלות בישראל</title>
 <style>
 :root {
@@ -379,6 +383,7 @@ label {
 input,
 select,
 textarea {
+    -webkit-appearance: none;
     background: rgba(255, 255, 255, 0.9);
     border: 1px solid var(--line);
     border-radius: 18px;
@@ -494,6 +499,37 @@ textarea {
     text-decoration: underline;
 }
 
+.photo-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.photo-button {
+    align-items: center;
+    background: var(--sage-100);
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    color: var(--sage-800);
+    cursor: pointer;
+    font: inherit;
+    font-size: 0.84rem;
+    font-weight: 900;
+    justify-content: center;
+    min-height: 44px;
+    padding: 8px 12px;
+    touch-action: manipulation;
+}
+
+.photo-button:hover {
+    background: var(--sage-200);
+}
+
+.photo-button.secondary {
+    background: var(--white);
+    color: var(--muted);
+}
+
 .empty-state {
     border: 1px dashed var(--sage-700);
     border-radius: 24px;
@@ -597,13 +633,23 @@ footer {
 
 @media (max-width: 680px) {
     .hero {
-        padding: 24px 6vw 48px;
+        padding: 20px 5vw 42px;
     }
 
     .nav {
         align-items: flex-start;
         flex-direction: column;
-        margin-bottom: 44px;
+        margin-bottom: 34px;
+    }
+
+    .nav-links {
+        width: 100%;
+    }
+
+    .nav-links a {
+        flex: 1 1 auto;
+        min-height: 44px;
+        text-align: center;
     }
 
     .filters,
@@ -615,8 +661,30 @@ footer {
     }
 
     main {
-        padding-left: 6vw;
-        padding-right: 6vw;
+        padding: 38px 5vw 60px;
+    }
+
+    .hero-actions .button,
+    .photo-actions,
+    .photo-button {
+        width: 100%;
+    }
+
+    .plant-card-content,
+    .panel,
+    .hero-card,
+    .recommendation-card,
+    .rubric-card {
+        padding: 18px;
+    }
+
+    .meta-row {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: clamp(2rem, 12vw, 3.3rem);
     }
 }
 </style>
@@ -671,7 +739,7 @@ footer {
             </div>
             <p>
                 כל כרטיס כולל תמונת צילום של הצמח, מידע בוטני, תנאי גידול מומלצים
-                וטווח מחיר משוער בשקלים לגדלי שתילים ועציצים נפוצים במשתלות בישראל. ניתן להחליף תמונות בקלות בקובץ client-photos.js.
+                וטווח מחיר משוער בשקלים לגדלי שתילים ועציצים נפוצים במשתלות בישראל. ניתן להחליף תמונה בכפתור שעל הכרטיס, או קבוע דרך הקובץ client-photos.js.
             </p>
         </div>
 
@@ -8208,6 +8276,25 @@ const recommendButton = document.getElementById("recommendButton");
 const recommendationIntro = document.getElementById("recommendationIntro");
 const recommendationList = document.getElementById("recommendationList");
 const totalCost = document.getElementById("totalCost");
+const localPhotoStorageKey = "gardeningArtistsLocalPhotos";
+
+function loadLocalPhotoOverrides() {
+    try {
+        return JSON.parse(localStorage.getItem(localPhotoStorageKey)) || {};
+    } catch (error) {
+        return {};
+    }
+}
+
+function saveLocalPhotoOverrides(overrides) {
+    try {
+        localStorage.setItem(localPhotoStorageKey, JSON.stringify(overrides));
+        return true;
+    } catch (error) {
+        alert("התמונה גדולה מדי לשמירה בדפדפן. נסו תמונה קטנה יותר, או החליפו אותה בקובץ client-photos.js.");
+        return false;
+    }
+}
 
 function imageFallback(name) {
     const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="900" height="675" viewBox="0 0 900 675"><defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#eef5ef"/><stop offset="1" stop-color="#dce8df"/></linearGradient></defs><rect width="900" height="675" fill="url(#bg)"/><circle cx="230" cy="210" r="92" fill="#6f927a" opacity="0.26"/><circle cx="690" cy="470" r="130" fill="#ead9b7" opacity="0.42"/><path d="M450 478c-70-78-78-160-24-248 73 74 92 154 24 248Z" fill="#476653" opacity="0.82"/><path d="M430 486c-88-42-132-112-128-214 92 35 147 100 128 214Z" fill="#6f927a" opacity="0.72"/><path d="M470 486c88-42 132-112 128-214-92 35-147 100-128 214Z" fill="#6f927a" opacity="0.72"/><text x="450" y="585" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#31483a">${name}</text><text x="450" y="626" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#667568">Gardening Artists</text></svg>`;
@@ -8215,9 +8302,14 @@ function imageFallback(name) {
 }
 
 const clientPhotoOverrides = window.CLIENT_PHOTOS || {};
+let localPhotoOverrides = loadLocalPhotoOverrides();
 
 function clientPhotoFor(plant) {
-    return clientPhotoOverrides[plant.name] || clientPhotoOverrides[plant.botanical] || "";
+    return localPhotoOverrides[plant.name] ||
+        localPhotoOverrides[plant.botanical] ||
+        clientPhotoOverrides[plant.name] ||
+        clientPhotoOverrides[plant.botanical] ||
+        "";
 }
 
 function photoUrl(plant) {
@@ -8230,7 +8322,23 @@ function photoSourceUrl(plant) {
 }
 
 function photoSourceLabel(plant) {
+    if (localPhotoOverrides[plant.name] || localPhotoOverrides[plant.botanical]) {
+        return "תמונה שהועלתה בדפדפן";
+    }
     return clientPhotoFor(plant) ? "תמונה שהוחלפה ידנית" : plant.imageSource;
+}
+
+function findPlantByKey(key) {
+    return plants.find((plant) => plant.name === key || plant.botanical === key);
+}
+
+function activeRubric() {
+    const activeTab = document.querySelector(".tab.active");
+    return activeTab ? activeTab.dataset.rubric : "all";
+}
+
+function rerenderCurrentPlants() {
+    renderPlants(activeRubric());
 }
 
 document.getElementById("plantCount").textContent = plants.length;
@@ -8290,6 +8398,16 @@ function renderPlants(rubric = "all") {
                     <a class="source-link" href="${photoSourceUrl(plant)}" target="_blank" rel="noopener noreferrer">
                         מקור תמונה: ${photoSourceLabel(plant)}
                     </a>
+                    <div class="photo-actions">
+                        <button class="photo-button replace-photo-button" type="button" data-plant-key="${plant.name}">
+                            החלפת תמונה
+                        </button>
+                        ${localPhotoOverrides[plant.name] || localPhotoOverrides[plant.botanical] ? `
+                            <button class="photo-button secondary reset-photo-button" type="button" data-plant-key="${plant.name}">
+                                החזרת תמונה מקורית
+                            </button>
+                        ` : ""}
+                    </div>
                 </div>
             </div>
         </article>
@@ -8381,9 +8499,55 @@ tabs.forEach((tab) => {
 
 [searchInput, sunFilter, soilFilter, waterFilter].forEach((control) => {
     control.addEventListener("input", () => {
-        const activeTab = document.querySelector(".tab.active");
-        renderPlants(activeTab.dataset.rubric);
+        rerenderCurrentPlants();
     });
+});
+
+plantGrid.addEventListener("click", (event) => {
+    const replaceButton = event.target.closest(".replace-photo-button");
+    const resetButton = event.target.closest(".reset-photo-button");
+
+    if (replaceButton) {
+        const plant = findPlantByKey(replaceButton.dataset.plantKey);
+        if (!plant) return;
+
+        const picker = document.createElement("input");
+        picker.type = "file";
+        picker.accept = "image/*";
+        picker.addEventListener("change", () => {
+            const file = picker.files && picker.files[0];
+            if (!file) return;
+            if (!file.type.startsWith("image/")) {
+                alert("נא לבחור קובץ תמונה בלבד.");
+                return;
+            }
+
+            const reader = new FileReader();
+            reader.addEventListener("load", () => {
+                const previousValue = localPhotoOverrides[plant.name];
+                localPhotoOverrides[plant.name] = reader.result;
+                if (saveLocalPhotoOverrides(localPhotoOverrides)) {
+                    rerenderCurrentPlants();
+                } else if (previousValue) {
+                    localPhotoOverrides[plant.name] = previousValue;
+                } else {
+                    delete localPhotoOverrides[plant.name];
+                }
+            });
+            reader.readAsDataURL(file);
+        });
+        picker.click();
+    }
+
+    if (resetButton) {
+        const plant = findPlantByKey(resetButton.dataset.plantKey);
+        if (!plant) return;
+        delete localPhotoOverrides[plant.name];
+        delete localPhotoOverrides[plant.botanical];
+        if (saveLocalPhotoOverrides(localPhotoOverrides)) {
+            rerenderCurrentPlants();
+        }
+    }
 });
 
 videoInput.addEventListener("change", () => {

@@ -629,10 +629,9 @@ footer {
             <span>Gardening Artists</span>
         </div>
         <div class="nav-links">
-            <a href="#ui">מבט על הממשק</a>
             <a href="#plants">קטלוג צמחים</a>
             <a href="#rubrics">חלוקה לפי תנאים</a>
-            <a href="#advisor">יועץ גינה</a>
+            <a href="#advisor">התאמת צמחים לגינה</a>
         </div>
     </nav>
 
@@ -641,8 +640,8 @@ footer {
             <p class="eyebrow">תכנון גינה ישראלית בצורה רגועה וברורה</p>
             <h1>בוחרים צמחים נכונים לגינה יפה, רכה ומתאימה לתנאי השטח.</h1>
             <p class="hero-copy">
-                קטלוג הצמחים של Gardening Artists מציג 208 צמחים נפוצים במשתלות בישראל מכל אזורי הארץ, לפי שמש, סוג קרקע והשקיה.
-                התמונות והמידע הבוטני מבוססים על Wikipedia/Wikimedia, והמחירים מוצגים בשקלים לפי טווחי משתלות נפוצים בישראל.
+                בחרו צמחים אמיתיים ונפוצים במשתלות בישראל לפי תנאי הגינה שלכם: שמש, סוג קרקע, השקיה ותקציב.
+                כל כרטיס מציג תמונת צילום, מידע בוטני, תנאי גידול וטווח מחיר בשקלים להתרשמות ראשונית.
             </p>
             <div class="hero-actions">
                 <a class="button button-primary" href="#plants">לעיון בצמחים</a>
@@ -650,10 +649,9 @@ footer {
             </div>
         </div>
         <aside class="hero-card" aria-label="תקציר הקטלוג">
-            <h2>ממשק רך לגינות חמות וירוקות</h2>
+            <h2>מתאימים צמחייה לגינה שלכם</h2>
             <p>
-                ניתן לחפש לפי מילים חופשיות, לסנן לפי חשיפה לשמש, קרקע והשקיה,
-                ולהעלות סרטון קצר של הגינה כדי לקבל רשימת צמחים מומלצת והערכת תקציב.
+                אפשר לעיין בקטלוג, לסנן לפי תנאי שטח, להעלות סרטון קצר של הגינה ולקבל שילוב צמחים מומלץ עם הערכת תקציב.
             </p>
             <div class="hero-stats">
                 <div class="stat"><strong id="plantCount">0</strong>צמחים</div>
@@ -665,61 +663,6 @@ footer {
 </header>
 
 <main>
-    <section id="ui" class="ui-showcase" aria-label="מבט על חוויית המשתמש">
-        <div class="ui-preview">
-            <div class="ui-toolbar">
-                <strong>אפליקציית Gardening Artists</strong>
-                <div class="ui-dots" aria-hidden="true"><span></span><span></span><span></span></div>
-            </div>
-            <div class="ui-body">
-                <aside class="ui-sidebar">
-                    <h3>סינון לפי תנאים</h3>
-                    <div class="ui-menu">
-                        <span>חשיפה לשמש</span>
-                        <span>סוג קרקע</span>
-                        <span>השקיה</span>
-                        <span>תקציב משוער</span>
-                    </div>
-                </aside>
-                <div class="ui-cards">
-                    <article class="ui-card">
-                        <h3>קטלוג ויזואלי</h3>
-                        <p>כרטיסי צמחים עם תמונות, תנאים מהירים וטווחי מחיר ברורים.</p>
-                        <div class="ui-pill-row">
-                            <span class="chip">שמש מלאה</span>
-                            <span class="chip">קרקע חרסיתית</span>
-                            <span class="chip">מעט השקיה</span>
-                        </div>
-                    </article>
-                    <article class="ui-card">
-                        <h3>המלצה חכמה</h3>
-                        <p>נתוני הגינה והסרטון עוזרים לבנות שילוב צמחים מתאים עם עלות כוללת.</p>
-                        <div class="ui-pill-row">
-                            <span class="chip">העלאת סרטון</span>
-                            <span class="chip">כיוון הגינה</span>
-                            <span class="chip">הערכת מחיר</span>
-                        </div>
-                    </article>
-                </div>
-            </div>
-        </div>
-
-        <aside class="ui-panel">
-            <p class="eyebrow">חוויית משתמש</p>
-            <h2>ממשק רך, פשוט ומלא בעברית לבחירת צמחי גינה.</h2>
-            <p>
-                האתר מוביל את הלקוח מהיכרות עם הצמחים ועד המלצה מעשית: חיפוש, השוואת תנאי גידול,
-                העלאת סרטון וקבלת הצעת צמחייה עם הערכת עלות.
-            </p>
-            <div class="workflow">
-                <div class="workflow-step"><span>1</span><div><strong>מחפשים</strong><br>לפי שם, מראה, שמש, קרקע או השקיה.</div></div>
-                <div class="workflow-step"><span>2</span><div><strong>משווים</strong><br>תמונות, תנאי גידול, מידע קצר וטווח מחיר.</div></div>
-                <div class="workflow-step"><span>3</span><div><strong>מתכננים</strong><br>מקבלים רשימת צמחים ועלות משוערת לכל הגינה.</div></div>
-            </div>
-            <a class="button button-secondary" href="#advisor">התחלת תכנון גינה</a>
-        </aside>
-    </section>
-
     <section id="plants">
         <div class="section-heading">
             <div>
@@ -727,7 +670,7 @@ footer {
                 <h2>צמחים נפוצים במשתלות בישראל לפי שמש, קרקע והשקיה.</h2>
             </div>
             <p>
-                כל כרטיס כולל תמונה וקישור מקור מ-Wikipedia/Wikimedia, פירוט קצר, תנאי גידול מומלצים
+                כל כרטיס כולל תמונת צילום של הצמח, מידע בוטני מבוסס ויקיפדיה, תנאי גידול מומלצים
                 וטווח מחיר משוער בשקלים לגדלי שתילים ועציצים נפוצים במשתלות בישראל.
             </p>
         </div>
@@ -815,11 +758,10 @@ footer {
 
     <section id="advisor" class="advisor">
         <div class="panel">
-            <p class="eyebrow">יועץ גינה</p>
-            <h2>מעלים סרטון ומוסיפים מאפייני גינה.</h2>
+            <p class="eyebrow">התאמת צמחים לגינה</p>
+            <h2>ספרו לנו על הגינה וקבלו הצעת צמחייה ראשונית.</h2>
             <p>
-                היועץ משתמש בכיוון הגינה, כמות השמש, סוג הקרקע, שיטת ההשקיה וגודל השטח
-                כדי להמליץ על צמחים ולחשב עלות משוערת.
+                לפי כיוון הגינה, כמות השמש, סוג הקרקע, ההשקיה וגודל השטח, האתר מציע צמחים מתאימים ומחשב עלות משוערת בשקלים.
             </p>
 
             <div class="upload-box">
@@ -901,7 +843,7 @@ footer {
 </main>
 
 <footer>
-    <strong>Gardening Artists</strong> - כלי תכנון רך בעברית לבחירת צמחים ממשתלות בישראל ולגינות מותאמות לתנאי השטח.
+    <strong>Gardening Artists</strong> - התאמת צמחייה לגינות פרטיות בישראל, עם קטלוג צמחים ומחירי התרשמות בשקלים.
 </footer>
 
 <script>
@@ -909,8 +851,8 @@ const plants = [
     {
         "name": "זית אירופי",
         "botanical": "Olea europaea",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Olivesfromjordan.jpg/330px-Olivesfromjordan.jpg",
-        "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Olea_europaea_subsp_europaea.jpg/330px-Olea_europaea_subsp_europaea.jpg",
+        "detail": "זַיִת אֵירוֹפִּי, או בשמו הרווח: עץ הזית, הוא עץ או שיח ירוק-עד תרבותי שממלא תפקיד כלכלי ניכר בכל אגן הים התיכון.",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -930,16 +872,18 @@ const plants = [
             "צל",
             "trees"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Olive",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Olive",
-        "wikipediaExtract": "The olive is a species of subtropical evergreen tree in the family Oleaceae. Originating in Asia Minor, it is abundant throughout the Mediterranean Basin, with wild subspecies in Africa and western Asia; modern cultivars are traced primarily to the Near East, Aegean Sea, and Strait of Gibraltar. The olive is the type species for its genus, Olea, and lends its name to the Oleaceae plant family, which includes lilac, jasmine, forsythia, and ash. The olive fruit is classed botanically as a drupe, similar in structure and function to the cherry or peach. The term oil was originally synonymous with olive oil, the liquid fat derived from olives."
+        "wikipediaExtract": "The olive is a species of subtropical evergreen tree in the family Oleaceae. Originating in Asia Minor, it is abundant throughout the Mediterranean Basin, with wild subspecies in Africa and western Asia; modern cultivars are traced primarily to the Near East, Aegean Sea, and Strait of Gibraltar. The olive is the type species for its genus, Olea, and lends its name to the Oleaceae plant family, which includes lilac, jasmine, forsythia, and ash. The olive fruit is classed botanically as a drupe, similar in structure and function to the cherry or peach. The term oil was originally synonymous with olive oil, the liquid fat derived from olives.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%96%D7%99%D7%AA_%D7%90%D7%99%D7%A8%D7%95%D7%A4%D7%99"
     },
     {
         "name": "לימון",
         "botanical": "Citrus limon",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/P1030323.JPG/330px-P1030323.JPG",
-        "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Zitonenbaum.jpg/330px-Zitonenbaum.jpg",
+        "detail": "לימון הוא מין של עץ מסוג ההדרים, שמגדלים באופן חקלאי בעבור פירותיו הקרויים באותו שם. הלימונים משמשים בעיקר לשם הפקת מיץ, אך גם החרצנים, הציפה והקליפה משמשים בבישול, באפייה ובשימורים. מיץ הלימון מכיל כחמישה אחוזים חומצה ציטרית. רמת החומציות שלו (PH) היא בין 2...",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -958,16 +902,18 @@ const plants = [
             "צל",
             "trees"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Lemon",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Lemon",
-        "wikipediaExtract": "The lemon is a species of small evergreen tree in the Citrus genus of the flowering plant family Rutaceae. A true lemon is a hybrid of the citron and the bitter orange. Its origins are uncertain, but some evidence suggests lemons originated during the 1st millennium BC in what is now northeastern India. Some other citrus fruits are called lemon."
+        "wikipediaExtract": "The lemon is a species of small evergreen tree in the Citrus genus of the flowering plant family Rutaceae. A true lemon is a hybrid of the citron and the bitter orange. Its origins are uncertain, but some evidence suggests lemons originated during the 1st millennium BC in what is now northeastern India. Some other citrus fruits are called lemon.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%9C%D7%99%D7%9E%D7%95%D7%9F"
     },
     {
         "name": "תפוז",
         "botanical": "Citrus sinensis",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/OrangeBloss_wb.jpg/330px-OrangeBloss_wb.jpg",
-        "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Viri_Galilaei_%289200926016%29.jpg/330px-Viri_Galilaei_%289200926016%29.jpg",
+        "detail": "תפוז הוא מין של עץ מסוג הדרים. התפוז הוא אחד מפירות ההדר הנפוצים ביותר. הוא עגול, וצבעו כתום. לרוב, השם \"תפוז\" יתייחס לפרי, והעץ ייקרא \"עץ התפוז\".",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -986,16 +932,18 @@ const plants = [
             "צל",
             "trees"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Citrus × sinensis",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Citrus_%C3%97_sinensis",
-        "wikipediaExtract": "Citrus × sinensis, is a broadleaf evergreen hybrid between pomelo and mandarin. Hybrid sweet oranges are commonly cultivated fruits that include Valencia oranges, blood oranges and navel oranges."
+        "wikipediaExtract": "Citrus × sinensis, is a broadleaf evergreen hybrid between pomelo and mandarin. Hybrid sweet oranges are commonly cultivated fruits that include Valencia oranges, blood oranges and navel oranges.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%AA%D7%A4%D7%95%D7%96"
     },
     {
         "name": "קלמנטינה",
         "botanical": "Citrus clementina",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Clementines_whole%2C_peeled%2C_half_and_sectioned.jpg/330px-Clementines_whole%2C_peeled%2C_half_and_sectioned.jpg",
-        "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Clementine_Israel.jpg/330px-Clementine_Israel.jpg",
+        "detail": "קלמנטינה היא פרי הדר קטן ומתוק, הדומה לתפוז קטן או למנדרינה. מבחינה בוטנית, יש המגדירים את הקלמנטינה כמין נפרד תחת השם Citrus x clementina, כזן או כקבוצת זנים של מנדרינה, או כשם נרדף לתפוז חושחש Citrus x aurantium.",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -1014,16 +962,18 @@ const plants = [
             "צל",
             "trees"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Clementine",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Clementine",
-        "wikipediaExtract": "A clementine is a tangor, a citrus fruit hybrid between a willowleaf mandarin orange and a sweet orange, named in honor of Clément Rodier, a French missionary who first discovered and propagated the cultivar in Algeria. The exterior is a deep orange colour with a smooth, glossy appearance. Clementines can be separated into 7 to 14 segments. Similar to tangerines, they tend to be easy to peel. They are typically juicy and sweet, with less acid than oranges. Their oils, like other citrus fruits, contain mostly limonene as well as myrcene, linalool, α-pinene and many complex aromatics."
+        "wikipediaExtract": "A clementine is a tangor, a citrus fruit hybrid between a willowleaf mandarin orange and a sweet orange, named in honor of Clément Rodier, a French missionary who first discovered and propagated the cultivar in Algeria. The exterior is a deep orange colour with a smooth, glossy appearance. Clementines can be separated into 7 to 14 segments. Similar to tangerines, they tend to be easy to peel. They are typically juicy and sweet, with less acid than oranges. Their oils, like other citrus fruits, contain mostly limonene as well as myrcene, linalool, α-pinene and many complex aromatics.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%A7%D7%9C%D7%9E%D7%A0%D7%98%D7%99%D7%A0%D7%94"
     },
     {
         "name": "אשכולית",
         "botanical": "Citrus paradisi",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Grapefruits_-_whole-halved-segments.jpg/330px-Grapefruits_-_whole-halved-segments.jpg",
-        "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Citrus_paradisi_%28Grapefruit%2C_pink%29_white_bg.jpg/330px-Citrus_paradisi_%28Grapefruit%2C_pink%29_white_bg.jpg",
+        "detail": "האשכולית היא אחת מפירות ההדר.",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -1042,16 +992,18 @@ const plants = [
             "צל",
             "trees"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Grapefruit",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Grapefruit",
-        "wikipediaExtract": "The grapefruit is a subtropical citrus tree known for its relatively large, sour to semi-sweet, somewhat bitter fruit. The flesh of the fruit is segmented and varies in color from pale yellow to dark red."
+        "wikipediaExtract": "The grapefruit is a subtropical citrus tree known for its relatively large, sour to semi-sweet, somewhat bitter fruit. The flesh of the fruit is segmented and varies in color from pale yellow to dark red.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%90%D7%A9%D7%9B%D7%95%D7%9C%D7%99%D7%AA"
     },
     {
         "name": "ליים",
         "botanical": "Citrus aurantiifolia",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Citrus_%C3%97_aurantiifolia_%28Christm.%29_Swingle_%2851906868474%29.jpg/330px-Citrus_%C3%97_aurantiifolia_%28Christm.%29_Swingle_%2851906868474%29.jpg",
-        "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Citrus_collage.png/330px-Citrus_collage.png",
+        "detail": "ליים הוא כינוי למספר מינים של פירות הדר או הכלאות שלהם. צבע הפרי ירוק כהה עד צהוב, קוטרו נע בין שלושה לשישה סנטימטרים. הפרי בשרני, ומזכיר בצורתו וטעמו את הלימון. מיני הליים בדרך כלל קטנים מהלימון, ומתוקים יותר.",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -1070,10 +1022,12 @@ const plants = [
             "צל",
             "trees"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Key lime",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Key_lime",
-        "wikipediaExtract": "The Key lime, also known as West Indian lime, Mexican lime, or Egyptian lime is a type of lime. While it is treated as a species in botanical classification, it originated as a natural hybrid between Citrus micrantha and Citrus medica (citron)."
+        "wikipediaExtract": "The Key lime, also known as West Indian lime, Mexican lime, or Egyptian lime is a type of lime. While it is treated as a species in botanical classification, it originated as a natural hybrid between Citrus micrantha and Citrus medica (citron).",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%9C%D7%99%D7%99%D7%9D"
     },
     {
         "name": "רימון",
@@ -1106,8 +1060,8 @@ const plants = [
     {
         "name": "תאנה",
         "botanical": "Ficus carica",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Ficus_carica_L%2C_1771.jpg/330px-Ficus_carica_L%2C_1771.jpg",
-        "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/%D7%AA%D7%90%D7%A0%D7%94_%D7%91%D7%9E%D7%A4%D7%9C_%D7%94%D7%AA%D7%A0%D7%95%D7%A8_%D7%A9%D7%9C_%D7%A0%D7%97%D7%9C_%D7%A2%D7%99%D7%95%D7%9F.jpg/330px-%D7%AA%D7%90%D7%A0%D7%94_%D7%91%D7%9E%D7%A4%D7%9C_%D7%94%D7%AA%D7%A0%D7%95%D7%A8_%D7%A9%D7%9C_%D7%A0%D7%97%D7%9C_%D7%A2%D7%99%D7%95%D7%9F.jpg",
+        "detail": "תְּאֵנָה, היא שיח ממשפחת התותיים. השיח מגיע לגובה של בין 3–10 מטרים. פרי התאנה הוא אחד משבעת המינים בהם השתבחה ארץ ישראל. שיח התאנה גדל בר ליד מעיינות, לאורך בקעת הירדן ובקעת ים המלח.",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -1126,16 +1080,18 @@ const plants = [
             "צל",
             "trees"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Fig",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Fig",
-        "wikipediaExtract": "The fig is the edible fruit of Ficus carica, a species of tree or shrub in the flowering plant family Moraceae, native to the Mediterranean region, and to western and southern Asia. It has been cultivated since ancient times and is now widely grown throughout the world. Ficus carica is the type species of the genus Ficus, which comprises over 800 tropical and subtropical plant species."
+        "wikipediaExtract": "The fig is the edible fruit of Ficus carica, a species of tree or shrub in the flowering plant family Moraceae, native to the Mediterranean region, and to western and southern Asia. It has been cultivated since ancient times and is now widely grown throughout the world. Ficus carica is the type species of the genus Ficus, which comprises over 800 tropical and subtropical plant species.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%AA%D7%90%D7%A0%D7%94"
     },
     {
         "name": "שקד מצוי",
         "botanical": "Prunus dulcis",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Almonds_-_in_shell%2C_shell_cracked_open%2C_shelled%2C_blanched.jpg/330px-Almonds_-_in_shell%2C_shell_cracked_open%2C_shelled%2C_blanched.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Shkediya01_ST_04.jpg/330px-Shkediya01_ST_04.jpg",
+        "detail": "שָׁקֵד מָצוּי הוא עץ פרי נשיר מתורבת המשתייך לסוג פרונוס במשפחת הוורדיים. מוצאו ובית גידולו הטבעי באזור טרנסקווקז, כלומר באזורים שמצפון-מזרח לטורקיה, גיאורגיה, ארמניה ואזרבייג'ן של ימינו. שקד מצוי הוא אחד ממיני התרבות העתיקים בישראל, והעצים הקיימים בישראל...",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -1154,16 +1110,18 @@ const plants = [
             "צל",
             "trees"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Almond",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Almond",
-        "wikipediaExtract": "The almond is a species of tree from the genus Prunus. Along with the peach, it is classified in the subgenus Amygdalus, distinguished from the other subgenera by corrugations on the woody shell (endocarp) surrounding the seed."
+        "wikipediaExtract": "The almond is a species of tree from the genus Prunus. Along with the peach, it is classified in the subgenus Amygdalus, distinguished from the other subgenera by corrugations on the woody shell (endocarp) surrounding the seed.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%A9%D7%A7%D7%93_%D7%9E%D7%A6%D7%95%D7%99"
     },
     {
         "name": "תות עץ",
         "botanical": "Morus alba",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Rosales_-_Morus_alba_-_3.jpg/330px-Rosales_-_Morus_alba_-_3.jpg",
-        "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Morus_alba_%28Mariemont%29_JPG1a.jpg/330px-Morus_alba_%28Mariemont%29_JPG1a.jpg",
+        "detail": "תּוּת הוא סוג של עצי פרי או שיחים נשירים, בעל צֶמֶג ממשפחת התותיים. הסיווג של מיני הסוג שנוי במחלוקת, בין היתר בשל קיום בני-כלאים פוריים; הסיווג המקובל מונה כיום 17 מינים בלבד, אף על פי שיש פרסומים של מעל 180 מינים שונים.",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -1182,10 +1140,12 @@ const plants = [
             "צל",
             "trees"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Morus alba",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Morus_alba",
-        "wikipediaExtract": "Morus alba, known as white mulberry, common mulberry and silkworm mulberry, is a fast-growing, small to medium-sized mulberry tree which grows to 10–20 m (33–66 ft) tall. It is native to China and is widely cultivated and naturalized elsewhere. The species is widely cultivated to feed the silkworms employed in the commercial production of silk. It is also notable for the rapid release of its pollen, which is launched at greater than half the speed of sound."
+        "wikipediaExtract": "Morus alba, known as white mulberry, common mulberry and silkworm mulberry, is a fast-growing, small to medium-sized mulberry tree which grows to 10–20 m (33–66 ft) tall. It is native to China and is widely cultivated and naturalized elsewhere. The species is widely cultivated to feed the silkworms employed in the commercial production of silk. It is also notable for the rapid release of its pollen, which is launched at greater than half the speed of sound.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%AA%D7%95%D7%AA_(%D7%A2%D7%A5)"
     },
     {
         "name": "שסק יפני",
@@ -1218,8 +1178,8 @@ const plants = [
     {
         "name": "אפרסק",
         "botanical": "Prunus persica",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Illustration_Prunus_persica_clean_no_descr.jpg/330px-Illustration_Prunus_persica_clean_no_descr.jpg",
-        "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Peach_flowers.jpg/330px-Peach_flowers.jpg",
+        "detail": "אפרסק הוא מין של עץ פרי גלעיני ממשפחת הוורדיים, המשתייך לסוג פרוּנוּס. השם אפרסק מתייחס גם לפרי העץ.",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -1238,16 +1198,18 @@ const plants = [
             "צל",
             "trees"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Peach",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Peach",
-        "wikipediaExtract": "The peach is a deciduous tree that bears edible juicy fruits with various characteristics. Most are simply called peaches, while the glossy-skinned, non-fuzzy varieties are called nectarines. Though from the same species, they are regarded commercially as different fruits."
+        "wikipediaExtract": "The peach is a deciduous tree that bears edible juicy fruits with various characteristics. Most are simply called peaches, while the glossy-skinned, non-fuzzy varieties are called nectarines. Though from the same species, they are regarded commercially as different fruits.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%90%D7%A4%D7%A8%D7%A1%D7%A7"
     },
     {
         "name": "נקטרינה",
         "botanical": "Prunus persica var. nucipersica",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Illustration_Prunus_persica_clean_no_descr.jpg/330px-Illustration_Prunus_persica_clean_no_descr.jpg",
-        "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Nectarines_summer_2006.jpg/330px-Nectarines_summer_2006.jpg",
+        "detail": "נֶקְטָרִינָה הוא עץ פרי גלעיני ממשפחת הוורדניים, זן (תת-מין) המשתייך למין אפרסק.",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -1266,16 +1228,18 @@ const plants = [
             "צל",
             "trees"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Peach",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Peach",
-        "wikipediaExtract": "The peach is a deciduous tree that bears edible juicy fruits with various characteristics. Most are simply called peaches, while the glossy-skinned, non-fuzzy varieties are called nectarines. Though from the same species, they are regarded commercially as different fruits."
+        "wikipediaExtract": "The peach is a deciduous tree that bears edible juicy fruits with various characteristics. Most are simply called peaches, while the glossy-skinned, non-fuzzy varieties are called nectarines. Though from the same species, they are regarded commercially as different fruits.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%A0%D7%A7%D7%98%D7%A8%D7%99%D7%A0%D7%94"
     },
     {
         "name": "משמש",
         "botanical": "Prunus armeniaca",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Apricots.jpg/330px-Apricots.jpg",
-        "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
+        "detail": "מִשמֵש הוא עץ נשיר נושא פרי. הוא משתייך לסוג פרונוס.",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -1294,16 +1258,18 @@ const plants = [
             "צל",
             "trees"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Prunus armeniaca",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Prunus_armeniaca",
-        "wikipediaExtract": "Prunus armeniaca is the most commonly cultivated apricot species. The native range is somewhat uncertain due to its extensive prehistoric cultivation. Genetic studies indicate Central Asia is the center of origin. It is extensively cultivated in many countries and has escaped into the wild in many places. The specific epithet armeniaca refers to the country of Armenia."
+        "wikipediaExtract": "Prunus armeniaca is the most commonly cultivated apricot species. The native range is somewhat uncertain due to its extensive prehistoric cultivation. Genetic studies indicate Central Asia is the center of origin. It is extensively cultivated in many countries and has escaped into the wild in many places. The specific epithet armeniaca refers to the country of Armenia.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%9E%D7%A9%D7%9E%D7%A9"
     },
     {
         "name": "אבוקדו",
         "botanical": "Persea americana",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Persea_americana_fruit_2.JPG/330px-Persea_americana_fruit_2.JPG",
-        "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Owoce_Awokado.jpg/330px-Owoce_Awokado.jpg",
+        "detail": "אָבוֹקָדוֹ הוא עץ פרי סובטרופי ירוק-עד ממשפחת העריים, ולו כ-15 זנים. מוצאו של האבוקדו במרכז אמריקה, משם הפיצו אותו הספרדים, בתחילה לאמריקה הדרומית, ובהמשך לאפריקה וחלקים מאסיה. לארצות הברית הגיע האבוקדו בתחילת המאה ה-20.",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -1322,16 +1288,18 @@ const plants = [
             "צל",
             "trees"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Avocado",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Avocado",
-        "wikipediaExtract": "The avocado, alligator pear or avocado pear is an evergreen tree in the laurel family (Lauraceae). It is native to the Americas, with archaeological evidence of early human avocado use dating back thousands of years across various regions of Central and South America. It was prized for its large and unusually oily fruit. The native range of avocado extends from Mexico to Peru, encompassing much of Central America and parts of northern and western South America."
+        "wikipediaExtract": "The avocado, alligator pear or avocado pear is an evergreen tree in the laurel family (Lauraceae). It is native to the Americas, with archaeological evidence of early human avocado use dating back thousands of years across various regions of Central and South America. It was prized for its large and unusually oily fruit. The native range of avocado extends from Mexico to Peru, encompassing much of Central America and parts of northern and western South America.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%90%D7%91%D7%95%D7%A7%D7%93%D7%95"
     },
     {
         "name": "מנגו",
         "botanical": "Mangifera indica",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Mangoes_%28Magnifera_indica%29_from_India.jpg/330px-Mangoes_%28Magnifera_indica%29_from_India.jpg",
-        "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Apple_mango_and_cross_section.jpg/330px-Apple_mango_and_cross_section.jpg",
+        "detail": "מנגו הוא מין של עץ טרופי, שאזור הגידול הטבעי שלו הוא באזורים הטרופיים של הודו וסין. העץ כולל כ-35 זנים, והוא המין המוכר והנסחר ביותר בסוג מנגיפרה.",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -1350,16 +1318,18 @@ const plants = [
             "צל",
             "trees"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Mangifera indica",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Mangifera_indica",
-        "wikipediaExtract": "Mangifera indica, commonly known as the mango after its fruit, is an evergreen species of flowering plant in the family Anacardiaceae. It is a large fruit tree, capable of growing to a height and width of 30 m (100 ft). There are two distinct genetic populations in modern mangoes – the \"Indian type\" and the \"Southeast Asian type\"."
+        "wikipediaExtract": "Mangifera indica, commonly known as the mango after its fruit, is an evergreen species of flowering plant in the family Anacardiaceae. It is a large fruit tree, capable of growing to a height and width of 30 m (100 ft). There are two distinct genetic populations in modern mangoes – the \"Indian type\" and the \"Southeast Asian type\".",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%9E%D7%A0%D7%92%D7%95"
     },
     {
         "name": "גויאבה",
         "botanical": "Psidium guajava",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Psidium_guajava_fruit.jpg/330px-Psidium_guajava_fruit.jpg",
-        "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Guava_ID.jpg/330px-Guava_ID.jpg",
+        "detail": "גויאבה היא סוג של צמח ממשפחת ההדסיים, המונה כ-100 מינים של שיחים טרופיים וסובטרופיים ועצים קטנים, ובהם: גויאבת התפוח, גויאבת ההר, גויאבת התות, וגויאבת קוסטה ריקה. צמחי הגויאבה גדלים בעיקר באיים הקאריביים, באמריקה המרכזית ובצפון אמריקה הדרומית.",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -1378,10 +1348,12 @@ const plants = [
             "צל",
             "trees"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Psidium guajava",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Psidium_guajava",
-        "wikipediaExtract": "Psidium guajava, the common guava, yellow guava, lemon guava, or apple guava is an evergreen shrub or small tree native to the Americas. It is pollinated by insects. When cultivated, it is pollinated mainly by the common honey bee, Apis mellifera."
+        "wikipediaExtract": "Psidium guajava, the common guava, yellow guava, lemon guava, or apple guava is an evergreen shrub or small tree native to the Americas. It is pollinated by insects. When cultivated, it is pollinated mainly by the common honey bee, Apis mellifera.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%92%D7%95%D7%99%D7%90%D7%91%D7%94"
     },
     {
         "name": "פיגויה",
@@ -1414,8 +1386,8 @@ const plants = [
     {
         "name": "חרוב מצוי",
         "botanical": "Ceratonia siliqua",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Ceratonia_siliqua_Keciboynuzu_1370984_Nevit.jpg/330px-Ceratonia_siliqua_Keciboynuzu_1370984_Nevit.jpg",
-        "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Ceratonia_siliqua%2C_total.jpg/330px-Ceratonia_siliqua%2C_total.jpg",
+        "detail": "חָרוּב מצוי הוא מין עץ-שיח חורש ים-תיכוני, בינוני, יְרוֹק־עַד הצומח גם בפארק פתוח, ממשפחת הקטניות (Fabaceae). הוא גדל בר ובתרבות סביב אגן הים התיכון ובדרום-מזרח אסיה. בעבר הוא שויך למשפחת הכליליים. החרוב המצוי נחשב בעבר למין יחיד בסוגו, עד אשר בשנים 1979–1980...",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -1434,16 +1406,18 @@ const plants = [
             "צל",
             "trees"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Carob",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Carob",
-        "wikipediaExtract": "The carob is a flowering evergreen tree or shrub in the Caesalpinioideae subfamily of the legume family, Fabaceae. The carob tree is native to the Mediterranean region and the Middle East. It is widely cultivated for its edible fruit, which takes the form of seed pods, and as an ornamental tree in gardens and landscapes. Spain is its largest producer, followed by Italy and Morocco."
+        "wikipediaExtract": "The carob is a flowering evergreen tree or shrub in the Caesalpinioideae subfamily of the legume family, Fabaceae. The carob tree is native to the Mediterranean region and the Middle East. It is widely cultivated for its edible fruit, which takes the form of seed pods, and as an ornamental tree in gardens and landscapes. Spain is its largest producer, followed by Italy and Morocco.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%97%D7%A8%D7%95%D7%91_%D7%9E%D7%A6%D7%95%D7%99"
     },
     {
         "name": "ברוש מצוי",
         "botanical": "Cupressus sempervirens",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/%CE%95%CE%B8%CE%BD%CE%B9%CE%BA%CF%8C%CF%82_%CE%94%CF%81%CF%85%CE%BC%CF%8C%CF%82_%CE%A3%CE%B1%CE%BC%CE%B1%CF%81%CE%B9%CE%AC%CF%82.jpg/330px-%CE%95%CE%B8%CE%BD%CE%B9%CE%BA%CF%8C%CF%82_%CE%94%CF%81%CF%85%CE%BC%CF%8C%CF%82_%CE%A3%CE%B1%CE%BC%CE%B1%CF%81%CE%B9%CE%AC%CF%82.jpg",
-        "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Cupressus_sempervirens_Corfu.jpg/330px-Cupressus_sempervirens_Corfu.jpg",
+        "detail": "ברוש מצוי הוא מין הברוש הידוע ביותר בארץ ישראל והיחיד הגדל בה בר. המין נפוץ בכל מזרח הים התיכון מצפון לוב, דרום יוון, דרום טורקיה, קפריסין, מערב סוריה ולבנון ויש גם אוכלוסייה קטנה באיראן.",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -1462,16 +1436,18 @@ const plants = [
             "צל",
             "trees"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Cupressus sempervirens",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Cupressus_sempervirens",
-        "wikipediaExtract": "Cupressus sempervirens, the Mediterranean cypress, is a species of cypress native to the eastern Mediterranean region and Iran. It is well-adapted to the environmental conditions that it lives in due to its ability to survive in both acidic and alkaline soils and withstand drought. Cupressus sempervirens is important in Mediterranean and Middle Eastern culture. In Iran it is both a sacred tree and a metaphor for \"the graceful figure of the beloved\"."
+        "wikipediaExtract": "Cupressus sempervirens, the Mediterranean cypress, is a species of cypress native to the eastern Mediterranean region and Iran. It is well-adapted to the environmental conditions that it lives in due to its ability to survive in both acidic and alkaline soils and withstand drought. Cupressus sempervirens is important in Mediterranean and Middle Eastern culture. In Iran it is both a sacred tree and a metaphor for \"the graceful figure of the beloved\".",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%91%D7%A8%D7%95%D7%A9_%D7%9E%D7%A6%D7%95%D7%99"
     },
     {
         "name": "סיגלון חד עלים",
         "botanical": "Jacaranda mimosifolia",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Jacarand%C3%A1-mimoso_%28do_tupi_%C3%AEakarand%C3%A1%29_-_54942878507_02.jpg/330px-Jacarand%C3%A1-mimoso_%28do_tupi_%C3%AEakarand%C3%A1%29_-_54942878507_02.jpg",
-        "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/PikiWiki_Israel_13310_Ben_Gurion_University.jpg/330px-PikiWiki_Israel_13310_Ben_Gurion_University.jpg",
+        "detail": "סִיגָּלוֹן חד-עלים או יָקָרַנְדָּה הוא עץ ממשפחת הביגנוניים. המקור לשמו הוא פריחתו בגוון סגול-כחול, ועליו החדים.",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -1490,16 +1466,18 @@ const plants = [
             "צל",
             "trees"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Jacaranda mimosifolia",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Jacaranda_mimosifolia",
-        "wikipediaExtract": "Jacaranda mimosifolia is a sub-tropical tree native to south-central South America that has been widely planted elsewhere because of its attractive and long-lasting violet-colored flowers. It is also known as the jacaranda, blue jacaranda, black poui, Nupur or fern tree. Older sources call it J. acutifolia, but modern authorities usually classify it as J. mimosifolia. In scientific usage, the name \"jacaranda\" refers to the genus Jacaranda, which has many other members, but in horticultural and everyday usage, it nearly always means the blue jacaranda."
+        "wikipediaExtract": "Jacaranda mimosifolia is a sub-tropical tree native to south-central South America that has been widely planted elsewhere because of its attractive and long-lasting violet-colored flowers. It is also known as the jacaranda, blue jacaranda, black poui, Nupur or fern tree. Older sources call it J. acutifolia, but modern authorities usually classify it as J. mimosifolia. In scientific usage, the name \"jacaranda\" refers to the genus Jacaranda, which has many other members, but in horticultural and everyday usage, it nearly always means the blue jacaranda.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%A1%D7%99%D7%92%D7%9C%D7%95%D7%9F_%D7%97%D7%93-%D7%A2%D7%9C%D7%99%D7%9D"
     },
     {
         "name": "כליל החורש",
         "botanical": "Cercis siliquastrum",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/PikiWiki_Israel_3421_Geography_of_Israel.jpg/330px-PikiWiki_Israel_3421_Geography_of_Israel.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Cercis-Siliquastrum.jpg/330px-Cercis-Siliquastrum.jpg",
+        "detail": "כליל החורש הוא עץ חורש נשיר במשפחת הקסאלפיניים. פריחתו הבוהקת בחודשי מרץ-אפריל העניקה לו את שמו, אשר משמעותו היא \"כתר החורש\" או \"נזר החורש\".",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -1518,10 +1496,12 @@ const plants = [
             "צל",
             "trees"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Cercis siliquastrum",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Cercis_siliquastrum",
-        "wikipediaExtract": "Cercis siliquastrum, European Cercis, commonly known as the Judas tree or Judas-tree, is a small deciduous species of redbud in the flowering plant family Fabaceae which is noted for its prolific display of deep pink flowers in spring. It is native to Southern Europe and Western Asia."
+        "wikipediaExtract": "Cercis siliquastrum, European Cercis, commonly known as the Judas tree or Judas-tree, is a small deciduous species of redbud in the flowering plant family Fabaceae which is noted for its prolific display of deep pink flowers in spring. It is native to Southern Europe and Western Asia.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%9B%D7%9C%D7%99%D7%9C_%D7%94%D7%97%D7%95%D7%A8%D7%A9"
     },
     {
         "name": "לגרסטרמיה הודית",
@@ -1554,8 +1534,8 @@ const plants = [
     {
         "name": "בוהיניה מגוונת",
         "botanical": "Bauhinia variegata",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Bauhinia_variegata_flower.jpg/330px-Bauhinia_variegata_flower.jpg",
-        "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Bahuinia_variegata.JPG/330px-Bahuinia_variegata.JPG",
+        "detail": "בוהיניה מגוונת הוא מין עץ בעל פרחים ממשפחת הקטניות. מוצאו במקור מדרום מזרח אסיה ותת-היבשת ההודית, אך הוא הופץ בעולם כעץ נוי מתורבת.",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -1574,10 +1554,12 @@ const plants = [
             "צל",
             "trees"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Bauhinia variegata",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Bauhinia_variegata",
-        "wikipediaExtract": "Bauhinia variegata is a species of flowering plant in the legume family, Fabaceae. It is native to an area from China through Southeast Asia to the Indian subcontinent. Common names include orchid tree and mountain ebony."
+        "wikipediaExtract": "Bauhinia variegata is a species of flowering plant in the legume family, Fabaceae. It is native to an area from China through Southeast Asia to the Indian subcontinent. Common names include orchid tree and mountain ebony.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%91%D7%95%D7%94%D7%99%D7%A0%D7%99%D7%94_%D7%9E%D7%92%D7%95%D7%95%D7%A0%D7%AA"
     },
     {
         "name": "ברכיכיטון צפצפתי",
@@ -1611,7 +1593,7 @@ const plants = [
         "name": "פלפלון בכות",
         "botanical": "Schinus molle",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Schinus_Molle.jpg/330px-Schinus_Molle.jpg",
-        "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
+        "detail": "פִּלְפְּלוֹן בָּכוּת הוא מין של עץ ירוק-עד בעל שרף, אריך חיים ומהיר צמיחה שגדל עד גובה של 15 מטרים. מין זה משתייך לסוג פלפלון במשפחת האלתיים ומונה שני תת-מינים. מוצאו בשני אזורים נפרדים באמריקה הדרומית, האחד בהרי האנדים בפרו ובצפון צ'ילי והשני מצפון ברזיל ועד...",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -1630,10 +1612,12 @@ const plants = [
             "צל",
             "trees"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Schinus molle",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Schinus_molle",
-        "wikipediaExtract": "Schinus molle is an evergreen tree that grows to 15 m. It is native to an area from the Peruvian Andes to southern Brazil. The bright pink fruits of S. molle are often sold as \"pink peppercorns\", although it is unrelated to black pepper. The word molle in Schinus molle comes from mulli, the Quechua word for the tree. The tree is host to the pepper-tree moth, Bombycomorpha bifascia."
+        "wikipediaExtract": "Schinus molle is an evergreen tree that grows to 15 m. It is native to an area from the Peruvian Andes to southern Brazil. The bright pink fruits of S. molle are often sold as \"pink peppercorns\", although it is unrelated to black pepper. The word molle in Schinus molle comes from mulli, the Quechua word for the tree. The tree is host to the pepper-tree moth, Bombycomorpha bifascia.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%A4%D7%9C%D7%A4%D7%9C%D7%95%D7%9F_%D7%91%D7%9B%D7%95%D7%AA"
     },
     {
         "name": "טיפואנה",
@@ -1666,8 +1650,8 @@ const plants = [
     {
         "name": "אלביציה ורודה",
         "botanical": "Albizia julibrissin",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/2018-07-08_11_10_27_Rosea_Mimosa_blossoms_along_the_ramp_from_southbound_Interstate_95_%28New_Jersey_Turnpike_Eastern_Spur%29_to_westbound_Interstate_280_%28Essex_Freeway%29_in_the_New_Jersey_Meadowlands%2C_within_Kearny%2C_Hudson_County%2C_New_Jersey.jpg/330px-thumbnail.jpg",
-        "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Albizia_julibrissin_399607509.jpg/330px-Albizia_julibrissin_399607509.jpg",
+        "detail": "אלביציה ורודה היא עץ נשיר רחב עלים וחסר קוצים ממשפחת הקטניות. כיום היא משויכת לשבט המימוסיים (Mimoseae) בתת-המשפחה הקסאלפיניים (Caesalpinioideae). תפוצתה הטבעית משתרעת באזורים הממוזגים של אסיה – ממזרח הקווקז דרך איראן ותת-היבשת ההודית ועד סין, קוריאה ויפן.",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -1686,16 +1670,18 @@ const plants = [
             "צל",
             "trees"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Albizia julibrissin",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Albizia_julibrissin",
-        "wikipediaExtract": "Albizia julibrissin, the Persian silk tree, pink silk tree, or mimosa tree, is a species of tree in the Fabaceae family, native to southwestern and eastern Asia."
+        "wikipediaExtract": "Albizia julibrissin, the Persian silk tree, pink silk tree, or mimosa tree, is a species of tree in the Fabaceae family, native to southwestern and eastern Asia.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%90%D7%9C%D7%91%D7%99%D7%A6%D7%99%D7%94_%D7%95%D7%A8%D7%95%D7%93%D7%94"
     },
     {
         "name": "דולב מזרחי",
         "botanical": "Platanus orientalis",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Plane_tree_Grove_Tsav_River.jpg/330px-Plane_tree_Grove_Tsav_River.jpg",
-        "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Bursa016.jpg/330px-Bursa016.jpg",
+        "detail": "דולב מזרחי הוא מין של דולב, עץ גדול ממדים המצוי לרוב לצד מקווי מים. הוא נציג יחיד של משפחתו בישראל.",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -1714,16 +1700,18 @@ const plants = [
             "צל",
             "trees"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Platanus orientalis",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Platanus_orientalis",
-        "wikipediaExtract": "Platanus orientalis, the Oriental plane, is a large, deciduous tree in the family Platanaceae, growing to 30 m (98 ft) or more, and known for its longevity and spreading crown. In autumn, its deep green leaves may change to blood red, amber, and yellow."
+        "wikipediaExtract": "Platanus orientalis, the Oriental plane, is a large, deciduous tree in the family Platanaceae, growing to 30 m (98 ft) or more, and known for its longevity and spreading crown. In autumn, its deep green leaves may change to blood red, amber, and yellow.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%93%D7%95%D7%9C%D7%91_%D7%9E%D7%96%D7%A8%D7%97%D7%99"
     },
     {
         "name": "מכנף נאה",
         "botanical": "Peltophorum dubium",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/%D7%AA%D7%9E%D7%95%D7%A0%D7%94_1014.jpg/330px-%D7%AA%D7%9E%D7%95%D7%A0%D7%94_1014.jpg",
-        "detail": "עץ נפוץ במשתלות בישראל, מתאים לגינה פרטית או לשדרה קטנה כאשר בוחרים מיקום נכון וניקוז טוב.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Tipuana_tipu.jpg/330px-Tipuana_tipu.jpg",
+        "detail": "מִכְנָף נָאֶה הוא עץ נשיר מותנה, יחיד בסוגו בעולם ממשפחת הקטניות. בישראל הוא עץ תרבות גדול המאופיין בפרחיו הצהובים ובתרמיליו שמצוידים בכנף רחבה בעלת עורקים בולטים. מכנף נאה שויך בעבר למשפחת פרפרניים (Papilionaceae). משפחה זו בוטלה ואוחדה עם משפחת הקטניות...",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -1742,16 +1730,18 @@ const plants = [
             "צל",
             "trees"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Peltophorum dubium",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Peltophorum_dubium",
-        "wikipediaExtract": "Peltophorum dubium is a tree in the family Fabaceae and subfamily Caesalpinioideae. This species is known as ibirá-pitá in Argentina and Paraguay, árbol de Artigas in Uruguay, and Cambuí in Brazil. It is a large tree, growing around 20–25 meters, with a more or less straight trunk.Foliage: bright green, and deciduous\nLeaves: compound, bipinnate, large. Numerous leaves with a central nervous system.\nFlowers: from 2 cm in diameter, arranged in bundles that end in spikes. The bright visible flowers are in corollas. They flower in the summer and at the beginning of autumn.\nFruits: indehiscent{?} legume, flat, leathery, and brown.\nSeeds: cylindrical with hard nuts."
+        "wikipediaExtract": "Peltophorum dubium is a tree in the family Fabaceae and subfamily Caesalpinioideae. This species is known as ibirá-pitá in Argentina and Paraguay, árbol de Artigas in Uruguay, and Cambuí in Brazil. It is a large tree, growing around 20–25 meters, with a more or less straight trunk.Foliage: bright green, and deciduous\nLeaves: compound, bipinnate, large. Numerous leaves with a central nervous system.\nFlowers: from 2 cm in diameter, arranged in bundles that end in spikes. The bright visible flowers are in corollas. They flower in the summer and at the beginning of autumn.\nFruits: indehiscent{?} legume, flat, leathery, and brown.\nSeeds: cylindrical with hard nuts.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%9E%D7%9B%D7%A0%D7%A3_%D7%A0%D7%90%D7%94"
     },
     {
         "name": "הדס מצוי",
         "botanical": "Myrtus communis",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Myrtus_communis_L._subsp._communis_-_52505075873.png/330px-Myrtus_communis_L._subsp._communis_-_52505075873.png",
-        "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Starr_070621-7466_Myrtus_communis.jpg/330px-Starr_070621-7466_Myrtus_communis.jpg",
+        "detail": "הֲדַס מָצוּי הוא שיח יְרוֹק־עַד, בעל פרחים לבנים. כשממוללים את עליו, יש להם ריח אופייני. אחד משני המינים בסוג הדס. היחיד ממשפחת ההדסיים (Myrtaceae), שגדל בר בארץ ישראל. בארץ הוא נפוץ בעיקר באזור הצפון, נפוץ גם במזרח התיכון ובאירופה. כצמח תרבות גדל ההדס...",
         "sun": [
             "שמש מלאה",
             "חצי שמש",
@@ -1772,16 +1762,18 @@ const plants = [
             "פרטיות",
             "shrubs"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Myrtus communis",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Myrtus_communis",
-        "wikipediaExtract": "Myrtus communis, the common myrtle or true myrtle, is a species of flowering plant in the myrtle family Myrtaceae. It is an evergreen shrub native to southern Europe, North Africa, Western Asia, Macaronesia, and the Indian subcontinent, and also cultivated."
+        "wikipediaExtract": "Myrtus communis, the common myrtle or true myrtle, is a species of flowering plant in the myrtle family Myrtaceae. It is an evergreen shrub native to southern Europe, North Africa, Western Asia, Macaronesia, and the Indian subcontinent, and also cultivated.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%94%D7%93%D7%A1_%D7%9E%D7%A6%D7%95%D7%99"
     },
     {
         "name": "מורן החורש",
         "botanical": "Viburnum tinus",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Laurustinus_%28Viburnum_tinus%29_fruits_%2815726383257%29.jpg/330px-Laurustinus_%28Viburnum_tinus%29_fruits_%2815726383257%29.jpg",
-        "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Viburnum_tinus_at_Kedumim_1.jpg/330px-Viburnum_tinus_at_Kedumim_1.jpg",
+        "detail": "מוֹרַן הַחֹרֶשׁ הוא שיח יְרוֹק־עַד זקוף, צפוף, בעל עלים נגדיים וגדולים ופרחים הערוּכים במעֵין סוככים ופרי ענבה. מין זה משויך לסוג מורן (Viburnum) ממשפחת המורניים. הוא גדל כצמח בר בחורש ים-תיכוני לח סביב אגן הים התיכון, ונפוץ כצמח תרבות ברחבי העולם. לפי...",
         "sun": [
             "חצי שמש",
             "חצי צל"
@@ -1801,16 +1793,18 @@ const plants = [
             "פרטיות",
             "shrubs"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Viburnum tinus",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Viburnum_tinus",
-        "wikipediaExtract": "Viburnum tinus, the laurustinus or laurustine, is a species of flowering plant in the family Adoxaceae, native to the Mediterranean area of Europe and North Africa."
+        "wikipediaExtract": "Viburnum tinus, the laurustinus or laurustine, is a species of flowering plant in the family Adoxaceae, native to the Mediterranean area of Europe and North Africa.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%9E%D7%95%D7%A8%D7%9F_%D7%94%D7%97%D7%95%D7%A8%D7%A9"
     },
     {
         "name": "אלת המסטיק",
         "botanical": "Pistacia lentiscus",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Pistacia_lentiscus.jpg/330px-Pistacia_lentiscus.jpg",
-        "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Pistacia_lentiscus_sp.jpg/330px-Pistacia_lentiscus_sp.jpg",
+        "detail": "אלת המסטיק היא שיח סבוך, צבעו ירוק כהה, רב-גזעים, ולעיתים רחוקות עץ קטן בעל גזע יחיד, ירוק-עד ודו-ביתי בסוג אלה ממשפחת האלתיים. היא נפוצה באיים הקנריים ובאגן הים התיכון, למעט חצי-האי סיני. בישראל היא נפוצה בחורשים של החבלים הים-תיכוניים הנמוכים, ואף גדלה...",
         "sun": [
             "שמש מלאה",
             "חצי שמש",
@@ -1832,10 +1826,12 @@ const plants = [
             "פרטיות",
             "shrubs"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Pistacia lentiscus",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Pistacia_lentiscus",
-        "wikipediaExtract": "Pistacia lentiscus is a dioecious evergreen shrub or small tree of the genus Pistacia native to the Mediterranean Basin. It grows up to 4 m (13 ft) tall and is cultivated for its aromatic resin, mainly on the Greek island of Chios, around the Turkish town of Çeşme and northern parts of Iraq."
+        "wikipediaExtract": "Pistacia lentiscus is a dioecious evergreen shrub or small tree of the genus Pistacia native to the Mediterranean Basin. It grows up to 4 m (13 ft) tall and is cultivated for its aromatic resin, mainly on the Greek island of Chios, around the Turkish town of Çeşme and northern parts of Iraq.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%90%D7%9C%D7%AA_%D7%94%D7%9E%D7%A1%D7%98%D7%99%D7%A7"
     },
     {
         "name": "לויקופילום",
@@ -1871,8 +1867,8 @@ const plants = [
     {
         "name": "היביסקוס סיני",
         "botanical": "Hibiscus rosa-sinensis",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Hibiscus_Brilliant.jpg/330px-Hibiscus_Brilliant.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Hibiscus_rosa-sinensis_in_northern_Israel.jpg/330px-Hibiscus_rosa-sinensis_in_northern_Israel.jpg",
+        "detail": "הִיבִּיסְקוּס סִינִי הוא מין שיח או עץ קטן ירוק-עד בסוג היביסקוס, המונה 241 מינים, ממשפחת החלמיתיים. הוא נפוץ ברחבי העולם ובמיוחד באזורים הטרופיים והסובטרופיים כצמח נוי וגינון עם תתי זנים ומכלואים שונים ומרובים במגוון צורת פרחים וצבעים. מוצאו אינו ברור, וישנן...",
         "sun": [
             "שמש מלאה",
             "חצי שמש",
@@ -1893,10 +1889,12 @@ const plants = [
             "פרטיות",
             "shrubs"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Hibiscus × rosa-sinensis",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Hibiscus_%C3%97_rosa-sinensis",
-        "wikipediaExtract": "Hibiscus × rosa-sinensis is a cultigen of tropical hibiscus, a flowering plant in the Hibiscus genus and Hibisceae tribe of the family Malvaceae."
+        "wikipediaExtract": "Hibiscus × rosa-sinensis is a cultigen of tropical hibiscus, a flowering plant in the Hibiscus genus and Hibisceae tribe of the family Malvaceae.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%94%D7%99%D7%91%D7%99%D7%A1%D7%A7%D7%95%D7%A1_%D7%A1%D7%99%D7%A0%D7%99"
     },
     {
         "name": "דורנטה",
@@ -2080,8 +2078,8 @@ const plants = [
     {
         "name": "הרדוף הנחלים",
         "botanical": "Nerium oleander",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Nerium_oleander_flowers_leaves.jpg/330px-Nerium_oleander_flowers_leaves.jpg",
-        "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Nerium_oleander_%282%29.JPG/330px-Nerium_oleander_%282%29.JPG",
+        "detail": "הַרְדּוּף הַנְּחָלִים הוא שיח גבוה וחסון, יְרוֹק־עַד ומין יחיד בסוגו ממשפחת ההַרְדּוּפִיִּים. בקיץ הוא ניכר בפריחתו הוורודה, בעלים גִּלְדָּנִיִּים ומוארכים, וידוע ברעילותו הרבה, שכן כל חלקי הצמח מכילים מוהל חלבי רעיל במיוחד. הוא גדל כצמח בר בגדות נחלים...",
         "sun": [
             "שמש מלאה",
             "חצי שמש",
@@ -2102,16 +2100,18 @@ const plants = [
             "פרטיות",
             "shrubs"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Nerium",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Nerium",
-        "wikipediaExtract": "Nerium oleander, commonly known as oleander, rose laurel, be-still tree or rosebay, is a shrub or small tree cultivated worldwide in temperate and subtropical areas as an ornamental and landscaping plant. It is the only species currently classified in the genus Nerium, belonging to subfamily Apocynoideae of the dogbane family Apocynaceae. It is so widely cultivated that no precise region of origin has been identified, though it is usually associated with the Mediterranean Basin."
+        "wikipediaExtract": "Nerium oleander, commonly known as oleander, rose laurel, be-still tree or rosebay, is a shrub or small tree cultivated worldwide in temperate and subtropical areas as an ornamental and landscaping plant. It is the only species currently classified in the genus Nerium, belonging to subfamily Apocynoideae of the dogbane family Apocynaceae. It is so widely cultivated that no precise region of origin has been identified, though it is usually associated with the Mediterranean Basin.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%94%D7%A8%D7%93%D7%95%D7%A3_%D7%94%D7%A0%D7%97%D7%9C%D7%99%D7%9D"
     },
     {
         "name": "טקומית הכף",
         "botanical": "Tecoma capensis",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Tecoma_capensis_2922.jpg/330px-Tecoma_capensis_2922.jpg",
-        "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Starr_080219-2987_Tecoma_capensis.jpg/330px-Starr_080219-2987_Tecoma_capensis.jpg",
+        "detail": "טֶקוֹמִית הַכֵּף היא שיח נוי ירוק-עד ממשפחת הביגנוניים, הנפוץ בגנים ובחצרות בישראל ובמקומות רבים בעולם. התפוצה הטבעית של הצמח משתרעת בעיקר באזורים הסובטרופיים, בין טנזניה לדרום אפריקה. שמו נגזר מאזור כף התקווה הטובה, שם הוגדר לראשונה.",
         "sun": [
             "שמש מלאה",
             "חצי שמש",
@@ -2132,10 +2132,12 @@ const plants = [
             "פרטיות",
             "shrubs"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Tecomaria capensis",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Tecomaria_capensis",
-        "wikipediaExtract": "Tecomaria capensis, the Cape honeysuckle, is a species of flowering plant in the family Bignoniaceae, native to southern Africa. Despite its common name, it is not closely related to the true honeysuckle."
+        "wikipediaExtract": "Tecomaria capensis, the Cape honeysuckle, is a species of flowering plant in the family Bignoniaceae, native to southern Africa. Despite its common name, it is not closely related to the true honeysuckle.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%98%D7%A7%D7%95%D7%9E%D7%99%D7%AA_%D7%94%D7%9B%D7%A3"
     },
     {
         "name": "ליגוסטרום יפני",
@@ -2260,8 +2262,8 @@ const plants = [
     {
         "name": "אזליאה",
         "botanical": "Rhododendron",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Bloemknop_van_een_Rododendron_%28Rhododendron%29._21-05-2023._%28d.j.b%29_01.jpg/960px-Bloemknop_van_een_Rododendron_%28Rhododendron%29._21-05-2023._%28d.j.b%29_01.jpg",
-        "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Rhododendron-by-eiffel-public-domain-20040617.jpg/330px-Rhododendron-by-eiffel-public-domain-20040617.jpg",
+        "detail": "רוֹדוֹדֶנְדְרוֹן הוא סוג צמחים ממשפחת האברשיים המונה 1545 מיני צמחים, רובם בעלי פרחים בולטים. הסוג כולל גם שורה של צמחים פופולריים בקרב גננים הידועים כאזליאה. אחד ממיני הרודודנדרון משמש כפרח הלאומי של נפאל.",
         "sun": [
             "חצי שמש",
             "חצי צל"
@@ -2282,10 +2284,12 @@ const plants = [
             "פרטיות",
             "shrubs"
         ],
-        "imageSource": "Wikimedia Commons fallback",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Rhododendron",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Rhododendron",
-        "wikipediaExtract": "Rhododendron, from Ancient Greek ῥόδον (rhódon), meaning \"rose\", and δένδρον (déndron), meaning \"tree\", is a very large genus of about 1,024 species of woody plants in the heath family (Ericaceae). They can be either evergreen or deciduous. Most species are native to eastern Asia and the Himalayan region, but smaller numbers occur elsewhere in Asia, and in North America, Europe and Australia."
+        "wikipediaExtract": "Rhododendron, from Ancient Greek ῥόδον (rhódon), meaning \"rose\", and δένδρον (déndron), meaning \"tree\", is a very large genus of about 1,024 species of woody plants in the heath family (Ericaceae). They can be either evergreen or deciduous. Most species are native to eastern Asia and the Himalayan region, but smaller numbers occur elsewhere in Asia, and in North America, Europe and Australia.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%A8%D7%95%D7%93%D7%95%D7%93%D7%A0%D7%93%D7%A8%D7%95%D7%9F"
     },
     {
         "name": "קמליה",
@@ -2320,8 +2324,8 @@ const plants = [
     {
         "name": "בודליה",
         "botanical": "Buddleja davidii",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/BuddlejaDavidiiStrauch.jpg/330px-BuddlejaDavidiiStrauch.jpg",
-        "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Buddleja_salvifolia.jpg/330px-Buddleja_salvifolia.jpg",
+        "detail": "בודליה היא סוג של צמח ממשפחת הלועניתיים, על אף שבעבר סווגה במשפחת הלוגניים או במשפחה משל עצמה (Buddlejaceae). הסוג כולל כ-100 מינים של עצים, שיחים ורב-שנתיים, ירוקי-עד או נשירים. הגדולים מביניהם יכולים להגיע עד ל-30 מטרים, אך רוב המינים לא גדלים מעל ל-5...",
         "sun": [
             "שמש מלאה",
             "חצי שמש",
@@ -2342,10 +2346,12 @@ const plants = [
             "פרטיות",
             "shrubs"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Buddleja davidii",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Buddleja_davidii",
-        "wikipediaExtract": "Buddleja davidii, also called butterfly-bush, orange eye, or summer lilac, is a species of flowering plant in the family Scrophulariaceae, native to most of China except for the far northeast. It is widely used as an ornamental plant, and many named cultivars are in cultivation. The genus was named Buddleja after the English botanist, Reverend Adam Buddle. The species name, davidii, is after the French missionary and explorer in China, Father Armand David, who was the first European to report the shrub. It was found near Yichang by Dr Augustine Henry about 1887 and sent to St Petersburg. Another botanist-missionary in China, Jean-André Soulié, sent seed to the French nursery Vilmorin, and B. davidii entered commerce in the 1890s."
+        "wikipediaExtract": "Buddleja davidii, also called butterfly-bush, orange eye, or summer lilac, is a species of flowering plant in the family Scrophulariaceae, native to most of China except for the far northeast. It is widely used as an ornamental plant, and many named cultivars are in cultivation. The genus was named Buddleja after the English botanist, Reverend Adam Buddle. The species name, davidii, is after the French missionary and explorer in China, Father Armand David, who was the first European to report the shrub. It was found near Yichang by Dr Augustine Henry about 1887 and sent to St Petersburg. Another botanist-missionary in China, Jean-André Soulié, sent seed to the French nursery Vilmorin, and B. davidii entered commerce in the 1890s.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%91%D7%95%D7%93%D7%9C%D7%99%D7%94"
     },
     {
         "name": "איקליפטוס מסמרי כסף",
@@ -2470,8 +2476,8 @@ const plants = [
     {
         "name": "רוסליה",
         "botanical": "Russelia equisetiformis",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Alcasar_russelia.JPG/330px-Alcasar_russelia.JPG",
-        "detail": "שיח גינה שימושי למילוי, הסתרה, גדר חיה או מוקד צבעוני. מתאים לרוב אזורי הארץ עם התאמת השקיה.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/2023-11-16_Gala_de_los_Latin_Grammy%2C_27_%28cropped%29.jpg/330px-2023-11-16_Gala_de_los_Latin_Grammy%2C_27_%28cropped%29.jpg",
+        "detail": "רוסליה וילה טובייה, הידועה בשמה הפרטי רוסליה, היא זמרת-יוצרת, שחקנית ומפיקה מוזיקלית קטלאנית. רוסליה ידועה בעקבות העיבודים המודרניים שלה למוזיקת פלמנקו והשילוב בין הפלמנקו לזרם האורבנו. רוסליה ביצעה שירים בשפות שונות ולא בספרדית בלבד במסגרת שיתופי פעולה עם...",
         "sun": [
             "שמש מלאה",
             "חצי שמש",
@@ -2492,10 +2498,12 @@ const plants = [
             "פרטיות",
             "shrubs"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Russelia equisetiformis",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Russelia_equisetiformis",
-        "wikipediaExtract": "Russelia equisetiformis, the fountainbush, firecracker plant, coral plant, coral fountain, coralblow or fountain plant, is a species of flowering plant in the family Plantaginaceae."
+        "wikipediaExtract": "Russelia equisetiformis, the fountainbush, firecracker plant, coral plant, coral fountain, coralblow or fountain plant, is a species of flowering plant in the family Plantaginaceae.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%A8%D7%95%D7%A1%D7%9C%D7%99%D7%94"
     },
     {
         "name": "קריסה גדולת פרחים",
@@ -2710,8 +2718,8 @@ const plants = [
     {
         "name": "בוגנוויליה",
         "botanical": "Bougainvillea",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Bougainvillea_closeup.jpg/330px-Bougainvillea_closeup.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-        "detail": "מטפס נפוץ לפרגולה, גדר או קיר ירוק. מומלץ לספק תמיכה, גיזום וניקוז טוב.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Starr_030418-0058_Bougainvillea_spectabilis.jpg/330px-Starr_030418-0058_Bougainvillea_spectabilis.jpg",
+        "detail": "בוגנוויליה, הוא סוג במשפחת הלילניים הנקרא על שמו של לואי אנטואן דה בוגנוויל, אדמירל ומגלה ארצות צרפתי.",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -2731,10 +2739,12 @@ const plants = [
             "פורח",
             "climbers"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Bougainvillea",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Bougainvillea",
-        "wikipediaExtract": "Bougainvillea is a genus of thorny ornamental vines, bushes, and trees belonging to the family Nyctaginaceae. They are native to the tropical forests of South America. There are between 4 and 22 species in the genus. The inflorescence consists of large colorful sepal-like bracts which surround three simple waxy flowers, gaining popularity for the plant as an ornamental. The plant is named after explorer Louis Antoine de Bougainville (1729–1811), after it was documented on one of his expeditions."
+        "wikipediaExtract": "Bougainvillea is a genus of thorny ornamental vines, bushes, and trees belonging to the family Nyctaginaceae. They are native to the tropical forests of South America. There are between 4 and 22 species in the genus. The inflorescence consists of large colorful sepal-like bracts which surround three simple waxy flowers, gaining popularity for the plant as an ornamental. The plant is named after explorer Louis Antoine de Bougainville (1729–1811), after it was documented on one of his expeditions.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%91%D7%95%D7%92%D7%A0%D7%95%D7%95%D7%99%D7%9C%D7%99%D7%94"
     },
     {
         "name": "יסמין כוכבי",
@@ -2795,8 +2805,8 @@ const plants = [
     {
         "name": "פסיפלורה",
         "botanical": "Passiflora edulis",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Passiflora_edulis_forma_flavicarpa.jpg/330px-Passiflora_edulis_forma_flavicarpa.jpg",
-        "detail": "מטפס נפוץ לפרגולה, גדר או קיר ירוק. מומלץ לספק תמיכה, גיזום וניקוז טוב.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Passion_fruits_-_whole_and_halved.jpg/330px-Passion_fruits_-_whole_and_halved.jpg?utm_source=he.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "detail": "שעונית נאכלת הוא צמח מטפס, שמגודל מסחרית לשם פריו האכיל. מקור הצמח באזורים הטרופיים והסובטרופיים של אמריקה הדרומית ויער האמזונאס ומגדלים אותו בהיקף נרחב במספר גדל והולך של מדינות כדוגמת הודו, ניו זילנד, הקריביים, ברזיל, אקוודור, קליפורניה, פלורידה, הוואי,...",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -2815,16 +2825,18 @@ const plants = [
             "פורח",
             "climbers"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Passiflora edulis",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Passiflora_edulis",
-        "wikipediaExtract": "Passiflora edulis, commonly known as passion fruit, is a vine species of passion flower native to southern Brazil, through Paraguay, and northern Argentina. The fruit is a pepo, a type of botanical berry, round to oval, either yellow or dark purple at maturity, with a soft to firm, juicy interior filled with numerous seeds."
+        "wikipediaExtract": "Passiflora edulis, commonly known as passion fruit, is a vine species of passion flower native to southern Brazil, through Paraguay, and northern Argentina. The fruit is a pepo, a type of botanical berry, round to oval, either yellow or dark purple at maturity, with a soft to firm, juicy interior filled with numerous seeds.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%A9%D7%A2%D7%95%D7%A0%D7%99%D7%AA_%D7%A0%D7%90%D7%9B%D7%9C%D7%AA"
     },
     {
         "name": "ויסטריה",
         "botanical": "Wisteria sinensis",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Chinesischer_Blauregen_Detail_Bl%C3%BCtentraube.JPG/330px-Chinesischer_Blauregen_Detail_Bl%C3%BCtentraube.JPG",
-        "detail": "מטפס נפוץ לפרגולה, גדר או קיר ירוק. מומלץ לספק תמיכה, גיזום וניקוז טוב.",
+        "image": "https://upload.wikimedia.org/wikipedia/he/thumb/2/2b/Wisteria_in_Jerusalem.jpg/330px-Wisteria_in_Jerusalem.jpg",
+        "detail": "וִיסטֵריָה היא סוג צמח נוי מטפס ממשפחת הפרפרניים. הוויסטריה נקראת על שמו של פרופסור קספר ויסטר, מומחה לאנטומיה באוניברסיטת פנסילבניה שבארצות הברית.",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -2843,10 +2855,12 @@ const plants = [
             "פורח",
             "climbers"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Wisteria sinensis",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Wisteria_sinensis",
-        "wikipediaExtract": "Wisteria sinensis, commonly known as the Chinese wisteria, is a species of flowering plant in the pea family, native to China, in the provinces of Guangxi, Guizhou, Hebei, Henan, Hubei, Shaanxi, and Yunnan. Growing 20–30 m (66–98 ft) tall, it is a deciduous vine. It is widely cultivated in temperate regions for its twisting stems and masses of scented flowers in hanging racemes, in spring."
+        "wikipediaExtract": "Wisteria sinensis, commonly known as the Chinese wisteria, is a species of flowering plant in the pea family, native to China, in the provinces of Guangxi, Guizhou, Hebei, Henan, Hubei, Shaanxi, and Yunnan. Growing 20–30 m (66–98 ft) tall, it is a deciduous vine. It is widely cultivated in temperate regions for its twisting stems and masses of scented flowers in hanging racemes, in spring.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%95%D7%99%D7%A1%D7%98%D7%A8%D7%99%D7%94"
     },
     {
         "name": "גפן מאכל",
@@ -2879,8 +2893,8 @@ const plants = [
     {
         "name": "קיסוס החורש",
         "botanical": "Hedera helix",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Hedera_helix_Dover.jpg/330px-Hedera_helix_Dover.jpg",
-        "detail": "מטפס נפוץ לפרגולה, גדר או קיר ירוק. מומלץ לספק תמיכה, גיזום וניקוז טוב.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/City_of_London_Cemetery_ivy_on_London_plane_tree_trunk_bark_1.jpg/330px-City_of_London_Cemetery_ivy_on_London_plane_tree_trunk_bark_1.jpg",
+        "detail": "קִיסוֹס הַחֹרֶשׁ הוא שיח מטפס רב שנתי ענף, מין יחיד בסוגו ובמשפחתו בישראל אשר משויך לסוג קיסוס ממשפחת הקיסוסיים.",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -2899,10 +2913,12 @@ const plants = [
             "פורח",
             "climbers"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Hedera helix",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Hedera_helix",
-        "wikipediaExtract": "Hedera helix, simply ivy, or common ivy, English ivy, European ivy, King's choice ivy, is a species of flowering plant in the family Araliaceae. It is native to most of Europe and parts of western Asia. Ivy is a clinging evergreen vine that grows on tree trunks, walls, and fences in gardens, waste spaces, and wild habitats. Ivy is popular as an ornamental plant, but escaped plants have become naturalised outside its native range. Ivy has considerable cultural significance and symbolism."
+        "wikipediaExtract": "Hedera helix, simply ivy, or common ivy, English ivy, European ivy, King's choice ivy, is a species of flowering plant in the family Araliaceae. It is native to most of Europe and parts of western Asia. Ivy is a clinging evergreen vine that grows on tree trunks, walls, and fences in gardens, waste spaces, and wild habitats. Ivy is popular as an ornamental plant, but escaped plants have become naturalised outside its native range. Ivy has considerable cultural significance and symbolism.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%A7%D7%99%D7%A1%D7%95%D7%A1_%D7%94%D7%97%D7%95%D7%A8%D7%A9"
     },
     {
         "name": "טונברגיה",
@@ -2935,8 +2951,8 @@ const plants = [
     {
         "name": "יערה יפנית",
         "botanical": "Lonicera japonica",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Honeysuckle-2.jpg/330px-Honeysuckle-2.jpg",
-        "detail": "מטפס נפוץ לפרגולה, גדר או קיר ירוק. מומלץ לספק תמיכה, גיזום וניקוז טוב.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Honeysuckle_flowers.jpg/330px-Honeysuckle_flowers.jpg",
+        "detail": "יערה יפנית היא צמח נוי מטפס הנפוץ בישראל. קל להבדיל אותה מהיערה האיטלקית, הגדלה בר בחבל ההררי, על-פי העלים: ליערה היפנית עלים מוארכים בעלי חוד בקצה, ואילו ליערה האיטלקית עלים כמעט עגולים. היערה היפנית גדלה באופן טבעי במזרח אסיה, בין השאר ביפן, בקוריאה, בסין...",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -2955,10 +2971,12 @@ const plants = [
             "פורח",
             "climbers"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Lonicera japonica",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Lonicera_japonica",
-        "wikipediaExtract": "Lonicera japonica, known as Japanese honeysuckle and golden-and-silver honeysuckle, is a species of honeysuckle native to East Asia, including many parts of China. It is often grown as an ornamental plant, but has become an invasive species in a number of countries. It is used in traditional Chinese medicine."
+        "wikipediaExtract": "Lonicera japonica, known as Japanese honeysuckle and golden-and-silver honeysuckle, is a species of honeysuckle native to East Asia, including many parts of China. It is often grown as an ornamental plant, but has become an invasive species in a number of countries. It is used in traditional Chinese medicine.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%99%D7%A2%D7%A8%D7%94_%D7%99%D7%A4%D7%A0%D7%99%D7%AA"
     },
     {
         "name": "יסמין רפואי",
@@ -2991,8 +3009,8 @@ const plants = [
     {
         "name": "סולנום מטפס",
         "botanical": "Solanum jasminoides",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Solanum_2.JPG/330px-Solanum_2.JPG",
-        "detail": "מטפס נפוץ לפרגולה, גדר או קיר ירוק. מומלץ לספק תמיכה, גיזום וניקוז טוב.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/%D7%A1%D7%95%D7%9C%D7%A0%D7%95%D7%9D_%D7%9E%D7%98%D7%A4%D7%A1.jpg/330px-%D7%A1%D7%95%D7%9C%D7%A0%D7%95%D7%9D_%D7%9E%D7%98%D7%A4%D7%A1.jpg",
+        "detail": "סולנום מטפס הוא צמח טרופי מטפס מעוצה, ירוק-עד ואינו קוצני. מין זה משויך לסוג סולנום ממשפחת הסולניים, ומוצאו מהאזורים הטרופיים - מפלורידה עד הקריביים, ממקסיקו ועד ונצואלה, ומברזיל.",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -3011,10 +3029,12 @@ const plants = [
             "פורח",
             "climbers"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Solanum laxum",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Solanum_laxum",
-        "wikipediaExtract": "Solanum laxum, commonly known as potato vine, potato climber or jasmine nightshade, is an evergreen vine in the family Solanaceae. It is native to South America and commonly grown as an ornamental garden plant."
+        "wikipediaExtract": "Solanum laxum, commonly known as potato vine, potato climber or jasmine nightshade, is an evergreen vine in the family Solanaceae. It is native to South America and commonly grown as an ornamental garden plant.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%A1%D7%95%D7%9C%D7%A0%D7%95%D7%9D_%D7%9E%D7%98%D7%A4%D7%A1"
     },
     {
         "name": "אנטיגון",
@@ -3132,7 +3152,7 @@ const plants = [
         "name": "אלמון הודי",
         "botanical": "Quisqualis indica",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Combretum_indicum_01.JPG/330px-Combretum_indicum_01.JPG",
-        "detail": "מטפס נפוץ לפרגולה, גדר או קיר ירוק. מומלץ לספק תמיכה, גיזום וניקוז טוב.",
+        "detail": "אלמון הודי הוא שיח מטפס, הזקוק לסוג של גדר כדי לטפס ולהיכרך סביבו.",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -3151,10 +3171,12 @@ const plants = [
             "פורח",
             "climbers"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Combretum indicum",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Combretum_indicum",
-        "wikipediaExtract": "Combretum indicum, commonly known as the Rangoon creeper or Burma creeper, is a vine with red flower clusters which is native to tropical Asia and grows in thickets, primary and secondary forest, and along river banks in the Indian subcontinent, Malaysia and the Philippines. It has since been cultivated and naturalized in tropical areas such as Burma, Vietnam, and Thailand."
+        "wikipediaExtract": "Combretum indicum, commonly known as the Rangoon creeper or Burma creeper, is a vine with red flower clusters which is native to tropical Asia and grows in thickets, primary and secondary forest, and along river banks in the Indian subcontinent, Malaysia and the Philippines. It has since been cultivated and naturalized in tropical areas such as Burma, Vietnam, and Thailand.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%90%D7%9C%D7%9E%D7%95%D7%9F_%D7%94%D7%95%D7%93%D7%99"
     },
     {
         "name": "לנטנה",
@@ -3216,8 +3238,8 @@ const plants = [
     {
         "name": "אגפנתוס",
         "botanical": "Agapanthus africanus",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Agapanthus_africanus_in_habitat_photo_Nick_Helme_CC_by_SA.jpg/330px-Agapanthus_africanus_in_habitat_photo_Nick_Helme_CC_by_SA.jpg",
-        "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/A_flower_of_Agapanthus_in_Israel.jpg/330px-A_flower_of_Agapanthus_in_Israel.jpg",
+        "detail": "אגפנתוס הוא סוג של צמח בעל פרחים, יחיד בתת-משפחה אגפנתים (Agapanthoideae) שבמשפחת הנרקיסיים.",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -3237,10 +3259,12 @@ const plants = [
             "מאביקים",
             "perennials"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Agapanthus africanus",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Agapanthus_africanus",
-        "wikipediaExtract": "Agapanthus africanus, commonly named the African lily, is a flowering plant from the genus Agapanthus found only on rocky sandstone slopes of the winter rainfall fynbos from the Cape Peninsula to Swellendam. It is also called the lily of the Nile in spite of only growing in South Africa."
+        "wikipediaExtract": "Agapanthus africanus, commonly named the African lily, is a flowering plant from the genus Agapanthus found only on rocky sandstone slopes of the winter rainfall fynbos from the Cape Peninsula to Swellendam. It is also called the lily of the Nile in spite of only growing in South Africa.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%90%D7%92%D7%A4%D7%A0%D7%AA%D7%95%D7%A1"
     },
     {
         "name": "גאורה",
@@ -3273,8 +3297,8 @@ const plants = [
     {
         "name": "מרווה צחורה",
         "botanical": "Salvia leucantha",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Salvia_leucantha_%28Mexican_Bush_Sage%29.jpg/330px-Salvia_leucantha_%28Mexican_Bush_Sage%29.jpg",
-        "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/%D7%9E%D7%A8%D7%95%D7%95%D7%94_%D7%A6%D7%97%D7%95%D7%A8%D7%94.jpg/330px-%D7%9E%D7%A8%D7%95%D7%95%D7%94_%D7%A6%D7%97%D7%95%D7%A8%D7%94.jpg",
+        "detail": "מַרְוָה צְחוֹרָה היא בן-שיח ריחני מאוד, אחד מ-986 מינים בסוג מרווה ממשפחת השִׂפְתָנִיִּים (Lamiaceae), שרובם הגדול נפוצים באזורים הסובטרופיים והממוזגים ברום 50 מ' עד 2,300 מ'. מרווה צחורה הובאה ממקסיקו, ארץ מוצאה, ומאמריקה הטרופית לישראל ולשאר העולם, כצמח גן...",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -3293,10 +3317,12 @@ const plants = [
             "מאביקים",
             "perennials"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Salvia leucantha",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Salvia_leucantha",
-        "wikipediaExtract": "Salvia leucantha, or Mexican bush sage, is a herbaceous perennial plant in the family Lamiaceae that is native to subtropical and tropical conifer forests in central and eastern Mexico. The flowers are usually white, emerging from coloured bracts. It is not frost hardy, but is often grown in warmer latitudes for its prominent arching velvety blue or purple inflorescences."
+        "wikipediaExtract": "Salvia leucantha, or Mexican bush sage, is a herbaceous perennial plant in the family Lamiaceae that is native to subtropical and tropical conifer forests in central and eastern Mexico. The flowers are usually white, emerging from coloured bracts. It is not frost hardy, but is often grown in warmer latitudes for its prominent arching velvety blue or purple inflorescences.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%9E%D7%A8%D7%95%D7%95%D7%94_%D7%A6%D7%97%D7%95%D7%A8%D7%94"
     },
     {
         "name": "מרווה גרג",
@@ -3357,8 +3383,8 @@ const plants = [
     {
         "name": "אכינצאה",
         "botanical": "Echinacea purpurea",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Echinacea_purpurea_Grandview_Prairie.jpg/330px-Echinacea_purpurea_Grandview_Prairie.jpg",
-        "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/EchinaceaPurpureaMaxima1a.UME.JPG/330px-EchinaceaPurpureaMaxima1a.UME.JPG",
+        "detail": "קיפודנית היא סוג של פרח עשבוני ממשפחת המורכבים. הצמח נפוץ ברחבי צפון ומרכז אמריקה. מינים שונים של הצמח משמשים כצמחי מרפא, בעיקר כנגד הצטננות, אולם המחקר המדעי לא הוכיח את יעילותם באופן חד משמעי.",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -3377,16 +3403,18 @@ const plants = [
             "מאביקים",
             "perennials"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Echinacea purpurea",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Echinacea_purpurea",
-        "wikipediaExtract": "Echinacea purpurea, the eastern purple coneflower, purple coneflower, hedgehog coneflower, or Echinacea, is a North American species of flowering plant in the family Asteraceae. It is native to parts of eastern North America and present to some extent in the wild in much of the eastern, southeastern and midwestern United States, as well as in the Canadian Province of Ontario. It is most common in the Ozarks, the Mississippi Valley, and the Ohio Valley. Its habitats include dry open woods, prairies, and barrens."
+        "wikipediaExtract": "Echinacea purpurea, the eastern purple coneflower, purple coneflower, hedgehog coneflower, or Echinacea, is a North American species of flowering plant in the family Asteraceae. It is native to parts of eastern North America and present to some extent in the wild in much of the eastern, southeastern and midwestern United States, as well as in the Canadian Province of Ontario. It is most common in the Ozarks, the Mississippi Valley, and the Ohio Valley. Its habitats include dry open woods, prairies, and barrens.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%A7%D7%99%D7%A4%D7%95%D7%93%D7%A0%D7%99%D7%AA"
     },
     {
         "name": "גזניה",
         "botanical": "Gazania rigens",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Gazania_rigens-2.jpg/330px-Gazania_rigens-2.jpg",
-        "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Unidentified_Gazania_cultivar_5.jpg/330px-Unidentified_Gazania_cultivar_5.jpg",
+        "detail": "גזניה הוא צמח בעל פרחים רב-שנתי ממשפחת המורכבים המצוי באופן טבעי בדרום אפריקה. לצמח פריחה צבעונית והוא משמש צמח נוי.",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -3405,10 +3433,12 @@ const plants = [
             "מאביקים",
             "perennials"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Gazania rigens",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Gazania_rigens",
-        "wikipediaExtract": "Gazania rigens, sometimes called treasure flower, is a species of flowering plant in the family Asteraceae, native to coastal areas of southern Africa. It is naturalised elsewhere and is widely cultivated as an ornamental plant."
+        "wikipediaExtract": "Gazania rigens, sometimes called treasure flower, is a species of flowering plant in the family Asteraceae, native to coastal areas of southern Africa. It is naturalised elsewhere and is widely cultivated as an ornamental plant.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%92%D7%96%D7%A0%D7%99%D7%94"
     },
     {
         "name": "אוסטאוספרמום",
@@ -3441,8 +3471,8 @@ const plants = [
     {
         "name": "ורבנה",
         "botanical": "Verbena",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Eisenkraut%2C_Passau.JPG/330px-Eisenkraut%2C_Passau.JPG",
-        "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Aloysia_triphylla1.jpg/330px-Aloysia_triphylla1.jpg",
+        "detail": "לואיזה היא סוג ממשפחת הורבניים הכולל 35 מינים שונים. המוכר ביותר הוא לואיזה לימונית.",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -3461,10 +3491,12 @@ const plants = [
             "מאביקים",
             "perennials"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Verbena",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Verbena",
-        "wikipediaExtract": "Verbena, also known as vervain or verveine, is a genus in the family Verbenaceae. It contains about 150 species of annual and perennial herbaceous or semi-woody flowering plants. The majority of the species are native to the Americas and Asia; however, Verbena officinalis, the common vervain or common verbena, is the type species and native to Europe."
+        "wikipediaExtract": "Verbena, also known as vervain or verveine, is a genus in the family Verbenaceae. It contains about 150 species of annual and perennial herbaceous or semi-woody flowering plants. The majority of the species are native to the Americas and Asia; however, Verbena officinalis, the common vervain or common verbena, is the type species and native to Europe.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%9C%D7%95%D7%90%D7%99%D7%96%D7%94"
     },
     {
         "name": "גרניום / פלרגוניום",
@@ -3497,8 +3529,8 @@ const plants = [
     {
         "name": "ליריופה",
         "botanical": "Liriope muscari",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Liriope_muscari_4.JPG/330px-Liriope_muscari_4.JPG",
-        "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Carpioni%2C_Giulio_-_Liriope_Bringing_Narcissus_before_Tiresias_-_1660s.jpg/330px-Carpioni%2C_Giulio_-_Liriope_Bringing_Narcissus_before_Tiresias_-_1660s.jpg",
+        "detail": "ליריופה היא נימפת נאיאדה מהמיתולוגיה היוונית, שמקורה באזור פוקיס שבמרכז יוון. ליריופה נודעה בעיקר כאמו של נרקיסוס, אותו ילדה כתוצאה מאיחוד עם אל הנהר קפיסוס אשר \"בחיבוק זרימתו המפותלת אחז בה ואנסה\", על פי תיאורו של אובידיוס ב\"מטמורפוזות\".",
         "sun": [
             "חצי שמש",
             "חצי צל"
@@ -3518,10 +3550,12 @@ const plants = [
             "מאביקים",
             "perennials"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Liriope muscari",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Liriope_muscari",
-        "wikipediaExtract": "Liriope muscari is a species of flowering plant from East Asia. Common names in English include big blue lilyturf, lilyturf, border grass, and monkey grass. This small herbaceous perennial has grass-like evergreen foliage and lilac-purple flowers which produce single-seeded berries on a spike in the fall. In some parts of the United States, it is an invasive species."
+        "wikipediaExtract": "Liriope muscari is a species of flowering plant from East Asia. Common names in English include big blue lilyturf, lilyturf, border grass, and monkey grass. This small herbaceous perennial has grass-like evergreen foliage and lilac-purple flowers which produce single-seeded berries on a spike in the fall. In some parts of the United States, it is an invasive species.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%9C%D7%99%D7%A8%D7%99%D7%95%D7%A4%D7%94"
     },
     {
         "name": "אופיופוגון",
@@ -3666,8 +3700,8 @@ const plants = [
     {
         "name": "פלוקס",
         "botanical": "Phlox",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Phlox_Paniculata.jpg/330px-Phlox_Paniculata.jpg",
-        "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
+        "image": "https://upload.wikimedia.org/wikipedia/he/a/a1/Phlox.jpg",
+        "detail": "פלוקס הוא דמות בדיונית ביקום הבדיוני של זיכיון \"מסע בין כוכבים\", המופיע ב\"מסע בין כוכבים: אנטרפרייז\" ומשרת כקצין הרפואה הראשי על ספינת החלל \"אנטרפרייז\". את דמותו מגלם השחקן האמריקאי ג'ון בילינגסלי.",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -3686,16 +3720,18 @@ const plants = [
             "מאביקים",
             "perennials"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Phlox",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Phlox",
-        "wikipediaExtract": "Phlox is a genus of 68 species of perennial and annual plants in the family Polemoniaceae. They are found mostly in North America in diverse habitats from alpine tundra to open woodland and prairie. Some flower in spring, others in summer and fall. Flowers may be pale blue, violet, pink, bright red, or white. Many are fragrant."
+        "wikipediaExtract": "Phlox is a genus of 68 species of perennial and annual plants in the family Polemoniaceae. They are found mostly in North America in diverse habitats from alpine tundra to open woodland and prairie. Some flower in spring, others in summer and fall. Flowers may be pale blue, violet, pink, bright red, or white. Many are fragrant.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%A4%D7%9C%D7%95%D7%A7%D7%A1"
     },
     {
         "name": "נפית",
         "botanical": "Nepeta",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Catnip-blossom.jpg/330px-Catnip-blossom.jpg",
-        "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
+        "detail": "נֶפִּית היא סוג צמחים ארומטיים ממשפחת השפתניים. הסוג מקיף צמחים עשבוניים רב-שנתיים, בני שיח ושיחים והוא כולל כ-296 מינים ו-47 תת-מינים, בעבר (2022) כלל הסוג 261 מינים ו-45 תת-מינים. חמישה מינים מסוג זה מיוצגים בצמחיית הבר של ארץ ישראל, הבולט שביניהם המין נפית...",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -3714,10 +3750,12 @@ const plants = [
             "מאביקים",
             "perennials"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Nepeta",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Nepeta",
-        "wikipediaExtract": "Nepeta is a genus of flowering plants in the family Lamiaceae. The genus name, from Latin nepeta (“catnip”), is reportedly in reference to Nepete, an ancient Etruscan city. There are 295 accepted species."
+        "wikipediaExtract": "Nepeta is a genus of flowering plants in the family Lamiaceae. The genus name, from Latin nepeta (“catnip”), is reportedly in reference to Nepete, an ancient Etruscan city. There are 295 accepted species.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%A0%D7%A4%D7%99%D7%AA"
     },
     {
         "name": "חרצית שיחית",
@@ -3918,8 +3956,8 @@ const plants = [
     {
         "name": "צורית",
         "botanical": "Sedum",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Sedum_acre_single_-_Niitv%C3%A4lja.jpg/330px-Sedum_acre_single_-_Niitv%C3%A4lja.jpg",
-        "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Flickr_-_Government_Press_Office_%28GPO%29_-_Mitzpe_Tzurit.jpg/330px-Flickr_-_Government_Press_Office_%28GPO%29_-_Mitzpe_Tzurit.jpg",
+        "detail": "צוּרִית הוא יישוב קהילתי בגליל בתחומי המועצה האזורית משגב. היישוב שוכן על הר גילון, מערבית לכרמיאל. היישוב נקרא על שם צמח הבר צורית, הנפוץ באזור.",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -3938,10 +3976,12 @@ const plants = [
             "מאביקים",
             "perennials"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Sedum",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Sedum",
-        "wikipediaExtract": "Sedum is a large genus of flowering plants in the family Crassulaceae, members of which are commonly known as stonecrops. The genus has been described as containing up to 600 species, subsequently reduced to 400–500. They are leaf succulents found primarily in the Northern Hemisphere, but extending into the southern hemisphere in Africa and South America. The plants vary from annual and creeping herbs to shrubs. The plants have water-storing leaves. The flowers usually have five petals, seldom four or six. There are typically twice as many stamens as petals. Various species formerly classified as Sedum are now in the segregate genera Hylotelephium and Rhodiola."
+        "wikipediaExtract": "Sedum is a large genus of flowering plants in the family Crassulaceae, members of which are commonly known as stonecrops. The genus has been described as containing up to 600 species, subsequently reduced to 400–500. They are leaf succulents found primarily in the Northern Hemisphere, but extending into the southern hemisphere in Africa and South America. The plants vary from annual and creeping herbs to shrubs. The plants have water-storing leaves. The flowers usually have five petals, seldom four or six. There are typically twice as many stamens as petals. Various species formerly classified as Sedum are now in the segregate genera Hylotelephium and Rhodiola.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%A6%D7%95%D7%A8%D7%99%D7%AA"
     },
     {
         "name": "ארמריה",
@@ -4002,8 +4042,8 @@ const plants = [
     {
         "name": "ורוניקה",
         "botanical": "Veronica spicata",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Bombus_norvegicus_-_Veronica_spicata_-_Keila.jpg/330px-Bombus_norvegicus_-_Veronica_spicata_-_Keila.jpg",
-        "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Veronica_syriaca.JPG/330px-Veronica_syriaca.JPG",
+        "detail": "וֵרוֹנִיקָה היא אחד הסוגים הגדולים והחשובים ממִשְׁפַּחַת הַלַּחְכִּיִּים. הסוג כולל כיום כ־464 מינים, לא רק של צמחים עשבוניים כפי שהיה מקובל בעבר, אלא גם בני שיח, שיחים ולעיתים נדירות עצים קטנים. הרחבה זו נבעה מתיקון טקסונומי שנעשה בעשורים האחרונים, שבו אוחדו...",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -4022,10 +4062,12 @@ const plants = [
             "מאביקים",
             "perennials"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Veronica spicata",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Veronica_spicata",
-        "wikipediaExtract": "Veronica spicata is a species of flowering plant in the family Plantaginaceae. It is 1–3 feet (0.30–0.91 m) tall and bears 1 foot long spikes with blue, pink, purple and white flowers."
+        "wikipediaExtract": "Veronica spicata is a species of flowering plant in the family Plantaginaceae. It is 1–3 feet (0.30–0.91 m) tall and bears 1 foot long spikes with blue, pink, purple and white flowers.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%95%D7%A8%D7%95%D7%A0%D7%99%D7%A7%D7%94"
     },
     {
         "name": "סקביה",
@@ -4086,7 +4128,7 @@ const plants = [
     {
         "name": "ארטמיסיה",
         "botanical": "Artemisia",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/2020_year._Herbarium._Artemisia_vulgaris._img-020.jpg/960px-2020_year._Herbarium._Artemisia_vulgaris._img-020.jpg",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Artemisia_vulgaris_-_flower_-_dark_field_microscopic_photo.jpg/960px-Artemisia_vulgaris_-_flower_-_dark_field_microscopic_photo.jpg",
         "detail": "רב־שנתי או צמח ערוגה נפוץ שנותן צבע, מרקם וכיסוי לאורך זמן בגינה או במיכלים.",
         "sun": [
             "שמש מלאה",
@@ -4106,7 +4148,7 @@ const plants = [
             "מאביקים",
             "perennials"
         ],
-        "imageSource": "Wikimedia Commons fallback",
+        "imageSource": "Wikimedia Commons photo",
         "wikipediaTitle": "Artemisia",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Artemisia",
         "wikipediaExtract": "Artemisia may refer to:"
@@ -4282,8 +4324,8 @@ const plants = [
     {
         "name": "רוזמרין",
         "botanical": "Salvia rosmarinus",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Rosemary_in_bloom.JPG/330px-Rosemary_in_bloom.JPG",
-        "detail": "צמח תבלין נפוץ למטבח, אדנית או ערוגת שמש. מתאים לשימוש יומיומי ולגינה ריחנית.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Rosemary001.jpg/330px-Rosemary001.jpg",
+        "detail": "רוזמרין רפואי הוא שיח תרבות רב-שנתי ירוק-עד ממשפחת השפתניים, שפרחיו תכולים, גבעוליו מוציאים ענפים עמוסים בעלים מחטניים, ששוליהם מקופלים לאחור וצבעם ירוק כהה בצידם העליון ואפור בצידם התחתון. מרבים את הצמח מחלוקת שורשיהם של צמחים מפותחים, מייחורים הנלקחים...",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -4303,16 +4345,18 @@ const plants = [
             "מטבח",
             "herbs"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Rosemary",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Rosemary",
-        "wikipediaExtract": "Salvia rosmarinus, synonym Rosmarinus officinalis, commonly known as rosemary, is a shrub with fragrant, evergreen, needle-like leaves and purple or sometimes white, pink, or blue flowers. It is a member of the mint family, Lamiaceae. The species is native to the Mediterranean region. It has numerous cultivars, and its leaves are commonly used as a flavoring."
+        "wikipediaExtract": "Salvia rosmarinus, synonym Rosmarinus officinalis, commonly known as rosemary, is a shrub with fragrant, evergreen, needle-like leaves and purple or sometimes white, pink, or blue flowers. It is a member of the mint family, Lamiaceae. The species is native to the Mediterranean region. It has numerous cultivars, and its leaves are commonly used as a flavoring.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%A8%D7%95%D7%96%D7%9E%D7%A8%D7%99%D7%9F_%D7%A8%D7%A4%D7%95%D7%90%D7%99"
     },
     {
         "name": "לבנדר",
         "botanical": "Lavandula",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Single_lavender_flower02.jpg/330px-Single_lavender_flower02.jpg",
-        "detail": "צמח תבלין נפוץ למטבח, אדנית או ערוגת שמש. מתאים לשימוש יומיומי ולגינה ריחנית.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Lavendel6.jpg/330px-Lavendel6.jpg",
+        "detail": "אֲזוֹבְיוֹן הוא סוג של בני-שיח או לעיתים רחוקות צמח עשבוני רב-שנתי ממשפחת השפתניים. הסוג כולל 41 מינים שתפוצתם באפריקה ובאסיה, ממקרונזיה ועד מזרח התיכון. שבעה מינים נפוצים באירופה וארבעה בישראל וסביבתה. מלבד אזוביון דגול הגדל בר בעיקר במישור החוף גדלים בר...",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -4332,16 +4376,18 @@ const plants = [
             "מטבח",
             "herbs"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Lavandula",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Lavandula",
-        "wikipediaExtract": "Lavandula is a genus of 47 known species of perennial flowering plants in the sage family, Lamiaceae. It is native to the Old World, primarily found across the drier, warmer regions of the Mediterranean, with an affinity for maritime breezes."
+        "wikipediaExtract": "Lavandula is a genus of 47 known species of perennial flowering plants in the sage family, Lamiaceae. It is native to the Old World, primarily found across the drier, warmer regions of the Mediterranean, with an affinity for maritime breezes.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%90%D7%96%D7%95%D7%91%D7%99%D7%95%D7%9F"
     },
     {
         "name": "מרווה רפואית",
         "botanical": "Salvia officinalis",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Salvia_officinalis0.jpg/330px-Salvia_officinalis0.jpg",
-        "detail": "צמח תבלין נפוץ למטבח, אדנית או ערוגת שמש. מתאים לשימוש יומיומי ולגינה ריחנית.",
+        "detail": "מרווה רפואית היא בן שיח המונה 5 תת-מינים בסוג מרווה ממשפחת השפתניים. מוצאה מצפון מערב אירופה ועד דרום אירופה ומשם היא נכנסה אף לאזורים של צפון אפריקה וצפון אמריקה. בישראל היא גדלה כצמח תרבות והיא דומה במידה מסוימת למרווה משולשת. היא מקובלת כבעלת סגולות...",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -4360,16 +4406,18 @@ const plants = [
             "מטבח",
             "herbs"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Salvia officinalis",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Salvia_officinalis",
-        "wikipediaExtract": "Salvia officinalis, common sage or sage, is a perennial, evergreen subshrub, with woody stems, grayish leaves, and blue to purplish flowers. It is a member of the mint family (Lamiaceae) and native to the Mediterranean region, though it has been naturalized in many places throughout the world. It has a long history of culinary use, and in modern times it has been used as an ornamental garden plant. The common name \"sage\" is also used for closely related species and cultivars."
+        "wikipediaExtract": "Salvia officinalis, common sage or sage, is a perennial, evergreen subshrub, with woody stems, grayish leaves, and blue to purplish flowers. It is a member of the mint family (Lamiaceae) and native to the Mediterranean region, though it has been naturalized in many places throughout the world. It has a long history of culinary use, and in modern times it has been used as an ornamental garden plant. The common name \"sage\" is also used for closely related species and cultivars.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%9E%D7%A8%D7%95%D7%95%D7%94_%D7%A8%D7%A4%D7%95%D7%90%D7%99%D7%AA"
     },
     {
         "name": "נענע",
         "botanical": "Mentha",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Mentha_spicata-IMG_6186.jpg/330px-Mentha_spicata-IMG_6186.jpg",
-        "detail": "צמח תבלין נפוץ למטבח, אדנית או ערוגת שמש. מתאים לשימוש יומיומי ולגינה ריחנית.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Field_of_Mentha_x_piperita_02.jpg/330px-Field_of_Mentha_x_piperita_02.jpg",
+        "detail": "נַעְנַע הוא סוג צמחים ריחניים ממשפחת השפתניים, המונה 43–44 מינים ו-10 תת-מינים של עשבים חד-שנתיים ורב-שנתיים ארומטיים הנפוצים כמעט בכל העולם ובמיוחד באזורים הממוזגים-הצפוניים ובאזור הים-תיכון. 3 מינים גדלים בר בישראל, והבולט ביניהם הוא נענע משובלת. ישנם מינים...",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -4388,16 +4436,18 @@ const plants = [
             "מטבח",
             "herbs"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Mentha",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Mentha",
-        "wikipediaExtract": "Mentha, also known as mint, is a genus of flowering plants in the mint family, Lamiaceae. It is estimated that 18 to 24 species exist, but the exact distinction between species is unclear. Hybridization occurs naturally where some species' ranges overlap. Many hybrids and cultivars are known."
+        "wikipediaExtract": "Mentha, also known as mint, is a genus of flowering plants in the mint family, Lamiaceae. It is estimated that 18 to 24 species exist, but the exact distinction between species is unclear. Hybridization occurs naturally where some species' ranges overlap. Many hybrids and cultivars are known.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%A0%D7%A2%D7%A0%D7%A2"
     },
     {
         "name": "מנטה",
         "botanical": "Mentha piperita",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Pfefferminze_natur_peppermint.jpg/330px-Pfefferminze_natur_peppermint.jpg",
-        "detail": "צמח תבלין נפוץ למטבח, אדנית או ערוגת שמש. מתאים לשימוש יומיומי ולגינה ריחנית.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Field_of_Mentha_x_piperita_02.jpg/330px-Field_of_Mentha_x_piperita_02.jpg",
+        "detail": "נַעְנַע הוא סוג צמחים ריחניים ממשפחת השפתניים, המונה 43–44 מינים ו-10 תת-מינים של עשבים חד-שנתיים ורב-שנתיים ארומטיים הנפוצים כמעט בכל העולם ובמיוחד באזורים הממוזגים-הצפוניים ובאזור הים-תיכון. 3 מינים גדלים בר בישראל, והבולט ביניהם הוא נענע משובלת. ישנם מינים...",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -4416,16 +4466,18 @@ const plants = [
             "מטבח",
             "herbs"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Peppermint",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Peppermint",
-        "wikipediaExtract": "Peppermint is a hybrid species of mint, a cross between watermint and spearmint. Indigenous to Europe and the Middle East, the plant is now widely spread and cultivated in many regions of the world. It is occasionally found in the wild with its parent species."
+        "wikipediaExtract": "Peppermint is a hybrid species of mint, a cross between watermint and spearmint. Indigenous to Europe and the Middle East, the plant is now widely spread and cultivated in many regions of the world. It is occasionally found in the wild with its parent species.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%A0%D7%A2%D7%A0%D7%A2"
     },
     {
         "name": "בזיליקום",
         "botanical": "Ocimum basilicum",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Ocimum_basilicum_8zz.jpg/330px-Ocimum_basilicum_8zz.jpg",
-        "detail": "צמח תבלין נפוץ למטבח, אדנית או ערוגת שמש. מתאים לשימוש יומיומי ולגינה ריחנית.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Basil-Basilico-Ocimum_basilicum-albahaca.jpg/330px-Basil-Basilico-Ocimum_basilicum-albahaca.jpg",
+        "detail": "רֵיחָן מצוי, המכונה גם בזיליקום, הוא צמח תבלין ממשפחת השפתניים (Labiatae) מוצאו באזורים הטרופיים כולל דרום-מזרח אסיה ומרכז אפריקה.",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -4444,16 +4496,18 @@ const plants = [
             "מטבח",
             "herbs"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Basil",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Basil",
-        "wikipediaExtract": "Basil, also called great basil, is a culinary herb of the family Lamiaceae (mints). It is a tender plant, and is used in cuisines worldwide. In Western cuisine, the generic term \"basil\" refers to the variety also known as Genovese basil or sweet basil. Basil is native to tropical regions from Central Africa to Southeast Asia. In temperate climates basil is treated as an annual plant, but it can be grown as a short-lived perennial or biennial in warmer horticultural zones with tropical or Mediterranean climates."
+        "wikipediaExtract": "Basil, also called great basil, is a culinary herb of the family Lamiaceae (mints). It is a tender plant, and is used in cuisines worldwide. In Western cuisine, the generic term \"basil\" refers to the variety also known as Genovese basil or sweet basil. Basil is native to tropical regions from Central Africa to Southeast Asia. In temperate climates basil is treated as an annual plant, but it can be grown as a short-lived perennial or biennial in warmer horticultural zones with tropical or Mediterranean climates.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%A8%D7%99%D7%97%D7%9F_%D7%9E%D7%A6%D7%95%D7%99"
     },
     {
         "name": "טימין",
         "botanical": "Thymus vulgaris",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Thymus_vulgaris1.JPG/330px-Thymus_vulgaris1.JPG",
-        "detail": "צמח תבלין נפוץ למטבח, אדנית או ערוגת שמש. מתאים לשימוש יומיומי ולגינה ריחנית.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Creeping_red_thyme.jpg/330px-Creeping_red_thyme.jpg",
+        "detail": "קוֹרָנִית, תימין או טימין, הוא סוג של צמחי תבלין, בני שיח רב שנתיים ממשפחת השפתניים. בסוג נכללים מעל 350 מינים שגובהם הממוצע כ-40 ס\"מ ומקורם בדרום אירופה, בצפון אפריקה ובאסיה. השם \"קורנית\" ניתן לצמח זה עקב תחושת הקרירות הנוצרת על הלשון בעת לעיסת עלי הצמח.",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -4472,16 +4526,18 @@ const plants = [
             "מטבח",
             "herbs"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Thymus vulgaris",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Thymus_vulgaris",
-        "wikipediaExtract": "Thymus vulgaris is a species of flowering plant in the mint family, Lamiaceae."
+        "wikipediaExtract": "Thymus vulgaris is a species of flowering plant in the mint family, Lamiaceae.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%A7%D7%95%D7%A8%D7%A0%D7%99%D7%AA_(%D7%A6%D7%9E%D7%97)"
     },
     {
         "name": "אורגנו",
         "botanical": "Origanum vulgare",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Origanum_vulgare_-_harilik_pune.jpg/330px-Origanum_vulgare_-_harilik_pune.jpg",
-        "detail": "צמח תבלין נפוץ למטבח, אדנית או ערוגת שמש. מתאים לשימוש יומיומי ולגינה ריחנית.",
+        "detail": "אוֹרֵגָנוֹ, או בשמו העברי אֲזוֹבִית פְּשוּטָה הוא שיח רב-שנתי ממשפחת השפתניים. עלי האורגנו משמשים לתיבול ונפוצים מאוד במטבח הים-תיכוני בכלל והאיטלקי בפרט.",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -4500,16 +4556,18 @@ const plants = [
             "מטבח",
             "herbs"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Oregano",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Oregano",
-        "wikipediaExtract": "Oregano is a species of flowering plant in the mint family, Lamiaceae. It was native to the Mediterranean region, but widely naturalised elsewhere in the temperate Northern Hemisphere."
+        "wikipediaExtract": "Oregano is a species of flowering plant in the mint family, Lamiaceae. It was native to the Mediterranean region, but widely naturalised elsewhere in the temperate Northern Hemisphere.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%90%D7%95%D7%A8%D7%92%D7%A0%D7%95"
     },
     {
         "name": "זעתר",
         "botanical": "Origanum syriacum",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Origanum_syriacum%2C_March_2015.jpg/330px-Origanum_syriacum%2C_March_2015.jpg",
-        "detail": "צמח תבלין נפוץ למטבח, אדנית או ערוגת שמש. מתאים לשימוש יומיומי ולגינה ריחנית.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Closeup_image_of_za%27atar%2C_a_blend_of_origanum_syriacum_%28hyssop%2C_sumac%2C_sesame_seeds_and_salt.jpg/330px-Closeup_image_of_za%27atar%2C_a_blend_of_origanum_syriacum_%28hyssop%2C_sumac%2C_sesame_seeds_and_salt.jpg",
+        "detail": "זַעֲתַר הוא הצמח אזוב מצוי המהווה את המרכיב העיקרי בתערובת תבלינים שגם היא נקראת בעברית זעתר. מוצאו של הצמח ושל תערובת התבלינים במזרח התיכון.",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -4528,16 +4586,18 @@ const plants = [
             "מטבח",
             "herbs"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Origanum syriacum",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Origanum_syriacum",
-        "wikipediaExtract": "Origanum syriacum subsp. syriacum; syn. Majorana syriaca, bible hyssop, Biblical-hyssop, Lebanese oregano or Syrian oregano, is an aromatic perennial herb in the mint family, Lamiaceae."
+        "wikipediaExtract": "Origanum syriacum subsp. syriacum; syn. Majorana syriaca, bible hyssop, Biblical-hyssop, Lebanese oregano or Syrian oregano, is an aromatic perennial herb in the mint family, Lamiaceae.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%96%D7%A2%D7%AA%D7%A8"
     },
     {
         "name": "לואיזה",
         "botanical": "Aloysia citrodora",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Aloysia_citriodora_002.jpg/330px-Aloysia_citriodora_002.jpg",
-        "detail": "צמח תבלין נפוץ למטבח, אדנית או ערוגת שמש. מתאים לשימוש יומיומי ולגינה ריחנית.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Aloysia_triphylla1.jpg/330px-Aloysia_triphylla1.jpg",
+        "detail": "לואיזה היא סוג ממשפחת הורבניים הכולל 35 מינים שונים. המוכר ביותר הוא לואיזה לימונית.",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -4556,16 +4616,18 @@ const plants = [
             "מטבח",
             "herbs"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Aloysia citrodora",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Aloysia_citrodora",
-        "wikipediaExtract": "Aloysia citrodora, lemon verbena, is a species of flowering plant in the verbena family Verbenaceae, native to South America. Other common names include lemon beebrush. It was brought to Europe by the Spanish and the Portuguese in the 17th century and cultivated for its oil."
+        "wikipediaExtract": "Aloysia citrodora, lemon verbena, is a species of flowering plant in the verbena family Verbenaceae, native to South America. Other common names include lemon beebrush. It was brought to Europe by the Spanish and the Portuguese in the 17th century and cultivated for its oil.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%9C%D7%95%D7%90%D7%99%D7%96%D7%94"
     },
     {
         "name": "לימונית",
         "botanical": "Cymbopogon citratus",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gardenology.org-IMG_2892_rbgs11jan.jpg/330px-Gardenology.org-IMG_2892_rbgs11jan.jpg",
-        "detail": "צמח תבלין נפוץ למטבח, אדנית או ערוגת שמש. מתאים לשימוש יומיומי ולגינה ריחנית.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/YosriNov04Pokok_Serai.JPG/330px-YosriNov04Pokok_Serai.JPG",
+        "detail": "עשב לימון הוא צמח עשבוני רב שנתי ממשפחת הדגניים. עשב הלימון צומח במקור באזורים טרופיים בדרום-מזרח אסיה ובאפריקה.",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -4584,16 +4646,18 @@ const plants = [
             "מטבח",
             "herbs"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Cymbopogon citratus",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Cymbopogon_citratus",
-        "wikipediaExtract": "Cymbopogon citratus, commonly known as West Indian lemon grass or simply lemon grass, is a tropical plant native to South Asia and Maritime Southeast Asia and introduced to many tropical regions."
+        "wikipediaExtract": "Cymbopogon citratus, commonly known as West Indian lemon grass or simply lemon grass, is a tropical plant native to South Asia and Maritime Southeast Asia and introduced to many tropical regions.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%A2%D7%A9%D7%91_%D7%9C%D7%99%D7%9E%D7%95%D7%9F"
     },
     {
         "name": "פטרוזיליה",
         "botanical": "Petroselinum crispum",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Petroselinum.jpg/330px-Petroselinum.jpg",
-        "detail": "צמח תבלין נפוץ למטבח, אדנית או ערוגת שמש. מתאים לשימוש יומיומי ולגינה ריחנית.",
+        "detail": "פֶּטְרוֹזִילְיָה היא עשב תיבול ממשפחת הסוככיים. מוצאו מדרום אירופה. צמח זה הוא דו-שנתי. עליו של צמח זה הם בצבע ירוק כהה.",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -4612,16 +4676,18 @@ const plants = [
             "מטבח",
             "herbs"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Parsley",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Parsley",
-        "wikipediaExtract": "Parsley, or garden parsley, is a species of flowering plant in the family Apiaceae that is native to the Balkans. It has been introduced and naturalized in Europe and elsewhere in the world with suitable climates, and is widely cultivated as a herb and a vegetable."
+        "wikipediaExtract": "Parsley, or garden parsley, is a species of flowering plant in the family Apiaceae that is native to the Balkans. It has been introduced and naturalized in Europe and elsewhere in the world with suitable climates, and is widely cultivated as a herb and a vegetable.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%A4%D7%98%D7%A8%D7%95%D7%96%D7%99%D7%9C%D7%99%D7%94"
     },
     {
         "name": "כוסברה",
         "botanical": "Coriandrum sativum",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Coriandrum_sativum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-193.jpg/330px-Coriandrum_sativum_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-193.jpg",
-        "detail": "צמח תבלין נפוץ למטבח, אדנית או ערוגת שמש. מתאים לשימוש יומיומי ולגינה ריחנית.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Cilantro_leaf.jpg/330px-Cilantro_leaf.jpg",
+        "detail": "גַּד השדה, הידוע בשמו הערבי כוסברה (כזברה), הוא צמח תבלין ממשפחת הסוככיים. הגד הוא צמח חד-שנתי, בעל עלים מנוצים ודומה לפטרוזיליה. הגד משגשג בקרקע קלה, עשירה ומנוקזת היטב.",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -4640,15 +4706,17 @@ const plants = [
             "מטבח",
             "herbs"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Coriander",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Coriander",
-        "wikipediaExtract": "Coriander, or Coriandrum sativum, is an annual herb in the family Apiaceae. The leaves are known as cilantro in the US. Most people perceive the leaves as having a fresh, slightly citrus taste. Due to variations in the gene OR6A2, some people perceive its flavor to be more soaplike or rotten."
+        "wikipediaExtract": "Coriander, or Coriandrum sativum, is an annual herb in the family Apiaceae. The leaves are known as cilantro in the US. Most people perceive the leaves as having a fresh, slightly citrus taste. Due to variations in the gene OR6A2, some people perceive its flavor to be more soaplike or rotten.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%9B%D7%95%D7%A1%D7%91%D7%A8%D7%94"
     },
     {
         "name": "שמיר",
         "botanical": "Anethum graveolens",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Illustration_Anethum_graveolens_clean.jpg/330px-Illustration_Anethum_graveolens_clean.jpg",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Anethum_graveolens_%287490803296%29.jpg/960px-Anethum_graveolens_%287490803296%29.jpg",
         "detail": "צמח תבלין נפוץ למטבח, אדנית או ערוגת שמש. מתאים לשימוש יומיומי ולגינה ריחנית.",
         "sun": [
             "שמש מלאה",
@@ -4668,7 +4736,7 @@ const plants = [
             "מטבח",
             "herbs"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "Wikimedia Commons photo",
         "wikipediaTitle": "Dill",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Dill",
         "wikipediaExtract": "Dill is an annual herb in the celery family Apiaceae. Native to North Africa and West Asia, dill is grown widely in Eurasia, where its leaves and seeds are used as a herb or spice for flavouring food."
@@ -4676,8 +4744,8 @@ const plants = [
     {
         "name": "עירית",
         "botanical": "Allium schoenoprasum",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Allium_schoenoprasum_-_Bombus_lapidarius_-_Tootsi.jpg/330px-Allium_schoenoprasum_-_Bombus_lapidarius_-_Tootsi.jpg",
-        "detail": "צמח תבלין נפוץ למטבח, אדנית או ערוגת שמש. מתאים לשימוש יומיומי ולגינה ריחנית.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Allium_schoenoprasum%2801%29.jpg/330px-Allium_schoenoprasum%2801%29.jpg",
+        "detail": "שום העירית הוא צמח תבלין עשבוני רב-שנתי מהסוג שום ממשפחת הנרקיסיים, המתנשא לגובה של עד שלושים סנטימטרים. ככל הידוע מוצא שום העירית הוא מסין.",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -4696,16 +4764,18 @@ const plants = [
             "מטבח",
             "herbs"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Chives",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Chives",
-        "wikipediaExtract": "Chives, scientific name Allium schoenoprasum, is a species of flowering plant in the family Amaryllidaceae."
+        "wikipediaExtract": "Chives, scientific name Allium schoenoprasum, is a species of flowering plant in the family Amaryllidaceae.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%A9%D7%95%D7%9D_%D7%94%D7%A2%D7%99%D7%A8%D7%99%D7%AA"
     },
     {
         "name": "טרגון",
         "botanical": "Artemisia dracunculus",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Estragon_1511.jpg/330px-Estragon_1511.jpg",
-        "detail": "צמח תבלין נפוץ למטבח, אדנית או ערוגת שמש. מתאים לשימוש יומיומי ולגינה ריחנית.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Artemisia_dracunculus_11.jpg/330px-Artemisia_dracunculus_11.jpg",
+        "detail": "לענה דרקונית הוא מין צמח עשבוני רב-שנתי, המשמש כעשב תיבול במטבחים שונים בעולם. כעשב תיבול הוא מוכר בעברית ובאנגלית בשם טָרָגוֹן (Tarragon) ובצרפתית, בגרמנית ובספרדית בשם אֶסְטְרָגוֹן (Estragon).",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -4724,16 +4794,18 @@ const plants = [
             "מטבח",
             "herbs"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Tarragon",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Tarragon",
-        "wikipediaExtract": "Tarragon, also known as estragon, is a species of perennial herb in the family Asteraceae. It is widespread in the wild across much of Eurasia and North America and is cultivated for culinary and medicinal purposes."
+        "wikipediaExtract": "Tarragon, also known as estragon, is a species of perennial herb in the family Asteraceae. It is widespread in the wild across much of Eurasia and North America and is cultivated for culinary and medicinal purposes.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%9C%D7%A2%D7%A0%D7%94_%D7%93%D7%A8%D7%A7%D7%95%D7%A0%D7%99%D7%AA"
     },
     {
         "name": "מליסה",
         "botanical": "Melissa officinalis",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Lemon_balm_plant.jpg/330px-Lemon_balm_plant.jpg",
-        "detail": "צמח תבלין נפוץ למטבח, אדנית או ערוגת שמש. מתאים לשימוש יומיומי ולגינה ריחנית.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Melissa_officinalis_1.jpg/330px-Melissa_officinalis_1.jpg",
+        "detail": "מֵלִיסָה הוא סוג של עשבים צמחוניים רב-שנתיים ממשפחת השפתניים. הסוג כולל 4 מינים ושני תת-מינים. המין הידוע הנפוץ ביותר הוא המין מליסה רפואית הכולל 2 תת-מינים. מליסה רפואית שמשה מאז ימי קדם כצמח מרפא חשוב ברפואה העממית, ונעשה בה שימוש להפקת שמן אתרי ריחני,...",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -4752,10 +4824,12 @@ const plants = [
             "מטבח",
             "herbs"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Lemon balm",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Lemon_balm",
-        "wikipediaExtract": "Lemon balm is a perennial herbaceous plant in the mint family. It has lemon-scented leaves, white or pale pink flowers, and contains essential oils and compounds such as geranial and neral. It grows to a maximum height of 1 m. The species is native to south-central Europe, the Mediterranean, Central Asia, and Iran. It is naturalized worldwide. It grows easily from seed in rich, moist soil."
+        "wikipediaExtract": "Lemon balm is a perennial herbaceous plant in the mint family. It has lemon-scented leaves, white or pale pink flowers, and contains essential oils and compounds such as geranial and neral. It grows to a maximum height of 1 m. The species is native to south-central Europe, the Mediterranean, Central Asia, and Iran. It is naturalized worldwide. It grows easily from seed in rich, moist soil.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%9E%D7%9C%D7%99%D7%A1%D7%94"
     },
     {
         "name": "שיבא",
@@ -4816,8 +4890,8 @@ const plants = [
     {
         "name": "אלוורה",
         "botanical": "Aloe vera",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Aloe_vera_flower_inset.png/330px-Aloe_vera_flower_inset.png",
-        "detail": "סוקולנט או קקטוס קל יחסית לגידול, מתאים למיכלים, מסלעות וגינות חסכוניות במים.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Aloe_barbadensis.JPG/330px-Aloe_barbadensis.JPG",
+        "detail": "אלוורה או אַלְוַי אמיתי הוא מין צמח סוקולנט בסוג אַלְוַי שמונה 594 מינים ומשויך כיום למשפחת העיריתיים. מוצאו מדרום-מערב חצי האי ערב.",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -4836,10 +4910,12 @@ const plants = [
             "קל לטיפול",
             "succulents"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Aloe vera",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Aloe_vera",
-        "wikipediaExtract": "Aloe vera is a succulent plant species of the genus Aloe. It is widely distributed, and is considered an invasive species in many world regions."
+        "wikipediaExtract": "Aloe vera is a succulent plant species of the genus Aloe. It is widely distributed, and is considered an invasive species in many world regions.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%90%D7%9C%D7%95%D7%95%D7%A8%D7%94"
     },
     {
         "name": "סנסיווריה",
@@ -5040,8 +5116,8 @@ const plants = [
     {
         "name": "יוקה",
         "botanical": "Yucca elephantipes",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Yucca_gigantea_-_Jard%C3%ADn_Bot%C3%A1nico_Canario_Viera_y_Clavijo_-_Gran_Canaria.jpg/330px-Yucca_gigantea_-_Jard%C3%ADn_Bot%C3%A1nico_Canario_Viera_y_Clavijo_-_Gran_Canaria.jpg",
-        "detail": "סוקולנט או קקטוס קל יחסית לגידול, מתאים למיכלים, מסלעות וגינות חסכוניות במים.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Yucca_filamentosa.jpg/330px-Yucca_filamentosa.jpg",
+        "detail": "יוּקָה הוא סוג הכולל כמה עשרות מיני צמחים ממשפחת האגביים (Agavaceae), שמוצאם באזורים החמים והיבשים של אמריקה הצפונית והמרכזית והאיים הקאריביים.",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -5060,10 +5136,12 @@ const plants = [
             "קל לטיפול",
             "succulents"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Yucca gigantea",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Yucca_gigantea",
-        "wikipediaExtract": "Yucca gigantea is a species of flowering plant in the asparagus family, native to Mexico and Central America. Growing up to 8–12 m (26–39 ft) in height, it is an evergreen shrub which is widely cultivated as an ornamental garden or house plant, often referred to simply as yucca cane. The edible flower is the national flower of El Salvador locally called izote, and it is used extensively in Salvadoran cuisine."
+        "wikipediaExtract": "Yucca gigantea is a species of flowering plant in the asparagus family, native to Mexico and Central America. Growing up to 8–12 m (26–39 ft) in height, it is an evergreen shrub which is widely cultivated as an ornamental garden or house plant, often referred to simply as yucca cane. The edible flower is the national flower of El Salvador locally called izote, and it is used extensively in Salvadoran cuisine.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%99%D7%95%D7%A7%D7%94"
     },
     {
         "name": "נולינה",
@@ -5350,8 +5428,8 @@ const plants = [
     {
         "name": "וושינגטוניה חסונה",
         "botanical": "Washingtonia robusta",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Arecales_-_Washingtonia_robusta_-_1.jpg/330px-Arecales_-_Washingtonia_robusta_-_1.jpg",
-        "detail": "צמח טרופי, דקל או עלווה גדולה למראה ירוק ורך. מתאים לפטיו, כניסה או אזור מוגן לפי הזן.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Starr_010330-0594_Washingtonia_robusta.jpg/330px-Starr_010330-0594_Washingtonia_robusta.jpg",
+        "detail": "וושינגטוניה חסונה הוא מין של דקל מסוג וושינגטוניה.",
         "sun": [
             "שמש מלאה",
             "חצי שמש",
@@ -5371,10 +5449,12 @@ const plants = [
             "מיכל",
             "palms"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Washingtonia filifera var. robusta",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Washingtonia_filifera_var._robusta",
-        "wikipediaExtract": "Washingtonia filifera var. robusta, commonly known as the Mexican fan palm, Mexican washingtonia, or skyduster, is a flowering plant in the family Arecaceae native to the Sonoran desert along the Baja California peninsula. Despite its limited native distribution, W. filifera var. robusta is one of the most widely cultivated subtropical palms in the world. It is naturalized across the southern United States, Mediterranean, and Middle East."
+        "wikipediaExtract": "Washingtonia filifera var. robusta, commonly known as the Mexican fan palm, Mexican washingtonia, or skyduster, is a flowering plant in the family Arecaceae native to the Sonoran desert along the Baja California peninsula. Despite its limited native distribution, W. filifera var. robusta is one of the most widely cultivated subtropical palms in the world. It is naturalized across the southern United States, Mediterranean, and Middle East.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%95%D7%95%D7%A9%D7%99%D7%A0%D7%92%D7%98%D7%95%D7%A0%D7%99%D7%94_%D7%97%D7%A1%D7%95%D7%A0%D7%94"
     },
     {
         "name": "דקל רובליני",
@@ -5408,8 +5488,8 @@ const plants = [
     {
         "name": "דקל קנרי",
         "botanical": "Phoenix canariensis",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Phoenix_canariensis_%28Puntallana%29_01.jpg/330px-Phoenix_canariensis_%28Puntallana%29_01.jpg",
-        "detail": "צמח טרופי, דקל או עלווה גדולה למראה ירוק ורך. מתאים לפטיו, כניסה או אזור מוגן לפי הזן.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Phoenix_canariensis_CBMen_6.jpg/330px-Phoenix_canariensis_CBMen_6.jpg",
+        "detail": "תמר קנרי הוא מין ממשפחת הדקליים, קרוב משפחה של התמר המצוי. מוצאו של התמר הקנרי באיים הקנריים, והוא משמש כעץ נוי.",
         "sun": [
             "שמש מלאה",
             "חצי שמש",
@@ -5429,10 +5509,12 @@ const plants = [
             "מיכל",
             "palms"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Phoenix canariensis",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Phoenix_canariensis",
-        "wikipediaExtract": "Phoenix canariensis, the Canary Island date palm, is a species of flowering plant in the palm family Arecaceae, native to the Canary Islands off the coast of Northwestern Africa. It is a relative of Phoenix dactylifera, the true date palm. It is the natural symbol of the Canary Islands, together with the canary Serinus canaria."
+        "wikipediaExtract": "Phoenix canariensis, the Canary Island date palm, is a species of flowering plant in the palm family Arecaceae, native to the Canary Islands off the coast of Northwestern Africa. It is a relative of Phoenix dactylifera, the true date palm. It is the natural symbol of the Canary Islands, together with the canary Serinus canaria.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%AA%D7%9E%D7%A8_%D7%A7%D7%A0%D7%A8%D7%99"
     },
     {
         "name": "דקל חמדוריאה",
@@ -5465,8 +5547,8 @@ const plants = [
     {
         "name": "ציפור גן עדן",
         "botanical": "Strelitzia reginae",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Ave-do-para%C3%ADso%2C_Strelitzia_reginae%2C_em_Bag%C3%A9%2C_Rio_Grande_do_Sul%2C_Brasil_-_55211233712.jpg/330px-Ave-do-para%C3%ADso%2C_Strelitzia_reginae%2C_em_Bag%C3%A9%2C_Rio_Grande_do_Sul%2C_Brasil_-_55211233712.jpg",
-        "detail": "צמח טרופי, דקל או עלווה גדולה למראה ירוק ורך. מתאים לפטיו, כניסה או אזור מוגן לפי הזן.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Cenderawasih_Bird_-_Papua.jpg/330px-Cenderawasih_Bird_-_Papua.jpg?utm_source=he.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+        "detail": "עדניים היא משפחת עופות מסדרת ציפורי השיר, אשר נודעות בייחוד ביפי נוצותיהן המגוונות, ומכאן שמן.",
         "sun": [
             "שמש מלאה",
             "חצי שמש",
@@ -5486,10 +5568,12 @@ const plants = [
             "מיכל",
             "palms"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Strelitzia reginae",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Strelitzia_reginae",
-        "wikipediaExtract": "Strelitzia reginae, commonly known as the crane flower, bird of paradise, or isigude in Nguni, is a species of flowering plant native to the Cape Provinces and KwaZulu-Natal in South Africa. An evergreen perennial, it is widely cultivated for its dramatic flowers. In temperate areas it is a popular houseplant."
+        "wikipediaExtract": "Strelitzia reginae, commonly known as the crane flower, bird of paradise, or isigude in Nguni, is a species of flowering plant native to the Cape Provinces and KwaZulu-Natal in South Africa. An evergreen perennial, it is widely cultivated for its dramatic flowers. In temperate areas it is a popular houseplant.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%A2%D7%93%D7%A0%D7%99%D7%99%D7%9D"
     },
     {
         "name": "ציפור גן עדן לבנה",
@@ -5581,8 +5665,8 @@ const plants = [
     {
         "name": "פילודנדרון קסנדו",
         "botanical": "Philodendron xanadu",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Philodendron_xanadu_AK1.jpg/330px-Philodendron_xanadu_AK1.jpg",
-        "detail": "צמח טרופי, דקל או עלווה גדולה למראה ירוק ורך. מתאים לפטיו, כניסה או אזור מוגן לפי הזן.",
+        "image": "https://upload.wikimedia.org/wikipedia/he/thumb/6/6f/%D7%A4%D7%99%D7%9C%D7%95%D7%93%D7%A0%D7%93%D7%A8%D7%95%D7%9F_%D7%A7%D7%A1%D7%A0%D7%93%D7%95.JPG/330px-%D7%A4%D7%99%D7%9C%D7%95%D7%93%D7%A0%D7%93%D7%A8%D7%95%D7%9F_%D7%A7%D7%A1%D7%A0%D7%93%D7%95.JPG",
+        "detail": "פילודנדרון קְסָאנָאדוּ הוא מין צמח מסוג פילודנדרון, שמקורו בברזיל.",
         "sun": [
             "שמש מלאה",
             "חצי שמש",
@@ -5602,16 +5686,18 @@ const plants = [
             "מיכל",
             "palms"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Philodendron xanadu",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Philodendron_xanadu",
-        "wikipediaExtract": "Philodendron xanadu, synonym Thaumatophyllum xanadu, is a perennial plant belonging to the arum family Araceae. It is native to south Brazil and Paraguay, but is widely cultivated as a landscape plant in tropical, subtropical, and warm temperate climates."
+        "wikipediaExtract": "Philodendron xanadu, synonym Thaumatophyllum xanadu, is a perennial plant belonging to the arum family Araceae. It is native to south Brazil and Paraguay, but is widely cultivated as a landscape plant in tropical, subtropical, and warm temperate climates.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%A4%D7%99%D7%9C%D7%95%D7%93%D7%A0%D7%93%D7%A8%D7%95%D7%9F_%D7%A7%D7%A1%D7%A0%D7%93%D7%95"
     },
     {
         "name": "אלוקסיה",
         "botanical": "Alocasia",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Alocasia_macrorrhiza_-_Val_Rahmeh_-_DSC04449.JPG/330px-Alocasia_macrorrhiza_-_Val_Rahmeh_-_DSC04449.JPG",
-        "detail": "צמח טרופי, דקל או עלווה גדולה למראה ירוק ורך. מתאים לפטיו, כניסה או אזור מוגן לפי הזן.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/AlocasiaMacrorrhizaFlower.jpg/330px-AlocasiaMacrorrhizaFlower.jpg",
+        "detail": "אלוקסיה הוא סוג צמח במשפחת הלופיים, הכולל כ-80 מינים. מיני סוג זה מאופיינים בעלים רחבים, ומשום יופי העלים מגודלים כצמחי נוי לעיתים קרובות.",
         "sun": [
             "שמש מלאה",
             "חצי שמש",
@@ -5631,10 +5717,12 @@ const plants = [
             "מיכל",
             "palms"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Alocasia",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Alocasia",
-        "wikipediaExtract": "Alocasia is a genus of rhizomatous or tuberous, broad-leaved, perennial, flowering plants from the family Araceae. There are about 90 accepted species native to tropical and subtropical Asia and eastern Australia. Around the world, many growers widely cultivate a range of hybrids and cultivars as ornamentals."
+        "wikipediaExtract": "Alocasia is a genus of rhizomatous or tuberous, broad-leaved, perennial, flowering plants from the family Araceae. There are about 90 accepted species native to tropical and subtropical Asia and eastern Australia. Around the world, many growers widely cultivate a range of hybrids and cultivars as ornamentals.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%90%D7%9C%D7%95%D7%A7%D7%A1%D7%99%D7%94"
     },
     {
         "name": "קולוקסיה",
@@ -5696,8 +5784,8 @@ const plants = [
     {
         "name": "שרך בוסטון",
         "botanical": "Nephrolepis exaltata",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Boston_Fern_%282873392811%29.png/330px-Boston_Fern_%282873392811%29.png",
-        "detail": "צמח טרופי, דקל או עלווה גדולה למראה ירוק ורך. מתאים לפטיו, כניסה או אזור מוגן לפי הזן.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Nephrolepis_exaltata_indoor0705c.jpg/330px-Nephrolepis_exaltata_indoor0705c.jpg",
+        "detail": "שרך בוסטון מכונה גם שרך החרב, או שרך עצמות הדג הוא מין של שרך הנפוץ באזורים טרופיים ברחבי העולם. צמח זה הוא צמח עשבוני רב-שנתי המגיע לגובה של 40–90 סנטימטרים ובמקרים קיצוניים עד 1.5 מטרים.",
         "sun": [
             "חצי שמש",
             "חצי צל"
@@ -5716,10 +5804,12 @@ const plants = [
             "מיכל",
             "palms"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Nephrolepis exaltata",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Nephrolepis_exaltata",
-        "wikipediaExtract": "Nephrolepis exaltata, known as the sword fern or  Boston fern, is a species of fern in the family Nephrolepidaceae. It is native to the Americas. This evergreen plant can reach as high as 40–90 centimetres (16–35 in), and in extreme cases up to 1.5 metres. It is also known as the Boston sword fern, wild Boston fern, Boston blue bell fern, tuber ladder fern, or fishbone fern."
+        "wikipediaExtract": "Nephrolepis exaltata, known as the sword fern or  Boston fern, is a species of fern in the family Nephrolepidaceae. It is native to the Americas. This evergreen plant can reach as high as 40–90 centimetres (16–35 in), and in extreme cases up to 1.5 metres. It is also known as the Boston sword fern, wild Boston fern, Boston blue bell fern, tuber ladder fern, or fishbone fern.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%A9%D7%A8%D7%9A_%D7%91%D7%95%D7%A1%D7%98%D7%95%D7%9F"
     },
     {
         "name": "קנה סוף ננסי",
@@ -5754,7 +5844,7 @@ const plants = [
         "name": "פפירוס",
         "botanical": "Cyperus papyrus",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Papyrus_%28Cyperus_papyrus%29_%287079191471%29.jpg/330px-Papyrus_%28Cyperus_papyrus%29_%287079191471%29.jpg",
-        "detail": "צמח טרופי, דקל או עלווה גדולה למראה ירוק ורך. מתאים לפטיו, כניסה או אזור מוגן לפי הזן.",
+        "detail": "פּפּירוס הוא סוג קדום של נייר שיוצר מצמח הגומא, הנודע גם כצמח הפפירוס. השימוש הידוע הראשון בנייר פפירוס נעשה במצרים העתיקה, עוד בימי השושלת הראשונה של מצרים ואולי אף לפני-כן. נעשה שימוש בפפירוס בכל אזור המזרח התיכון, כמו גם ביבשת אירופה ובדרום-מערב אסיה.",
         "sun": [
             "שמש מלאה",
             "חצי שמש",
@@ -5777,13 +5867,15 @@ const plants = [
         "imageSource": "Wikipedia",
         "wikipediaTitle": "Cyperus papyrus",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Cyperus_papyrus",
-        "wikipediaExtract": "Cyperus papyrus, better known by the common names papyrus sedge, papyrus, paper reed, Indian matting plant, or Nile grass, is a species of aquatic flowering plant belonging to the sedge family Cyperaceae. It is a tender herbaceous perennial, forming tall stands of reed-like swamp vegetation in shallow water."
+        "wikipediaExtract": "Cyperus papyrus, better known by the common names papyrus sedge, papyrus, paper reed, Indian matting plant, or Nile grass, is a species of aquatic flowering plant belonging to the sedge family Cyperaceae. It is a tender herbaceous perennial, forming tall stands of reed-like swamp vegetation in shallow water.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%A4%D7%A4%D7%99%D7%A8%D7%95%D7%A1"
     },
     {
         "name": "מורינגה מכונפת",
         "botanical": "Moringa oleifera",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/DrumstickFlower.jpg/330px-DrumstickFlower.jpg",
-        "detail": "צמח טרופי, דקל או עלווה גדולה למראה ירוק ורך. מתאים לפטיו, כניסה או אזור מוגן לפי הזן.",
+        "detail": "מורינגה מכונפת הוא מין עץ בסוג מורינגה. המורינגה כלולה במשפחת המורינגיים, המכילה סוג יחיד עם 14 מינים. זהו עץ טרופי שמסוגל לגדול מהר עם מעט מים ולשרוד בתנאי בצורת. כל חלקי העץ אכילים ומהווים מקור מזון חשוב באזורים טרופיים וסוב-טרופיים בעולם.",
         "sun": [
             "שמש מלאה",
             "חצי שמש",
@@ -5803,10 +5895,12 @@ const plants = [
             "מיכל",
             "palms"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Moringa oleifera",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Moringa_oleifera",
-        "wikipediaExtract": "Moringa oleifera is a short-lived, fast-growing, drought-resistant tree of the family Moringaceae, native to northern India and used extensively in South and Southeast Asia. Common names include moringa, drumstick tree, horseradish tree, ben tree, or malunggay."
+        "wikipediaExtract": "Moringa oleifera is a short-lived, fast-growing, drought-resistant tree of the family Moringaceae, native to northern India and used extensively in South and Southeast Asia. Common names include moringa, drumstick tree, horseradish tree, ben tree, or malunggay.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%9E%D7%95%D7%A8%D7%99%D7%A0%D7%92%D7%94_%D7%9E%D7%9B%D7%95%D7%A0%D7%A4%D7%AA"
     },
     {
         "name": "מונסטרה",
@@ -5840,7 +5934,7 @@ const plants = [
         "name": "פוטוס",
         "botanical": "Epipremnum aureum",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Money_Plant_%28Epipremnum_aureum%29_4.jpg/330px-Money_Plant_%28Epipremnum_aureum%29_4.jpg",
-        "detail": "צמח בית פופולרי במשתלות, מתאים לעציץ פנים, משרד או מרפסת מוצלת עם אור מסונן.",
+        "detail": "האם התכוונתם ל...",
         "sun": [
             "חצי צל",
             "צל"
@@ -5862,7 +5956,9 @@ const plants = [
         "imageSource": "Wikipedia",
         "wikipediaTitle": "Epipremnum aureum",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Epipremnum_aureum",
-        "wikipediaExtract": "Epipremnum aureum is a species in the arum family Araceae, native to Mo'orea in the Society Islands of French Polynesia. The species is a popular houseplant in temperate regions, but has also become naturalised in tropical and sub-tropical forests worldwide, including northern South Africa, Australia, Southeast Asia, Indian subcontinent, the Pacific Islands and the West Indies, where it has caused severe ecological damage in some cases."
+        "wikipediaExtract": "Epipremnum aureum is a species in the arum family Araceae, native to Mo'orea in the Society Islands of French Polynesia. The species is a popular houseplant in temperate regions, but has also become naturalised in tropical and sub-tropical forests worldwide, including northern South Africa, Australia, Southeast Asia, Indian subcontinent, the Pacific Islands and the West Indies, where it has caused severe ecological damage in some cases.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%A4%D7%95%D7%98%D7%95%D7%A1"
     },
     {
         "name": "זמיה קוקוס",
@@ -5924,7 +6020,7 @@ const plants = [
         "name": "פיקוס כינורי",
         "botanical": "Ficus lyrata",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Starr_031108-0130_Ficus_lyrata.jpg/330px-Starr_031108-0130_Ficus_lyrata.jpg",
-        "detail": "צמח בית פופולרי במשתלות, מתאים לעציץ פנים, משרד או מרפסת מוצלת עם אור מסונן.",
+        "detail": "פיקוס כינורי הוא עץ או שיח גדול מסוג פיקוס, אשר נפוץ במקומות רבים בישראל כצמח נוי. מקורו של העץ הוא ביערות גשם טרופיים ממערב אפריקה, בין קמרון לסיירה לאון.",
         "sun": [
             "חצי צל",
             "צל"
@@ -5943,10 +6039,12 @@ const plants = [
             "קל לטיפול",
             "houseplants"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Ficus lyrata",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Ficus_lyrata",
-        "wikipediaExtract": "Ficus lyrata, commonly known as the fiddle-leaf fig, banjo fig, fiddle-leaved fig tree, lyre leaf fig tree, or lyre-leaved fig tree, is a species of plant in the mulberry and fig family Moraceae. It is native to western Africa, but is cultivated around the world as an ornamental plant. It has received the Royal Horticultural Society's Award of Garden Merit."
+        "wikipediaExtract": "Ficus lyrata, commonly known as the fiddle-leaf fig, banjo fig, fiddle-leaved fig tree, lyre leaf fig tree, or lyre-leaved fig tree, is a species of plant in the mulberry and fig family Moraceae. It is native to western Africa, but is cultivated around the world as an ornamental plant. It has received the Royal Horticultural Society's Award of Garden Merit.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%A4%D7%99%D7%A7%D7%95%D7%A1_%D7%9B%D7%99%D7%A0%D7%95%D7%A8%D7%99"
     },
     {
         "name": "פיקוס גומי",
@@ -6036,7 +6134,7 @@ const plants = [
         "name": "ספטיפיליום",
         "botanical": "Spathiphyllum",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Spathiphyllum_cochlearispathum_RTBG.jpg/330px-Spathiphyllum_cochlearispathum_RTBG.jpg",
-        "detail": "צמח בית פופולרי במשתלות, מתאים לעציץ פנים, משרד או מרפסת מוצלת עם אור מסונן.",
+        "detail": "ספטיפיליום הוא סוג של צמח טרופי ממשפחת הלופיים, הכולל כ-52 מינים. שם הסוג מעיד על צורת מִתְחָל התפרחת, הדומה עם הופעתו לעלה. הצמח קל למדי לגידול ומשמש לצורכי נוי. בתוספת ליפי העלים הוא נושא במשך הקיץ תפרחת נאה של פרחים עדינים. הוא גדל היטב גם בתרבית מים. מוצא...",
         "sun": [
             "חצי צל",
             "צל"
@@ -6055,16 +6153,18 @@ const plants = [
             "קל לטיפול",
             "houseplants"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Spathiphyllum",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Spathiphyllum",
-        "wikipediaExtract": "Spathiphyllum is a genus of about 60 species of monocotyledonous flowering plants in the family Araceae, native to tropical regions of the Americas and southeastern Asia. Certain species of Spathiphyllum are commonly known as spath or peace lilies."
+        "wikipediaExtract": "Spathiphyllum is a genus of about 60 species of monocotyledonous flowering plants in the family Araceae, native to tropical regions of the Americas and southeastern Asia. Certain species of Spathiphyllum are commonly known as spath or peace lilies.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%A1%D7%A4%D7%98%D7%99%D7%A4%D7%99%D7%9C%D7%99%D7%95%D7%9D"
     },
     {
         "name": "אנתוריום",
         "botanical": "Anthurium andraeanum",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/AnthuriumAndraenum.jpg/330px-AnthuriumAndraenum.jpg",
-        "detail": "צמח בית פופולרי במשתלות, מתאים לעציץ פנים, משרד או מרפסת מוצלת עם אור מסונן.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Colpfl28b.jpg/330px-Colpfl28b.jpg",
+        "detail": "האנתוריון הוא צמח נוי נפוץ ממשפחת הלופיים ומוצאו טרופי.",
         "sun": [
             "חצי צל",
             "צל"
@@ -6083,10 +6183,12 @@ const plants = [
             "קל לטיפול",
             "houseplants"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Anthurium andraeanum",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Anthurium_andraeanum",
-        "wikipediaExtract": "Anthurium andraeanum, also known as Édouard François André's Tailflower, is a flowering plant species in the family Araceae that is native to Colombia and Ecuador. It is a winner of the Royal Horticultural Society's Award of Garden Merit."
+        "wikipediaExtract": "Anthurium andraeanum, also known as Édouard François André's Tailflower, is a flowering plant species in the family Araceae that is native to Colombia and Ecuador. It is a winner of the Royal Horticultural Society's Award of Garden Merit.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%90%D7%A0%D7%AA%D7%95%D7%A8%D7%99%D7%95%D7%9F"
     },
     {
         "name": "קלטאה",
@@ -6120,7 +6222,7 @@ const plants = [
         "name": "מרנטה",
         "botanical": "Maranta leuconeura",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Maranta_leuconeura3.jpg/330px-Maranta_leuconeura3.jpg",
-        "detail": "צמח בית פופולרי במשתלות, מתאים לעציץ פנים, משרד או מרפסת מוצלת עם אור מסונן.",
+        "detail": "מרנטה, נקרא גם צמח תפילה, הוא מין של צמח פורח במשפחת המרנטיים (Marantaceae). מוצאו בברזיל ביערות הגשם. צמחים נוספים במשפחה זו הם קלתאה, סטרומנטה וקטננטה.",
         "sun": [
             "חצי צל",
             "צל"
@@ -6139,16 +6241,18 @@ const plants = [
             "קל לטיפול",
             "houseplants"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Maranta leuconeura",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Maranta_leuconeura",
-        "wikipediaExtract": "Maranta leuconeura, widely known as the prayer plant due to its daily sunlight-dependent movements, is a species of flowering plant in the family Marantaceae native to the Brazilian tropical forests. It is a variable, rhizomatous perennial, growing to 30 cm (12 in) tall and broad, with crowded clumps of evergreen, strikingly-marked oval leaves, each up to 12 cm (5 in) long. The plant spreads itself horizontally, carpeting an entire small area of forest floor, sending roots into the substrate at each leaf node."
+        "wikipediaExtract": "Maranta leuconeura, widely known as the prayer plant due to its daily sunlight-dependent movements, is a species of flowering plant in the family Marantaceae native to the Brazilian tropical forests. It is a variable, rhizomatous perennial, growing to 30 cm (12 in) tall and broad, with crowded clumps of evergreen, strikingly-marked oval leaves, each up to 12 cm (5 in) long. The plant spreads itself horizontally, carpeting an entire small area of forest floor, sending roots into the substrate at each leaf node.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%9E%D7%A8%D7%A0%D7%98%D7%94"
     },
     {
         "name": "פפרומיה",
         "botanical": "Peperomia",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Peperomia_trifolia_2011-01-17.jpg/330px-Peperomia_trifolia_2011-01-17.jpg",
-        "detail": "צמח בית פופולרי במשתלות, מתאים לעציץ פנים, משרד או מרפסת מוצלת עם אור מסונן.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Coin_Leaf_Peperomia_%28Peperomia_polybotrya_%27Jayde%27%29_1.jpg/330px-Coin_Leaf_Peperomia_%28Peperomia_polybotrya_%27Jayde%27%29_1.jpg",
+        "detail": "פפרומיה הוא סוג של צמחים ירוקי עד, המופיעים בכל האזורים הטרופיים והסובטרופיים של העולם. סוג זה הוא אחד משני סוגי הצמחים במשפחת הפלפליים (Piperaceae). ההערכה היא שיש למעלה מ-1,000 מינים של פפרומיה, מקור רובם בדרום ומרכז אמריקה, אך עשויים להימצא גם בדרום צפון...",
         "sun": [
             "חצי צל",
             "צל"
@@ -6167,16 +6271,18 @@ const plants = [
             "קל לטיפול",
             "houseplants"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Peperomia",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Peperomia",
-        "wikipediaExtract": "Peperomia is one of the two large genera of the family Piperaceae. It is estimated that there are over 1,000 species, occurring in all tropical and subtropical regions of the world. They are concentrated in South and Central America, but may also be found in southern North America, the Caribbean islands, Africa, Oceania, and southern and eastern parts of Asia. The exact number of species is difficult to determine, as some plants have been recorded several times with different names, and new species continue to be discovered. Peperomias have adapted to many different environments and their appearances vary greatly. Some are epiphytes or lithophytes, and many are xerophytes or possess underground tubers (geophytes). Most species are compact perennial shrubs or vines."
+        "wikipediaExtract": "Peperomia is one of the two large genera of the family Piperaceae. It is estimated that there are over 1,000 species, occurring in all tropical and subtropical regions of the world. They are concentrated in South and Central America, but may also be found in southern North America, the Caribbean islands, Africa, Oceania, and southern and eastern parts of Asia. The exact number of species is difficult to determine, as some plants have been recorded several times with different names, and new species continue to be discovered. Peperomias have adapted to many different environments and their appearances vary greatly. Some are epiphytes or lithophytes, and many are xerophytes or possess underground tubers (geophytes). Most species are compact perennial shrubs or vines.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%A4%D7%A4%D7%A8%D7%95%D7%9E%D7%99%D7%94"
     },
     {
         "name": "סינגוניום",
         "botanical": "Syngonium podophyllum",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Zingiber_malaysianum.jpg/330px-Zingiber_malaysianum.jpg",
-        "detail": "צמח בית פופולרי במשתלות, מתאים לעציץ פנים, משרד או מרפסת מוצלת עם אור מסונן.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Syngonium_podophyllum_DPR.png/330px-Syngonium_podophyllum_DPR.png",
+        "detail": "סינגוניום הוא סוג ממערכת בעלי פרחים שמקורו ביערות הגשם של דרום מקסיקו, איי הודו המערבית, מרכז ודרום אמריקה. זהו צמח מטפס שיכול להגיע להגיע לגובה של 20 מטר ומעלה על צמרות העצים.",
         "sun": [
             "חצי צל",
             "צל"
@@ -6195,10 +6301,12 @@ const plants = [
             "קל לטיפול",
             "houseplants"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Syngonium podophyllum",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Syngonium_podophyllum",
-        "wikipediaExtract": "Syngonium podophyllum is a species of aroid that is a popular houseplant. Common names include: arrowhead plant, arrowhead vine, arrowhead philodendron, goosefoot, nephthytis, African evergreen, and American evergreen. The species is native to a wide region of Latin America from Mexico through Bolivia, and naturalized in the West Indies, Florida, Texas, Hawaii, and other places."
+        "wikipediaExtract": "Syngonium podophyllum is a species of aroid that is a popular houseplant. Common names include: arrowhead plant, arrowhead vine, arrowhead philodendron, goosefoot, nephthytis, African evergreen, and American evergreen. The species is native to a wide region of Latin America from Mexico through Bolivia, and naturalized in the West Indies, Florida, Texas, Hawaii, and other places.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%A1%D7%99%D7%A0%D7%92%D7%95%D7%A0%D7%99%D7%95%D7%9D"
     },
     {
         "name": "סקינדפסוס",
@@ -6231,8 +6339,8 @@ const plants = [
     {
         "name": "דיפנבכיה",
         "botanical": "Dieffenbachia",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Dieffenbachia_oerstedii_kz2.jpg/330px-Dieffenbachia_oerstedii_kz2.jpg",
-        "detail": "צמח בית פופולרי במשתלות, מתאים לעציץ פנים, משרד או מרפסת מוצלת עם אור מסונן.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Colpfl29.jpg/330px-Colpfl29.jpg",
+        "detail": "דיפנבכיה הוא סוג צמחים בעלי פרחים ממשפחת הלופיים. משמש כצמח נוי, לרוב לצל חלקי או לפנים בתים. הצמח נקרא על ידי הבוטנאי היינריך וילהלם שוט, מנהל הגנים הבוטניים של וינה בשם זה כדי לכבד את הגנן הראשי מר יוזף דיפנבאך. מוצאו באזורים הטרופיים של אמריקה ממקסיקו עד...",
         "sun": [
             "חצי צל",
             "צל"
@@ -6251,10 +6359,12 @@ const plants = [
             "קל לטיפול",
             "houseplants"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Dieffenbachia",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Dieffenbachia",
-        "wikipediaExtract": "Dieffenbachia, commonly known as dumb cane or leopard lily, is a genus of tropical flowering plants in the family Araceae. It is native to the New World Tropics from Mexico and the West Indies south to Argentina. Some species are widely cultivated as ornamental plants, especially as houseplants, and have become naturalized on a few tropical islands."
+        "wikipediaExtract": "Dieffenbachia, commonly known as dumb cane or leopard lily, is a genus of tropical flowering plants in the family Araceae. It is native to the New World Tropics from Mexico and the West Indies south to Argentina. Some species are widely cultivated as ornamental plants, especially as houseplants, and have become naturalized on a few tropical islands.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%93%D7%99%D7%A4%D7%A0%D7%91%D7%9B%D7%99%D7%94"
     },
     {
         "name": "אגלאונמה",
@@ -6343,8 +6453,8 @@ const plants = [
     {
         "name": "הויה",
         "botanical": "Hoya carnosa",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/NKN-2007-06-13_114250_Hoya_Carnosa_%28Yvan_Leduc_author_for_Wikipedia%29.jpg/330px-NKN-2007-06-13_114250_Hoya_Carnosa_%28Yvan_Leduc_author_for_Wikipedia%29.jpg",
-        "detail": "צמח בית פופולרי במשתלות, מתאים לעציץ פנים, משרד או מרפסת מוצלת עם אור מסונן.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Hoyabella_092005.jpg/330px-Hoyabella_092005.jpg",
+        "detail": "הויה הוא סוג של למעלה מ-500 מיני צמחים במשפחת ההרדופיים, המכונים בדרך כלל פרחי שעווה. צמחים בסוג הויה הם בעיקר גפנים אפיפיטיות או ליתופיטיות, לעתים רחוקות שיחים תת-שיחיים, עם עלים דמויי עור, בשרניים או עסיסיים, פרחים קצרים בצורת צינור או פעמון עם חמש אונות...",
         "sun": [
             "חצי צל",
             "צל"
@@ -6363,16 +6473,18 @@ const plants = [
             "קל לטיפול",
             "houseplants"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Hoya carnosa",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Hoya_carnosa",
-        "wikipediaExtract": "Hoya carnosa, the porcelain flower or wax plant, is a species of flowering plant in the family Apocynaceae, native to East Asia. It is a common house plant grown for its attractive waxy foliage, and sweetly scented flowers. It is grown well in pots and hanging baskets."
+        "wikipediaExtract": "Hoya carnosa, the porcelain flower or wax plant, is a species of flowering plant in the family Apocynaceae, native to East Asia. It is a common house plant grown for its attractive waxy foliage, and sweetly scented flowers. It is grown well in pots and hanging baskets.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%94%D7%95%D7%99%D7%94"
     },
     {
         "name": "וינקה",
         "botanical": "Catharanthus roseus",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Vinca_%28Catharanthus_roseus%29_cultivada_em_Bag%C3%A9%2C_RS%2C_Brasil_-_55231652268.jpg/330px-Vinca_%28Catharanthus_roseus%29_cultivada_em_Bag%C3%A9%2C_RS%2C_Brasil_-_55231652268.jpg",
-        "detail": "צמח עונתי צבעוני לשתילה מהירה באדניות, עציצים וערוגות. נותן פריחה מיידית במחיר נגיש.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Vinca_minor_Prague_2012_1.jpg/330px-Vinca_minor_Prague_2012_1.jpg",
+        "detail": "וינקה היא סוג צמח במשפחת ההרדופיים הכולל 5 מינים. המין וִינְקָה עֶשְׂבּוֹנִית הוא היחיד שגדל בר בארץ. המינים פלורה גדולה ופלורה קטנה הם צמחי תרבות נפוצים.",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -6391,16 +6503,18 @@ const plants = [
             "אדנית",
             "seasonal"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Catharanthus roseus",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Catharanthus_roseus",
-        "wikipediaExtract": "Catharanthus roseus, commonly known as bright eyes, Cape periwinkle, graveyard plant, Madagascar periwinkle, old maid, pink periwinkle, rose periwinkle, is a perennial species of flowering plant in the family Apocynaceae. It is native and endemic to Madagascar, but is grown elsewhere as an ornamental and medicinal plant, and now has a pantropical distribution. It is a source of the drugs vincristine and vinblastine, used to treat cancer. It was formerly included in the genus Vinca as Vinca rosea."
+        "wikipediaExtract": "Catharanthus roseus, commonly known as bright eyes, Cape periwinkle, graveyard plant, Madagascar periwinkle, old maid, pink periwinkle, rose periwinkle, is a perennial species of flowering plant in the family Apocynaceae. It is native and endemic to Madagascar, but is grown elsewhere as an ornamental and medicinal plant, and now has a pantropical distribution. It is a source of the drugs vincristine and vinblastine, used to treat cancer. It was formerly included in the genus Vinca as Vinca rosea.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%95%D7%99%D7%A0%D7%A7%D7%94"
     },
     {
         "name": "פטוניה",
         "botanical": "Petunia",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Pet%C3%BAnia_%28do_tupi_petyma%2C_%27tabaco%27%29.jpg/330px-Pet%C3%BAnia_%28do_tupi_petyma%2C_%27tabaco%27%29.jpg",
-        "detail": "צמח עונתי צבעוני לשתילה מהירה באדניות, עציצים וערוגות. נותן פריחה מיידית במחיר נגיש.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Urbana_Illinois_park_20070928_img_2115.jpg/330px-Urbana_Illinois_park_20070928_img_2115.jpg",
+        "detail": "פטוניה הוא סוג צמח עשבוני ממשפחת הסולניים. מוצאו באמריקה הדרומית ומיניו השונים שימשו לפיתוח עשרות רבות של זני מכלוא תרבותיים בגדלים וצבעים שונים. בזכות פריחתו השופעת וקלות גידולו נפוץ הצמח כצמח נוי בגינון ברחבי העולם.",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -6419,16 +6533,18 @@ const plants = [
             "אדנית",
             "seasonal"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Petunia",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Petunia",
-        "wikipediaExtract": "Petunia is a genus of 20 species of flowering plants of South American origin. The popular flower of the same name derived its epithet from the French, which took the word pétun, 'tobacco', from a Tupi–Guarani language. A tender perennial plant, most of the varieties seen in gardens are hybrids."
+        "wikipediaExtract": "Petunia is a genus of 20 species of flowering plants of South American origin. The popular flower of the same name derived its epithet from the French, which took the word pétun, 'tobacco', from a Tupi–Guarani language. A tender perennial plant, most of the varieties seen in gardens are hybrids.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%A4%D7%98%D7%95%D7%A0%D7%99%D7%94"
     },
     {
         "name": "אמנון ותמר",
         "botanical": "Viola tricolor",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Violatricolorarvensis.jpg/330px-Violatricolorarvensis.jpg",
-        "detail": "צמח עונתי צבעוני לשתילה מהירה באדניות, עציצים וערוגות. נותן פריחה מיידית במחיר נגיש.",
+        "image": "https://upload.wikimedia.org/wikipedia/he/thumb/8/86/YellowPansy.jpg/330px-YellowPansy.jpg",
+        "detail": "אמנון ותמר הוא שמו הנפוץ של המין סֶגֶל שְׁלָשׁ-גּוֹנִי או סיגל ססגוני, צמח בעל פרחים ממשפחת הסיגליים, שתורבת כפרח גינה ונוי. אמנון ותמר הוא ליתר דיוק מכלוא של V. altaica × V. lutea subsp. sudetica × V. tricolor.",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -6447,16 +6563,18 @@ const plants = [
             "אדנית",
             "seasonal"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Viola tricolor",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Viola_tricolor",
-        "wikipediaExtract": "Viola tricolor is a common European wild flower, growing as an annual or short-lived perennial. The species is also known as wild pansy, Johnny Jump up, heartsease, heart's ease, heart's delight, tickle-my-fancy, Jack-jump-up-and-kiss-me, come-and-cuddle-me, three faces in a hood, love-in-idleness, and pink of my john."
+        "wikipediaExtract": "Viola tricolor is a common European wild flower, growing as an annual or short-lived perennial. The species is also known as wild pansy, Johnny Jump up, heartsease, heart's ease, heart's delight, tickle-my-fancy, Jack-jump-up-and-kiss-me, come-and-cuddle-me, three faces in a hood, love-in-idleness, and pink of my john.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%90%D7%9E%D7%A0%D7%95%D7%9F_%D7%95%D7%AA%D7%9E%D7%A8"
     },
     {
         "name": "ציפורן חתול",
         "botanical": "Tagetes",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Tagetes_erecta_chendumalli_chedi.jpg/330px-Tagetes_erecta_chendumalli_chedi.jpg",
-        "detail": "צמח עונתי צבעוני לשתילה מהירה באדניות, עציצים וערוגות. נותן פריחה מיידית במחיר נגיש.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Calendula_January_2008-1_filtered.jpg/330px-Calendula_January_2008-1_filtered.jpg",
+        "detail": "צִפָּרְנֵי-הֶחָתוּל הוא סוג של צמחים ממשפחת המורכבים, בעל פרחים צהובים או כתומים. הסוג מכיל 12 מינים ו-14 תת-מינים של צמחים עשבוניים חד-שנתיים או רב-שנתיים. הם גדלים מאירופה עד מערב ההימלאיה, ממקרונזיה (Macaronesia), עד המזרח התיכון, חצי האי ערב וסהרה. בארץ...",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -6475,16 +6593,18 @@ const plants = [
             "אדנית",
             "seasonal"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Tagetes",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Tagetes",
-        "wikipediaExtract": "Tagetes is a genus of 50 species of annual or perennial, mostly herbaceous plants in the family Asteraceae. They are among several groups of plants known in English as marigolds. The genus Tagetes was formally named by Carl Linnaeus in 1753. Linnaeus cited Joseph Pitton de Tournefort (1700), Johann Jacob Dillenius (1732), Gaspard Bauhin (1623) and Fabio Colonna (1606) as authors who used the name 'Tagetes' before. In 1754 he published the formal description in his Genera Plantarum, referring to Tournefort, Sébastien Vaillant (1720) and Dillenius for the name 'Tagetes'."
+        "wikipediaExtract": "Tagetes is a genus of 50 species of annual or perennial, mostly herbaceous plants in the family Asteraceae. They are among several groups of plants known in English as marigolds. The genus Tagetes was formally named by Carl Linnaeus in 1753. Linnaeus cited Joseph Pitton de Tournefort (1700), Johann Jacob Dillenius (1732), Gaspard Bauhin (1623) and Fabio Colonna (1606) as authors who used the name 'Tagetes' before. In 1754 he published the formal description in his Genera Plantarum, referring to Tournefort, Sébastien Vaillant (1720) and Dillenius for the name 'Tagetes'.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%A6%D7%99%D7%A4%D7%95%D7%A8%D7%A0%D7%99_%D7%97%D7%AA%D7%95%D7%9C"
     },
     {
         "name": "לוע הארי",
         "botanical": "Antirrhinum majus",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Antirrhinum_majus_BCBG_%2802%29.jpg/330px-Antirrhinum_majus_BCBG_%2802%29.jpg",
-        "detail": "צמח עונתי צבעוני לשתילה מהירה באדניות, עציצים וערוגות. נותן פריחה מיידית במחיר נגיש.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Snapdragons_and_Ageratum_%283783463632%29.jpg/330px-Snapdragons_and_Ageratum_%283783463632%29.jpg",
+        "detail": "לֹעַ-אֲרִי הוא סוג צמחים רב-שנתיים או בני שיח ממשפחת הלחכיים. סוג זה מונה 23 מינים ותפוצתו משתרעת במערב ומרכז אגן הים התיכון ובעיקר בספרד. בשנת 2009 הועבר הסוג לוע-ארי ממשפחת הלוענתיים למשפחת הלחכיים שבה 107 סוגים. הסוג מאופיין בצמחים עשבוניים עם פרחים...",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -6503,10 +6623,12 @@ const plants = [
             "אדנית",
             "seasonal"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Antirrhinum majus",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Antirrhinum_majus",
-        "wikipediaExtract": "Antirrhinum majus, the common snapdragon, is a species of flowering plant belonging to the genus Antirrhinum. The plant was placed in the family Plantaginaceae following a revision of its prior classical family, Scrophulariaceae."
+        "wikipediaExtract": "Antirrhinum majus, the common snapdragon, is a species of flowering plant belonging to the genus Antirrhinum. The plant was placed in the family Plantaginaceae following a revision of its prior classical family, Scrophulariaceae.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%9C%D7%95%D7%A2_%D7%94%D7%90%D7%A8%D7%99"
     },
     {
         "name": "סלסלי כסף",
@@ -6567,8 +6689,8 @@ const plants = [
     {
         "name": "בגוניה",
         "botanical": "Begonia",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Begonia_obliqua00.jpg/330px-Begonia_obliqua00.jpg",
-        "detail": "צמח עונתי צבעוני לשתילה מהירה באדניות, עציצים וערוגות. נותן פריחה מיידית במחיר נגיש.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/2006-12-13Begonia_bowerae01.jpg/330px-2006-12-13Begonia_bowerae01.jpg",
+        "detail": "בֶגוֹנִיָה הוא סוג המונה כמעט 1500 מינים של צמחים פורחים רב שנתיים ממשפחת הבגוניים. הבֶגוֹנִיָה כוללת צמחים יבשתיים ולפעמים אפיפיטים הנפוצים בעיקר באקלים לח טרופי וסובטרופי, מקורה הוא בדרום ובמרכז אמריקה, אפריקה ודרום אסיה.",
         "sun": [
             "חצי שמש",
             "חצי צל"
@@ -6587,10 +6709,12 @@ const plants = [
             "אדנית",
             "seasonal"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Begonia",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Begonia",
-        "wikipediaExtract": "Begonia is a genus of perennial flowering plants in the family Begoniaceae. The genus contains more than 2,000 different plant species, distributed primarily across tropical and subtropical regions of Africa, Asia, and Central and South America, with Africa considered the center of origin. Some species are commonly grown indoors as ornamental houseplants in cooler climates, or cultivated outside in summertime for their bright colorful flowers, which have petals but no sepals."
+        "wikipediaExtract": "Begonia is a genus of perennial flowering plants in the family Begoniaceae. The genus contains more than 2,000 different plant species, distributed primarily across tropical and subtropical regions of Africa, Asia, and Central and South America, with Africa considered the center of origin. Some species are commonly grown indoors as ornamental houseplants in cooler climates, or cultivated outside in summertime for their bright colorful flowers, which have petals but no sepals.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%91%D7%92%D7%95%D7%A0%D7%99%D7%94"
     },
     {
         "name": "ציניה",
@@ -6623,8 +6747,8 @@ const plants = [
     {
         "name": "קוסמוס",
         "botanical": "Cosmos bipinnatus",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Cosmos_bipinnatus_pink%2C_Burdwan%2C_West_Bengal%2C_India_10_01_2013.jpg/330px-Cosmos_bipinnatus_pink%2C_Burdwan%2C_West_Bengal%2C_India_10_01_2013.jpg",
-        "detail": "צמח עונתי צבעוני לשתילה מהירה באדניות, עציצים וערוגות. נותן פריחה מיידית במחיר נגיש.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Hubble_ultra_deep_field.jpg/330px-Hubble_ultra_deep_field.jpg",
+        "detail": "היקום הוא כל החלל והזמן. הוא מכיל את כל התהליכים הפיזיקליים והקבועים הקוסמיים וכל האנרגיה והחומר שנוצרו, מחלקיקים אלמנטריים ועד צבירי גלקסיות. גילו של היקום מוערך ל-13.787±0.020 מיליארד שנים. היקום מתפשט, וכתוצאה מכך קרינה אלקטרומגנטית שיצאה ממנו מייד לאחר...",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -6643,10 +6767,12 @@ const plants = [
             "אדנית",
             "seasonal"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Cosmos bipinnatus",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Cosmos_bipinnatus",
-        "wikipediaExtract": "Cosmos bipinnatus, commonly called the garden cosmos, Mexican aster or cosmea, is a medium-sized flowering herbaceous plant in the daisy family Asteraceae, native to the Americas. The species and its varieties and cultivars are popular as ornamental plants in temperate climate gardens."
+        "wikipediaExtract": "Cosmos bipinnatus, commonly called the garden cosmos, Mexican aster or cosmea, is a medium-sized flowering herbaceous plant in the daisy family Asteraceae, native to the Americas. The species and its varieties and cultivars are popular as ornamental plants in temperate climate gardens.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%94%D7%99%D7%A7%D7%95%D7%9D"
     },
     {
         "name": "חמנית ננסית",
@@ -6707,8 +6833,8 @@ const plants = [
     {
         "name": "קלנדולה",
         "botanical": "Calendula officinalis",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Calendula_officinalis%2C_pot_marigold.JPG/330px-Calendula_officinalis%2C_pot_marigold.JPG",
-        "detail": "צמח עונתי צבעוני לשתילה מהירה באדניות, עציצים וערוגות. נותן פריחה מיידית במחיר נגיש.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Calendula_January_2008-1_filtered.jpg/330px-Calendula_January_2008-1_filtered.jpg",
+        "detail": "צִפָּרְנֵי-הֶחָתוּל הוא סוג של צמחים ממשפחת המורכבים, בעל פרחים צהובים או כתומים. הסוג מכיל 12 מינים ו-14 תת-מינים של צמחים עשבוניים חד-שנתיים או רב-שנתיים. הם גדלים מאירופה עד מערב ההימלאיה, ממקרונזיה (Macaronesia), עד המזרח התיכון, חצי האי ערב וסהרה. בארץ...",
         "sun": [
             "שמש מלאה",
             "חצי שמש"
@@ -6727,10 +6853,12 @@ const plants = [
             "אדנית",
             "seasonal"
         ],
-        "imageSource": "Wikipedia",
+        "imageSource": "ויקיפדיה",
         "wikipediaTitle": "Calendula officinalis",
         "wikipediaUrl": "https://en.wikipedia.org/wiki/Calendula_officinalis",
-        "wikipediaExtract": "Calendula officinalis, Mary's gold, common marigold, the pot marigold, Scotch marigold, or ruddles, is a flowering plant in the daisy family, Asteraceae. It is probably native to southern Europe, but its long history of cultivation makes its precise origin unknown, and it is widely naturalised. The florets are edible and the plant has historically been used as medicine."
+        "wikipediaExtract": "Calendula officinalis, Mary's gold, common marigold, the pot marigold, Scotch marigold, or ruddles, is a flowering plant in the daisy family, Asteraceae. It is probably native to southern Europe, but its long history of cultivation makes its precise origin unknown, and it is widely naturalised. The florets are edible and the plant has historically been used as medicine.",
+        "infoSource": "ויקיפדיה",
+        "wikipediaHebrewUrl": "https://he.wikipedia.org/wiki/%D7%A6%D7%99%D7%A4%D7%95%D7%A8%D7%A0%D7%99_%D7%97%D7%AA%D7%95%D7%9C"
     },
     {
         "name": "פורטולקה עונתית",

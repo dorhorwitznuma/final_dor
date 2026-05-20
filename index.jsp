@@ -472,6 +472,143 @@ textarea {
     font-weight: 900;
 }
 
+.ui-showcase {
+    display: grid;
+    gap: 22px;
+    grid-template-columns: minmax(0, 1fr) minmax(320px, 0.72fr);
+    margin-bottom: 58px;
+}
+
+.ui-preview {
+    background:
+        radial-gradient(circle at top left, rgba(242, 193, 78, 0.26), transparent 32%),
+        linear-gradient(135deg, var(--white), #eff8f1);
+    border: 1px solid var(--line);
+    border-radius: 30px;
+    box-shadow: var(--shadow);
+    overflow: hidden;
+}
+
+.ui-toolbar {
+    align-items: center;
+    background: var(--green-900);
+    color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 20px;
+}
+
+.ui-dots {
+    display: flex;
+    gap: 7px;
+}
+
+.ui-dots span {
+    background: rgba(255, 255, 255, 0.72);
+    border-radius: 999px;
+    height: 10px;
+    width: 10px;
+}
+
+.ui-body {
+    display: grid;
+    gap: 18px;
+    grid-template-columns: minmax(0, 0.9fr) minmax(220px, 1.1fr);
+    padding: 22px;
+}
+
+.ui-sidebar {
+    background: rgba(255, 255, 255, 0.72);
+    border: 1px solid var(--line);
+    border-radius: 22px;
+    padding: 18px;
+}
+
+.ui-sidebar h3,
+.ui-card h3 {
+    color: var(--green-900);
+    margin: 0 0 12px;
+}
+
+.ui-menu {
+    display: grid;
+    gap: 10px;
+}
+
+.ui-menu span {
+    background: var(--green-100);
+    border-radius: 14px;
+    color: var(--green-800);
+    font-weight: 800;
+    padding: 10px 12px;
+}
+
+.ui-cards {
+    display: grid;
+    gap: 14px;
+}
+
+.ui-card {
+    background: var(--white);
+    border: 1px solid var(--line);
+    border-radius: 22px;
+    padding: 18px;
+}
+
+.ui-card p {
+    color: var(--muted);
+    margin: 0;
+}
+
+.ui-pill-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 12px;
+}
+
+.ui-panel {
+    background: var(--green-900);
+    border-radius: 30px;
+    color: var(--white);
+    padding: 26px;
+}
+
+.ui-panel h2 {
+    font-size: clamp(1.8rem, 4vw, 2.7rem);
+    line-height: 1.08;
+    margin: 0 0 14px;
+}
+
+.ui-panel p {
+    color: rgba(255, 255, 255, 0.84);
+}
+
+.workflow {
+    display: grid;
+    gap: 12px;
+    margin: 22px 0;
+}
+
+.workflow-step {
+    align-items: flex-start;
+    display: grid;
+    gap: 12px;
+    grid-template-columns: 42px 1fr;
+}
+
+.workflow-step span {
+    align-items: center;
+    background: var(--white);
+    border-radius: 14px;
+    color: var(--green-800);
+    display: inline-flex;
+    font-weight: 900;
+    height: 42px;
+    justify-content: center;
+    width: 42px;
+}
+
 .rubric-summary {
     display: grid;
     gap: 18px;
@@ -508,6 +645,7 @@ footer {
     .hero-grid,
     .section-heading,
     .advisor,
+    .ui-showcase,
     .rubric-summary {
         grid-template-columns: 1fr;
     }
@@ -532,6 +670,7 @@ footer {
     .filters,
     .form-grid,
     .hero-stats,
+    .ui-body,
     .plant-grid {
         grid-template-columns: 1fr;
     }
@@ -551,6 +690,7 @@ footer {
             <span>Gardening Artists</span>
         </div>
         <div class="nav-links">
+            <a href="#ui">UI overview</a>
             <a href="#plants">Plant catalogue</a>
             <a href="#rubrics">Rubrics</a>
             <a href="#advisor">Garden advisor</a>
@@ -595,6 +735,74 @@ footer {
 </header>
 
 <main>
+    <section id="ui" class="ui-showcase" aria-label="Gardening Artists user interface overview">
+        <div class="ui-preview">
+            <div class="ui-toolbar">
+                <strong>Gardening Artists app</strong>
+                <div class="ui-dots" aria-hidden="true">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="ui-body">
+                <aside class="ui-sidebar">
+                    <h3>Explore by rubric</h3>
+                    <div class="ui-menu">
+                        <span>Sun exposure</span>
+                        <span>Soil type</span>
+                        <span>Irrigation</span>
+                        <span>Budget planner</span>
+                    </div>
+                </aside>
+                <div class="ui-cards">
+                    <article class="ui-card">
+                        <h3>Plant catalogue</h3>
+                        <p>Visual cards show plant photos, quick conditions and price ranges.</p>
+                        <div class="ui-pill-row">
+                            <span class="chip">Full sun</span>
+                            <span class="chip">Clay soil</span>
+                            <span class="chip">Low water</span>
+                        </div>
+                    </article>
+                    <article class="ui-card">
+                        <h3>Smart recommendation</h3>
+                        <p>Garden details and video context generate a matching palette and total cost estimate.</p>
+                        <div class="ui-pill-row">
+                            <span class="chip">Video upload</span>
+                            <span class="chip">Garden direction</span>
+                            <span class="chip">Cost range</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+
+        <aside class="ui-panel">
+            <p class="eyebrow">UI experience</p>
+            <h2>A simple interface for choosing the right Southern plants.</h2>
+            <p>
+                The layout guides customers from discovery to recommendation: search the catalogue, compare growing conditions,
+                upload a garden video, and receive a practical plant list with budget guidance.
+            </p>
+            <div class="workflow">
+                <div class="workflow-step">
+                    <span>1</span>
+                    <div><strong>Search</strong><br>Find plants by natural language, sun, soil or water needs.</div>
+                </div>
+                <div class="workflow-step">
+                    <span>2</span>
+                    <div><strong>Compare</strong><br>Review photos, care details and typical nursery pricing.</div>
+                </div>
+                <div class="workflow-step">
+                    <span>3</span>
+                    <div><strong>Recommend</strong><br>Use site conditions and video input to build a garden plan.</div>
+                </div>
+            </div>
+            <a class="button button-primary" href="#advisor">Start a garden plan</a>
+        </aside>
+    </section>
+
     <section id="plants">
         <div class="section-heading">
             <div>

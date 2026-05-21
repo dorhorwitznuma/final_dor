@@ -28,31 +28,38 @@ const LESSON = {
       id: 1,
       title: 'חלק א׳ — הכנת הרכב לחורף',
       tagline: 'בדיקות לפני עונת הגשמים והערפל',
-      heroImage:
-        'https://images.unsplash.com/photo-1486262715619-67b85ebc4ecf?auto=format&fit=crop&w=1200&q=80',
+      heroImage: 'images/ch1-wipers.png',
       sections: [
         {
           heading: 'למה ההכנה חשובה בישראל?',
+          image: 'images/lesson-banner.png',
+          imageAlt: 'נהיגת חורף בטוחה בישראל — גשם וערפל',
           body: `בישראל החורף מאופיין בעיקר ב<strong>גשמים</strong>, <strong>ערפל</strong>, <strong>רוחות</strong> ולעיתים <strong>הצפות</strong> — לא בשלג על הכביש. לפי הנחיות <a href="https://www.police.gov.il/contentPage.aspx?pid=307" target="_blank" rel="noopener">משטרת ישראל</a>, רכב שלא מוכן מגדיל משמעותית את הסיכון לתאונה.`,
         },
         {
           heading: 'צמיגים ולחץ אוויר',
           body: `בדקו <strong>עומק שקע</strong> (מינימום 1.6 מ"מ לפי חוק), <strong>סדקים</strong> ו<strong>לחץ אוויר</strong> לפי המלצת היצרן. צמיגים תקינים מקצרים את מרחק הבלימה — במיוחד על כביש רטוב. משרד התחבורה מדגיש תחזוקה שוטפת כחלק מבטיחות בדרכים.`,
           image:
-            'https://images.unsplash.com/photo-1625047509248-ec889cbff817?auto=format&fit=crop&w=900&q=80',
+            'images/ch1-tires.png',
           imageAlt: 'בדיקת צמיגי רכב',
         },
         {
           heading: 'מגבים, תאורה ומצבר',
+          image: 'images/ch1-wipers.png',
+          imageAlt: 'מגבים ונוזל שמשות בגשם',
           body: `<ul>
             <li><strong>מגבים</strong> — להחליף מגבים בלויים; לוודא מיכל נוזל שמשות מלא.</li>
             <li><strong>פנסים</strong> — אורות, בלימה, ערפל ומצוקה — כולם תקינים.</li>
             <li><strong>מצבר</strong> — בחורף העומס על המערכת החשמלית גדול (מגבים, חימום, אורות).</li>
             <li><strong>בלמים והגה</strong> — לפי הנחיות המשטרה: לוודא תקינות לפני נסיעה בתנאי חורף.</li>
           </ul>`,
+          image: 'images/ch1-lights.png',
+          imageAlt: 'בדיקת פנסים לפני החורף',
         },
         {
           heading: 'שמשות, אדים ונראות',
+          image: 'images/ch1-defog.png',
+          imageAlt: 'מניעת אדים על השמשה',
           body: `נקו שמשות מבפנים ומבחוץ. ודאו שמערכת <strong>הפשרה/מיזוג</strong> פועלת. המשטרה ממליצה להשאיר <strong>חלון מעט פתוח</strong> כדי להפחית אדים — ולהסיר כובע או בגדים שמגבילים תנועה וראייה.`,
         },
       ],
@@ -109,18 +116,19 @@ const LESSON = {
       id: 2,
       title: 'חלק ב׳ — נהיגה בגשם',
       tagline: 'מהירות, מרחק, גשם ראשון והחלקה',
-      heroImage:
-        'https://images.unsplash.com/photo-1428318967509-6e097cb0b81e?auto=format&fit=crop&w=1200&q=80',
+      heroImage: 'images/ch2-hero-rain.png',
       sections: [
         {
           heading: 'עקרונות הזהב בישראל',
+          image: 'images/ch2-distance.png',
+          imageAlt: 'שמירת מרחק בגשם',
           body: `רלב"ד וגורמי בטיחות בישראל מדגישים שני עקרונות: <strong>האטה</strong> ו<strong>מרחק</strong>. התאימו מהירות לתנאי הכביש — בגשם קל מומלץ מרחק מעקב של לפחות כ-100 מטר, ובגשם חזק כ-200 מטר.`,
         },
         {
           heading: 'גשם ראשון — הסכנה הנסתרת',
           body: `לאחר ימים יבשים, שמנים ואבק על הכביש יוצרים שכבה <strong>חלקלקה במיוחד</strong> עם הגשם הראשון. רלב"ד ממליצה להימנע מנהיגה מיותרת ברגעים הראשונים של הגשם, ואם נוסעים — במהירות נמוכה ובזהירות יתרה.`,
           image:
-            'https://images.unsplash.com/photo-1517524008697-84bbe3c3db7b?auto=format&fit=crop&w=900&q=80',
+            'images/ch2-first-rain.png',
           imageAlt: 'כביש רטוב בגשם',
         },
         {
@@ -131,9 +139,13 @@ const LESSON = {
             <li><strong>בלימה עדינה</strong> — הימנעו מבלימה פתאומית שעלולה לגרום להחלקה או התנגשות שרשרת.</li>
             <li><strong>עקיפות</strong> — הימנעו מעקיפות מסוכנות; היזהרו מהולכי רגל שלא נראים בבירור.</li>
           </ul>`,
+          image: 'images/ch2-hero-rain.png',
+          imageAlt: 'נהיגה בגשם עם אורות דולקים',
         },
         {
           heading: 'שלוליות והידרופלנינג',
+          image: 'images/ch2-puddle.png',
+          imageAlt: 'חציית שלולית בזהירות',
           body: `אם לא ניתן לעקוף שלולית — חצו <strong>במהירות איטית</strong> עם <strong>הגה ישר</strong> ותנועה רציפה. הידרופלנינג (הרמה על מים) מקטין את השליטה — האטו מראש.`,
         },
       ],
@@ -194,8 +206,7 @@ const LESSON = {
       id: 3,
       title: 'חלק ג׳ — ערפל, סופות והצפות',
       tagline: 'ראות מוגבלת, שיטפונים ונהיגה מול סיכון',
-      heroImage:
-        'https://images.unsplash.com/photo-1534430482732-49fc3a20a736?auto=format&fit=crop&w=1200&q=80',
+      heroImage: 'images/ch3-hero-fog.png',
       sections: [
         {
           heading: 'נהיגה בערפל',
@@ -206,22 +217,26 @@ const LESSON = {
             <li>אם הראות כמעט אפסית — עצרו בבטחה בצד הדרך והדליקו <strong>אורות מצוקה</strong>.</li>
           </ul>`,
           image:
-            'https://images.unsplash.com/photo-1489515217757-8fc089196dce?auto=format&fit=crop&w=900&q=80',
+            'images/ch3-hero-fog.png',
           imageAlt: 'כביש בערפל',
         },
         {
           heading: 'סופות, רוח ושיטפונים — הנחיות המשטרה',
           body: `בסופות בישראל המשטרה מזהירה מפני <strong>חציית כבישים מוצפים</strong>, נחלים, שלוליות עמוקות ואזורי זרימת מים. אל תנסו לחצות מים — גם מעט מים עלולים לסחוף רכב. היזהרו מ<strong>בורות מוסתרים</strong> מתחת למים.`,
           image:
-            'https://images.unsplash.com/photo-1547034147-f69688e8baa8?auto=format&fit=crop&w=900&q=80',
+            'images/ch3-flood.png',
           imageAlt: 'כביש מוצף — אין לחצות',
         },
         {
           heading: 'מתי לעצור ולא להמשיך',
+          image: 'images/ch3-stop.png',
+          imageAlt: 'עצירה בטוחה בצד הדרך',
           body: `אם הגשם או הערפל כה קיצוניים שלא ניתן לראות את הכביש — עצרו בזהירות בצד, הדליקו מצוקה והמתינו לשיפור התנאים. בנוסף, הימנעו מעצירה על <strong>שולי כביש</strong> מסוכנים.`,
         },
         {
           heading: 'בטיחות כללית בחורף ישראלי',
+          image: 'images/lesson-banner.png',
+          imageAlt: 'סיכום בטיחות בחורף ישראלי',
           body: `זכרו: בישראל אין צורך בנהיגת שלג — אבל כן נדרשת מודעות ל<strong>גשם</strong>, <strong>ערפל</strong>, <strong>רוח</strong> ו<strong>הצפות</strong>. שמרו על קור רוח, אל תנהגו בעייפות, והשתמשו במידע רשמי מ<a href="https://www.gov.il" target="_blank" rel="noopener">gov.il</a> ומ<a href="https://www.police.gov.il" target="_blank" rel="noopener">משטרת ישראל</a> בעת אזהרות מזג אוויר.`,
         },
       ],

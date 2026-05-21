@@ -100,7 +100,8 @@
         src: chapter.heroImage,
         alt: chapter.title,
         className: 'chapter-hero-img',
-        loading: 'lazy',
+        loading: 'eager',
+        decoding: 'async',
       })
     );
     article.appendChild(hero);
@@ -108,14 +109,21 @@
     chapter.sections.forEach((sec) => {
       const block = el('section', { className: 'content-block' });
       block.appendChild(el('h3', { className: 'block-heading' }, [sec.heading]));
-      block.appendChild(el('div', { className: 'block-body', html: sec.body }));
       if (sec.image) {
-        block.appendChild(
-          el('figure', { className: 'block-figure' }, [
-            el('img', { src: sec.image, alt: sec.imageAlt || sec.heading, loading: 'lazy' }),
-          ])
-        );
+        const figChildren = [
+          el('img', {
+            src: sec.image,
+            alt: sec.imageAlt || sec.heading,
+            loading: 'lazy',
+            decoding: 'async',
+          }),
+        ];
+        if (sec.imageAlt) {
+          figChildren.push(el('figcaption', { className: 'figure-caption' }, [sec.imageAlt]));
+        }
+        block.appendChild(el('figure', { className: 'block-figure' }, figChildren));
       }
+      block.appendChild(el('div', { className: 'block-body', html: sec.body }));
       article.appendChild(block);
     });
 

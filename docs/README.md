@@ -6,7 +6,7 @@
 
 **https://dorhorwitznuma.github.io/final_dor/**
 
-האתר מתפרסם אוטומטית מ־`main` באמצעות GitHub Actions. הגדרה חד־פעמית: **Settings → Pages → Source: GitHub Actions**.
+האתר פעיל ומתפרסם אוטומטית בכל push ל־main (GitHub Actions).
 
 ## מבנה השיעור
 

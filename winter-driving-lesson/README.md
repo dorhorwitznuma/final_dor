@@ -2,6 +2,12 @@
 
 מערכת שיעור דיגיטלית בשלושה חלקים, עם מבחן בסוף כל חלק (4 שאלות רב־ברירה, 4 תשובות בכל שאלה). מיועדת לשליחה לכ־1000 תלמידים.
 
+## קישור ציבורי (GitHub Pages)
+
+**https://dorhorwitznuma.github.io/final_dor/**
+
+האתר מתפרסם אוטומטית מ־`main` באמצעות GitHub Actions. הגדרה חד־פעמית: **Settings → Pages → Source: GitHub Actions**.
+
 ## מבנה השיעור
 
 | חלק | נושא | מקורות רשמיים |
@@ -19,7 +25,11 @@
 
 ## הפעלה
 
-### אפשרות 1 — פתיחה מקומית
+### GitHub Pages (מומלץ)
+
+שלחו לתלמידים: **https://dorhorwitznuma.github.io/final_dor/**
+
+### מקומי
 
 ```bash
 cd winter-driving-lesson
@@ -27,14 +37,6 @@ python3 -m http.server 8080
 ```
 
 פתחו: `http://localhost:8080`
-
-### אפשרות 2 — העלאה לשרת
-
-העלו את תיקיית `winter-driving-lesson` ל־GitHub Pages, Netlify, S3, או שרת LMS של המוסד.
-
-### אפשרות 3 — שליחה לתלמידים
-
-שלחו קישור ישיר ל־`index.html` בכתובת השרת. אין צורך בהתקנת תלמידים.
 
 ## קבצים
 

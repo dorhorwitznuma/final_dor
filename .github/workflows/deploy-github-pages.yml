@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
 
@@ -16,35 +16,22 @@ concurrency:
 
 jobs:
   deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
-      # Option A: GitHub Actions Pages (requires Settings → Pages → GitHub Actions)
-      - name: Try deploy via GitHub Actions Pages
-        id: pages
-        continue-on-error: true
+      - name: Setup Pages
         uses: actions/configure-pages@v5
-        with:
-          enablement: true
 
-      - name: Upload Pages artifact
-        if: steps.pages.outcome == 'success'
+      - name: Upload lesson as site root
         uses: actions/upload-pages-artifact@v3
         with:
           path: winter-driving-lesson
 
-      - name: Deploy to GitHub Pages (Actions)
-        if: steps.pages.outcome == 'success'
+      - name: Deploy to GitHub Pages
+        id: deployment
         uses: actions/deploy-pages@v4
-
-      # Option B: gh-pages branch (requires Settings → Pages → branch gh-pages / root)
-      - name: Deploy to gh-pages branch
-        if: steps.pages.outcome != 'success'
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./winter-driving-lesson
-          publish_branch: gh-pages
-          force_orphan: true

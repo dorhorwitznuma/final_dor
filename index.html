@@ -482,7 +482,8 @@
                 <input id="itemDepth" type="number" min="0.25" max="30" step="0.25" value="1.5" />
               </label>
             </div>
-            <p class="hint">בחרו סוג ומידות, ואז לחצו על אזור פנוי בשרטוט כדי למקם את הפריט.</p>
+            <button id="addAtTarget" type="button" disabled>הוספה במיקום שנבחר</button>
+            <p class="hint">לחצו על אזור פנוי בשרטוט כדי לסמן מיקום, בחרו סוג ומידות, ואז הוסיפו את הפריט.</p>
           </section>
 
           <section class="section">
@@ -536,7 +537,7 @@
           <div class="toolbar">
             <div>
               <h2>שרטוט דו-ממדי</h2>
-              <p class="hint">לחיצה על פריט מסמנת אותו; לחיצה על אזור פנוי מוסיפה פריט חדש.</p>
+              <p class="hint">לחיצה על פריט מסמנת אותו; לחיצה על אזור פנוי מסמנת מיקום להוספה.</p>
             </div>
             <div class="metrics" aria-live="polite">
               <span class="metric" id="plotMetric">12 x 8 מטר</span>
@@ -577,6 +578,7 @@
       const plotWidthInput = document.getElementById("plotWidth");
       const plotDepthInput = document.getElementById("plotDepth");
       const applyPlotButton = document.getElementById("applyPlot");
+      const addAtTargetButton = document.getElementById("addAtTarget");
       const addAdjacentButton = document.getElementById("addAdjacent");
       const resizeSelectedButton = document.getElementById("resizeSelected");
       const deleteSelectedButton = document.getElementById("deleteSelected");
@@ -769,13 +771,14 @@
       function updateSelectionPanel() {
         const current = selectedItem();
         const hasSelection = Boolean(current);
+        addAtTargetButton.disabled = !state.target;
         addAdjacentButton.disabled = !hasSelection;
         resizeSelectedButton.disabled = !hasSelection;
         deleteSelectedButton.disabled = !hasSelection;
 
         if (!current) {
           selectedSummary.textContent = state.target
-            ? `מיקום נבחר: ${fmt.format(state.target.x)} מ' על ${fmt.format(state.target.y)} מ'. לחצו שוב להוספה לפי ההגדרות.`
+            ? `מיקום נבחר: ${fmt.format(state.target.x)} מ' על ${fmt.format(state.target.y)} מ'. בחרו סוג ומידות ואז לחצו על הוספה במיקום שנבחר.`
             : "אין פריט נבחר. לחצו על פריט בשרטוט כדי לערוך אותו.";
           return;
         }
@@ -941,11 +944,17 @@
       svg.addEventListener("click", (event) => {
         const point = svgPoint(event);
         state.target = point;
-        addAtPoint(point);
+        state.selectedId = null;
+        render();
       });
 
       itemTypeInput.addEventListener("change", updateDefaults);
       applyPlotButton.addEventListener("click", applyPlotSize);
+      addAtTargetButton.addEventListener("click", () => {
+        if (state.target) {
+          addAtPoint(state.target);
+        }
+      });
       addAdjacentButton.addEventListener("click", addAdjacentItem);
       resizeSelectedButton.addEventListener("click", resizeSelected);
       deleteSelectedButton.addEventListener("click", deleteSelected);

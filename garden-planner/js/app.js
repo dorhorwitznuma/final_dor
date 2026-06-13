@@ -108,6 +108,7 @@
   function init() {
     cacheRefs();
     populateTypeSelect();
+    renderLegend();
     bindEvents();
     syncFormsFromState();
     render();
@@ -131,6 +132,7 @@
     refs.selectedActions = document.getElementById('selected-actions');
     refs.deleteSelected = document.getElementById('delete-selected');
     refs.summaryGrid = document.getElementById('summary-grid');
+    refs.typeLegend = document.getElementById('type-legend');
     refs.exportPlan = document.getElementById('export-plan');
     refs.clearPlan = document.getElementById('clear-plan');
     refs.toast = document.getElementById('toast');
@@ -459,6 +461,17 @@
     );
     refs.svg.style.aspectRatio = `${state.plot.width} / ${state.plot.height}`;
 
+    refs.svg.appendChild(createDefinitions());
+    refs.svg.appendChild(
+      svgEl('rect', {
+        x: 0.14,
+        y: 0.14,
+        width: state.plot.width,
+        height: state.plot.height,
+        class: 'plot-shadow',
+        rx: 0.08,
+      })
+    );
     refs.svg.appendChild(createGrid());
 
     const border = svgEl('rect', {
@@ -476,6 +489,104 @@
     if (state.draft) {
       refs.svg.appendChild(createDraftNode(state.draft));
     }
+  }
+
+  function createDefinitions() {
+    const defs = svgEl('defs');
+    ITEM_TYPES.forEach((type) => {
+      defs.appendChild(createPattern(type));
+    });
+    return defs;
+  }
+
+  function createPattern(type) {
+    const pattern = svgEl('pattern', {
+      id: `pattern-${type.id}`,
+      patternUnits: 'userSpaceOnUse',
+      width: 0.55,
+      height: 0.55,
+    });
+
+    pattern.appendChild(svgEl('rect', { width: 0.55, height: 0.55, fill: type.color }));
+
+    if (type.id === 'concrete') {
+      pattern.appendChild(
+        svgEl('path', {
+          d: 'M -0.1 0.55 L 0.55 -0.1 M 0.2 0.65 L 0.65 0.2',
+          stroke: '#a9afaa',
+          'stroke-width': 0.035,
+        })
+      );
+    }
+    if (type.id === 'lawn') {
+      pattern.appendChild(
+        svgEl('path', {
+          d: 'M0.1 0.48 Q0.17 0.25 0.24 0.48 M0.32 0.5 Q0.39 0.24 0.47 0.5',
+          stroke: '#357a38',
+          'stroke-width': 0.035,
+          fill: 'none',
+        })
+      );
+    }
+    if (type.id === 'hedge') {
+      pattern.appendChild(svgEl('circle', { cx: 0.16, cy: 0.28, r: 0.11, fill: '#1e5b31', opacity: 0.74 }));
+      pattern.appendChild(svgEl('circle', { cx: 0.39, cy: 0.28, r: 0.12, fill: '#256d39', opacity: 0.76 }));
+    }
+    if (type.id === 'tree') {
+      pattern.appendChild(svgEl('circle', { cx: 0.18, cy: 0.18, r: 0.12, fill: '#2e6d35', opacity: 0.52 }));
+      pattern.appendChild(svgEl('circle', { cx: 0.38, cy: 0.35, r: 0.14, fill: '#5ca45a', opacity: 0.46 }));
+    }
+    if (type.id === 'flowerbed') {
+      pattern.appendChild(svgEl('circle', { cx: 0.16, cy: 0.2, r: 0.055, fill: '#fff4a8' }));
+      pattern.appendChild(svgEl('circle', { cx: 0.39, cy: 0.34, r: 0.055, fill: '#d946ef' }));
+    }
+    if (type.id === 'path') {
+      pattern.appendChild(svgEl('circle', { cx: 0.16, cy: 0.2, r: 0.055, fill: '#9f8f73', opacity: 0.68 }));
+      pattern.appendChild(svgEl('circle', { cx: 0.4, cy: 0.38, r: 0.065, fill: '#eadcc2', opacity: 0.9 }));
+    }
+    if (type.id === 'deck') {
+      pattern.appendChild(
+        svgEl('path', {
+          d: 'M0 0.14 H0.55 M0 0.31 H0.55 M0 0.48 H0.55',
+          stroke: '#7b4f2d',
+          'stroke-width': 0.035,
+          opacity: 0.55,
+        })
+      );
+    }
+    if (type.id === 'pergola') {
+      pattern.appendChild(
+        svgEl('path', {
+          d: 'M0.08 0 V0.55 M0.27 0 V0.55 M0.46 0 V0.55',
+          stroke: '#8b6423',
+          'stroke-width': 0.045,
+          opacity: 0.52,
+        })
+      );
+    }
+    if (type.id === 'fence') {
+      pattern.appendChild(
+        svgEl('path', {
+          d: 'M0.08 0 V0.55 M0.28 0 V0.55 M0.48 0 V0.55',
+          stroke: '#5f5247',
+          'stroke-width': 0.04,
+          opacity: 0.62,
+        })
+      );
+    }
+    if (type.id === 'water') {
+      pattern.appendChild(
+        svgEl('path', {
+          d: 'M0 0.32 C0.13 0.18 0.28 0.46 0.55 0.24',
+          stroke: '#e0f6ff',
+          'stroke-width': 0.055,
+          fill: 'none',
+          opacity: 0.9,
+        })
+      );
+    }
+
+    return pattern;
   }
 
   function createGrid() {
@@ -529,7 +640,7 @@
 
     const shapeAttrs = {
       class: 'item-shape',
-      fill: type.color,
+      fill: `url(#pattern-${type.id})`,
     };
 
     if (type.shape === 'circle') {
@@ -741,6 +852,18 @@
     refs.summaryGrid.innerHTML = cards
       .map(([label, value]) => `<div class="summary-item"><span>${label}</span><strong>${value}</strong></div>`)
       .join('');
+  }
+
+  function renderLegend() {
+    refs.typeLegend.innerHTML = ITEM_TYPES.map((type) => {
+      const shapeClass = type.shape === 'circle' ? ' circle' : '';
+      return `
+        <div class="legend-item">
+          <span class="legend-swatch${shapeClass}" style="background:${type.color}"></span>
+          <span>${escapeHtml(type.label)}</span>
+        </div>
+      `;
+    }).join('');
   }
 
   function updateStatus() {

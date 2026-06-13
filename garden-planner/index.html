@@ -21,12 +21,28 @@
 
     <div class="app-shell">
       <header class="site-header">
-        <p class="eyebrow">שרטוט דו ממדי לתכנון גינות</p>
-        <h1>מתכנן גינות מקצועי</h1>
-        <p class="subtitle">
-          התחילו משטח ריק, לחצו על אזור בתכנית, בחרו פריט מתוך רשימה סגורה וקבעו
-          מידות במטרים. ניתן להצמיד פריט לפריט ולסמן כמה נקודות מים קיימות.
-        </p>
+        <div class="hero-copy">
+          <p class="eyebrow">סטודיו דיגיטלי לתכנון גינות</p>
+          <h1>מתכנן גינות מקצועי</h1>
+          <p class="subtitle">
+            התחילו משטח ריק, לחצו על אזור בתכנית, בחרו פריט מתוך רשימה סגורה וקבעו
+            מידות במטרים. ניתן להצמיד פריט לפריט ולסמן כמה נקודות מים קיימות.
+          </p>
+        </div>
+        <div class="hero-card" aria-label="מאפייני המערכת">
+          <div>
+            <span>קנה מידה</span>
+            <strong>1:100</strong>
+          </div>
+          <div>
+            <span>יחידות</span>
+            <strong>מטרים</strong>
+          </div>
+          <div>
+            <span>סגנון</span>
+            <strong>תכנית אדריכלית</strong>
+          </div>
+        </div>
       </header>
 
       <main class="planner-layout">
@@ -115,7 +131,7 @@
         <section class="canvas-section" aria-label="שרטוט הגינה">
           <div class="toolbar">
             <div>
-              <strong id="scale-label">1 משבצת = 1 מטר</strong>
+              <strong id="scale-label">גיליון תכנון · 1 משבצת = 1 מטר</strong>
               <span id="status-text">לחצו על השרטוט כדי למקם פריט חדש.</span>
             </div>
             <div class="toolbar-actions">
@@ -124,14 +140,28 @@
             </div>
           </div>
 
-          <div class="canvas-wrap">
-            <svg
-              id="plan-svg"
-              class="plan-svg"
-              role="img"
-              aria-label="שרטוט דו ממדי של הגינה"
-            ></svg>
+          <div class="plan-board">
+            <div class="plan-titlebar">
+              <div>
+                <span class="sheet-label">PLAN-01</span>
+                <strong>שרטוט גינה דו ממדי</strong>
+              </div>
+              <span class="north-mark" aria-hidden="true">N</span>
+            </div>
+            <div class="canvas-wrap">
+              <svg
+                id="plan-svg"
+                class="plan-svg"
+                role="img"
+                aria-label="שרטוט דו ממדי של הגינה"
+              ></svg>
+            </div>
           </div>
+
+          <section class="legend-card" aria-label="מקרא פריטים">
+            <h2>מקרא פריטים</h2>
+            <div class="legend-grid" id="type-legend"></div>
+          </section>
 
           <section class="summary-card">
             <h2>סיכום מקצועי</h2>

@@ -1,4 +1,4 @@
-name: Deploy winter driving lesson to GitHub Pages
+name: Deploy garden planner to GitHub Pages
 
 on:
   push:
@@ -27,10 +27,10 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
-      - name: Upload lesson as site root
+      - name: Upload garden planner as site root
         uses: actions/upload-pages-artifact@v3
         with:
-          path: winter-driving-lesson
+          path: garden-planner
 
       - name: Deploy to GitHub Pages
         id: deployment

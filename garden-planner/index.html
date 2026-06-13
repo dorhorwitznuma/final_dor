@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="כלי אינטראקטיבי לתכנון גינות: שרטוט דו ממדי, פריטים סגורים, מידות במטרים, הצמדת פריטים ונקודות מים קיימות."
+    />
+    <title>מתכנן גינות מקצועי</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="site-bg" aria-hidden="true"></div>
+
+    <div class="app-shell">
+      <header class="site-header">
+        <p class="eyebrow">שרטוט דו ממדי לתכנון גינות</p>
+        <h1>מתכנן גינות מקצועי</h1>
+        <p class="subtitle">
+          התחילו משטח ריק, לחצו על אזור בתכנית, בחרו פריט מתוך רשימה סגורה וקבעו
+          מידות במטרים. ניתן להצמיד פריט לפריט ולסמן כמה נקודות מים קיימות.
+        </p>
+      </header>
+
+      <main class="planner-layout">
+        <aside class="control-panel" aria-label="הגדרות תכנון">
+          <section class="panel-card">
+            <h2>מידות המגרש</h2>
+            <form class="plot-form" id="plot-form">
+              <label>
+                רוחב במטרים
+                <input id="plot-width" type="number" min="2" max="80" step="0.5" value="12" />
+              </label>
+              <label>
+                עומק במטרים
+                <input id="plot-height" type="number" min="2" max="80" step="0.5" value="8" />
+              </label>
+              <button class="btn btn-secondary" type="submit">עדכון שרטוט</button>
+            </form>
+          </section>
+
+          <section class="panel-card">
+            <h2>הוספת פריט</h2>
+            <p class="hint">
+              בחרו פריט ומידות, ואז לחצו על נקודה פנויה בשרטוט. ניתן לדייק את המיקום
+              לפני ההוספה.
+            </p>
+            <form class="item-form" id="item-form">
+              <label>
+                סוג פריט
+                <select id="item-type"></select>
+              </label>
+              <div class="field-row">
+                <label>
+                  רוחב / קוטר
+                  <input id="item-width" type="number" min="0.2" max="40" step="0.1" value="2" />
+                </label>
+                <label>
+                  עומק
+                  <input id="item-height" type="number" min="0.2" max="40" step="0.1" value="2" />
+                </label>
+              </div>
+              <div class="field-row">
+                <label>
+                  X
+                  <input id="item-x" type="number" min="0" max="80" step="0.1" value="0" />
+                </label>
+                <label>
+                  Y
+                  <input id="item-y" type="number" min="0" max="80" step="0.1" value="0" />
+                </label>
+              </div>
+              <label>
+                שם אופציונלי
+                <input id="item-label" type="text" maxlength="32" placeholder="לדוגמה: עץ לימון" />
+              </label>
+              <button class="btn btn-primary" type="submit">הוסף לתכנית</button>
+            </form>
+          </section>
+
+          <section class="panel-card selected-card" id="selected-card">
+            <h2>פריט נבחר</h2>
+            <p id="selected-empty" class="hint">לחצו על פריט בשרטוט כדי לערוך או להצמיד אליו פריט נוסף.</p>
+            <div id="selected-details" class="selected-details hidden"></div>
+            <div id="selected-actions" class="selected-actions hidden">
+              <button class="btn btn-secondary" type="button" data-nudge="up">מעלה 0.5 מ'</button>
+              <button class="btn btn-secondary" type="button" data-nudge="down">מטה 0.5 מ'</button>
+              <button class="btn btn-secondary" type="button" data-nudge="left">שמאלה 0.5 מ'</button>
+              <button class="btn btn-secondary" type="button" data-nudge="right">ימינה 0.5 מ'</button>
+              <button class="btn btn-danger" type="button" id="delete-selected">מחיקת פריט</button>
+            </div>
+          </section>
+
+          <section class="panel-card">
+            <h2>הצמדה לפריט נבחר</h2>
+            <p class="hint">
+              בחרו פריט בשרטוט, הגדירו סוג ומידות בטופס ההוספה, ואז הצמידו לאחד הצדדים.
+            </p>
+            <div class="attach-grid">
+              <button class="btn btn-secondary" type="button" data-attach="top">מעל</button>
+              <button class="btn btn-secondary" type="button" data-attach="bottom">מתחת</button>
+              <button class="btn btn-secondary" type="button" data-attach="right">מימין</button>
+              <button class="btn btn-secondary" type="button" data-attach="left">משמאל</button>
+            </div>
+          </section>
+        </aside>
+
+        <section class="canvas-section" aria-label="שרטוט הגינה">
+          <div class="toolbar">
+            <div>
+              <strong id="scale-label">1 משבצת = 1 מטר</strong>
+              <span id="status-text">לחצו על השרטוט כדי למקם פריט חדש.</span>
+            </div>
+            <div class="toolbar-actions">
+              <button class="btn btn-secondary" type="button" id="export-plan">ייצוא JSON</button>
+              <button class="btn btn-danger" type="button" id="clear-plan">ניקוי תכנית</button>
+            </div>
+          </div>
+
+          <div class="canvas-wrap">
+            <svg
+              id="plan-svg"
+              class="plan-svg"
+              role="img"
+              aria-label="שרטוט דו ממדי של הגינה"
+            ></svg>
+          </div>
+
+          <section class="summary-card">
+            <h2>סיכום מקצועי</h2>
+            <div class="summary-grid" id="summary-grid"></div>
+          </section>
+        </section>
+      </main>
+    </div>
+
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>

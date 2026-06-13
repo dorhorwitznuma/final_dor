@@ -150,10 +150,8 @@
       }
 
       .layout {
-        display: grid;
-        grid-template-columns: 370px minmax(0, 1fr);
-        gap: 18px;
-        align-items: start;
+        display: block;
+        position: relative;
       }
 
       .panel,
@@ -165,11 +163,18 @@
       }
 
       .panel {
-        position: sticky;
-        top: 16px;
+        position: absolute;
+        z-index: 3;
+        inset-block-start: 104px;
+        inset-inline-start: 16px;
+        width: min(360px, calc(100% - 32px));
+        max-height: calc(100% - 32px);
+        overflow: auto;
         display: grid;
         gap: 16px;
         padding: 18px;
+        background: rgba(255, 255, 255, 0.92);
+        backdrop-filter: blur(14px);
       }
 
       .section {
@@ -233,6 +238,7 @@
 
       .workspace {
         overflow: hidden;
+        position: relative;
       }
 
       .toolbar {
@@ -275,14 +281,16 @@
         border: 1px solid #c6d6cb;
         border-radius: 22px;
         background: #f7faf7;
+        min-height: 560px;
       }
 
       svg {
         display: block;
         width: 100%;
         min-width: 690px;
-        height: min(72vh, 780px);
+        height: min(78vh, 820px);
         min-height: 520px;
+        touch-action: none;
       }
 
       .grid-line {
@@ -305,13 +313,39 @@
         stroke: rgba(24, 50, 37, 0.65);
         stroke-width: 0.05;
         vector-effect: non-scaling-stroke;
-        cursor: pointer;
       }
 
       .item-shape.selected {
         stroke: #0d4f29;
         stroke-width: 0.11;
         filter: drop-shadow(0 0 0.22rem rgba(46, 125, 69, 0.38));
+      }
+
+      .item-group {
+        cursor: grab;
+        touch-action: none;
+      }
+
+      .item-group:active,
+      .dragging .item-group {
+        cursor: grabbing;
+      }
+
+      .garden-icon {
+        pointer-events: none;
+      }
+
+      .texture-line {
+        stroke: rgba(24, 50, 37, 0.35);
+        stroke-width: 0.04;
+        vector-effect: non-scaling-stroke;
+      }
+
+      .water-ring {
+        fill: none;
+        stroke: rgba(255, 255, 255, 0.86);
+        stroke-width: 0.06;
+        vector-effect: non-scaling-stroke;
       }
 
       .item-label,
@@ -405,13 +439,8 @@
       }
 
       @media (max-width: 1080px) {
-        .hero,
-        .layout {
+        .hero {
           grid-template-columns: 1fr;
-        }
-
-        .panel {
-          position: static;
         }
       }
 
@@ -428,6 +457,14 @@
         .toolbar {
           align-items: flex-start;
           flex-direction: column;
+        }
+
+        .panel {
+          inset-inline: 10px;
+          inset-block-start: 10px;
+          width: auto;
+          max-height: 72%;
+          padding: 14px;
         }
       }
     </style>
@@ -449,7 +486,7 @@
       </header>
 
       <div class="layout">
-        <aside class="panel" aria-label="פאנל תכנון">
+        <aside class="panel" aria-label="תפריט תכנון צף על המפה">
           <section class="section">
             <h2>מידות המגרש</h2>
             <div class="field-grid">
@@ -537,7 +574,7 @@
           <div class="toolbar">
             <div>
               <h2>שרטוט דו-ממדי</h2>
-              <p class="hint">לחיצה על פריט מסמנת אותו; לחיצה על אזור פנוי מסמנת מיקום להוספה.</p>
+              <p class="hint">לחיצה על אזור פנוי מסמנת מיקום להוספה; גררו פריט כדי להזיז אותו לאורך הגינה.</p>
             </div>
             <div class="metrics" aria-live="polite">
               <span class="metric" id="plotMetric">12 x 8 מטר</span>
@@ -600,7 +637,9 @@
         plotDepth: 8,
         items: [],
         selectedId: null,
-        target: null
+        target: null,
+        drag: null,
+        suppressCanvasClick: false
       };
 
       const fmt = new Intl.NumberFormat("he-IL", {
@@ -635,6 +674,10 @@
 
       function selectedItem() {
         return state.items.find((item) => item.id === state.selectedId) || null;
+      }
+
+      function itemById(id) {
+        return state.items.find((item) => item.id === id) || null;
       }
 
       function fitInside(x, y, width, depth) {
@@ -695,6 +738,124 @@
         return lines.join("");
       }
 
+      function drawIcon(item, info, cx, cy) {
+        const left = item.x;
+        const top = item.y;
+        const right = item.x + item.width;
+        const bottom = item.y + item.depth;
+        const iconWidth = Math.min(item.width, 1.4);
+        const iconDepth = Math.min(item.depth, 1.4);
+
+        if (item.type === "concrete") {
+          return `
+            <g class="garden-icon">
+              <line class="texture-line" x1="${left + item.width * 0.18}" y1="${top + item.depth * 0.82}" x2="${right - item.width * 0.18}" y2="${top + item.depth * 0.18}" />
+              <line class="texture-line" x1="${left + item.width * 0.08}" y1="${top + item.depth * 0.48}" x2="${left + item.width * 0.36}" y2="${top + item.depth * 0.2}" />
+              <line class="texture-line" x1="${right - item.width * 0.36}" y1="${bottom - item.depth * 0.2}" x2="${right - item.width * 0.08}" y2="${bottom - item.depth * 0.48}" />
+            </g>
+          `;
+        }
+
+        if (item.type === "hedge") {
+          const shrubs = [0.18, 0.34, 0.5, 0.66, 0.82].map((ratio) => {
+            const shrubX = left + item.width * ratio;
+            return `<circle cx="${shrubX}" cy="${cy}" r="${Math.min(item.depth, item.width) * 0.22}" fill="#2f6d35" opacity="0.78" />`;
+          }).join("");
+          return `<g class="garden-icon">${shrubs}</g>`;
+        }
+
+        if (item.type === "tree") {
+          const crown = Math.min(iconWidth, iconDepth) * 0.32;
+          return `
+            <g class="garden-icon">
+              <rect x="${cx - crown * 0.12}" y="${cy}" width="${crown * 0.24}" height="${crown * 0.55}" rx="${crown * 0.06}" fill="#7a4d28" />
+              <circle cx="${cx}" cy="${cy - crown * 0.1}" r="${crown}" fill="#236b2c" />
+              <circle cx="${cx - crown * 0.38}" cy="${cy}" r="${crown * 0.68}" fill="#2f8a3b" />
+              <circle cx="${cx + crown * 0.38}" cy="${cy}" r="${crown * 0.68}" fill="#3fa64a" />
+            </g>
+          `;
+        }
+
+        if (item.type === "grass") {
+          const blades = [0.18, 0.31, 0.44, 0.57, 0.7, 0.83].map((ratio) => {
+            const bladeX = left + item.width * ratio;
+            return `<path d="M ${bladeX} ${bottom - item.depth * 0.18} Q ${bladeX - 0.14} ${cy} ${bladeX + 0.06} ${top + item.depth * 0.24}" fill="none" stroke="#267a34" stroke-width="0.045" vector-effect="non-scaling-stroke" />`;
+          }).join("");
+          return `<g class="garden-icon">${blades}</g>`;
+        }
+
+        if (item.type === "deck") {
+          const planks = [0.25, 0.5, 0.75].map((ratio) => {
+            const plankY = top + item.depth * ratio;
+            return `<line class="texture-line" x1="${left + 0.1}" y1="${plankY}" x2="${right - 0.1}" y2="${plankY}" />`;
+          }).join("");
+          return `<g class="garden-icon">${planks}</g>`;
+        }
+
+        if (item.type === "gravel") {
+          const pebbles = [
+            [0.24, 0.28], [0.45, 0.18], [0.69, 0.32], [0.35, 0.56], [0.58, 0.68], [0.78, 0.58]
+          ].map(([xRatio, yRatio]) => {
+            const pebbleX = left + item.width * xRatio;
+            const pebbleY = top + item.depth * yRatio;
+            return `<ellipse cx="${pebbleX}" cy="${pebbleY}" rx="0.08" ry="0.05" fill="#9d9275" opacity="0.7" />`;
+          }).join("");
+          return `<g class="garden-icon">${pebbles}</g>`;
+        }
+
+        if (item.type === "flowerbed") {
+          const flowers = [
+            [0.25, 0.35], [0.48, 0.58], [0.72, 0.35]
+          ].map(([xRatio, yRatio]) => {
+            const flowerX = left + item.width * xRatio;
+            const flowerY = top + item.depth * yRatio;
+            return `
+              <g>
+                <circle cx="${flowerX}" cy="${flowerY}" r="0.06" fill="#ffd166" />
+                <circle cx="${flowerX - 0.07}" cy="${flowerY}" r="0.055" fill="#c9184a" />
+                <circle cx="${flowerX + 0.07}" cy="${flowerY}" r="0.055" fill="#c9184a" />
+                <circle cx="${flowerX}" cy="${flowerY - 0.07}" r="0.055" fill="#ff8fab" />
+                <circle cx="${flowerX}" cy="${flowerY + 0.07}" r="0.055" fill="#ff8fab" />
+              </g>
+            `;
+          }).join("");
+          return `<g class="garden-icon">${flowers}</g>`;
+        }
+
+        if (item.type === "pergola") {
+          return `
+            <g class="garden-icon">
+              <line class="texture-line" x1="${left + item.width * 0.18}" y1="${top + item.depth * 0.2}" x2="${left + item.width * 0.18}" y2="${bottom - item.depth * 0.2}" />
+              <line class="texture-line" x1="${right - item.width * 0.18}" y1="${top + item.depth * 0.2}" x2="${right - item.width * 0.18}" y2="${bottom - item.depth * 0.2}" />
+              <line class="texture-line" x1="${left + item.width * 0.12}" y1="${top + item.depth * 0.28}" x2="${right - item.width * 0.12}" y2="${top + item.depth * 0.28}" />
+              <line class="texture-line" x1="${left + item.width * 0.12}" y1="${cy}" x2="${right - item.width * 0.12}" y2="${cy}" />
+              <line class="texture-line" x1="${left + item.width * 0.12}" y1="${bottom - item.depth * 0.28}" x2="${right - item.width * 0.12}" y2="${bottom - item.depth * 0.28}" />
+            </g>
+          `;
+        }
+
+        if (item.type === "pond") {
+          return `
+            <g class="garden-icon">
+              <path d="M ${left + item.width * 0.22} ${cy} Q ${cx} ${top + item.depth * 0.28} ${right - item.width * 0.22} ${cy}" class="water-ring" />
+              <path d="M ${left + item.width * 0.24} ${cy + item.depth * 0.18} Q ${cx} ${bottom - item.depth * 0.06} ${right - item.width * 0.24} ${cy + item.depth * 0.18}" class="water-ring" />
+            </g>
+          `;
+        }
+
+        if (item.type === "water") {
+          const size = Math.max(0.18, Math.min(item.width, item.depth) * 0.65);
+          return `
+            <g class="garden-icon">
+              <path d="M ${cx} ${cy - size * 0.8} C ${cx - size * 0.55} ${cy - size * 0.12}, ${cx - size * 0.42} ${cy + size * 0.55}, ${cx} ${cy + size * 0.68} C ${cx + size * 0.42} ${cy + size * 0.55}, ${cx + size * 0.55} ${cy - size * 0.12}, ${cx} ${cy - size * 0.8} Z" fill="#e0f2fe" stroke="#075985" stroke-width="0.045" vector-effect="non-scaling-stroke" />
+              <circle cx="${cx + size * 0.12}" cy="${cy + size * 0.08}" r="${size * 0.13}" fill="#93c5fd" />
+            </g>
+          `;
+        }
+
+        return "";
+      }
+
       function drawItem(item) {
         const info = catalogItem(item.type);
         const selected = item.id === state.selectedId ? " selected" : "";
@@ -714,8 +875,9 @@
         }
 
         return `
-          <g>
+          <g class="item-group" data-id="${item.id}">
             ${shape}
+            ${drawIcon(item, info, cx, cy)}
             <text class="item-label" x="${cx}" y="${cy - 0.05}">${label}</text>
             <text class="dimension-label" x="${cx}" y="${cy + 0.28}">${dimensions}</text>
           </g>
@@ -746,13 +908,19 @@
           ${state.items.map(drawItem).join("")}
         `;
 
-        svg.querySelectorAll(".item-shape").forEach((shape) => {
-          shape.addEventListener("click", (event) => {
+        svg.querySelectorAll(".item-group").forEach((group) => {
+          group.addEventListener("click", (event) => {
             event.stopPropagation();
-            state.selectedId = shape.dataset.id;
+            if (state.suppressCanvasClick) {
+              state.suppressCanvasClick = false;
+              return;
+            }
+            state.selectedId = group.dataset.id;
             state.target = null;
             render();
           });
+
+          group.addEventListener("pointerdown", (event) => startDrag(event, group.dataset.id));
         });
 
         updateMetrics();
@@ -784,6 +952,9 @@
         }
 
         const info = catalogItem(current.type);
+        itemTypeInput.value = current.type;
+        itemWidthInput.value = current.width;
+        itemDepthInput.value = current.depth;
         selectedSummary.textContent = `${info.label}: מיקום ${fmt.format(current.x)} / ${fmt.format(current.y)} מ', מידות ${fmt.format(current.width)} x ${fmt.format(current.depth)} מ'.`;
       }
 
@@ -809,6 +980,66 @@
           x: snap(clamp(transformed.x, 0, state.plotWidth)),
           y: snap(clamp(transformed.y, 0, state.plotDepth))
         };
+      }
+
+      function startDrag(event, id) {
+        const item = itemById(id);
+        if (!item) {
+          return;
+        }
+
+        event.preventDefault();
+        event.stopPropagation();
+        const point = svgPoint(event);
+        state.drag = {
+          id,
+          offsetX: point.x - item.x,
+          offsetY: point.y - item.y,
+          lastX: item.x,
+          lastY: item.y,
+          moved: false
+        };
+        state.selectedId = id;
+        state.target = null;
+        svg.classList.add("dragging");
+        event.currentTarget.querySelector(".item-shape")?.classList.add("selected");
+        updateSelectionPanel();
+      }
+
+      function dragSelected(event) {
+        if (!state.drag) {
+          return;
+        }
+
+        event.preventDefault();
+        const item = itemById(state.drag.id);
+        if (!item) {
+          state.drag = null;
+          svg.classList.remove("dragging");
+          return;
+        }
+
+        const point = svgPoint(event);
+        const origin = fitInside(point.x - state.drag.offsetX, point.y - state.drag.offsetY, item.width, item.depth);
+        if (origin.x !== state.drag.lastX || origin.y !== state.drag.lastY) {
+          item.x = origin.x;
+          item.y = origin.y;
+          state.drag.lastX = origin.x;
+          state.drag.lastY = origin.y;
+          state.drag.moved = true;
+          render();
+        }
+      }
+
+      function finishDrag() {
+        if (!state.drag) {
+          return;
+        }
+
+        state.suppressCanvasClick = state.drag.moved;
+        state.drag = null;
+        svg.classList.remove("dragging");
+        render();
       }
 
       function addAdjacentItem() {
@@ -942,11 +1173,23 @@
       }
 
       svg.addEventListener("click", (event) => {
+        if (state.suppressCanvasClick) {
+          state.suppressCanvasClick = false;
+          return;
+        }
+
+        if (state.drag) {
+          return;
+        }
+
         const point = svgPoint(event);
         state.target = point;
         state.selectedId = null;
         render();
       });
+      window.addEventListener("pointermove", dragSelected);
+      window.addEventListener("pointerup", finishDrag);
+      window.addEventListener("pointercancel", finishDrag);
 
       itemTypeInput.addEventListener("change", updateDefaults);
       applyPlotButton.addEventListener("click", applyPlotSize);
